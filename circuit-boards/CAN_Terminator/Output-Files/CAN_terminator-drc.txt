@@ -1,0 +1,13 @@
+** Drc report for CAN_terminator.kicad_pcb **
+** Created on 2024-12-14T13:48:04-0800 **
+
+** Found 1 DRC violations **
+[text_height]: Text height out of range (board setup constraints silk text height min height 31.50 mils; actual 30.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(6060.00 mils, 4655.00 mils): PCB Text 'CAN  TERMINATOR WCP-1834 V1 2024' on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

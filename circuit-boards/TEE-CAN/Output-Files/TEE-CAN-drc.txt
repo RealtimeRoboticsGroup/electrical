@@ -1,0 +1,71 @@
+** Drc report for TEE-CAN.kicad_pcb **
+** Created on 2024-12-14T15:03:13-0800 **
+
+** Found 17 DRC violations **
+[lib_footprint_mismatch]: Footprint '70543-0001' does not match copy in library 'TEE-CAN'.
+    Local override; warning
+    @(8450.00 mils, 5130.00 mils): Footprint J5
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(7819.21 mils, 5104.06 mils): Footprint H1
+[lib_footprint_mismatch]: Footprint '70543-0001' does not match copy in library 'TEE-CAN'.
+    Local override; warning
+    @(8130.00 mils, 5130.00 mils): Footprint J4
+[lib_footprint_mismatch]: Footprint '70543-0001' does not match copy in library 'TEE-CAN'.
+    Local override; warning
+    @(8190.00 mils, 5390.00 mils): Footprint J2
+[lib_footprint_mismatch]: Footprint '70543-0001' does not match copy in library 'TEE-CAN'.
+    Local override; warning
+    @(7870.00 mils, 5390.00 mils): Footprint J1
+[lib_footprint_mismatch]: Footprint '70543-0001' does not match copy in library 'TEE-CAN'.
+    Local override; warning
+    @(8510.00 mils, 5390.00 mils): Footprint J3
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(8661.50 mils, 5104.06 mils): Footprint H2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8661.50 mils, 4975.61 mils): Segment on Edge.Cuts
+    @(8250.00 mils, 4972.52 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8661.50 mils, 4975.61 mils): Segment on Edge.Cuts
+    @(8550.00 mils, 5046.93 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8661.50 mils, 4975.61 mils): Segment on Edge.Cuts
+    @(7930.00 mils, 4972.52 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8661.50 mils, 4975.61 mils): Segment on Edge.Cuts
+    @(8230.00 mils, 5046.93 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(7800.00 mils, 5545.00 mils): Segment on Edge.Cuts
+    @(8090.00 mils, 5473.07 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(7800.00 mils, 5545.00 mils): Segment on Edge.Cuts
+    @(8390.00 mils, 5547.48 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(7800.00 mils, 5545.00 mils): Segment on Edge.Cuts
+    @(8070.00 mils, 5547.48 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(7800.00 mils, 5545.00 mils): Segment on Edge.Cuts
+    @(8410.00 mils, 5473.07 mils): Segment on F.Silkscreen
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(8450.00 mils, 5130.00 mils): Footprint J5
+    @(8661.50 mils, 5104.06 mils): Footprint H2
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(7819.21 mils, 5104.06 mils): Footprint H1
+    @(8130.00 mils, 5130.00 mils): Footprint J4
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

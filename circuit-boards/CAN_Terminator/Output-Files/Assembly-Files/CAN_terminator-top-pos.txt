@@ -1,0 +1,8 @@
+### Footprint positions - created on 2024-12-14T13:48:10-0800 ###
+### Printed by KiCad version 8.0.7-8.0.7-0~ubuntu24.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val           Package                 PosX       PosY       Rot  Side
+J1        ~             Wire_Pads_2_Pin       5.7250    -4.6550    0.0000  top
+R1        120R-1%-0805  R_0805_2012Metric     6.1000    -4.6550  -90.0000  top
+## End
