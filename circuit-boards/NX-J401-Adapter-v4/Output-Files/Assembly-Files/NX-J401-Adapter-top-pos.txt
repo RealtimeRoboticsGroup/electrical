@@ -1,0 +1,37 @@
+### Footprint positions - created on 2025-01-13T16:38:12-0800 ###
+### Printed by KiCad version 8.0.7-8.0.7-0~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                  Package                           PosX       PosY       Rot  Side
+C1        82uF_35V             CP_Radial_D8.0mm_P3.50mm       10.1500    -3.3380  -90.0000  top
+C2        82uF_35V             CP_Radial_D8.0mm_P3.50mm       10.1500    -3.7000  -90.0000  top
+C3        0.22uF-10%-50V-0805  C_0805_2012Metric              10.9700    -3.9950  -90.0000  top
+C4        10pF-5%-50V-0805     C_0805_2012Metric              10.5890    -4.0160  -90.0000  top
+C5        330uF_35V            CP_Radial_D10.0mm_P5.00mm      11.5032    -4.0600  180.0000  top
+C6        0.22uF-10%-50V-0805  C_0805_2012Metric              10.6800    -4.1500  180.0000  top
+C7        0.01uF-10%-50V-0805  C_0805_2012Metric              10.8200    -4.1500    0.0000  top
+C8        22uF-20%-25V-0805    C_0805_2012Metric              10.7800    -4.5300  -90.0000  top
+D1        STPS20M100SG-TR      TO-263-2                       10.5988    -3.4400  180.0000  top
+D2        15V                  D_SOD-123F                     11.0250    -4.5500   90.0000  top
+D3        15V                  D_SMB                          10.6300    -4.9100   90.0000  top
+D4        PWR                  LED-Dialight-5913001858F        9.4345    -6.1391   90.0000  top
+J1        18V_OUT              CONN_69140872_WRE               9.4160    -3.3699    0.0000  top
+J2        NX-BUTTON            70555-0005                     11.7105    -4.7200    0.0000  top
+J3        CONSOLE              70555-0002                     10.7750    -5.8000  -90.0000  top
+J4        Power                Wurth-691406510002B             9.9410    -5.8412    0.0000  top
+L1        4.7_uH-8m-20%        INDUCTOR_IHLE-5050FH-Vishay    11.3352    -3.5100   90.0000  top
+Q1        CSD16322Q5           TI-SON5x6                      10.8726    -3.7800  180.0000  top
+Q2        SI4483ADY-T1-GE3     SOIC-8_3.9x4.9mm_P1.27mm       10.8800    -4.3200  180.0000  top
+R1        4.0m-1%-2512         R_2512_6332Metric              10.5900    -3.7500    0.0000  top
+R2        14.0k-1%-0805        R_0805_2012Metric              10.4130    -3.9090  180.0000  top
+R3        100R-1%-0805         R_0805_2012Metric              10.5531    -3.9090    0.0000  top
+R4        59.0k-1%-0805        R_0805_2012Metric              11.0500    -3.9950   90.0000  top
+R5        1.05k-1%-0805        R_0805_2012Metric              10.5090    -4.0160   90.0000  top
+R6        1.05k-1%-0805        R_0805_2012Metric              10.5400    -4.1500    0.0000  top
+R7        1.05k-1%-0805        R_0805_2012Metric              10.8600    -4.5300   90.0000  top
+R8        20.0k-1%-0805        R_0805_2012Metric              10.9400    -4.5300  -90.0000  top
+R9        4.99k-1%-0805        R_0805_2012Metric               9.4350    -5.9710    0.0000  top
+SW1       RESET                SW_TL1105VF100Q_EWI            11.1014    -6.1530    0.0000  top
+SW2       RECOVERY             SW_TL1105VF100Q_EWI            11.4814    -6.1530    0.0000  top
+U1        LM3478MA             SOIC-8_3.9x4.9mm_P1.27mm       10.7800    -3.9900    0.0000  top
+## End
