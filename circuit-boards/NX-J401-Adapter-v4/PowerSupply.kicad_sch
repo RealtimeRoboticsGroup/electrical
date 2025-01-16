@@ -3721,7 +3721,6 @@
 	)
 	(label "SW"
 		(at 283.21 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3732,7 +3731,6 @@
 	)
 	(label "V_{BAT}"
 		(at 91.44 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3743,7 +3741,6 @@
 	)
 	(label "GND"
 		(at 87.63 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3754,7 +3751,6 @@
 	)
 	(label "Q_S"
 		(at 290.83 115.57 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3765,7 +3761,6 @@
 	)
 	(label "V_IN"
 		(at 193.04 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3777,7 +3772,6 @@
 	(hierarchical_label "+18V"
 		(shape output)
 		(at 367.03 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3789,7 +3783,6 @@
 	(hierarchical_label "V_{BAT}"
 		(shape input)
 		(at 90.17 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

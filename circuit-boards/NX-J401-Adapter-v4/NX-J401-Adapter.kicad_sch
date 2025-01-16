@@ -2169,7 +2169,6 @@
 	)
 	(label "~{REC}"
 		(at 163.83 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2180,7 +2179,6 @@
 	)
 	(label "RTN"
 		(at 237.49 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2191,7 +2189,6 @@
 	)
 	(label "UART2_TXD"
 		(at 237.49 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2202,7 +2199,6 @@
 	)
 	(label "RTN"
 		(at 223.52 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2213,7 +2209,6 @@
 	)
 	(label "UART2_RXD"
 		(at 237.49 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2224,7 +2219,6 @@
 	)
 	(label "UART2_TXD"
 		(at 163.83 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2235,7 +2229,6 @@
 	)
 	(label "RTN"
 		(at 163.83 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2246,7 +2239,6 @@
 	)
 	(label "V_BAT"
 		(at 148.59 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2257,7 +2249,6 @@
 	)
 	(label "UART2_RXD"
 		(at 163.83 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2268,7 +2259,6 @@
 	)
 	(label "+18V_OUT"
 		(at 255.27 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2279,7 +2269,6 @@
 	)
 	(label "~{SYS_RESET}"
 		(at 163.83 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2774,10 +2763,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcdf0dc0-cbf2-41b6-a9b1-44c6c7490bca")
+			(uuid "fcdf0dc0-cbf2-41b6-a9b1-44c6c7490bcb")
 		)
 		(pin "2"
-			(uuid "bbcda079-ddeb-405b-8ff6-3f9666a36bea")
+			(uuid "bbcda079-ddeb-405b-8ff6-3f9666a36beb")
 		)
 		(pin "3"
 			(uuid "f1cf5cb2-44bb-4b62-80f9-d3d61ea4af3b")
@@ -3013,10 +3002,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcdf0dc0-cbf2-41b6-a9b1-44c6c7490bcb")
+			(uuid "fcdf0dc0-cbf2-41b6-a9b1-44c6c7490bcc")
 		)
 		(pin "2"
-			(uuid "bbcda079-ddeb-405b-8ff6-3f9666a36beb")
+			(uuid "bbcda079-ddeb-405b-8ff6-3f9666a36bec")
 		)
 		(pin "3"
 			(uuid "99f385b1-a796-49c0-985d-f7aa2c786d84")
@@ -4128,10 +4117,10 @@
 			(uuid "9b234ce9-91ae-4752-b9f3-4a175f80f772")
 		)
 		(pin "3"
-			(uuid "99f385b1-a796-49c0-985d-f7aa2c786d84")
+			(uuid "99f385b1-a796-49c0-985d-f7aa2c786d85")
 		)
 		(pin "4"
-			(uuid "316d4d51-12f3-42b2-ab54-73288f074a04")
+			(uuid "316d4d51-12f3-42b2-ab54-73288f074a05")
 		)
 		(instances
 			(project "NX-J401-Adapter"
@@ -4264,16 +4253,6 @@
 				(justify right)
 			)
 			(uuid "1d3753c5-5f82-469f-9ffa-c816b17b66d0")
-		)
-		(pin "V_{IN}" output
-			(at 229.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4d518332-9ed5-445c-aa2c-4c934e61ad9b")
 		)
 		(instances
 			(project "NX-J401-Adapter"

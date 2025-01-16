@@ -1,5 +1,5 @@
-### Footprint positions - created on 2025-01-13T21:05:41-0800 ###
-### Printed by KiCad version 8.0.7-8.0.7-0~ubuntu24.04.1
+### Footprint positions - created on 2025-01-15T16:30:16-0800 ###
+### Printed by KiCad version 8.0.8-8.0.8-0~ubuntu22.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                  Package                           PosX       PosY       Rot  Side
@@ -13,10 +13,10 @@ C7        0.01uF-10%-50V-0805  C_0805_2012Metric              11.5200    -4.1500
 C8        22uF-20%-25V-0805    C_0805_2012Metric              11.4800    -4.5300  -90.0000  top
 D1        STPS20M100SG-TR      TO-263-2                       11.2988    -3.4400  180.0000  top
 D2        15V                  D_SOD-123F                     11.7250    -4.5500   90.0000  top
-D3        15V                  D_SMB                          11.3300    -4.9100   90.0000  top
-D4        PC                   LED-Dialight-5913001858F       10.8345    -6.1391   90.0000  top
+D3        15V                  D_SMB                          11.9450    -5.6900   90.0000  top
+D4        PC                   LED-Dialight-5913001858F       10.8095    -6.1391   90.0000  top
 D5        PWR                  LED-Dialight-5913001858F       11.0345    -6.1391   90.0000  top
-J1        18V_OUT              CONN_69140872_WRE              10.1160    -3.3699    0.0000  top
+J1        18V_OUT              CONN_69140872_WRE              10.1160    -3.4639    0.0000  top
 J2        NX_BUTTON            70555-0006                     10.0895    -4.6000  180.0000  top
 J3        CONSOLE              70555-0002                     10.3750    -5.8000  -90.0000  top
 J4        Power                Wurth-691406510002B            11.4410    -5.8412    0.0000  top
