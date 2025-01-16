@@ -6,170 +6,10 @@
 	(paper "A")
 	(title_block
 		(title "NX Button Interface V1")
-		(date "2025-01-13")
+		(date "2025-01-15")
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x09_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1465,6 +1305,10 @@
 		(uuid "206acbc7-3366-4471-973a-b37334c5e645")
 	)
 	(no_connect
+		(at 170.18 96.52)
+		(uuid "346cfe1d-33bc-4d64-9898-9d8849a26ea3")
+	)
+	(no_connect
 		(at 91.44 82.55)
 		(uuid "84b27435-1694-404d-a841-f2bb5da3a436")
 	)
@@ -1475,6 +1319,10 @@
 	(no_connect
 		(at 91.44 97.79)
 		(uuid "ee0c7cd7-aeb0-43e2-a046-bafef71c3591")
+	)
+	(no_connect
+		(at 170.18 91.44)
+		(uuid "ef343067-9dca-4a78-a575-f799bb1f509e")
 	)
 	(wire
 		(pts
@@ -1508,16 +1356,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 170.18 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10da7b54-a789-47b0-ac29-e65f8aa4c980")
-	)
-	(wire
-		(pts
 			(xy 166.37 99.06) (xy 170.18 99.06)
 		)
 		(stroke
@@ -1528,16 +1366,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 66.04) (xy 170.18 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b043291-2312-41dc-923b-b1e6e2f56beb")
-	)
-	(wire
-		(pts
 			(xy 166.37 78.74) (xy 170.18 78.74)
 		)
 		(stroke
@@ -1545,16 +1373,6 @@
 			(type default)
 		)
 		(uuid "1f7d04e0-704e-4d7a-b761-ce988a11b1e8")
-	)
-	(wire
-		(pts
-			(xy 166.37 91.44) (xy 170.18 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf6b7d1-ca59-4357-96ea-72eb7665a12b")
 	)
 	(wire
 		(pts
@@ -1695,16 +1513,6 @@
 			(type default)
 		)
 		(uuid "d1cdd7f8-200f-4277-89ba-f1f4fc3e7926")
-	)
-	(wire
-		(pts
-			(xy 166.37 68.58) (xy 170.18 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3fcea3d-c0c0-4f65-85c7-e3273afa342c")
 	)
 	(text "RED"
 		(exclude_from_sim no)
@@ -1882,20 +1690,8 @@
 		)
 		(uuid "f5ab2109-a759-430b-9674-acb70a4edaf3")
 	)
-	(label "NX_PC_LED-"
-		(at 166.37 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1675164f-9fe4-4897-b5a9-3d5cc259d71b")
-	)
 	(label "UART2_TXD"
 		(at 166.37 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1906,7 +1702,6 @@
 	)
 	(label "~{SYS_RESET}"
 		(at 95.25 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1917,7 +1712,6 @@
 	)
 	(label "CAN_TX"
 		(at 95.25 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1928,7 +1722,6 @@
 	)
 	(label "GND"
 		(at 95.25 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1937,20 +1730,8 @@
 		)
 		(uuid "36459c7e-8521-4907-97b7-e3403d8f3f80")
 	)
-	(label "3V3"
-		(at 166.37 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "487e062e-2e51-45a9-9508-095eb730a990")
-	)
 	(label "~{REC}"
 		(at 95.25 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,7 +1742,6 @@
 	)
 	(label "UART2_RXD"
 		(at 166.37 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1972,7 +1752,6 @@
 	)
 	(label "NX_PC_LED+"
 		(at 95.25 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1983,7 +1762,6 @@
 	)
 	(label "SYS_RST_RCV_RTN"
 		(at 166.37 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1992,20 +1770,8 @@
 		)
 		(uuid "6ef023f5-67ef-446f-b373-47e06116f74a")
 	)
-	(label "CAN_TX"
-		(at 166.37 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6efb8cef-ca22-4f43-a88e-46cb3c6685b7")
-	)
 	(label "CAN_RX"
 		(at 95.25 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2014,20 +1780,8 @@
 		)
 		(uuid "70a98343-f5c0-448d-bc6e-85107ccc1787")
 	)
-	(label "CAN_RX"
-		(at 166.37 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78790250-9e79-4143-ae75-aef470fe6100")
-	)
 	(label "~{SYS_RESET}"
 		(at 166.37 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2036,9 +1790,18 @@
 		)
 		(uuid "7b2f80f0-7a45-4762-b041-5fd0abb79aab")
 	)
+	(label "NX_PC_LED+"
+		(at 166.37 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cb4f677-fbcb-4650-b0f9-1c650cf0fb1d")
+	)
 	(label "3V3"
 		(at 95.25 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2047,31 +1810,8 @@
 		)
 		(uuid "82cd3786-c296-4969-be6f-a31157310a92")
 	)
-	(label "GND"
-		(at 166.37 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9bca27d6-8bca-4d3a-a110-1a91f78f17de")
-	)
-	(label "NX_PC_LED+"
-		(at 166.37 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0d4abad-d91c-49c0-975a-07e06017b850")
-	)
 	(label "~{REC}"
 		(at 166.37 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2082,7 +1822,6 @@
 	)
 	(label "SYS_RST_RCV_RTN"
 		(at 95.25 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2093,7 +1832,6 @@
 	)
 	(label "UART2_RXD"
 		(at 95.25 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2102,9 +1840,18 @@
 		)
 		(uuid "e2c26ff6-e024-490e-97dc-86d02a26b32c")
 	)
+	(label "NX_PC_LED-"
+		(at 166.37 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee0047be-168f-41e6-ad03-35e0797d53af")
+	)
 	(label "UART2_TXD"
 		(at 95.25 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2115,7 +1862,6 @@
 	)
 	(label "NX_PC_LED-"
 		(at 95.25 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2126,7 +1872,6 @@
 	)
 	(label "SYS_RST_RCV_RTN"
 		(at 95.25 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2282,76 +2027,6 @@
 			(project "NX-ButtonInterface"
 				(path "/a7eb5823-c87f-41de-b6ed-af0ad18b6b3c"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 175.26 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b823cb4-d75c-438f-be59-f35a3a7d0dd7")
-		(property "Reference" "J4"
-			(at 168.656 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "POWER LED"
-			(at 167.64 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NX-ButtonInterface:2-pin-solder-pads"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf2d840a-b56c-4b77-a787-7ac870542f4f")
-		)
-		(pin "1"
-			(uuid "02062f15-c677-45f0-b47a-b0e6f5e231e5")
-		)
-		(instances
-			(project ""
-				(path "/a7eb5823-c87f-41de-b6ed-af0ad18b6b3c"
-					(reference "J4")
 					(unit 1)
 				)
 			)
