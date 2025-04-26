@@ -1,0 +1,22 @@
+### Footprint positions - created on 2025-04-26T12:20:16-0700 ###
+### Printed by KiCad version 9.0.1-9.0.1-0~ubuntu24.04.1
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                   PosX       PosY       Rot  Side
+C3        0.1uF-10%-50V-0805   C_0805_2012Metric       5.2750    -4.1100    0.0000  bottom
+C4        0.1uF-10%-50V-0805   C_0805_2012Metric       5.0360    -4.0710    0.0000  bottom
+C5        0.1uF-10%-50V-0805   C_0805_2012Metric       5.0360    -4.2180    0.0000  bottom
+C6        0.1uF-10%-50V-0805   C_0805_2012Metric       4.3580    -4.1100    0.0000  bottom
+C7        0.1uF-10%-50V-0805   C_0805_2012Metric       4.1190    -4.0710    0.0000  bottom
+C8        0.1uF-10%-50V-0805   C_0805_2012Metric       4.1190    -4.1510    0.0000  bottom
+D1        PESD1CAN             SOT-23                  5.6056    -4.2920   90.0000  bottom
+D2        PESD1CAN             SOT-23                  4.6866    -4.2920   90.0000  bottom
+D3        CPU                  LED_1206_3216Metric     3.5717    -4.5496    0.0000  bottom
+D4        CAN2                 LED_1206_3216Metric     3.5717    -4.8496    0.0000  bottom
+D5        HD                   LED_1206_3216Metric     3.3355    -4.5496    0.0000  bottom
+D6        CAN1                 LED_1206_3216Metric     3.3355    -4.8496    0.0000  bottom
+D7        CAN0                 LED_1206_3216Metric     3.0993    -4.8496    0.0000  bottom
+LP1       Lumex-2x-Light-Pipe  Lumex-LPF-C012303S      3.5746    -4.9606  180.0000  bottom
+LP2       Lumex-2x-Light-Pipe  Lumex-LPF-C012303S      3.3384    -4.9606  180.0000  bottom
+LP3       Lumex-2x-Light-Pipe  Lumex-LPF-C012303S      3.1022    -4.9606  180.0000  bottom
+## End
