@@ -1101,12 +1101,6 @@
 		(uuid "3b8041c1-082f-4dab-b17c-bcead5012cd1")
 	)
 	(junction
-		(at 189.23 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54d94573-ad7b-4b05-bca2-e3f292b2baa3")
-	)
-	(junction
 		(at 139.7 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1135,12 +1129,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf2c31a9-a417-429a-b982-fcf46121337f")
-	)
-	(junction
-		(at 139.7 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dde30fce-1655-4e1e-93ba-29893fa3f200")
 	)
 	(junction
 		(at 189.23 41.91)
@@ -1209,16 +1197,6 @@
 			(type default)
 		)
 		(uuid "26143a1f-bdca-4cd3-8e86-88ecb6b2d73c")
-	)
-	(wire
-		(pts
-			(xy 106.68 184.15) (xy 114.3 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "301a7473-a795-48e4-8b35-5fbf32e78299")
 	)
 	(wire
 		(pts
@@ -1312,16 +1290,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 184.15) (xy 222.25 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e892f0c-4d78-4658-91ca-1d22e9d6bfae")
-	)
-	(wire
-		(pts
 			(xy 189.23 41.91) (xy 222.25 41.91)
 		)
 		(stroke
@@ -1339,16 +1307,6 @@
 			(type default)
 		)
 		(uuid "6bd01922-798e-43ba-a3b2-d2d80bd53eb0")
-	)
-	(wire
-		(pts
-			(xy 139.7 184.15) (xy 152.4 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c9c3edb-c13f-4558-a88a-e2015e7f624f")
 	)
 	(wire
 		(pts
@@ -1522,16 +1480,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 184.15) (xy 139.7 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca4d490-84bc-4035-855d-be3744cb6aec")
-	)
-	(wire
-		(pts
 			(xy 161.29 233.68) (xy 161.29 238.76)
 		)
 		(stroke
@@ -1579,26 +1527,6 @@
 			(type default)
 		)
 		(uuid "f6c2829e-2892-44dd-97be-178655de88ae")
-	)
-	(wire
-		(pts
-			(xy 160.02 184.15) (xy 189.23 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f870ae10-0992-44fd-bacf-9080fc2294dc")
-	)
-	(wire
-		(pts
-			(xy 121.92 184.15) (xy 139.7 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa48a874-a4bf-488c-8523-2a8a63c80360")
 	)
 	(wire
 		(pts
@@ -1665,17 +1593,6 @@
 		)
 		(uuid "a8d510a4-9304-438a-ad0d-055382e9a5b9")
 	)
-	(hierarchical_label "EXT_IO3"
-		(shape bidirectional)
-		(at 106.68 184.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b19359a9-3638-4fe0-ba61-3ef832a0bf53")
-	)
 	(hierarchical_label "DI0"
 		(shape output)
 		(at 222.25 41.91 0)
@@ -1708,86 +1625,6 @@
 			(justify left)
 		)
 		(uuid "f77a46b9-554d-48a0-ba7d-75e971f2061c")
-	)
-	(hierarchical_label "DI3"
-		(shape output)
-		(at 222.25 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb78f158-f4ec-49a0-a71c-2ecd21612385")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "044d7115-a437-465d-95a3-0bccac216459")
-		(property "Reference" "#PWR084"
-			(at 139.7 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 194.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "328b14b6-f6e6-4577-898c-b1196f59b596")
-		)
-		(instances
-			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR087")
-					(unit 1)
-				)
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1847,10 +1684,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR078")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR074")
 					(unit 1)
@@ -1916,10 +1749,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR049")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR096")
 					(unit 1)
@@ -1988,12 +1817,75 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R11")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 189.23 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0936e038-bbd6-4e4f-ae52-1eba1cf6093e")
+		(property "Reference" "#PWR073"
+			(at 189.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 188.976 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f74b46ae-fe8d-4245-8fd3-cdba9a3361b7")
+		)
+		(instances
+			(project "CAN-IO-expander"
+				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2060,10 +1952,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R27")
 					(unit 1)
@@ -2133,10 +2021,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "C42")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "C39")
 					(unit 1)
@@ -2202,10 +2086,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR090")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR064")
 					(unit 1)
@@ -2271,10 +2151,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR079")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR062")
 					(unit 1)
@@ -2340,10 +2216,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR041")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR040")
 					(unit 1)
@@ -2412,10 +2284,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R35")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R20")
 					(unit 1)
@@ -2485,10 +2353,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "C44")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "C34")
 					(unit 1)
@@ -2554,84 +2418,8 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR028")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 118.11 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c2cfbed-9684-4808-ba4d-229b9ff0f460")
-		(property "Reference" "R24"
-			(at 118.618 181.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R-1%-0603"
-			(at 118.11 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.364 183.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 118.11 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "069a513b-78f0-4dc8-876a-a7d9aa05ae49")
-		)
-		(pin "2"
-			(uuid "1f311046-4d19-4a1f-bc28-f5110dcf1485")
-		)
-		(instances
-			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R32")
-					(unit 1)
-				)
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2697,10 +2485,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR080")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR069")
 					(unit 1)
@@ -2766,10 +2550,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR081")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR070")
 					(unit 1)
@@ -2838,81 +2618,8 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R34")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e692ff8-de99-466d-8013-2bcd8e12a020")
-		(property "Reference" "#PWR086"
-			(at 189.23 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 194.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86c05331-5ce1-457b-8cea-3e76e6096b31")
-		)
-		(instances
-			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR089")
-					(unit 1)
-				)
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -3019,10 +2726,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "D7")
 					(unit 1)
@@ -3131,10 +2834,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "D5")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "D6")
 					(unit 1)
@@ -3243,85 +2942,8 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "D10")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 139.7 187.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aa65320-6da3-4b1d-9402-939eae19c94c")
-		(property "Reference" "C41"
-			(at 137.16 186.8169 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF-50V-5%-0603"
-			(at 139.7 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 139.7 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 139.7 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "595bf812-8a4c-4b66-b70f-45402be5722d")
-		)
-		(pin "1"
-			(uuid "5fd6f2c4-5e58-4fa5-bbab-3cb3ed3959b8")
-		)
-		(instances
-			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "C43")
-					(unit 1)
-				)
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
-					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -3385,83 +3007,8 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR083")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 189.23 177.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76195d61-cfd7-4f79-8a64-4b06eed2c88f")
-		(property "Reference" "#PWR085"
-			(at 189.23 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 188.976 174.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 189.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53f0cf69-3fa9-4529-82ad-5a946a8b2b35")
-		)
-		(instances
-			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR088")
-					(unit 1)
-				)
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3525,10 +3072,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR077")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR068")
 					(unit 1)
@@ -3594,10 +3137,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR047")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR046")
 					(unit 1)
@@ -3663,10 +3202,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR045")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR044")
 					(unit 1)
@@ -3781,10 +3316,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "U8")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "U11")
 					(unit 1)
@@ -3851,10 +3382,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR091")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR066")
 					(unit 1)
@@ -3923,10 +3450,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R31")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R25")
 					(unit 1)
@@ -3996,10 +3519,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R39")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R15")
 					(unit 1)
@@ -4070,84 +3589,8 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R33")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 189.23 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b24819e8-7c38-4e9d-bff8-2ddca8b149c8")
-		(property "Reference" "#PWR022"
-			(at 189.23 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 188.976 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 189.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8074b366-6061-4531-adaa-a71798cc36d6")
-		)
-		(instances
-			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR023")
-					(unit 1)
-				)
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4214,10 +3657,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R38")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R12")
 					(unit 1)
@@ -4283,10 +3722,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR061")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR048")
 					(unit 1)
@@ -4356,10 +3791,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "C40")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "C36")
 					(unit 1)
@@ -4427,124 +3858,8 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR082")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CAN-IO-expander:BAV199")
-		(at 189.23 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbc34ebb-ce63-4c72-a9b7-2767f94751bf")
-		(property "Reference" "D11"
-			(at 191.77 181.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAV199"
-			(at 191.77 187.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 201.93 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/onsemi-BAV199LT1-D.PDF"
-			(at 191.516 184.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV199 High-speed switching diodes, SOT-23"
-			(at 189.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "onsemi"
-			(at 189.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "BAV199LT1G"
-			(at 189.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 189.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "BAV199LT1GOSCT-ND"
-			(at 189.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5117577a-4bde-4f9f-bd92-b61511bfab4f")
-		)
-		(pin "1"
-			(uuid "32fcc3ee-1ba0-4fc8-bc4f-584b55909ea9")
-		)
-		(pin "3"
-			(uuid "76dcec4c-3fd7-44c1-ba2f-0509213ed7d0")
-		)
-		(instances
-			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4611,10 +3926,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R36")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R18")
 					(unit 1)
@@ -4683,84 +3994,8 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R29")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 156.21 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2a88140-bd73-4db1-9828-a0abaebba4f3")
-		(property "Reference" "R14"
-			(at 156.718 181.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.00k-1%-0603"
-			(at 156.21 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 156.464 183.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 156.21 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07c739f8-0d20-486e-add3-07ddcbb1ddba")
-		)
-		(pin "2"
-			(uuid "4ebcd794-1ed1-4c33-be0b-b94da87f6a26")
-		)
-		(instances
-			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "R37")
-					(unit 1)
-				)
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4828,10 +4063,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "C29")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "C28")
 					(unit 1)
@@ -4897,10 +4128,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "#PWR073")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "#PWR063")
 					(unit 1)
@@ -4971,10 +4198,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "C33")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "C32")
 					(unit 1)
@@ -5045,10 +4268,6 @@
 		)
 		(instances
 			(project "CAN-IO-expander"
-				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/470607bd-e1af-4173-9a3e-936c30d2a87b"
-					(reference "C31")
-					(unit 1)
-				)
 				(path "/1a07eaa0-b061-4806-a87e-741a49ca7c1a/eeef8632-9d12-480e-beab-1f7396dd43f3"
 					(reference "C30")
 					(unit 1)

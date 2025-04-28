@@ -4744,9 +4744,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "602bf672-e7f3-45c2-b928-0da9c75d4f72")
 		(property "Reference" "C22"
 			(at 204.47 104.14 0)
