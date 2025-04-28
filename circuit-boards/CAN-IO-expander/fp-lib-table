@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CAN-IO-expander")(type "KiCad")(uri "${KIPRJMOD}/CAN-IO-expander.pretty")(options "")(descr ""))
+)

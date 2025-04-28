@@ -1,0 +1,187 @@
+(footprint "ECS-5032MV"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06fbefe1-69bc-492c-9b41-9e1c09295af9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ECS-5032MV"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b946c15e-d0a0-4225-a44a-64bf51504551")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69a680b8-07e2-4e04-8db2-0f4a73ccfd0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bdd6335-9225-420e-bb30-8598a067743d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -2)
+		(end -2.6 0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "548c7096-ea06-4526-9591-e2dd84e57b4e")
+	)
+	(fp_line
+		(start 0 2)
+		(end 2.6 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02f684a9-014b-4869-8b1b-c6a19c539bcd")
+	)
+	(fp_line
+		(start 2.6 -2)
+		(end -2.6 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8468da84-5060-40b4-9e60-5c46fbe97f39")
+	)
+	(fp_line
+		(start 2.6 2)
+		(end 2.6 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c58e0839-97b4-4a29-859f-ee48593a178b")
+	)
+	(fp_rect
+		(start -2.8 1)
+		(end -2.6 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c785621c-e819-4984-ba58-cc80a37f5b05")
+	)
+	(fp_rect
+		(start -2.6 -2)
+		(end -1.2 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "905f87f9-69c4-4611-88a5-4af22b288a86")
+	)
+	(fp_rect
+		(start -1.1 2)
+		(end -2.7 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "49e7bf98-df15-4e52-abbc-48e39f5a400c")
+	)
+	(fp_rect
+		(start -2.5 -2)
+		(end 2.5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "59caa516-efe9-46fb-a206-690a78b3a5da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf051961-ddb0-4ae3-ac30-38c36028b514")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 1.1)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2bb66646-6428-4180-9fd5-e1de910e3038")
+	)
+	(pad "2" smd rect
+		(at 1.27 1.1)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fff65f6-a41e-468e-bd1a-7fff8eb028ed")
+	)
+	(pad "3" smd rect
+		(at 1.27 -1.1)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc470258-619d-483f-a145-9e3eb62e9af5")
+	)
+	(pad "4" smd rect
+		(at -1.27 -1.1)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f32f0af-dd47-479b-832c-707cc4b4e79b")
+	)
+	(embedded_fonts no)
+	(model "/home/scott/Documents/Projects/FRC/PI-Power-Board/3dModels/ECS-5032MV-400-CN-TR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
