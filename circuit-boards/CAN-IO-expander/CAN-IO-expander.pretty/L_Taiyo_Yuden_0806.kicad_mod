@@ -1,0 +1,128 @@
+(footprint "L_Taiyo_Yuden_0806"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6418169-c632-4c7b-b3ba-465a0bee691f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_Taiyo_Yuden_0806"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "86864130-28b7-45a3-b159-647681f1461d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d9a39ca-b593-4c3c-a77f-45decd545e34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef6e71da-3117-42e8-aec0-620c639ca726")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.508 -1.016)
+		(end 0.508 -1.016)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f752480-1c73-41a1-937b-dce7bc4c6983")
+	)
+	(fp_line
+		(start -0.508 1.016)
+		(end 0.508 1.016)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e67e396-49c1-40f8-991e-9d4ceead9230")
+	)
+	(fp_rect
+		(start -1.1684 -0.9652)
+		(end 1.1684 0.9652)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a29ce934-9d16-4538-9fc7-87b80cf1500e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9404543b-69e5-4c28-8642-4eb4fc511430")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 0)
+		(size 0.7 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "77fa9896-bb6f-4fac-a55d-085783643e1b")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 0)
+		(size 0.7 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6b38a132-4898-4904-8db8-6f93f987a962")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dModels/TaiyoYuden-MAKK2016T3R3M.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
