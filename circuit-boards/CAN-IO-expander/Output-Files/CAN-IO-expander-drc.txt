@@ -1,0 +1,1366 @@
+** Drc report for CAN-IO-expander.kicad_pcb **
+** Created on 2025-04-27T22:25:50-0700 **
+
+** Found 137 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9695.35 mils, 3954.09 mils): Segment of D1 on F.Silkscreen
+    @(8971.76 mils, 3953.72 mils): Segment of J4 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8971.76 mils, 3953.72 mils): Segment of J4 on F.Silkscreen
+    @(9695.35 mils, 3954.09 mils): Segment of D1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9700.11 mils, 3394.28 mils): Segment of J4 on F.Silkscreen
+    @(9695.35 mils, 3954.09 mils): Segment of D1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9995.98 mils, 3441.93 mils): Segment of U9 on F.Silkscreen
+    @(10010.55 mils, 3441.93 mils): Reference field of C38
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9995.98 mils, 3441.93 mils): Segment of U9 on F.Silkscreen
+    @(10010.55 mils, 3441.93 mils): Reference field of C38
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10151.89 mils, 3441.93 mils): Reference field of U9
+    @(10139.92 mils, 3436.39 mils): Segment of C25 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10148.94 mils, 3592.99 mils): Segment of L3 on F.Silkscreen
+    @(10130.63 mils, 3800.00 mils): Reference field of L2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9698.19 mils, 4396.28 mils): Segment of J2 on F.Silkscreen
+    @(9722.13 mils, 4610.00 mils): Reference field of U4
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8969.84 mils, 3996.28 mils): Segment of J3 on F.Silkscreen
+    @(8989.53 mils, 4176.00 mils): Reference field of J3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8969.84 mils, 3996.28 mils): Segment of J3 on F.Silkscreen
+    @(8969.84 mils, 4396.28 mils): Segment of J2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8969.84 mils, 3996.28 mils): Segment of J3 on F.Silkscreen
+    @(8969.84 mils, 4396.28 mils): Segment of J2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8969.84 mils, 4396.28 mils): Segment of J2 on F.Silkscreen
+    @(8989.53 mils, 4576.00 mils): Reference field of J2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10873.49 mils, 5039.82 mils): Segment of R5 on F.Silkscreen
+    @(10882.83 mils, 5061.77 mils): Reference field of R40
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10882.83 mils, 5160.59 mils): Reference field of R41
+    @(10873.49 mils, 5138.64 mils): Segment of R40 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10873.49 mils, 5237.46 mils): Segment of R41 on F.Silkscreen
+    @(10882.83 mils, 5259.41 mils): Reference field of R42
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10121.91 mils, 5384.61 mils): Segment of C4 on F.Silkscreen
+    @(10127.44 mils, 5407.05 mils): Reference field of C5
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10715.62 mils, 5336.28 mils): Segment of R1 on F.Silkscreen
+    @(10724.96 mils, 5358.23 mils): Reference field of R2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10121.91 mils, 5088.15 mils): Segment of C1 on F.Silkscreen
+    @(10127.44 mils, 5110.59 mils): Reference field of C2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10724.96 mils, 5457.05 mils): Reference field of R3
+    @(10715.62 mils, 5435.10 mils): Segment of R2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10099.31 mils, 3592.99 mils): Segment of L3 on F.Silkscreen
+    @(10135.51 mils, 3620.00 mils): Reference field of U7
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10184.37 mils, 3721.93 mils): Reference field of L3
+    @(10166.06 mils, 3863.94 mils): Segment of L2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10148.94 mils, 3592.99 mils): Segment of L3 on F.Silkscreen
+    @(10135.51 mils, 3620.00 mils): Reference field of U7
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10386.30 mils, 3620.00 mils): Reference field of C24
+    @(10369.92 mils, 3614.47 mils): Segment of C23 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(11740.47 mils, 4450.00 mils): Reference field of J5
+    @(11760.16 mils, 4679.72 mils): Segment of J5 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(11740.55 mils, 3850.00 mils): Reference field of J6
+    @(11760.24 mils, 4179.72 mils): Segment of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9546.71 mils, 6333.90 mils): Segment of C36 on F.Silkscreen
+    @(9552.24 mils, 6356.34 mils): Reference field of C39
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9710.12 mils, 6257.52 mils): Reference field of R20
+    @(9700.78 mils, 6235.57 mils): Segment of R18 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9700.78 mils, 6334.39 mils): Segment of R20 on F.Silkscreen
+    @(9710.12 mils, 6356.34 mils): Reference field of R21
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8408.07 mils, 6255.35 mils): Reference field of R10
+    @(8402.20 mils, 6245.19 mils): Reference field of U11
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9223.50 mils, 5512.44 mils): Reference field of U10
+    @(9172.32 mils, 5547.48 mils): Polygon of U10 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5755.35 mils): Reference field of R23
+    @(8392.59 mils, 5731.08 mils): Segment of R22 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9858.65 mils, 6136.75 mils): Segment of R27 on F.Silkscreen
+    @(9867.99 mils, 6158.70 mils): Reference field of R28
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10043.19 mils, 6233.31 mils): Reference field of D9
+    @(10043.19 mils, 6207.13 mils): Segment of D7 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10043.19 mils, 6051.22 mils): Reference field of D7
+    @(10043.19 mils, 6025.04 mils): Segment of D6 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10043.19 mils, 6025.04 mils): Segment of D6 on F.Silkscreen
+    @(10043.19 mils, 6051.22 mils): Reference field of D7
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(10043.19 mils, 6207.13 mils): Segment of D7 on F.Silkscreen
+    @(10043.19 mils, 6233.31 mils): Reference field of D9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5995.36 mils): Reference field of R15
+    @(8401.93 mils, 5987.96 mils): Reference field of R19
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5987.96 mils): Reference field of R19
+    @(8392.59 mils, 5971.09 mils): Segment of R12 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5995.36 mils): Reference field of R15
+    @(8392.59 mils, 5971.09 mils): Segment of R12 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5995.36 mils): Reference field of R15
+    @(8392.59 mils, 6012.23 mils): Segment of R12 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5935.36 mils): Reference field of R12
+    @(8411.27 mils, 5952.23 mils): Segment of R19 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5935.36 mils): Reference field of R12
+    @(8411.27 mils, 5911.09 mils): Segment of R19 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5755.35 mils): Reference field of R23
+    @(8392.59 mils, 5772.22 mils): Segment of R22 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8392.59 mils, 5832.22 mils): Segment of R23 on F.Silkscreen
+    @(8401.93 mils, 5815.36 mils): Reference field of R17
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8392.59 mils, 5791.08 mils): Segment of R23 on F.Silkscreen
+    @(8401.93 mils, 5815.36 mils): Reference field of R17
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8402.20 mils, 6245.19 mils): Reference field of U11
+    @(8453.38 mils, 6210.15 mils): Polygon of U11 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8413.61 mils, 6231.57 mils): Segment of C32 on F.Silkscreen
+    @(8402.20 mils, 6245.19 mils): Reference field of U11
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8408.07 mils, 6255.35 mils): Reference field of R10
+    @(8413.61 mils, 6231.57 mils): Segment of C32 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8408.07 mils, 6307.95 mils): Reference field of C32
+    @(8398.73 mils, 6291.08 mils): Segment of R10 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8413.61 mils, 6271.73 mils): Segment of C32 on F.Silkscreen
+    @(8408.07 mils, 6255.35 mils): Reference field of R10
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9552.24 mils, 5862.24 mils): Reference field of C28
+    @(9495.51 mils, 5858.62 mils): Reference field of U3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9552.24 mils, 5862.24 mils): Reference field of C28
+    @(9597.87 mils, 5957.05 mils): Segment of U3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9712.66 mils, 5647.44 mils): Segment of C13 on B.Silkscreen
+    @(9736.61 mils, 5671.06 mils): Reference field of C6
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9562.66 mils, 5507.44 mils): Segment of C14 on B.Silkscreen
+    @(9575.00 mils, 5499.88 mils): Reference field of C9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9580.53 mils, 5645.08 mils): Segment of C10 on B.Silkscreen
+    @(9606.61 mils, 5671.06 mils): Reference field of C7
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9707.13 mils, 5571.06 mils): Reference field of C13
+    @(9712.66 mils, 5567.44 mils): Segment of C12 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9580.53 mils, 5576.26 mils): Segment of C9 on B.Silkscreen
+    @(9575.00 mils, 5568.70 mils): Reference field of C10
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5815.36 mils): Reference field of C35
+    @(8407.47 mils, 5831.74 mils): Segment of C37 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8401.93 mils, 5815.36 mils): Reference field of C35
+    @(8407.47 mils, 5791.58 mils): Segment of C37 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9910.57 mils, 3459.34 mils): Segment of R8 on B.Silkscreen
+    @(9893.70 mils, 3450.00 mils): Reference field of R16
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9869.43 mils, 3459.34 mils): Segment of R8 on B.Silkscreen
+    @(9893.70 mils, 3450.00 mils): Reference field of R16
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9929.43 mils, 3440.66 mils): Segment of R16 on B.Silkscreen
+    @(9946.30 mils, 3450.00 mils): Reference field of R8
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9953.70 mils, 3450.00 mils): Reference field of R7
+    @(9946.30 mils, 3450.00 mils): Reference field of R8
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9953.70 mils, 3450.00 mils): Reference field of R7
+    @(9929.43 mils, 3440.66 mils): Segment of R16 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9953.70 mils, 3450.00 mils): Reference field of R7
+    @(9970.57 mils, 3440.66 mils): Segment of R16 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9453.17 mils, 5647.44 mils): Segment of C11 on B.Silkscreen
+    @(9477.13 mils, 5671.06 mils): Reference field of C8
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9447.64 mils, 5571.06 mils): Reference field of C11
+    @(9452.66 mils, 5577.44 mils): Segment of C15 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9661.89 mils, 3810.00 mils): Reference field of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9645.04 mils, 5385.00 mils): Reference field of L1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9552.24 mils, 6356.34 mils): Reference field of C39
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8401.93 mils, 5987.96 mils): Reference field of R19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9710.12 mils, 6257.52 mils): Reference field of R20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9710.12 mils, 6356.34 mils): Reference field of R21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8401.93 mils, 5755.35 mils): Reference field of R23
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10010.55 mils, 3441.93 mils): Reference field of C38
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8401.93 mils, 5935.36 mils): Reference field of R12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9868.58 mils, 3530.00 mils): Reference field of D3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10127.44 mils, 5407.05 mils): Reference field of C5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10151.89 mils, 3441.93 mils): Reference field of U9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9867.99 mils, 6158.70 mils): Reference field of R28
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9588.07 mils, 5417.76 mils): Reference field of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10386.30 mils, 3620.00 mils): Reference field of C24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10724.96 mils, 5358.23 mils): Reference field of R2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8401.93 mils, 5815.36 mils): Reference field of R17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10180.31 mils, 4660.00 mils): Reference field of U6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8402.20 mils, 6245.19 mils): Reference field of U11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10216.30 mils, 3441.93 mils): Reference field of C25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10882.83 mils, 5061.77 mils): Reference field of R40
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10127.44 mils, 5110.59 mils): Reference field of C2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8408.07 mils, 6307.95 mils): Reference field of C32
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8401.93 mils, 5995.36 mils): Reference field of R15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10724.96 mils, 5259.41 mils): Reference field of R1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8408.07 mils, 6255.35 mils): Reference field of R10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10724.96 mils, 5457.05 mils): Reference field of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10882.83 mils, 5160.59 mils): Reference field of R41
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9495.51 mils, 5858.62 mils): Reference field of U3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9597.87 mils, 5957.05 mils): Segment of U3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10882.83 mils, 5259.41 mils): Reference field of R42
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9552.24 mils, 5862.24 mils): Reference field of C28
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9546.71 mils, 5898.46 mils): Segment of C28 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9546.71 mils, 5938.62 mils): Segment of C28 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9893.70 mils, 3450.00 mils): Reference field of R16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8401.93 mils, 5815.36 mils): Reference field of C35
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9946.30 mils, 3450.00 mils): Reference field of R8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9707.13 mils, 5571.06 mils): Reference field of C13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9575.00 mils, 5568.70 mils): Reference field of C10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9447.64 mils, 5571.06 mils): Reference field of C11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9723.70 mils, 4510.00 mils): Reference field of C19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9575.00 mils, 5499.88 mils): Reference field of C9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9953.70 mils, 3450.00 mils): Reference field of R7
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(9588.07 mils, 5553.39 mils): PTH pad 61 [GND] of U1
+    @(9605.51 mils, 5556.18 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C9 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(9588.07 mils, 5607.52 mils): PTH pad 61 [GND] of U1
+    @(9605.51 mils, 5625.00 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C10 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(9545.51 mils, 5921.61 mils): Pad 2 [GND] of U3 on F.Cu
+    @(9521.73 mils, 5918.54 mils): Pad 1 [Net-(C28-Pad1)] of C28 on F.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9533.94 mils, 5553.39 mils): PTH pad 61 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9533.94 mils, 5607.52 mils): PTH pad 61 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9533.94 mils, 5661.65 mils): PTH pad 61 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9588.07 mils, 5553.39 mils): PTH pad 61 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9588.07 mils, 5607.52 mils): PTH pad 61 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9588.07 mils, 5661.65 mils): PTH pad 61 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9642.20 mils, 5553.39 mils): PTH pad 61 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9642.20 mils, 5607.52 mils): PTH pad 61 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints; error
+    @(9642.20 mils, 5661.65 mils): PTH pad 61 [GND] of U1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8993.76 mils, 3674.00 mils): Reference field of J4
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8971.76 mils, 3394.28 mils): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8971.76 mils, 3953.72 mils): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8989.53 mils, 4176.00 mils): Reference field of J3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8969.84 mils, 3996.28 mils): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8969.84 mils, 4355.72 mils): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8989.53 mils, 4576.00 mils): Reference field of J2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8969.84 mils, 4396.28 mils): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8975.00 mils, 3325.00 mils): Rectangle on Edge.Cuts
+    @(8969.84 mils, 4755.72 mils): Segment of J2 on F.Silkscreen
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(9495.51 mils, 5878.31 mils): Footprint U3
+    @(9552.24 mils, 5918.54 mils): Footprint C28
+[shorting_items]: Items shorting two nets (nets GND and Net-(U1-ADC_AVDD))
+    Local override; error
+    @(9588.07 mils, 5553.39 mils): PTH pad 61 [GND] of U1
+    @(9605.51 mils, 5556.18 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C9 on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and Net-(U1-ADC_AVDD))
+    Local override; error
+    @(9588.07 mils, 5607.52 mils): PTH pad 61 [GND] of U1
+    @(9605.51 mils, 5625.00 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C10 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 7.87 mils; actual 7.48 mils)
+    Rule: netclass 'Default'; error
+    @(9588.07 mils, 5661.65 mils): PTH pad 61 [GND] of U1
+    @(9605.51 mils, 5625.00 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C10 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 7.87 mils; actual 7.17 mils)
+    Rule: netclass 'Default'; error
+    @(9642.20 mils, 5553.39 mils): PTH pad 61 [GND] of U1
+    @(9605.51 mils, 5556.18 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C9 on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and Net-(C28-Pad1))
+    Local override; error
+    @(9545.51 mils, 5921.61 mils): Pad 2 [GND] of U3 on F.Cu
+    @(9521.73 mils, 5918.54 mils): Pad 1 [Net-(C28-Pad1)] of C28 on F.Cu
+
+** Found 215 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8369.45 mils, 5871.66 mils): Pad 1 [GND] of R17 on F.Cu
+    @(8371.42 mils, 5871.66 mils): Pad 2 [GND] of C35 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8369.45 mils, 6051.66 mils): Pad 1 [GND] of R15 on F.Cu
+    @(8371.42 mils, 6051.66 mils): Pad 2 [GND] of C34 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8371.42 mils, 5811.66 mils): Pad 2 [GND] of C37 on B.Cu
+    @(8369.45 mils, 5811.65 mils): Pad 1 [GND] of R23 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8432.71 mils, 6150.71 mils): Pad 2 [GND] of C30 on B.Cu
+    @(8446.98 mils, 6150.71 mils): Pad 2 [GND] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9642.20 mils, 5553.39 mils): PTH pad 61 [GND] of U1
+    @(9676.61 mils, 5547.36 mils): Pad 2 [GND] of C12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10230.00 mils, 3664.78 mils): Pad 2 [GND] of U7 on F.Cu
+    @(10267.40 mils, 3664.78 mils): Pad 3 [GND] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9642.20 mils, 5607.52 mils): PTH pad 61 [GND] of U1
+    @(9676.61 mils, 5627.36 mils): Pad 2 [GND] of C13 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9950.00 mils, 3417.52 mils): Pad 1 [GND] of R16 on B.Cu
+    @(9920.00 mils, 3383.86 mils): Pad 1 [GND] of C38 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10690.00 mils, 4750.00 mils): PTH pad 7 [GND] of J1
+    @(10640.00 mils, 4750.00 mils): PTH pad 5 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10740.00 mils, 4750.00 mils): PTH pad 9 [GND] of J1
+    @(10690.00 mils, 4750.00 mils): PTH pad 7 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10330.00 mils, 3650.51 mils): Pad 2 [GND] of C24 on F.Cu
+    @(10390.00 mils, 3650.51 mils): Pad 2 [GND] of C23 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8371.42 mils, 5871.66 mils): Pad 2 [GND] of C35 on B.Cu
+    @(8371.42 mils, 5811.66 mils): Pad 2 [GND] of C37 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10330.00 mils, 3650.51 mils): Pad 2 [GND] of C24 on F.Cu
+    @(10267.40 mils, 3664.78 mils): Pad 3 [GND] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9526.61 mils, 5487.36 mils): Pad 2 [GND] of C14 on B.Cu
+    @(9533.94 mils, 5553.39 mils): PTH pad 61 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9576.10 mils, 5727.36 mils): Pad 2 [GND] of C7 on B.Cu
+    @(9588.07 mils, 5661.65 mils): PTH pad 61 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9417.13 mils, 5627.36 mils): Pad 2 [GND] of C11 on B.Cu
+    @(9416.61 mils, 5557.36 mils): Pad 2 [GND] of C15 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9682.56 mils, 5472.19 mils): Pad 47 [GND] of U1 on F.Cu
+    @(9676.61 mils, 5547.36 mils): Pad 2 [GND] of C12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10250.51 mils, 4530.00 mils): Pad 2 [GND] of C16 on F.Cu
+    @(10243.31 mils, 4610.00 mils): Pad 2 [GND] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10070.00 mils, 3482.48 mils): Pad 1 [GND] of R13 on B.Cu
+    @(10057.40 mils, 3397.15 mils): Pad 2 [GND] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9642.20 mils, 5661.65 mils): PTH pad 61 [GND] of U1
+    @(9706.10 mils, 5727.36 mils): Pad 2 [GND] of C6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10192.60 mils, 3575.22 mils): Pad 5 [GND] of U7 on F.Cu
+    @(10230.00 mils, 3664.78 mils): Pad 2 [GND] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10157.95 mils, 5068.07 mils): Pad 2 [GND] of C1 on F.Cu
+    @(10157.95 mils, 5166.89 mils): Pad 2 [GND] of C2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9582.76 mils, 6412.64 mils): Pad 2 [GND] of C39 on F.Cu
+    @(9582.76 mils, 6313.82 mils): Pad 2 [GND] of C36 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10157.95 mils, 5463.35 mils): Pad 2 [GND] of C5 on F.Cu
+    @(10157.95 mils, 5364.53 mils): Pad 2 [GND] of C4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9561.92 mils, 3724.00 mils): Pad 2 [GND] of J4 on F.Cu
+    @(9561.92 mils, 3824.00 mils): Pad 1 [GND] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9446.61 mils, 5727.36 mils): Pad 2 [GND] of C8 on B.Cu
+    @(9417.13 mils, 5627.36 mils): Pad 2 [GND] of C11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9446.61 mils, 5727.36 mils): Pad 2 [GND] of C8 on B.Cu
+    @(9533.94 mils, 5661.65 mils): PTH pad 61 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9950.00 mils, 3417.52 mils): Pad 1 [GND] of R16 on B.Cu
+    @(10057.40 mils, 3397.15 mils): Pad 2 [GND] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9780.00 mils, 4540.51 mils): Pad 2 [GND] of C19 on B.Cu
+    @(9671.38 mils, 4555.00 mils): Pad 2 [GND] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8377.56 mils, 6251.65 mils): Pad 2 [GND] of C32 on F.Cu
+    @(8432.71 mils, 6150.71 mils): Pad 2 [GND] of C30 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8432.71 mils, 6150.71 mils): Pad 2 [GND] of C30 on B.Cu
+    @(8371.42 mils, 6051.66 mils): Pad 2 [GND] of C34 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9680.51 mils, 4720.00 mils): Pad 2 [GND] of C21 on B.Cu
+    @(9550.51 mils, 4720.00 mils): Pad 2 [GND] of C20 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8970.55 mils, 5644.33 mils): Pad 9 [GND] of U2 on F.Cu
+    @(8864.25 mils, 5719.33 mils): Pad 4 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8377.56 mils, 6251.65 mils): Pad 2 [GND] of C32 on F.Cu
+    @(8440.55 mils, 6371.65 mils): Pad 1 [GND] of R26 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10070.00 mils, 3482.48 mils): Pad 1 [GND] of R13 on B.Cu
+    @(10192.60 mils, 3575.22 mils): Pad 5 [GND] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9676.02 mils, 5315.00 mils): Pad 2 [GND] of C3 on F.Cu
+    @(9682.56 mils, 5472.19 mils): Pad 47 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9680.51 mils, 4720.00 mils): Pad 2 [GND] of C21 on B.Cu
+    @(9671.38 mils, 4555.00 mils): Pad 2 [GND] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10110.00 mils, 3782.60 mils): Pad 2 [GND] of C18 on B.Cu
+    @(10230.00 mils, 3664.78 mils): Pad 2 [GND] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9920.00 mils, 3782.60 mils): Pad 2 [GND] of C26 on B.Cu
+    @(9780.00 mils, 3894.65 mils): Pad 1 [GND] of D1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8371.42 mils, 6051.66 mils): Pad 2 [GND] of C34 on B.Cu
+    @(8371.42 mils, 5871.66 mils): Pad 2 [GND] of C35 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9920.00 mils, 3782.60 mils): Pad 2 [GND] of C26 on B.Cu
+    @(9920.00 mils, 3602.60 mils): Pad 2 [GND] of C27 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10006.28 mils, 6108.31 mils): Pad 1 [GND] of D7 on F.Cu
+    @(10006.28 mils, 5926.22 mils): Pad 1 [GND] of D6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10006.28 mils, 6290.39 mils): Pad 1 [GND] of D9 on F.Cu
+    @(10006.28 mils, 6108.31 mils): Pad 1 [GND] of D7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9950.00 mils, 3417.52 mils): Pad 1 [GND] of R16 on B.Cu
+    @(9920.00 mils, 3602.60 mils): Pad 2 [GND] of C27 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10080.00 mils, 4707.44 mils): Pad 7 [GND] of U4 on F.Cu
+    @(10243.31 mils, 4610.00 mils): Pad 2 [GND] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9582.76 mils, 5918.54 mils): Pad 2 [GND] of C28 on F.Cu
+    @(9576.10 mils, 5727.36 mils): Pad 2 [GND] of C7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9561.92 mils, 3724.00 mils): Pad 2 [GND] of J4 on F.Cu
+    @(9370.00 mils, 3728.07 mils): Pad 1 [GND] of C17 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10157.95 mils, 5166.89 mils): Pad 2 [GND] of C2 on F.Cu
+    @(10157.95 mils, 5364.53 mils): Pad 2 [GND] of C4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9178.72 mils, 5606.93 mils): Pad 2 [GND] of U10 on F.Cu
+    @(8970.55 mils, 5644.33 mils): Pad 9 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9561.92 mils, 3824.00 mils): Pad 1 [GND] of J4 on F.Cu
+    @(9780.00 mils, 3894.65 mils): Pad 1 [GND] of D1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9178.72 mils, 5606.93 mils): Pad 2 [GND] of U10 on F.Cu
+    @(9417.13 mils, 5627.36 mils): Pad 2 [GND] of C11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11170.00 mils, 4350.00 mils): Pad 1 [GND] of J5 on F.Cu
+    @(11170.08 mils, 4050.00 mils): Pad 5 [GND] of J6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9620.00 mils, 4180.00 mils): Pad 3 [GND] of D2 on B.Cu
+    @(9780.00 mils, 3894.65 mils): Pad 1 [GND] of D1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10080.00 mils, 4707.44 mils): Pad 7 [GND] of U4 on F.Cu
+    @(9780.00 mils, 4540.51 mils): Pad 2 [GND] of C19 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9706.10 mils, 5727.36 mils): Pad 2 [GND] of C6 on B.Cu
+    @(10006.28 mils, 5926.22 mils): Pad 1 [GND] of D6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10080.00 mils, 4707.44 mils): Pad 7 [GND] of U4 on F.Cu
+    @(10157.95 mils, 5068.07 mils): Pad 2 [GND] of C1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9620.00 mils, 4180.00 mils): Pad 3 [GND] of D2 on B.Cu
+    @(9671.38 mils, 4555.00 mils): Pad 2 [GND] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9545.51 mils, 5921.61 mils): Pad 2 [GND] of U3 on F.Cu
+    @(9582.76 mils, 6313.82 mils): Pad 2 [GND] of C36 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10640.00 mils, 4750.00 mils): PTH pad 5 [GND] of J1
+    @(10243.31 mils, 4610.00 mils): Pad 2 [GND] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10740.00 mils, 4750.00 mils): PTH pad 9 [GND] of J1
+    @(10755.47 mils, 5216.89 mils): Pad 2 [GND] of C45 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10157.95 mils, 5463.35 mils): Pad 2 [GND] of C5 on F.Cu
+    @(9682.56 mils, 5472.19 mils): Pad 47 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8864.25 mils, 5719.33 mils): Pad 4 [GND] of U2 on F.Cu
+    @(8371.42 mils, 5811.66 mils): Pad 2 [GND] of C37 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11170.00 mils, 4350.00 mils): Pad 1 [GND] of J5 on F.Cu
+    @(10740.00 mils, 4750.00 mils): PTH pad 9 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9780.00 mils, 4479.49 mils): Pad 1 [+3V3] of C19 on B.Cu
+    @(9780.00 mils, 4512.56 mils): Pad 14 [+3V3] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9489.49 mils, 4720.00 mils): Pad 1 [+3V3] of C20 on B.Cu
+    @(9468.62 mils, 4655.00 mils): Pad 5 [+3V3] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9445.51 mils, 5835.00 mils): Pad 4 [+3V3] of U3 on F.Cu
+    @(9445.51 mils, 5921.61 mils): Pad 1 [+3V3] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10156.69 mils, 4710.00 mils): Pad 4 [+3V3] of U6 on F.Cu
+    @(10243.31 mils, 4710.00 mils): Pad 1 [+3V3] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10110.00 mils, 3857.40 mils): Pad 1 [+3V3] of C18 on B.Cu
+    @(10020.00 mils, 3836.93 mils): Pad 2 [+3V3] of L3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10096.93 mils, 5166.89 mils): Pad 1 [+3V3] of C2 on F.Cu
+    @(10096.93 mils, 5068.07 mils): Pad 1 [+3V3] of C1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10915.31 mils, 5315.71 mils): Pad 2 [+3V3] of R42 on F.Cu
+    @(10915.31 mils, 5216.89 mils): Pad 2 [+3V3] of R41 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10915.31 mils, 5216.89 mils): Pad 2 [+3V3] of R41 on F.Cu
+    @(10915.31 mils, 5118.07 mils): Pad 2 [+3V3] of R40 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10020.00 mils, 3836.93 mils): Pad 2 [+3V3] of L3 on F.Cu
+    @(9920.00 mils, 3857.40 mils): Pad 1 [+3V3] of C26 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10230.00 mils, 3853.15 mils): Pad 1 [+3V3] of L2 on F.Cu
+    @(10110.00 mils, 3857.40 mils): Pad 1 [+3V3] of C18 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9920.00 mils, 3857.40 mils): Pad 1 [+3V3] of C26 on B.Cu
+    @(9920.00 mils, 3677.40 mils): Pad 1 [+3V3] of C27 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10006.28 mils, 6001.02 mils): Pad 2 [+3V3] of D6 on F.Cu
+    @(10006.28 mils, 6183.11 mils): Pad 2 [+3V3] of D7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10006.28 mils, 6365.20 mils): Pad 2 [+3V3] of D9 on F.Cu
+    @(10006.28 mils, 6183.11 mils): Pad 2 [+3V3] of D7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10156.69 mils, 4710.00 mils): Pad 4 [+3V3] of U6 on F.Cu
+    @(10189.49 mils, 4530.00 mils): Pad 1 [+3V3] of C16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10096.93 mils, 5364.53 mils): Pad 1 [+3V3] of C4 on F.Cu
+    @(10096.93 mils, 5166.89 mils): Pad 1 [+3V3] of C2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10692.48 mils, 5414.53 mils): Pad 1 [+3V3] of R2 on F.Cu
+    @(10694.45 mils, 5216.89 mils): Pad 1 [+3V3] of C45 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9076.85 mils, 5569.33 mils): Pad 8 [+3V3] of U2 on F.Cu
+    @(9268.29 mils, 5644.33 mils): Pad 4 [+3V3] of U10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10010.00 mils, 3482.48 mils): Pad 2 [+3V3] of R7 on B.Cu
+    @(9920.00 mils, 3677.40 mils): Pad 1 [+3V3] of C27 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10915.31 mils, 5216.89 mils): Pad 2 [+3V3] of R41 on F.Cu
+    @(10694.45 mils, 5216.89 mils): Pad 1 [+3V3] of C45 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9268.29 mils, 5644.33 mils): Pad 4 [+3V3] of U10 on F.Cu
+    @(9445.51 mils, 5835.00 mils): Pad 4 [+3V3] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9780.00 mils, 4512.56 mils): Pad 14 [+3V3] of U4 on F.Cu
+    @(9468.62 mils, 4655.00 mils): Pad 5 [+3V3] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10156.69 mils, 4710.00 mils): Pad 4 [+3V3] of U6 on F.Cu
+    @(10096.93 mils, 5068.07 mils): Pad 1 [+3V3] of C1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9780.00 mils, 4512.56 mils): Pad 14 [+3V3] of U4 on F.Cu
+    @(10189.49 mils, 4530.00 mils): Pad 1 [+3V3] of C16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9651.06 mils, 5472.19 mils): Pad 49 [+3V3] of U1 on F.Cu
+    @(9445.51 mils, 5835.00 mils): Pad 4 [+3V3] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10096.93 mils, 5364.53 mils): Pad 1 [+3V3] of C4 on F.Cu
+    @(9651.06 mils, 5472.19 mils): Pad 49 [+3V3] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9445.51 mils, 5921.61 mils): Pad 1 [+3V3] of U3 on F.Cu
+    @(10006.28 mils, 6001.02 mils): Pad 2 [+3V3] of D6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10096.93 mils, 5364.53 mils): Pad 1 [+3V3] of C4 on F.Cu
+    @(10692.48 mils, 5414.53 mils): Pad 1 [+3V3] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9780.00 mils, 4479.49 mils): Pad 1 [+3V3] of C19 on B.Cu
+    @(9920.00 mils, 3857.40 mils): Pad 1 [+3V3] of C26 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9637.13 mils, 5727.36 mils): Pad 1 [+1V1] of C7 on B.Cu
+    @(9588.07 mils, 5742.85 mils): Pad 23 [+1V1] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9615.00 mils, 5315.00 mils): Pad 1 [+1V1] of C3 on F.Cu
+    @(9615.51 mils, 5385.00 mils): Pad 1 [+1V1] of L1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9507.64 mils, 5727.36 mils): Pad 1 [+1V1] of C8 on B.Cu
+    @(9588.07 mils, 5742.85 mils): Pad 23 [+1V1] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9635.31 mils, 5472.19 mils): Pad 50 [+1V1] of U1 on F.Cu
+    @(9615.51 mils, 5385.00 mils): Pad 1 [+1V1] of L1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9637.13 mils, 5727.36 mils): Pad 1 [+1V1] of C7 on B.Cu
+    @(9767.13 mils, 5727.36 mils): Pad 1 [+1V1] of C6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9767.13 mils, 5727.36 mils): Pad 1 [+1V1] of C6 on B.Cu
+    @(9723.41 mils, 5591.77 mils): Pad 39 [+1V1] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9635.31 mils, 5472.19 mils): Pad 50 [+1V1] of U1 on F.Cu
+    @(9723.41 mils, 5591.77 mils): Pad 39 [+1V1] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5576.02 mils): Pad 6 [+1V1] of U1 on F.Cu
+    @(9507.64 mils, 5727.36 mils): Pad 1 [+1V1] of C8 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9698.31 mils, 5472.19 mils): Pad 46 [Net-(U1-VREG_AVDD)] of U1 on F.Cu
+    @(10096.93 mils, 5463.35 mils): Pad 1 [Net-(U1-VREG_AVDD)] of C5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10096.93 mils, 5463.35 mils): Pad 1 [Net-(U1-VREG_AVDD)] of C5 on F.Cu
+    @(10757.44 mils, 5414.53 mils): Pad 2 [Net-(U1-VREG_AVDD)] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9587.64 mils, 5487.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C14 on B.Cu
+    @(9588.07 mils, 5472.19 mils): Pad 53 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9723.41 mils, 5497.28 mils): Pad 45 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9723.41 mils, 5513.03 mils): Pad 44 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9588.07 mils, 5472.19 mils): Pad 53 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9572.32 mils, 5472.19 mils): Pad 54 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9723.41 mils, 5607.52 mils): Pad 38 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9737.64 mils, 5627.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C13 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9723.41 mils, 5513.03 mils): Pad 44 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9737.64 mils, 5547.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5654.76 mils): Pad 11 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9478.15 mils, 5627.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9723.41 mils, 5607.52 mils): Pad 38 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9737.64 mils, 5547.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5497.28 mils): Pad 1 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9477.64 mils, 5557.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C15 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9605.51 mils, 5556.18 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C9 on B.Cu
+    @(9605.51 mils, 5625.00 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9477.64 mils, 5557.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C15 on B.Cu
+    @(9478.15 mils, 5627.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9605.51 mils, 5556.18 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C9 on B.Cu
+    @(9587.64 mils, 5487.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C14 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9723.41 mils, 5607.52 mils): Pad 38 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9605.51 mils, 5625.00 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9698.31 mils, 5742.85 mils): Pad 30 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9737.64 mils, 5627.36 mils): Pad 1 [Net-(U1-ADC_AVDD)] of C13 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9572.32 mils, 5472.19 mils): Pad 54 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9452.74 mils, 5497.28 mils): Pad 1 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5654.76 mils): Pad 11 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+    @(9540.83 mils, 5742.85 mils): Pad 20 [Net-(U1-ADC_AVDD)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9561.92 mils, 3624.00 mils): Pad 3 [/V_{BAT}] of J4 on F.Cu
+    @(9561.92 mils, 3524.00 mils): Pad 4 [/V_{BAT}] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9780.00 mils, 3725.35 mils): Pad 2 [/V_{BAT}] of D1 on F.Cu
+    @(9780.00 mils, 3616.61 mils): Pad 2 [/V_{BAT}] of D3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9370.00 mils, 3611.93 mils): Pad 2 [/V_{BAT}] of C17 on B.Cu
+    @(9561.92 mils, 3624.00 mils): Pad 3 [/V_{BAT}] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9780.00 mils, 3616.61 mils): Pad 2 [/V_{BAT}] of D3 on F.Cu
+    @(9561.92 mils, 3624.00 mils): Pad 3 [/V_{BAT}] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8371.69 mils, 6150.71 mils): Pad 1 [+5V] of C30 on B.Cu
+    @(8357.42 mils, 6188.11 mils): Pad 5 [+5V] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10330.00 mils, 3589.49 mils): Pad 1 [+5V] of C24 on F.Cu
+    @(10390.00 mils, 3589.49 mils): Pad 1 [+5V] of C23 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10267.40 mils, 3575.22 mils): Pad 4 [+5V] of U7 on F.Cu
+    @(10330.00 mils, 3589.49 mils): Pad 1 [+5V] of C24 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10263.39 mils, 3450.00 mils): Pad 2 [+5V] of D4 on F.Cu
+    @(10267.40 mils, 3575.22 mils): Pad 4 [+5V] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9619.49 mils, 4720.00 mils): Pad 1 [+5V] of C21 on B.Cu
+    @(9671.38 mils, 4605.00 mils): Pad 3 [+5V] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10267.40 mils, 3575.22 mils): Pad 4 [+5V] of U7 on F.Cu
+    @(9671.38 mils, 4605.00 mils): Pad 3 [+5V] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9619.49 mils, 4720.00 mils): Pad 1 [+5V] of C21 on B.Cu
+    @(8371.69 mils, 6150.71 mils): Pad 1 [+5V] of C30 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9920.00 mils, 3500.00 mils): Pad 2 [Net-(D3-K)] of C38 on F.Cu
+    @(9890.00 mils, 3417.52 mils): Pad 2 [Net-(D3-K)] of R8 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9890.00 mils, 3417.52 mils): Pad 2 [Net-(D3-K)] of R8 on B.Cu
+    @(9780.00 mils, 3443.39 mils): Pad 1 [Net-(D3-K)] of D3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10057.40 mils, 3486.71 mils): Pad 5 [Net-(D3-K)] of U9 on F.Cu
+    @(9920.00 mils, 3500.00 mils): Pad 2 [Net-(D3-K)] of C38 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9780.00 mils, 3443.39 mils): Pad 1 [Net-(D3-K)] of D3 on F.Cu
+    @(8369.45 mils, 5751.65 mils): Pad 1 [Net-(D3-K)] of R22 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10094.80 mils, 3397.15 mils): Pad 1 [Net-(U9-CB)] of U9 on F.Cu
+    @(10160.00 mils, 3411.42 mils): Pad 1 [Net-(U9-CB)] of C25 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10160.00 mils, 3472.44 mils): Pad 2 [Net-(U9-SW)] of C25 on F.Cu
+    @(10094.80 mils, 3486.71 mils): Pad 6 [Net-(U9-SW)] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10094.80 mils, 3486.71 mils): Pad 6 [Net-(U9-SW)] of U9 on F.Cu
+    @(10020.00 mils, 3606.93 mils): Pad 1 [Net-(U9-SW)] of L3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9677.64 mils, 6412.64 mils): Pad 1 [Net-(C28-Pad1)] of R21 on F.Cu
+    @(9900.47 mils, 6215.00 mils): Pad 2 [Net-(C28-Pad1)] of R28 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9900.47 mils, 6215.00 mils): Pad 2 [Net-(C28-Pad1)] of R28 on F.Cu
+    @(9521.73 mils, 5918.54 mils): Pad 1 [Net-(C28-Pad1)] of C28 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8438.58 mils, 6251.65 mils): Pad 1 [Net-(U11-+)] of C32 on F.Cu
+    @(8440.55 mils, 6311.65 mils): Pad 2 [Net-(U11-+)] of R10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8446.98 mils, 6113.30 mils): Pad 3 [Net-(U11-+)] of U11 on F.Cu
+    @(8438.58 mils, 6251.65 mils): Pad 1 [Net-(U11-+)] of C32 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8432.44 mils, 6051.66 mils): Pad 1 [/AIN0_ADC] of C34 on B.Cu
+    @(8434.41 mils, 6051.66 mils): Pad 2 [/AIN0_ADC] of R15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8434.41 mils, 6051.66 mils): Pad 2 [/AIN0_ADC] of R15 on F.Cu
+    @(8434.41 mils, 5991.66 mils): Pad 2 [/AIN0_ADC] of R12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9723.41 mils, 5576.02 mils): Pad 40 [/AIN0_ADC] of U1 on F.Cu
+    @(8434.41 mils, 5991.66 mils): Pad 2 [/AIN0_ADC] of R12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8434.41 mils, 5871.66 mils): Pad 2 [/5V_ADC] of R17 on F.Cu
+    @(8432.44 mils, 5871.66 mils): Pad 1 [/5V_ADC] of C35 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8434.41 mils, 5931.66 mils): Pad 1 [/5V_ADC] of R19 on F.Cu
+    @(8434.41 mils, 5871.66 mils): Pad 2 [/5V_ADC] of R17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8434.41 mils, 5871.66 mils): Pad 2 [/5V_ADC] of R17 on F.Cu
+    @(9723.41 mils, 5544.53 mils): Pad 42 [/5V_ADC] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9521.73 mils, 6313.82 mils): Pad 1 [Net-(C36-Pad1)] of C36 on F.Cu
+    @(9677.64 mils, 6313.82 mils): Pad 1 [Net-(C36-Pad1)] of R20 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9677.64 mils, 6313.82 mils): Pad 1 [Net-(C36-Pad1)] of R20 on F.Cu
+    @(9900.47 mils, 6116.18 mils): Pad 2 [Net-(C36-Pad1)] of R27 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8432.44 mils, 5811.66 mils): Pad 1 [/VBAT_ADC] of C37 on B.Cu
+    @(8434.41 mils, 5811.65 mils): Pad 2 [/VBAT_ADC] of R23 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8434.41 mils, 5811.65 mils): Pad 2 [/VBAT_ADC] of R23 on F.Cu
+    @(8434.41 mils, 5751.65 mils): Pad 2 [/VBAT_ADC] of R22 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9723.41 mils, 5528.78 mils): Pad 43 [/VBAT_ADC] of U1 on F.Cu
+    @(8434.41 mils, 5751.65 mils): Pad 2 [/VBAT_ADC] of R22 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9521.73 mils, 6412.64 mils): Pad 1 [Net-(C39-Pad1)] of C39 on F.Cu
+    @(9677.64 mils, 6215.00 mils): Pad 1 [Net-(C39-Pad1)] of R18 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9677.64 mils, 6215.00 mils): Pad 1 [Net-(C39-Pad1)] of R18 on F.Cu
+    @(9900.47 mils, 5918.54 mils): Pad 2 [Net-(C39-Pad1)] of R25 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9560.00 mils, 4126.00 mils): Pad 2 [/CAN1_H] of J3 on F.Cu
+    @(9546.18 mils, 4142.60 mils): Pad 2 [/CAN1_H] of D2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9468.62 mils, 4555.00 mils): Pad 7 [/CAN1_H] of U5 on B.Cu
+    @(9560.00 mils, 4526.00 mils): Pad 2 [/CAN1_H] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9560.00 mils, 4526.00 mils): Pad 2 [/CAN1_H] of J2 on F.Cu
+    @(9546.18 mils, 4142.60 mils): Pad 2 [/CAN1_H] of D2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9560.00 mils, 4226.00 mils): Pad 1 [/CAN1_L] of J3 on F.Cu
+    @(9546.18 mils, 4217.40 mils): Pad 1 [/CAN1_L] of D2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9468.62 mils, 4605.00 mils): Pad 6 [/CAN1_L] of U5 on B.Cu
+    @(9560.00 mils, 4626.00 mils): Pad 1 [/CAN1_L] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9560.00 mils, 4226.00 mils): Pad 1 [/CAN1_L] of J3 on F.Cu
+    @(9468.62 mils, 4605.00 mils): Pad 6 [/CAN1_L] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11170.00 mils, 4450.00 mils): Pad 2 [+5V_EXT] of J5 on F.Cu
+    @(11170.08 mils, 3950.00 mils): Pad 4 [+5V_EXT] of J6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11170.08 mils, 3950.00 mils): Pad 4 [+5V_EXT] of J6 on F.Cu
+    @(10436.61 mils, 3450.00 mils): Pad 1 [+5V_EXT] of D4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8369.45 mils, 5931.66 mils): Pad 2 [+5V_EXT] of R19 on F.Cu
+    @(11170.00 mils, 4450.00 mils): Pad 2 [+5V_EXT] of J5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9742.60 mils, 6412.64 mils): Pad 2 [/DI00] of R21 on F.Cu
+    @(10080.10 mils, 5963.62 mils): Pad 3 [/DI00] of D6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10080.10 mils, 5963.62 mils): Pad 3 [/DI00] of D6 on F.Cu
+    @(9509.33 mils, 5742.85 mils): Pad 18 [/DI00] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9742.60 mils, 6313.82 mils): Pad 2 [/DI10] of R20 on F.Cu
+    @(10080.10 mils, 6145.71 mils): Pad 3 [/DI10] of D7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9477.83 mils, 5742.85 mils): Pad 16 [/DI10] of U1 on F.Cu
+    @(9742.60 mils, 6313.82 mils): Pad 2 [/DI10] of R20 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9666.81 mils, 5742.85 mils): Pad 28 [/DI20] of U1 on F.Cu
+    @(9525.08 mils, 5742.85 mils): Pad 19 [/DI20] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9742.60 mils, 6215.00 mils): Pad 2 [/DI20] of R18 on F.Cu
+    @(10080.10 mils, 6327.80 mils): Pad 3 [/DI20] of D9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9666.81 mils, 5742.85 mils): Pad 28 [/DI20] of U1 on F.Cu
+    @(9742.60 mils, 6215.00 mils): Pad 2 [/DI20] of R18 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9619.57 mils, 5742.85 mils): Pad 25 [/SWD] of U1 on F.Cu
+    @(10640.00 mils, 4700.00 mils): PTH pad 6 [/SWD] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9603.82 mils, 5742.85 mils): Pad 24 [/SWCLK] of U1 on F.Cu
+    @(10590.00 mils, 4700.00 mils): PTH pad 4 [/SWCLK] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10690.00 mils, 4700.00 mils): PTH pad 8 [/~{USB_BOOT}] of J1
+    @(10692.48 mils, 5315.71 mils): Pad 1 [/~{USB_BOOT}] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10740.00 mils, 4700.00 mils): PTH pad 10 [/~{RESET}] of J1
+    @(10850.35 mils, 5019.25 mils): Pad 1 [/~{RESET}] of R5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10540.00 mils, 4700.00 mils): PTH pad 2 [/USB_D+] of J1
+    @(10757.44 mils, 5513.35 mils): Pad 2 [/USB_D+] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9995.51 mils, 5103.82 mils): Pad 2 [/USB_D-] of R4 on F.Cu
+    @(10540.00 mils, 4750.00 mils): PTH pad 1 [/USB_D-] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9835.51 mils, 6215.00 mils): Pad 1 [/QA0] of R28 on F.Cu
+    @(11170.08 mils, 3850.00 mils): Pad 3 [/QA0] of J6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9835.51 mils, 6116.18 mils): Pad 1 [/QB0] of R27 on F.Cu
+    @(11170.08 mils, 3750.00 mils): Pad 2 [/QB0] of J6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9835.51 mils, 5918.54 mils): Pad 1 [/PWM_IN0] of R25 on F.Cu
+    @(11170.08 mils, 3650.00 mils): Pad 1 [/PWM_IN0] of J6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8375.59 mils, 6311.65 mils): Pad 1 [/AIN0] of R10 on F.Cu
+    @(8375.59 mils, 6371.65 mils): Pad 2 [/AIN0] of R26 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11170.00 mils, 4550.00 mils): Pad 3 [/AIN0] of J5 on F.Cu
+    @(8375.59 mils, 6311.65 mils): Pad 1 [/AIN0] of R10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9666.81 mils, 5472.19 mils): Pad 48 [/VREG_LX] of U1 on F.Cu
+    @(9674.57 mils, 5385.00 mils): Pad 2 [/VREG_LX] of L1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10192.60 mils, 3664.78 mils): Pad 1 [Net-(U7-SW)] of U7 on F.Cu
+    @(10230.00 mils, 3746.85 mils): Pad 2 [Net-(U7-SW)] of L2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9477.83 mils, 5472.19 mils): Pad 60 [/~{QSPI_SS}] of U1 on F.Cu
+    @(8864.25 mils, 5569.33 mils): Pad 1 [/~{QSPI_SS}] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10757.44 mils, 5315.71 mils): Pad 2 [/~{QSPI_SS}] of R1 on F.Cu
+    @(9477.83 mils, 5472.19 mils): Pad 60 [/~{QSPI_SS}] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9603.82 mils, 5472.19 mils): Pad 52 [Net-(U1-USB_DP)] of U1 on F.Cu
+    @(10692.48 mils, 5513.35 mils): Pad 1 [Net-(U1-USB_DP)] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9619.57 mils, 5472.19 mils): Pad 51 [Net-(U1-USB_DM)] of U1 on F.Cu
+    @(9930.55 mils, 5103.82 mils): Pad 1 [Net-(U1-USB_DM)] of R4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9635.31 mils, 5742.85 mils): Pad 26 [Net-(U1-RUN)] of U1 on F.Cu
+    @(10915.31 mils, 5019.25 mils): Pad 2 [Net-(U1-RUN)] of R5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10020.00 mils, 3397.15 mils): Pad 3 [Net-(U9-FB)] of U9 on F.Cu
+    @(10010.00 mils, 3417.52 mils): Pad 1 [Net-(U9-FB)] of R7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10070.00 mils, 3417.52 mils): Pad 2 [Net-(U9-FB)] of R13 on B.Cu
+    @(10020.00 mils, 3397.15 mils): Pad 3 [Net-(U9-FB)] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9950.00 mils, 3482.48 mils): Pad 2 [Net-(U9-EN)] of R16 on B.Cu
+    @(9890.00 mils, 3482.48 mils): Pad 1 [Net-(U9-EN)] of R8 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10020.00 mils, 3486.71 mils): Pad 4 [Net-(U9-EN)] of U9 on F.Cu
+    @(9950.00 mils, 3482.48 mils): Pad 2 [Net-(U9-EN)] of R16 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8357.42 mils, 6113.30 mils): Pad 4 [Net-(U11--)] of U11 on F.Cu
+    @(8446.98 mils, 6188.11 mils): Pad 1 [Net-(U11--)] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8369.45 mils, 5991.66 mils): Pad 1 [Net-(U11--)] of R12 on F.Cu
+    @(8357.42 mils, 6113.30 mils): Pad 4 [Net-(U11--)] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9178.72 mils, 5569.53 mils): Pad 1 [/I2C0_SCL] of U10 on F.Cu
+    @(9452.74 mils, 5686.26 mils): Pad 13 [/I2C0_SCL] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5686.26 mils): Pad 13 [/I2C0_SCL] of U1 on F.Cu
+    @(10850.35 mils, 5118.07 mils): Pad 1 [/I2C0_SCL] of R40 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9178.72 mils, 5644.33 mils): Pad 3 [/I2C0_SDA] of U10 on F.Cu
+    @(9452.74 mils, 5670.51 mils): Pad 12 [/I2C0_SDA] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5670.51 mils): Pad 12 [/I2C0_SDA] of U1 on F.Cu
+    @(10850.35 mils, 5216.89 mils): Pad 1 [/I2C0_SDA] of R41 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9268.29 mils, 5569.53 mils): Pad 5 [/EEPROM_WP] of U10 on F.Cu
+    @(9452.74 mils, 5702.01 mils): Pad 14 [/EEPROM_WP] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5702.01 mils): Pad 14 [/EEPROM_WP] of U1 on F.Cu
+    @(10850.35 mils, 5315.71 mils): Pad 1 [/EEPROM_WP] of R42 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9880.00 mils, 4707.44 mils): Pad 3 [Net-(U4-CLKO/SOF)] of U4 on F.Cu
+    @(10480.98 mils, 6337.05 mils): PTH pad 1 [Net-(U4-CLKO/SOF)] of TP1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8864.25 mils, 5619.33 mils): Pad 2 [/QSPI_D1] of U2 on F.Cu
+    @(9493.58 mils, 5472.19 mils): Pad 59 [/QSPI_D1] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9076.85 mils, 5669.33 mils): Pad 6 [/QSPI_SCLK] of U2 on F.Cu
+    @(9540.83 mils, 5472.19 mils): Pad 56 [/QSPI_SCLK] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9076.85 mils, 5619.33 mils): Pad 7 [/QSPI_D3] of U2 on F.Cu
+    @(9556.57 mils, 5472.19 mils): Pad 55 [/QSPI_D3] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9545.51 mils, 5835.00 mils): Pad 3 [Net-(U1-XIN)] of U3 on F.Cu
+    @(9556.57 mils, 5742.85 mils): Pad 21 [Net-(U1-XIN)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5607.52 mils): Pad 8 [/~{CAN_RX_INT}] of U1 on F.Cu
+    @(10030.00 mils, 4512.56 mils): Pad 9 [/~{CAN_RX_INT}] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5528.78 mils): Pad 3 [/~{SPI0_CS}] of U1 on F.Cu
+    @(9830.00 mils, 4512.56 mils): Pad 13 [/~{SPI0_CS}] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5544.53 mils): Pad 4 [/SPI0_SCK] of U1 on F.Cu
+    @(9980.00 mils, 4512.56 mils): Pad 10 [/SPI0_SCK] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8864.25 mils, 5669.33 mils): Pad 3 [/QSPI_D2] of U2 on F.Cu
+    @(9509.33 mils, 5472.19 mils): Pad 58 [/QSPI_D2] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5591.77 mils): Pad 7 [/~{CAN_INT}] of U1 on F.Cu
+    @(9930.00 mils, 4707.44 mils): Pad 4 [/~{CAN_INT}] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5560.28 mils): Pad 5 [/SPI0_TX] of U1 on F.Cu
+    @(9930.00 mils, 4512.56 mils): Pad 11 [/SPI0_TX] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9076.85 mils, 5719.33 mils): Pad 5 [/QSPI_D0] of U2 on F.Cu
+    @(9525.08 mils, 5472.19 mils): Pad 57 [/QSPI_D0] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5639.02 mils): Pad 10 [/SILENT] of U1 on F.Cu
+    @(9468.62 mils, 4505.00 mils): Pad 8 [/SILENT] of U5 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5623.27 mils): Pad 9 [/~{CAN_TX_INT}] of U1 on F.Cu
+    @(10080.00 mils, 4512.56 mils): Pad 8 [/~{CAN_TX_INT}] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9452.74 mils, 5513.03 mils): Pad 2 [/SPI0_RX] of U1 on F.Cu
+    @(9880.00 mils, 4512.56 mils): Pad 12 [/SPI0_RX] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9671.38 mils, 4505.00 mils): Pad 1 [/CAN-FD/CANTX] of U5 on B.Cu
+    @(9780.00 mils, 4707.44 mils): Pad 1 [/CAN-FD/CANTX] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9671.38 mils, 4655.00 mils): Pad 4 [/CAN-FD/CANRX] of U5 on B.Cu
+    @(9830.00 mils, 4707.44 mils): Pad 2 [/CAN-FD/CANRX] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10030.00 mils, 4707.44 mils): Pad 6 [/CAN-FD/CLK] of U4 on F.Cu
+    @(10156.69 mils, 4610.00 mils): Pad 3 [/CAN-FD/CLK] of U6 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **
