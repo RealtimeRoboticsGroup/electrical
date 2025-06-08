@@ -21,7 +21,7 @@ else
     fname=$1
 fi
 if [[ -z $kicad_local_plugins ]]; then
-    kicad_local_plugins="$HOME/.local/share/kicad/8.0/3rdparty/plugins/"
+    kicad_local_plugins="$HOME/.local/share/kicad/9.0/3rdparty/plugins/"
 fi
 ibom_exe="org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py"
 sch=${fname}.kicad_sch
