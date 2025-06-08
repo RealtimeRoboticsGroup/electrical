@@ -1,5 +1,5 @@
 ** Drc report for Pico-CAN.kicad_pcb **
-** Created on 2025-06-08T15:02:28-0700 **
+** Created on 2025-06-08T16:20:09-0700 **
 
 ** Found 1 DRC violations **
 [lib_footprint_mismatch]: Footprint 'RaspberryPi_Pico_Common_Unspecified' does not match copy in library 'Module'.

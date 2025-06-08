@@ -2729,6 +2729,7 @@
 						)
 					)
 					(alternate "" input line)
+					(alternate "" input line)
 					(alternate "I2C0_SDA" bidirectional line)
 					(alternate "PWM0_A" output line)
 					(alternate "SPI0_RX" input line)
@@ -3287,6 +3288,7 @@
 						)
 					)
 					(alternate "" input line)
+					(alternate "" input line)
 					(alternate "I2C0_SDA" bidirectional line)
 					(alternate "PWM0_A" output line)
 					(alternate "SPI0_RX" input line)
@@ -3311,6 +3313,7 @@
 						)
 					)
 					(alternate "" input line)
+					(alternate "" input line)
 					(alternate "I2C0_SCL" bidirectional clock)
 					(alternate "PWM0_B" bidirectional line)
 					(alternate "UART0_RX" input line)
@@ -3334,6 +3337,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "" input line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "PWM1_A" output line)
@@ -5638,7 +5642,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C519981"
+		(property "JLCPCB" ""
+			(at 289.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519981"
 			(at 289.56 83.82 0)
 			(effects
 				(font
@@ -5816,7 +5829,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2901552"
+		(property "LCSC Part #" "C2901552"
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -6030,7 +6043,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C519981"
+		(property "JLCPCB" ""
+			(at 173.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519981"
 			(at 173.99 166.37 0)
 			(effects
 				(font
@@ -6175,7 +6197,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C114555"
+		(property "JLCPCB" ""
+			(at 71.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C114555"
 			(at 71.12 87.63 0)
 			(effects
 				(font
@@ -6290,7 +6321,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C124015"
+		(property "JLCPCB" ""
+			(at 298.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C124015"
 			(at 298.45 106.68 0)
 			(effects
 				(font
@@ -6452,7 +6492,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C519981"
+		(property "JLCPCB" ""
+			(at 214.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519981"
 			(at 214.63 99.06 0)
 			(effects
 				(font
@@ -6595,7 +6644,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C519981"
+		(property "JLCPCB" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519981"
 			(at 71.12 97.79 0)
 			(effects
 				(font
@@ -7727,7 +7785,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2984756"
+		(property "JLCPCB" ""
+			(at 335.28 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2984756"
 			(at 335.28 123.19 90)
 			(effects
 				(font
@@ -7939,7 +8006,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C519981"
+		(property "JLCPCB" ""
+			(at 308.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519981"
 			(at 308.61 83.82 0)
 			(effects
 				(font
@@ -8521,7 +8597,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C626759 "
+		(property "JLCPCB" ""
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C626759 "
 			(at 223.52 118.11 0)
 			(effects
 				(font
