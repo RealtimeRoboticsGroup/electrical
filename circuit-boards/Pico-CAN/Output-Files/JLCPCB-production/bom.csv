@@ -1,9 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-A1,RaspberryPi_Pico_Common_Unspecified,1,RaspberryPi_Pico2,
-"C1, C2, C3, C4, C5",0805,5,0.1uF-25V-10%-0805,C519981
-J1,PinHeader_2x13_P2.54mm_Vertical,1,Expansion,
-"J2, J3",70555-0001,2,CAN1,
-R1,0805,1,1.50k-1%-0805,C114555
-U1,SO-8_3.9x4.9mm_P1.27mm,1,MCP2558FD,C124015
-U2,JLC-OSC-SMD3225-4P,1,4.0 MHz,C2901552
-U3,SO-14_3.9x8.65mm_P1.27mm,1,MCP2518FDT-H/SL,C626759 

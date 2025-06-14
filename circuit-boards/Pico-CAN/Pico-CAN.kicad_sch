@@ -2729,7 +2729,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "I2C0_SDA" bidirectional line)
 					(alternate "PWM0_A" output line)
 					(alternate "SPI0_RX" input line)
@@ -3289,7 +3288,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "I2C0_SDA" bidirectional line)
 					(alternate "PWM0_A" output line)
 					(alternate "SPI0_RX" input line)
@@ -3314,7 +3312,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "I2C0_SCL" bidirectional clock)
 					(alternate "PWM0_B" bidirectional line)
 					(alternate "UART0_RX" input line)
@@ -3338,7 +3335,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "" input line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "PWM1_A" output line)
@@ -5357,7 +5353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
 			(at 85.09 217.17 0)
 			(effects
 				(font
@@ -5767,7 +5763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pico-CAN:JLC-OSC-SMD3225-4P"
+		(property "Footprint" "Pico-CAN:ECS-5032MV"
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -5776,7 +5772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/JLC-C2901552.pdf"
+		(property "Datasheet" "Components/ECS-5032MV.pdf"
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -5794,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Shenzhen SCTF Elec"
+		(property "MFG" "ECS Inc."
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -5803,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "SX3M4.000M20F30TNN"
+		(property "MFG P/N" "ECS-5032MV-40-CN-TR"
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -5812,7 +5808,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "JLCPCB"
+		(property "DIST" "Digikey"
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -5821,7 +5817,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" " C2901552"
+		(property "DIST P/N" "XC3114CT-ND"
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -5830,7 +5826,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2901552"
+		(property "LCSC Part #" ""
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -5888,7 +5884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
 			(at 85.09 227.33 0)
 			(effects
 				(font
@@ -7595,7 +7591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
 			(at 85.09 232.41 0)
 			(effects
 				(font
@@ -8339,7 +8335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
 			(at 85.09 222.25 0)
 			(effects
 				(font

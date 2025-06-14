@@ -173,7 +173,7 @@
 		(uuid "0f32f0af-dd47-479b-832c-707cc4b4e79b")
 	)
 	(embedded_fonts no)
-	(model "/home/scott/Documents/Projects/FRC/PI-Power-Board/3dModels/ECS-5032MV-400-CN-TR.STEP"
+	(model "${KIPRJMOD}/3dModels/ECS-5032MV-400-CN-TR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
