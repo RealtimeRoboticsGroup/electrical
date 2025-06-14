@@ -2,5 +2,5 @@
 "1","8","A1,C1-C5,J1,R1","0.1uF-25V-10%-0805,1.50k-1%-0805,Expansion,RaspberryPi_Pico2","","","",""
 "2","2","J2,J3","CAN1","Molex","0015912025","Digikey","WM1340-ND"
 "3","1","U1","MCP2558FD","Microchip","MCP2558FD-H/SN","Digikey","MCP2558FD-H/SN-ND"
-"4","1","U2","4.0 MHz","Shenzhen SCTF Elec","SX3M4.000M20F30TNN","JLCPCB"," C2901552"
+"4","1","U2","4.0 MHz","ECS Inc.","ECS-5032MV-40-CN-TR","Digikey","XC3114CT-ND"
 "5","1","U3","MCP2518FDT-H/SL","Microchip","MCP2518FDT-H/SL","Digikey","MCP2518FDT-H/SLCT-ND"

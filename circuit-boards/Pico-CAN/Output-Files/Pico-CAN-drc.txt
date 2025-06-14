@@ -1,13 +1,27 @@
 ** Drc report for Pico-CAN.kicad_pcb **
-** Created on 2025-06-09T20:56:44-0700 **
+** Created on 2025-06-13T20:07:25-0700 **
 
-** Found 1 DRC violations **
+** Found 5 DRC violations **
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.7mm' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(9170.08 mils, 5941.73 mils): Footprint H4
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.7mm' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(6814.17 mils, 5941.73 mils): Footprint H3
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.7mm' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(9170.08 mils, 4255.12 mils): Footprint H2
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.7mm' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(6814.17 mils, 4255.12 mils): Footprint H1
 [lib_footprint_mismatch]: Footprint 'RaspberryPi_Pico_Common_Unspecified' does not match copy in library 'Module'.
     Local override; warning
     @(7613.78 mils, 5101.18 mils): Footprint A1
 
 ** Found 0 unconnected pads **
 
-** Found 0 Footprint errors **
+** Found 1 Footprint errors **
+[missing_footprint]: Missing footprint D1 (PESD1CAN)
+    Local override; warning
 
 ** End of Report **
