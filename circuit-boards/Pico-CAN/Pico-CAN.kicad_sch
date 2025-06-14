@@ -2201,334 +2201,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pico-CAN:PESD1CAN"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D?"
-				(at 1.2699 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PESD1CAN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "Components/Nexperia-PESD1CAN.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFG" "Nexperia"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFG P/N" "PESD1CAN,215"
-				(at 3.8099 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "DIST" "Digikey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DIST P/N" "1727-3817-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PESD1CAN_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.524) (xy -1.27 -3.556) (xy -0.762 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -6.604) (xy -1.27 -8.636) (xy -0.762 -8.636)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy 0.762 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -2.54) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -7.62) (xy 3.175 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.524) (xy -1.27 -2.54) (xy 0.762 -3.556) (xy 0.762 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -6.604) (xy -1.27 -7.62) (xy 0.762 -8.636) (xy 0.762 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -3.556) (xy 4.826 -2.54) (xy 2.794 -1.524) (xy 2.794 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -8.636) (xy 4.826 -7.62) (xy 2.794 -6.604) (xy 2.794 -8.636)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 6.35 -2.54) (xy 6.35 -7.62) (xy 4.445 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 -2.54) (xy 2.794 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 -3.556) (xy 4.826 -1.524) (xy 4.318 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 -7.62) (xy 2.794 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 -8.636) (xy 4.826 -6.604) (xy 4.318 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD1CAN_1_1"
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -7.62 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -5.08 180)
-					(length 2.54)
-					(name "KK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Pico-CAN:RaspberryPi_Pico2"
 			(pin_names
 				(offset 0.762)
@@ -3900,12 +3572,6 @@
 		)
 	)
 	(junction
-		(at 332.74 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20a79805-852b-4d1d-ae07-3804ca145698")
-	)
-	(junction
 		(at 49.53 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3934,12 +3600,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce5685e0-960b-44c4-b39b-72644af55360")
-	)
-	(junction
-		(at 327.66 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e05e43e2-da3c-433f-a908-27e6c3c7c6ba")
 	)
 	(junction
 		(at 67.31 128.27)
@@ -4017,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 110.49) (xy 327.66 110.49)
+			(xy 309.88 110.49) (xy 353.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4124,16 +3784,6 @@
 			(type default)
 		)
 		(uuid "2668dbf3-ad78-40f4-9422-1d7aec709b7a")
-	)
-	(wire
-		(pts
-			(xy 327.66 110.49) (xy 353.06 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27621da5-cd10-4569-87c6-d97a0d77a90b")
 	)
 	(wire
 		(pts
@@ -4317,7 +3967,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 113.03) (xy 332.74 113.03)
+			(xy 309.88 113.03) (xy 350.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4407,16 +4057,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 113.03) (xy 332.74 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d9541f-78b7-4a17-a9a7-db2183513153")
-	)
-	(wire
-		(pts
 			(xy 49.53 140.97) (xy 52.07 140.97)
 		)
 		(stroke
@@ -4464,16 +4104,6 @@
 			(type default)
 		)
 		(uuid "7845fb3b-6dca-41c8-a239-fc8d7b78ba3b")
-	)
-	(wire
-		(pts
-			(xy 332.74 113.03) (xy 350.52 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c098723-26c8-4682-af42-c33d5b1eb7a6")
 	)
 	(wire
 		(pts
@@ -4674,16 +4304,6 @@
 			(type default)
 		)
 		(uuid "a7393685-8dfc-4564-ba49-badcf3ea180b")
-	)
-	(wire
-		(pts
-			(xy 327.66 110.49) (xy 327.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa63c07d-fc5b-4e09-97ea-2589bc6c1af5")
 	)
 	(wire
 		(pts
@@ -7304,71 +6924,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 330.2 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8341de04-0171-475e-8f25-f9b808138713")
-		(property "Reference" "#PWR023"
-			(at 330.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 330.2 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b779ab8-4cd3-459d-9eac-369d33530213")
-		)
-		(instances
-			(project "Pico-CAN"
-				(path "/7933eff1-4657-450a-9155-0a77075ba053"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 308.61 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7687,133 +7242,6 @@
 			(project "Pico-CAN"
 				(path "/7933eff1-4657-450a-9155-0a77075ba053"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pico-CAN:PESD1CAN")
-		(at 335.28 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "9f897330-8731-4b1d-b8c6-3fa8308476f6")
-		(property "Reference" "D1"
-			(at 335.28 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD1CAN"
-			(at 335.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 335.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Nexperia-PESD1CAN.pdf"
-			(at 335.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Nexperia"
-			(at 335.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "PESD1CAN,215"
-			(at 335.28 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 335.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "1727-3817-1-ND"
-			(at 335.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 335.28 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2984756"
-			(at 335.28 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "633c1940-1271-4b73-9df6-b2f58312ce7f")
-		)
-		(pin "1"
-			(uuid "0ff324f6-fce5-4ebf-8735-ce2143410d7f")
-		)
-		(pin "3"
-			(uuid "c65d17b1-620e-4fa4-be66-f6c9265681d4")
-		)
-		(instances
-			(project ""
-				(path "/7933eff1-4657-450a-9155-0a77075ba053"
-					(reference "D1")
 					(unit 1)
 				)
 			)
