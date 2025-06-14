@@ -1,5 +1,5 @@
 ** Drc report for Pico-CAN.kicad_pcb **
-** Created on 2025-06-13T20:07:25-0700 **
+** Created on 2025-06-14T11:55:51-0700 **
 
 ** Found 5 DRC violations **
 [lib_footprint_mismatch]: Footprint 'MountingHole_3.7mm' does not match copy in library 'MountingHole'.
@@ -20,8 +20,6 @@
 
 ** Found 0 unconnected pads **
 
-** Found 1 Footprint errors **
-[missing_footprint]: Missing footprint D1 (PESD1CAN)
-    Local override; warning
+** Found 0 Footprint errors **
 
 ** End of Report **

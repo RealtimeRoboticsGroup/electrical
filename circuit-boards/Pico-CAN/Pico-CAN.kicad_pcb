@@ -244,6 +244,58 @@
 				)
 			)
 		)
+		(property "DIST" "Digikey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d4cfdf2-1bb1-4a81-9ab9-2be77e8e4506")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST P/N" "CC0805KRX7R8BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8408629-8963-4de5-bd01-a7e284aa0b18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41b9a299-abb0-46e5-823c-783f19b2653b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG P/N" "311-1141-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "759d3d13-5e8e-4f86-9460-bf381cc96d8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3757a116-190f-4ca4-a7f8-9a8cc7750d6e")
 		(sheetname "/")
@@ -774,7 +826,7 @@
 				)
 			)
 		)
-		(property "Value" "CAN1"
+		(property "Value" "CAN"
 			(at 0 -0.27 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -786,7 +838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Components/Molex-015912055_sd.pdf"
+		(property "Datasheet" "Components/Molex-70555-0001.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -823,7 +875,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "0015912025"
+		(property "MFG P/N" "0705550036"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -849,7 +901,7 @@
 				)
 			)
 		)
-		(property "DIST P/N" "WM1340-ND"
+		(property "DIST P/N" "WM4175-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1915,6 +1967,58 @@
 				)
 			)
 		)
+		(property "DIST" "Digikey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f949f228-9761-456a-94dc-65e4a0b22f42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST P/N" "CC0805KRX7R8BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbd8c80d-9b5d-4f64-91ee-091384ef4aaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e918c1f5-b819-4dbe-bd75-8f8cd2cc4612")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG P/N" "311-1141-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "973096e9-877a-4c8c-820d-cc588367fc47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0e367e52-ad43-4e7d-b522-33e068d9ec08")
 		(sheetname "/")
@@ -2114,12 +2218,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "MFG" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d2f9b04-72b2-420b-9f7a-9ccf2cf03de3")
+			(uuid "e7019bea-a89e-4ff0-972a-f472a0a6195b")
 			(effects
 				(font
 					(size 1 1)
@@ -2127,12 +2231,38 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C114555"
+		(property "MFG P/N" "RC0805FR-071K5L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "782448f0-e68c-4451-aa51-cfec4085dd26")
+			(uuid "ea23a510-af64-4fa0-94e0-e87072d45ad2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d66d7d0-d6c4-40b0-b7f2-b1d4acb6e545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST P/N" "311-1.50KCRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eec9ae53-fafb-456b-899e-fcb34f733d89")
 			(effects
 				(font
 					(size 1 1)
@@ -2987,6 +3117,58 @@
 				)
 			)
 		)
+		(property "DIST" "Digikey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0681ec2b-68cd-45cd-8010-bf55a54af131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST P/N" "CC0805KRX7R8BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfc3295b-7e7c-4a36-ae31-4b99bc23a816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95abb4de-54d2-4969-b38d-80374de54cc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG P/N" "311-1141-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d2b677c-b5de-48a6-b3e3-a6356d0f4571")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b1fe56e4-e8e3-47df-b4d2-074fd6ad9106")
 		(sheetname "/")
@@ -3150,7 +3332,7 @@
 				)
 			)
 		)
-		(property "Value" "CAN1"
+		(property "Value" "CAN"
 			(at 0 -0.27 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3162,7 +3344,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Components/Molex-015912055_sd.pdf"
+		(property "Datasheet" "Components/Molex-70555-0001.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3199,7 +3381,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "0015912025"
+		(property "MFG P/N" "0705550036"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3225,7 +3407,7 @@
 				)
 			)
 		)
-		(property "DIST P/N" "WM1340-ND"
+		(property "DIST P/N" "WM4175-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3897,6 +4079,58 @@
 				)
 			)
 		)
+		(property "DIST" "Digikey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0405e97f-fbe0-4d61-90ee-5c9da81cd259")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST P/N" "CC0805KRX7R8BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90cfd8b3-d649-46a7-9ed7-107f72ad1171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12a2b64b-fa05-4e75-8ce7-bebb0bcdd811")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG P/N" "311-1141-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36250895-363b-4e16-ae9b-3838d5755b93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4f02b641-fc9e-4a1f-80cb-094bcffe37b3")
 		(sheetname "/")
@@ -4122,6 +4356,58 @@
 				)
 			)
 		)
+		(property "DIST" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ef3cac1-f2aa-41fc-829f-4b81a0bbd2da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST P/N" "CC0805KRX7R8BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e125604d-a605-41f6-b884-a7c33361006f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39060755-8adc-4821-bbef-b541ff965d6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG P/N" "311-1141-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "699e836b-dd16-4f51-b3c1-cd0c4ee0bba5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/56e1c680-b569-42b2-8471-04d7a7c4115e")
 		(sheetname "/")
@@ -4320,6 +4606,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG" "Raspberry Pi"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77b64525-1139-4467-8cf1-165027ef7746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG P/N" "SC1631"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "059c6a36-cbc1-4db1-a6ce-eae60cfdf0df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88c5a544-6880-4c4c-b6ba-41b4a760caca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST P/N" "2648-SC1631CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2286526-6652-4d29-adc8-2838c3e973f9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7013,7 +7351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Components/Sullins-11636.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7033,6 +7371,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73e68e11-428f-4fcd-a6ff-20d2ca84026b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG P/N" "PRPC013DAAN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32cb24f8-de28-4e03-9f45-33c2295b1062")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24013db2-7e5d-4e85-b18d-88876b79563f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIST P/N" "S2011EC-13-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4c2eedf-7281-4bfa-98ad-c7de091c4594")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

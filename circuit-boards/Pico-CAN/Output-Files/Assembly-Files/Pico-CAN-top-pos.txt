@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-06-13T20:07:32-0700 ###
+### Footprint positions - created on 2025-06-14T11:55:56-0700 ###
 ### Printed by KiCad version 9.0.2-9.0.2-0~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -10,8 +10,8 @@ C3        0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     8.
 C4        0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     8.6900    -5.4870  180.0000  top
 C5        0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     8.5710    -5.6470   90.0000  top
 J1        Expansion           PinHeader_2x13_P2.54mm_Vertical                 6.7400    -4.4950    0.0000  top
-J2        CAN1                70555-0001                                      8.3201    -4.5528   90.0000  top
-J3        CAN1                70555-0001                                      8.7008    -4.5509   90.0000  top
+J2        CAN                 70555-0001                                      8.3201    -4.5528   90.0000  top
+J3        CAN                 70555-0001                                      8.7008    -4.5509   90.0000  top
 R1        1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.2797    -5.0150  180.0000  top
 U1        MCP2558FD           SO-8_3.9x4.9mm_P1.27mm                          8.6889    -5.2634   90.0000  top
 U2        4.0_MHz             ECS-5032MV                                      8.2841    -5.3029  180.0000  top
