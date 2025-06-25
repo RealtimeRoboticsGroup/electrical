@@ -67,12 +67,16 @@ void led1_off(void)
 
 void led2_on(void)
 {
+#ifdef LED_2
     gpio_put(LED_2, 1);
+#endif
 }
 
 void led2_off(void)
 {
+#ifdef LED_2
     gpio_put(LED_2, 0);
+#endif
 }
 
 void led_test(void)
