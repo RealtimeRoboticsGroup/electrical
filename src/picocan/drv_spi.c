@@ -104,9 +104,23 @@ void set_spi_pins(void)
     gpio_init(CS_FD1);
     gpio_set_dir(CS_FD1, GPIO_OUT);
     gpio_put(CS_FD1, 1);
+#ifdef CS_FD2   
     gpio_init(CS_FD2);
     gpio_set_dir(CS_FD2, GPIO_OUT);
     gpio_put(CS_FD2, 1);
+#endif
+    gpio_init(INT_IN);
+    gpio_set_dir(INT_IN,GPIO_IN);
+    gpio_pull_up(INT_IN);
+    gpio_init(INT_TX_IN);
+    gpio_set_dir(INT_TX_IN,GPIO_IN);
+    gpio_pull_up(INT_TX_IN);
+    gpio_init(INT_RX_IN);
+    gpio_set_dir(INT_RX_IN,GPIO_IN);
+    gpio_pull_up(INT_RX_IN);
+    gpio_init(XCVR_TX_ENABLE);
+    gpio_set_dir(XCVR_TX_ENABLE,GPIO_OUT);
+    gpio_put(XCVR_TX_ENABLE,0);  //Set MCP2558 sleep to 0 to enable
 }
 
 
@@ -124,12 +138,14 @@ int8_t DRV_SPI_TransferData(uint8_t spiSlaveDeviceIndex, uint8_t *SpiTxData, uin
 		spi_write_read_blocking(SPI_DEVICE, SpiTxData, SpiRxData, spiTransferSize);
 		gpio_put(CS_FD1, 1); // Deselect MCP2518FD	
 	}
+  #ifdef ENABLE_CAN2
 	else if (spiSlaveDeviceIndex == CAN2)
 	{
 		gpio_put(CS_FD2, 0); // Select MCP2518FD
 		spi_write_read_blocking(SPI_DEVICE, SpiTxData, SpiRxData, spiTransferSize);
 		gpio_put(CS_FD2, 1); // Deselect MCP2518FD	
 	}
+  #endif
 
   return 0;
 }
@@ -151,8 +167,9 @@ void spi_master_init(void)
 
     // Set the chip select pin for the MCP25xxFD as a GPIO port
     gpio_set_function(CS_FD1, GPIO_FUNC_SIO);
+#ifdef CS_FD2
     gpio_set_function(CS_FD2, GPIO_FUNC_SIO);
-
+#endif
 }
 
 //#define USE_SPI_FUNCTIONS

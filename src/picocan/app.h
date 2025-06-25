@@ -66,7 +66,7 @@ DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 //#define TEST_SPI
 
 //! Use RX and TX Interrupt pins to check FIFO status
-//#define APP_USE_RX_INT
+#define APP_USE_RX_INT
 
 #define MAX_TXQUEUE_ATTEMPTS 50
 
@@ -88,14 +88,10 @@ DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 
 #define APP_LED_TIME    50000
 
-// Interrupts
-/*#define INT_IN			EXT1_PIN_9
-#define INT_TX_IN		EXT1_PIN_13
-//#define INT_RX_IN		EXT1_PIN_14
 
-#define APP_INT()		(!ioport_get_pin_level(INT_IN))	
-#define APP_TX_INT()	(!ioport_get_pin_level(INT_TX_IN))
-#define APP_RX_INT()	(!ioport_get_pin_level(INT_RX_IN))
+#define APP_INT()		(!gpio_get(INT_IN))	
+#define APP_TX_INT()	(!gpio_get(INT_TX_IN))
+#define APP_RX_INT()	(!gpio_get(INT_RX_IN))
 
 // Test output
 #define TST1_OUT	EXT1_PIN_5*/

@@ -11,6 +11,7 @@ https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments
 #ifndef COMMON_H_
 #define COMMON_H_
 
+#include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
@@ -22,35 +23,32 @@ https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments
 #include "pico/binary_info.h"
 #include "drv_spi.h"
 #include "drv_canfdspi_api.h"
-#include "pcf85063.h"
 #ifndef PICO_DEFAULT_LED_PIN
 #include "pico/cyw43_arch.h"
 #endif
 
-#define MOSI_PIN	3   //RPI_PIN19 SPI0_TX
-#define MISO_PIN	0   //RPI_PIN21 SPI0_RX
-#define SCK_PIN		2	  //RPI_PIN23 SPI0_SCK
-#define CS_FD1 		1   //RPI_PIN24 SPI0_CS0
-#define CS_FD2 		9	  //RPI_PIN26 SPI0_CS1
-#define INT_FD1 	26	//RPI_PIN18 GP26
-#define INT_FD2 	12	//RPI_PIN22 IRQ2
-#define LED_1 		18	//RPI_PIN13 LED1
-#define LED_2 		19	//RPI_PIN7 LED2
-#define SDA_PIN  	20	//RPI_PIN3 I2C_0_SDA
-#define SCL_PIN  	21	//RPI_PIN5 I2C_0_SCL
+// GPIO Definitions
+#define MOSI_PIN	19  //RPI_PIN19 SPI0_TX
+#define MISO_PIN	20  //RPI_PIN21 SPI0_RX
+#define SCK_PIN		22  //RPI_PIN23 SPI0_SCK
+#define CS_FD1 		21  //RPI_PIN24 SPI0_CS0
+#define LED_1 		25	//RPI_PIN13 LED1
+#define INT_IN			17
+#define INT_TX_IN		26
+#define INT_RX_IN		18
+#define XCVR_TX_ENABLE 28
 
-#define ENABLE_RTC
+
 #define ENABLE_CAN1
-#define ENABLE_CAN2
 
 #define CAN1	1
-#define CAN2	2
+//#define CAN2	2
 
 #define SPI_DEVICE spi0
 
 #define DRV_CANFDSPI_INDEX_0 0 
 
-#define LED_COUNT 2
+#define LED_COUNT 1
 
 //#define STATE_MACHINE_DEBUG
 
