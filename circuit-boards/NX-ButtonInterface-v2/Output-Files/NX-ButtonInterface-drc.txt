@@ -1,0 +1,10 @@
+** Drc report for NX-ButtonInterface.kicad_pcb **
+** Created on 2025-01-15T16:25:39-0800 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
