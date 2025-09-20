@@ -1,0 +1,25 @@
+### Footprint positions - created on 2025-09-19T23:05:14-0700 ###
+### Printed by KiCad version 9.0.4-9.0.4-0~ubuntu24.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val              Package                   PosX       PosY       Rot  Side
+D1        QTLP651C4TR      LED_1206_3216Metric     7.3849    -4.9648    0.0000  top
+D2        QTLP651C4TR      LED_1206_3216Metric     7.7786    -4.9648    0.0000  top
+D3        QTLP651C4TR      LED_1206_3216Metric     8.1723    -4.9648    0.0000  top
+D4        QTLP651C4TR      LED_1206_3216Metric     8.5660    -4.9648    0.0000  top
+D5        QTLP651C4TR      LED_1206_3216Metric     8.9597    -4.9648    0.0000  top
+D6        MMSD914T3G       D_SOD-123               7.1930    -4.9648    0.0000  top
+F1        ATM_Fuse_Holder  Keystone-3568           7.3082    -4.5558  -90.0000  top
+F2        ATM_Fuse_Holder  Keystone-3568           7.7019    -4.5558  -90.0000  top
+F3        ATM_Fuse_Holder  Keystone-3568           8.0956    -4.5558  -90.0000  top
+F4        ATM_Fuse_Holder  Keystone-3568           8.4893    -4.5558  -90.0000  top
+F5        ATM_Fuse_Holder  Keystone-3568           8.8830    -4.5558  -90.0000  top
+J1        2604-1102        Wago-2604-1102          6.8889    -4.8447  -90.0000  top
+J2        2604-1102        Wago-2604-1102          9.3180    -5.0849   90.0000  top
+J3        2604-1110        Wago-2604-1110          7.1964    -5.2418    0.0000  top
+R1        1k-1%-1206       R_1206_3216Metric       7.5050    -4.7507   90.0000  top
+R2        1k-1%-1206       R_1206_3216Metric       7.8987    -4.7507   90.0000  top
+R3        1k-1%-1206       R_1206_3216Metric       8.2924    -4.7507   90.0000  top
+R4        1k-1%-1206       R_1206_3216Metric       8.6861    -4.7507   90.0000  top
+R5        1k-1%-1206       R_1206_3216Metric       9.0798    -4.7507   90.0000  top
+## End
