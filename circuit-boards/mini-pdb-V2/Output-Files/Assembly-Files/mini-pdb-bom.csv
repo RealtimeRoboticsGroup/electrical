@@ -1,0 +1,8 @@
+"Item","QUANTITY","Reference","Value","MFG","MFG P/N","DIST","DIST P/N"
+"1","1","D6","MMSD914T3G","onsemi","MMSD914T3G","Digikey","MMSD914T3GOSCT-ND"
+"2","5","D1-D5","QTLP651C4TR","Everlight Electronics Co Ltd","QTLP651C4TR","DIGIKEY","QTLP651C4TR"
+"3","5","F1-F5","ATM Fuse Holder","Keystone","3568","Digikey","36-3568-ND"
+"4","5","FUSE1-FUSE5","7.5A","Littelfuse Inc.","029707.5L","DIGIKEY","F4269-ND"
+"5","1","J3","2604-1110","WAGO","2604-1110","DIGIKEY","2946-2604-1110-ND"
+"6","2","J1,J2","2604-1102","WAGO","2604-1102","DIGIKEY","2946-2604-1102-ND"
+"7","5","R1-R5","1k-1%-1206","Stackpole Electronics Inc","RMCF1206FT1K00","DIGIKEY","RMCF1206FT1K00"
