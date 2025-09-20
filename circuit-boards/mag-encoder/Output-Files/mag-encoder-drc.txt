@@ -1,5 +1,5 @@
 ** Drc report for mag-encoder.kicad_pcb **
-** Created on 2025-01-05T10:30:38-0800 **
+** Created on 2025-09-20T10:39:02-0700 **
 
 ** Found 0 DRC violations **
 
