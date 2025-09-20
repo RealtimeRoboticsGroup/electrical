@@ -3,7 +3,7 @@
 "2","1","D2","FAR","Wurth Electronik","150060RS75000","Digikey","732-4978-1-ND"
 "3","1","D4","CLS","Wurth Electronik","150060YS75000","Digikey","732-4981-1-ND"
 "4","1","D5","MMSD4148T1G","onsemi","MMSD4148T1G","Digikey","MMSD4148T1GOSCT-ND"
-"5","2","D1,D3","-- mixed values --","Wurth Electronik","150060VS75000","Digikey","732-4980-1-ND"
+"5","2","D1,D3","OK,ON","Wurth Electronik","150060VS75000","Digikey","732-4980-1-ND"
 "6","1","J2","0015912055","Molex","0015912055","Digikey","WM1343-ND"
 "7","3","R1-R3","100R-1%-0603","YAGEO","RC0603FR-07100RL","Digikey","311-100HRCT-ND"
 "8","3","R4,R6,R7","1.00k-1%-0603","YAGEO","RC0603FR-071KL","Digikey","311-1.00KHRCT-ND"
