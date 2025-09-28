@@ -1735,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 161.29 82.55)
+			(xy 161.29 73.66) (xy 161.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 161.29 92.71)
+			(xy 161.29 87.63) (xy 161.29 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2222,118 +2222,6 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 161.29 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09fa9996-4fba-4f46-a768-8af99637ace1")
-		(property "Reference" "R11"
-			(at 158.75 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.99k-1%-0805"
-			(at 158.75 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 162.306 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/YageoPYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 161.29 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 161.29 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0805FR-07499RL"
-			(at 161.29 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 161.29 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "311-499CRCT-ND"
-			(at 161.29 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b4ad179-2095-40a2-a3ab-46c96147831a")
-		)
-		(pin "2"
-			(uuid "801adf6c-12d1-4999-a557-2b5a1e232c0f")
-		)
-		(instances
-			(project "PI-Power-Board"
-				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-			(project "NX-J401-Adapter"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2936,6 +2824,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 264.16 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7eeeebbb-e764-4a8c-ab91-5ac0cb4b9443")
+		(property "Reference" "J1"
+			(at 263.525 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_OUT"
+			(at 263.525 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:Weidmuller-1824740000"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/Wurth-0691406510002B.pdf"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Weidmuller"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "1824740000"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "281-2110-ND"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "950ec257-1a4b-40f1-a942-50a943c8283c")
+		)
+		(pin "2"
+			(uuid "5fb1bace-7e54-4001-97dc-bbea39cd4b84")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Graphic:SYM_Arrow_Large")
 		(at 284.48 114.3 0)
 		(unit 1)
@@ -3419,6 +3410,109 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 161.29 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b64d5b3-cb66-457b-aaf2-4b558bd98ad0")
+		(property "Reference" "R11"
+			(at 160.02 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.10k-1%-0805"
+			(at 163.322 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 162.306 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/YageoPYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Yageo"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RC0805FR-075K1L"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "311-5.10KCRCT-ND"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "289de14c-d1d3-483b-a6b7-76a1f73aeecb")
+		)
+		(pin "2"
+			(uuid "65fd8acb-de7f-473b-bbff-5eef64e9de25")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4074,7 +4168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NX-J401-Adapter:Wurth-691406510002B"
+		(property "Footprint" "NX-J401-Adapter:Weidmuller-1824740000"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -4101,7 +4195,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Wurth"
+		(property "MFG" "Weidmuller"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -4110,7 +4204,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "691406510002B"
+		(property "MFG P/N" "1824740000"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -4128,7 +4222,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "732-691406510002B-ND"
+		(property "DIST P/N" "281-2110-ND"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -4147,109 +4241,6 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 264.16 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9a5cb78-867e-4b1d-bc39-3c6859c47024")
-		(property "Reference" "J1"
-			(at 263.525 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "18V_OUT"
-			(at 263.525 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:CONN_69140872_WRE"
-			(at 264.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Wurth-691408720002B.pdf"
-			(at 264.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Würth Elektronik"
-			(at 264.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "691408720002B"
-			(at 264.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 264.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "732-691408720002B-ND"
-			(at 264.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9527056d-7978-476d-89f5-33e8b54c98b7")
-		)
-		(pin "2"
-			(uuid "15bc3816-0526-4ea6-8e33-9ae36c97e220")
-		)
-		(instances
-			(project "NX-J401-Adapter"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J1")
 					(unit 1)
 				)
 			)
