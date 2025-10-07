@@ -8112,7 +8112,7 @@
 	(footprint "Logos:WCP-Logo_250"
 		(layer "B.Cu")
 		(uuid "f7050043-62e4-46a1-bbce-391595309bd0")
-		(at 229.362 115.824 180)
+		(at 220.218 115.57 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -52195,8 +52195,8 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "Mini Power Distribution Board"
-		(at 224.663 116.967 0)
+	(gr_text "Mini Power Board"
+		(at 215.519 116.713 0)
 		(layer "B.SilkS")
 		(uuid "fdfd58cd-b10b-4a66-afd7-9ac16d54bf61")
 		(effects
