@@ -12,7 +12,7 @@ gerberfiles="./Output-Files/Gerbers/"
 pushd ${assemblyfiles}
 $pdfviewer *.pdf &
 $csvviewer *.csv &
-$htmlviewer *.html &
+#$htmlviewer *.html &
 $txtviewer *.txt &
 popd
 
@@ -22,6 +22,6 @@ popd
 
 pushd ${gerberfiles}
 $pdfviewer *.pdf &
-$gerberviewer *.gbr *.drl &
+$gerberviewer *.g?? *.drl &
 popd
 

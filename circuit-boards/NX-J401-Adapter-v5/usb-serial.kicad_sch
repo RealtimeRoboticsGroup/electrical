@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2025-09-13")
+		(date "2025-10-19")
 		(rev "5")
 	)
 	(lib_symbols
@@ -3353,7 +3353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "113ad507-2b6c-4a78-b902-1485178243c8")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 210.82 189.23 0)
 			(effects
 				(font
@@ -3442,7 +3442,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "180007bf-fb5d-44aa-84cb-a0af7bfd197c")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 153.67 130.81 0)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3561,7 +3561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bd50b0e-ffa9-4561-ba32-93fdc07c749f")
-		(property "Reference" "C15"
+		(property "Reference" "C18"
 			(at 115.57 130.81 0)
 			(effects
 				(font
@@ -3650,7 +3650,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "C15")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3665,7 +3665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c523ef9-0626-433a-8d9a-1ab62921bd25")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 128.27 189.23 0)
 			(effects
 				(font
@@ -3754,7 +3754,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3834,7 +3834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "274999dc-9fde-4d25-a5a7-1c9f07928aa2")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 320.04 106.68 0)
 			(effects
 				(font
@@ -3924,7 +3924,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3940,7 +3940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "447a3946-408b-47d9-a3b9-bc8576cbc7b6")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 280.67 93.98 0)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4109,7 +4109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "507b2423-c4a2-4417-a6a5-e3a0f00f9ee8")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 123.698 156.21 90)
 			(effects
 				(font
@@ -4197,7 +4197,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4791,7 +4791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9375829a-7855-4fac-acba-58ee96582656")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 113.538 158.75 90)
 			(effects
 				(font
@@ -4879,7 +4879,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5024,7 +5024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af1f2a3b-6824-4941-9f88-884b667035c5")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 138.43 189.23 0)
 			(effects
 				(font
@@ -5113,7 +5113,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)

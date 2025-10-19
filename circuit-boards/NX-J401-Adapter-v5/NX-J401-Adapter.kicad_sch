@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2025-09-13")
+		(date "2025-10-19")
 		(rev "5")
 	)
 	(lib_symbols
@@ -1656,6 +1656,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "12mm M2.5 threaded standoff \nMcMaster: 95947A007"
+		(exclude_from_sim no)
+		(at 47.752 245.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+			(href "https://www.mcmaster.com/95947A007/")
+		)
+		(uuid "e289fc35-48d1-425a-bd4a-d8d97bb42bf7")
+	)
 	(text "Spacer - OD: 4mm\nScrew  - M2 - 1.9mm OD\n\n"
 		(exclude_from_sim no)
 		(at 345.44 80.01 0)
@@ -2236,7 +2248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d94f451-2956-4842-a525-4fb208c6e259")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 164.592 94.996 90)
 			(effects
 				(font
@@ -2326,7 +2338,7 @@
 		(instances
 			(project ""
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2857,7 +2869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Wurth-0691406510002B.pdf"
+		(property "Datasheet" "Components/Weidmuller-1824740000.pdf"
 			(at 264.16 73.66 0)
 			(effects
 				(font
@@ -3424,7 +3436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b64d5b3-cb66-457b-aaf2-4b558bd98ad0")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 160.02 88.392 90)
 			(effects
 				(font
@@ -3512,7 +3524,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3786,7 +3798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbcbb54c-4d38-4fe8-87c2-3589a34fa010")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 187.452 166.116 90)
 			(effects
 				(font
@@ -3876,7 +3888,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4177,7 +4189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Wurth-0691406510002B.pdf"
+		(property "Datasheet" "Components/Weidmuller-1824740000.pdf"
 			(at 142.24 73.66 0)
 			(effects
 				(font
