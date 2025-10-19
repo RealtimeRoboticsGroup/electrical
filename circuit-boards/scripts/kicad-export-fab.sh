@@ -3,7 +3,7 @@ set -x
 
 num_layers=4
 component_layer=FRONTandBACK
-generate_ipc2581=1
+generate_ipc2581=0
 
 source ./kicad-fab.cfg
 
@@ -52,6 +52,12 @@ function export_gerber () {
     kicad-cli pcb export gerber --output "${GERBER_DIR}/${fname}-${layer_fname}.gbr" --layers ${layer} ${pcb}
 }
 
+function export_gerbers () {
+    layers=$1
+    layer_fname=$(echo $layer| tr "." _ )
+    kicad-cli pcb export gerbers --output "${GERBER_DIR}" --layers ${layers} ${pcb}
+}
+
 function update_bom_item_number () {
     set +x
     fileName=$1
@@ -76,7 +82,7 @@ FAB_DIR="./Output-Files/Assembly-Files/"
 GERBER_DIR="./Output-Files/Gerbers/"
 ZIP_DIR="./Output-Files/"
 
-rm -r ${ZIP_DIR}
+rm -rf ${ZIP_DIR}
 mkdir -p ${SCH_DIR}
 mkdir -p ${FAB_DIR}
 mkdir -p ${GERBER_DIR}
@@ -92,25 +98,28 @@ python3 $kicad_local_plugins/$ibom_exe --show-dialog $pcb
 kicad-cli sch export pdf --output "${SCH_DIR}/${fname}-sch.pdf" ${sch}
 
 #generate PCB gerbers
-for layer in ${gerber_layers//,/ }
-do
-    export_gerber ${layer}
-done
+#for layer in ${gerber_layers//,/ }
+#do
+#    export_gerber ${layer}
+#done
+
 
 case $component_layer in
     FRONTandBACK)
-        export_gerber F.Silkscreen 
-        export_gerber B.Silkscreen 
+        gerber_layers=${gerber_layers},F.Silkscreen,B.Silkscreen 
         ;;
     FRONT)
-        export_gerber F.Silkscreen 
+        gerber_layers=${gerber_layers},F.Silkscreen
         ;;
     BACK)
-        export_gerber B.Silkscreen 
+        gerber_layers=${gerber_layers},B.Silkscreen 
         ;;
     *)
         ;;
 esac
+export_gerbers ${gerber_layers}
+
+rm -f ${GERBER_DIR}/*.gbrjob
 
 #generate PCB NC drill file
 kicad-cli pcb export drill --output ${GERBER_DIR}/ ${pcb}
