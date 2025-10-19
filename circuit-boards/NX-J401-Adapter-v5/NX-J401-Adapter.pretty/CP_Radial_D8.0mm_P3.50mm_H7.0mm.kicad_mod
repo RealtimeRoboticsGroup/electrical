@@ -1704,7 +1704,7 @@
 		(uuid "f05d8793-3cbc-4e6e-85fd-259b54f24ba0")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dModels/Panasonic-25SEK120M.STEP"
+	(model "${KIPRJMOD}/3dModels/Panasonic_25SEK120M_CutLeads.step"
 		(offset
 			(xyz 1.75 0 0)
 		)
