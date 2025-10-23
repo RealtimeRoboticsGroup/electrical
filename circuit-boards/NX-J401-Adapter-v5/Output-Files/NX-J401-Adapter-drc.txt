@@ -1,27 +1,7 @@
 ** Drc report for NX-J401-Adapter.kicad_pcb **
-** Created on 2025-10-19T14:58:57-0700 **
+** Created on 2025-10-22T21:00:11-0700 **
 
-** Found 5 DRC violations **
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(12465.24 mils, 4140.84 mils): Segment of C4 on F.Silkscreen
-    @(12291.14 mils, 4140.22 mils): Segment of C10 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(12467.68 mils, 4139.27 mils): Segment of C4 on F.Silkscreen
-    @(12291.14 mils, 4140.22 mils): Segment of C10 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(12291.14 mils, 4140.22 mils): Segment of C10 on F.Silkscreen
-    @(12470.04 mils, 4137.69 mils): Segment of C4 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(12472.28 mils, 4136.12 mils): Segment of C4 on F.Silkscreen
-    @(12291.14 mils, 4140.22 mils): Segment of C10 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(12380.00 mils, 4003.83 mils): Circle of C4 on F.Silkscreen
-    @(12291.14 mils, 4140.22 mils): Segment of C10 on F.Silkscreen
+** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 
