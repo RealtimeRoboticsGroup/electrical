@@ -1985,25 +1985,25 @@
 		)
 		(uuid "00edeccd-2596-4be7-9faa-c9d12428587b")
 	)
-	(label "~{REC}"
-		(at 133.35 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02293983-e2cd-4732-a830-bea483258cec")
-	)
 	(label "GND1"
-		(at 133.35 152.4 0)
+		(at 130.81 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1f9f4397-3eb1-431b-be04-72e4b4d12a04")
+		(uuid "1c32e74a-ceac-4e9c-8512-637ac6d707a0")
+	)
+	(label "PC_LED-"
+		(at 130.81 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dcb504c-2894-481d-a260-0f4fea29f533")
 	)
 	(label "UART2_TXD"
 		(at 237.49 152.4 180)
@@ -2015,6 +2015,26 @@
 		)
 		(uuid "3cd41e22-f6b8-4731-aab9-50c9bf821d2e")
 	)
+	(label "~{SYS_RESET}"
+		(at 130.81 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e184db3-ad95-4895-aeec-c669af4c44f5")
+	)
+	(label "GND1"
+		(at 118.11 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fc099ef-6bba-4eb3-8796-835a517095fb")
+	)
 	(label "3V3"
 		(at 163.83 147.32 180)
 		(effects
@@ -2024,6 +2044,16 @@
 			(justify right bottom)
 		)
 		(uuid "4bff465f-2c7c-4082-a9c4-a4b85bc1e92b")
+	)
+	(label "~{REC}"
+		(at 130.81 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f27a1f7-b277-4730-838f-33b90ebc8e66")
 	)
 	(label "UART2_RXD"
 		(at 237.49 149.86 180)
@@ -2045,6 +2075,16 @@
 		)
 		(uuid "7f118ce5-fcdb-4775-9936-a7a22b5663e4")
 	)
+	(label "UART2_RXD"
+		(at 118.11 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "873b9a4d-4758-47c3-9d2f-81b47647b013")
+	)
 	(label "UART2_TXD"
 		(at 163.83 152.4 180)
 		(effects
@@ -2065,6 +2105,16 @@
 		)
 		(uuid "8be70ad1-8698-4523-b5d3-27a2c53da9da")
 	)
+	(label "3V3"
+		(at 130.81 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98269d3c-99c4-4f86-9912-f149651ed3e4")
+	)
 	(label "UART2_RXD"
 		(at 163.83 149.86 180)
 		(effects
@@ -2075,25 +2125,15 @@
 		)
 		(uuid "9c7ce5f1-b869-4423-aee6-8c64d542e0a5")
 	)
-	(label "UART2_RXD"
-		(at 120.65 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bccb4984-4c14-4152-b51a-b463bc6e9b67")
-	)
 	(label "GND1"
-		(at 120.65 157.48 180)
+		(at 118.11 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c9323707-998f-4ba9-8cc9-4a2ac8338c8c")
+		(uuid "c234f98e-66cb-4000-9dbf-c3bc6100486b")
 	)
 	(label "PC_LED+"
 		(at 163.83 160.02 180)
@@ -2105,6 +2145,26 @@
 		)
 		(uuid "e384b8f0-6f05-4b9f-bf3d-43bd417e6935")
 	)
+	(label "PC_LED+"
+		(at 118.11 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebe1a5e4-205c-44ad-bc13-d9457cf0d53d")
+	)
+	(label "UART2_TXD"
+		(at 118.11 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef9a713a-c665-40e0-9ee1-b91453dfbbb4")
+	)
 	(label "~{SYS_RESET}"
 		(at 163.83 154.94 180)
 		(effects
@@ -2114,66 +2174,6 @@
 			(justify right bottom)
 		)
 		(uuid "f1b48996-4cdd-4e6f-bbdf-b931e3173370")
-	)
-	(label "3V3"
-		(at 133.35 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f23be201-6b95-4bcf-9bf9-1160a75bae10")
-	)
-	(label "PC_LED-"
-		(at 133.35 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f447894d-58f6-4e63-b6d7-f20ec73e7902")
-	)
-	(label "PC_LED+"
-		(at 120.65 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f725dc17-e410-462c-855c-b47cc95fe2f0")
-	)
-	(label "GND1"
-		(at 120.65 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f9cadf5d-69d6-4725-8bdd-0c1d8a9e7827")
-	)
-	(label "UART2_TXD"
-		(at 120.65 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa71c968-f53f-49a0-9e3a-0a3cfd7afb59")
-	)
-	(label "~{SYS_RESET}"
-		(at 133.35 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbe5eac9-bdc9-425d-a53b-b4c477c731ef")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -2452,6 +2452,70 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 260.35 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26c58262-91df-4c99-8a26-1a3763f1194a")
+		(property "Reference" "H12"
+			(at 262.89 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tooling Hole"
+			(at 262.89 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 260.35 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 217.17 254 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2509,6 +2573,70 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 237.49 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f354daa-d3f6-4790-bf84-c08efe5f8fbb")
+		(property "Reference" "H10"
+			(at 240.03 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tooling Hole"
+			(at 240.03 261.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 237.49 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -2764,6 +2892,70 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 260.35 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b8ea5d1-8008-4567-924c-ce97bf05042e")
+		(property "Reference" "H11"
+			(at 262.89 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tooling Hole"
+			(at 262.89 248.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 260.35 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -3661,8 +3853,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 217.17 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9b24466-aacb-43af-98e1-026fc0ef2914")
+		(property "Reference" "H9"
+			(at 219.71 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tooling Hole"
+			(at 219.71 261.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 217.17 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 125.73 154.94 0)
+		(at 125.73 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3670,7 +3926,7 @@
 		(dnp no)
 		(uuid "b5e7d859-a08b-468e-8e33-13d693247de0")
 		(property "Reference" "J2"
-			(at 127 143.51 0)
+			(at 124.206 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,14 +3934,14 @@
 			)
 		)
 		(property "Value" "NX BUTTON"
-			(at 127 146.05 0)
+			(at 124.206 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NX-J401-Adapter:Molex-878321010"
+		(property "Footprint" "NX-J401-Adapter:Molex-0878331031"
 			(at 125.73 154.94 0)
 			(effects
 				(font
@@ -3694,7 +3950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-878321010_sd.pdf"
+		(property "Datasheet" "Components/Molex-878331031_sd.pdf"
 			(at 125.73 154.94 0)
 			(effects
 				(font
@@ -3713,7 +3969,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 117.856 163.576 0)
+			(at 125.73 167.132 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3722,8 +3978,8 @@
 				(justify left)
 			)
 		)
-		(property "MFG P/N" "0878321010"
-			(at 117.856 165.608 0)
+		(property "MFG P/N" "0878331031"
+			(at 132.334 164.592 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3741,7 +3997,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4227-ND"
+		(property "DIST P/N" "WM3598-ND"
 			(at 125.73 154.94 0)
 			(effects
 				(font
@@ -4525,6 +4781,58 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 86.36)
+		(size 50.8 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "93b0701a-200b-439a-9431-66cd35259686")
+		(property "Sheetname" "NX Button Interface"
+			(at 36.068 93.98 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NX-Button-Interface.kicad_sch"
+			(at 30.48 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Page" "${#}/${##}"
+			(at 80.772 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(page "4")
 				)
 			)
 		)
