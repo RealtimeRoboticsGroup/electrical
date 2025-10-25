@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2025-10-19")
+		(date "2025-10-24")
 		(rev "5")
 	)
 	(lib_symbols
@@ -3362,7 +3362,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF-10%-25V-0805"
+		(property "Value" "0.22uF-10%-50V-0805"
 			(at 205.74 191.77 90)
 			(effects
 				(font
@@ -3379,7 +3379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Components/KEMET_C1002_X7R_SMD.pdf"
 			(at 209.55 191.77 0)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "C0805C104K3RACTU"
+		(property "MFG P/N" "C0805C224K5RAC7800"
 			(at 209.55 191.77 0)
 			(effects
 				(font
@@ -3424,7 +3424,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "399-C0805C104K3RACTUCT-ND"
+		(property "DIST P/N" "399-C0805C224K5RACTUCT-ND"
 			(at 209.55 191.77 0)
 			(effects
 				(font
@@ -3466,7 +3466,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF-10%-25V-0805"
+		(property "Value" "4.7uF-10%-50V-0805"
 			(at 158.75 133.35 90)
 			(effects
 				(font
@@ -3483,7 +3483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Components/KEMET_C1002_X7R_SMD.pdf"
 			(at 154.94 133.35 0)
 			(effects
 				(font
@@ -3501,7 +3501,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Murata Electronics"
 			(at 154.94 133.35 0)
 			(effects
 				(font
@@ -3510,7 +3510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "CL21A475KAQNNNE"
+		(property "MFG P/N" "GRM21BR61H475KE51L"
 			(at 154.94 133.35 0)
 			(effects
 				(font
@@ -3528,7 +3528,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "1276-1244-1-ND"
+		(property "DIST P/N" "490-10751-1-ND"
 			(at 154.94 133.35 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF-10%-25V-0805"
+		(property "Value" "0.22uF-10%-50V-0805"
 			(at 325.12 109.22 0)
 			(effects
 				(font
@@ -3861,7 +3861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Components/KEMET_C1002_X7R_SMD.pdf"
 			(at 321.31 109.22 0)
 			(effects
 				(font
@@ -3888,7 +3888,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "C0805C104K3RACTU"
+		(property "MFG P/N" "C0805C224K5RAC7800"
 			(at 321.31 109.22 0)
 			(effects
 				(font
@@ -3906,7 +3906,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "399-C0805C104K3RACTUCT-ND"
+		(property "DIST P/N" "399-C0805C224K5RACTUCT-ND"
 			(at 321.31 109.22 0)
 			(effects
 				(font
@@ -3949,7 +3949,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF-10%-25V-0805"
+		(property "Value" "0.22uF-10%-50V-0805"
 			(at 275.59 96.52 90)
 			(effects
 				(font
@@ -3966,7 +3966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Components/KEMET_C1002_X7R_SMD.pdf"
 			(at 279.4 96.52 0)
 			(effects
 				(font
@@ -3993,7 +3993,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "C0805C104K3RACTU"
+		(property "MFG P/N" "C0805C224K5RAC7800"
 			(at 279.4 96.52 0)
 			(effects
 				(font
@@ -4011,7 +4011,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "399-C0805C104K3RACTUCT-ND"
+		(property "DIST P/N" "399-C0805C224K5RACTUCT-ND"
 			(at 279.4 96.52 0)
 			(effects
 				(font
