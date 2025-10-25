@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-10-22T21:00:14-0700 ###
+### Footprint positions - created on 2025-10-24T21:29:02-0700 ###
 ### Printed by KiCad version 9.0.5-9.0.5~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -13,10 +13,10 @@ C7        10pF-5%-50V-0805             C_0805_2012Metric                       1
 C8        0.22uF-10%-50V-0805          C_0805_2012Metric                       11.3800    -4.1500  180.0000  top
 C9        0.01uF-10%-50V-0805          C_0805_2012Metric                       11.5200    -4.1500    0.0000  top
 C10       120uF_25V                    CP_Radial_D8.0mm_P3.50mm_H7.0mm         12.2000    -4.2449  -90.0000  top
-C11       0.1uF-10%-25V-0805           C_0805_2012Metric                       10.0772    -4.8816  -90.0000  top
-C12       0.1uF-10%-25V-0805           C_0805_2012Metric                       10.0772    -5.1178   90.0000  top
-C13       4.7uF-10%-25V-0805           C_0805_2012Metric                       10.5496    -5.5052    0.0000  top
-C14       0.1uF-10%-25V-0805           C_0805_2012Metric                       10.5496    -5.5840    0.0000  top
+C11       0.22uF-10%-50V-0805          C_0805_2012Metric                       10.0772    -4.8816  -90.0000  top
+C12       0.22uF-10%-50V-0805          C_0805_2012Metric                       10.0772    -5.1178   90.0000  top
+C13       4.7uF-10%-50V-0805           C_0805_2012Metric                       10.5496    -5.5052    0.0000  top
+C14       0.22uF-10%-50V-0805          C_0805_2012Metric                       10.5496    -5.5840    0.0000  top
 C15       47pF-5%-50V-0805             C_0805_2012Metric                       10.5496    -5.6640    0.0000  top
 C16       47pF-5%-50V-0805             C_0805_2012Metric                       10.5496    -5.7440    0.0000  top
 C17       4.7uF-10%-50V-0805           C_0805_2012Metric                       11.0300    -5.8000  180.0000  top
@@ -30,7 +30,7 @@ D6        PC                           LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm    1
 D7        PWR                          LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm    10.9933    -6.0695    0.0000  top
 FID1      Fiducial                     Fiducial_1.6mm_Mask3mm                   9.0551    -3.5827    0.0000  top
 FID2      Fiducial                     Fiducial_1.6mm_Mask3mm                  12.5984    -3.5827    0.0000  top
-FID3      Fiducial                     Fiducial_1.6mm_Mask3mm                  12.5984    -6.0630    0.0000  top
+FID3      Fiducial                     Fiducial_1.6mm_Mask3mm                  12.5984    -6.0236    0.0000  top
 J1        V_OUT                        Weidmuller-1824740000                   10.6034    -3.5166  -90.0000  top
 J2        NX_BUTTON                    Molex-0878331031                         9.5475    -4.2756    0.0000  top
 J3        Power                        Weidmuller-1824740000                   11.4410    -5.8662    0.0000  top
