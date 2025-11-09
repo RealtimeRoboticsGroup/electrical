@@ -439,3 +439,6 @@ FodyWeavers.xsd
 *.msp
 
 
+# Bazel files
+bazel-*
+MODULE.bazel.lock
