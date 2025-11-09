@@ -1,0 +1,5 @@
+
+common --enable_bzlmod=true
+common --incompatible_strict_action_env
+
+build --platforms=@pico-sdk//bazel/platform:rp2350
