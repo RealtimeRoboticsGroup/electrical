@@ -17,7 +17,9 @@ cc_library(
         "drv_spi.h",
         "led.h",
     ],
-    copts = ["-DMCP25xxFD"],
+    defines = [
+        "MCP25xxFD",
+    ],
     deps = [
         "@pico-sdk//src/rp2_common/hardware_i2c",
         "@pico-sdk//src/rp2_common/hardware_spi",
