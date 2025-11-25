@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2025-10-24")
+		(date "2025-11-24")
 		(rev "5")
 	)
 	(lib_symbols
