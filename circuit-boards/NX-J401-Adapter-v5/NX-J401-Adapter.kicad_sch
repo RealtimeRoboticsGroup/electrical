@@ -4000,7 +4000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0805FR-075K1L"
+		(property "MFG P/N" "RC0805FR-135K1L"
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -4018,7 +4018,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-5.10KCRCT-ND"
+		(property "DIST P/N" "13-RC0805FR-135K1LCT-ND"
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -4428,7 +4428,7 @@
 				(justify left)
 			)
 		)
-		(property "MFG P/N" "0511101060"
+		(property "MFG P/N" "0875681073"
 			(at 42.418 196.088 0)
 			(show_name yes)
 			(effects
@@ -4438,7 +4438,7 @@
 				(justify left)
 			)
 		)
-		(property "DIST" "Digikey"
+		(property "DIST" "Mouser"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -4447,7 +4447,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM3341-ND"
+		(property "DIST P/N" "538-87568-1073"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -5060,7 +5060,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "0511101060"
+		(property "MFG P/N" "0875681073"
 			(at 48.26 190.5 0)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "Digikey"
+		(property "DIST" "Mouser"
 			(at 48.26 190.5 0)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM3341-ND"
+		(property "DIST P/N" "538-87568-1073"
 			(at 48.26 190.5 0)
 			(effects
 				(font

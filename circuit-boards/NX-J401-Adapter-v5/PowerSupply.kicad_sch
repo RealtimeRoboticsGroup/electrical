@@ -5369,7 +5369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3906LT1G"
+		(property "Value" "MMBT3906LT3G"
 			(at 131.572 96.52 0)
 			(effects
 				(font
@@ -5417,7 +5417,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "MMBT3906LT1G"
+		(property "MFG P/N" "MMBT3906LT3G"
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -5435,7 +5435,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "MMBT3906LT1GOSCT-ND"
+		(property "DIST P/N" "MMBT3906LT3GOSCT-ND"
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -5848,7 +5848,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0805FR-075K1L"
+		(property "MFG P/N" "RC0805FR-135K1L"
 			(at 116.84 95.25 0)
 			(effects
 				(font
@@ -5866,7 +5866,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-5.10KCRCT-ND"
+		(property "DIST P/N" "13-RC0805FR-135K1LCT-ND"
 			(at 116.84 95.25 0)
 			(effects
 				(font
@@ -6159,7 +6159,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0805FR-075K1L"
+		(property "MFG P/N" "RC0805FR-135K1L"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -6177,7 +6177,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-5.10KCRCT-ND"
+		(property "DIST P/N" "13-RC0805FR-135K1LCT-ND"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -7098,7 +7098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0805FR-075K1L"
+		(property "MFG P/N" "RC0805FR-135K1L"
 			(at 162.56 127 0)
 			(effects
 				(font
@@ -7116,7 +7116,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-5.10KCRCT-ND"
+		(property "DIST P/N" "13-RC0805FR-135K1LCT-ND"
 			(at 162.56 127 0)
 			(effects
 				(font
