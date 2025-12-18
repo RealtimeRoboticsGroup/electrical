@@ -4161,7 +4161,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0805FR-075K1L"
+		(property "MFG P/N" "RC0805FR-135K1L"
 			(at 118.11 154.94 0)
 			(effects
 				(font
@@ -4179,7 +4179,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-5.10KCRCT-ND"
+		(property "DIST P/N" "13-RC0805FR-135K1LCT-ND"
 			(at 118.11 154.94 0)
 			(effects
 				(font
@@ -4341,7 +4341,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "Digikey"
+		(property "DIST" "Mouser"
 			(at 237.49 166.37 0)
 			(effects
 				(font
@@ -4350,7 +4350,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "768-FT232RNL-REELCT-ND"
+		(property "DIST P/N" "895-FT232RNL-TUBE "
 			(at 237.49 166.37 0)
 			(effects
 				(font
@@ -4843,7 +4843,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0805FR-075K1L"
+		(property "MFG P/N" "RC0805FR-135K1L"
 			(at 118.11 160.02 0)
 			(effects
 				(font
@@ -4861,7 +4861,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-5.10KCRCT-ND"
+		(property "DIST P/N" "13-RC0805FR-135K1LCT-ND"
 			(at 118.11 160.02 0)
 			(effects
 				(font

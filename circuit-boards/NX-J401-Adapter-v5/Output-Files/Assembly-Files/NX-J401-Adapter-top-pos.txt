@@ -1,5 +1,5 @@
-### Footprint positions - created on 2025-11-24T16:13:21-0800 ###
-### Printed by KiCad version 9.0.6-9.0.6~ubuntu22.04.1
+### Footprint positions - created on 2025-12-18T15:41:27-0800 ###
+### Printed by KiCad version 9.0.6-9.0.6~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                          Package                                    PosX       PosY       Rot  Side
@@ -41,7 +41,7 @@ L1        4.7_uH-8m-20%                INDUCTOR_IHLE-5050FH-Vishay             1
 L2        HZ0805E601R-10               L_0805_2012Metric                       10.1760    -5.7470    0.0000  top
 Q1        CSD16322Q5                   TI-SON5x6                               11.5726    -3.7800  180.0000  top
 Q2        SQM40061EL_GE3               TO-263-2                                11.9549    -4.8051    0.0000  top
-Q3        MMBT3906LT1G                 SOT-23                                  11.4528    -4.8151    0.0000  top
+Q3        MMBT3906LT3G                 SOT-23                                  11.4528    -4.8151    0.0000  top
 Q4        SQM40061EL_GE3               TO-263-2                                11.2939    -5.2651  180.0000  top
 R1        4.0m-1%-2512                 R_2512_6332Metric                       11.2900    -3.7500    0.0000  top
 R2        14.0k-1%-0805                R_0805_2012Metric                       11.1130    -3.9090  180.0000  top
