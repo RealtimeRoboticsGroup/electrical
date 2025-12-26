@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pico-ButtonBoard")(type "KiCad")(uri "${KIPRJMOD}/Pico-ButtonBoard.kicad_sym")(options "")(descr ""))
+)

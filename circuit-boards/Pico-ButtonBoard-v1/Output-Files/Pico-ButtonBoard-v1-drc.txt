@@ -1,0 +1,361 @@
+** Drc report for Pico-ButtonBoard-v1.kicad_pcb **
+** Created on 2025-12-25T18:29:03-0800 **
+
+** Found 1 DRC violations **
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.00 mils, 0.00 mils): PCB
+
+** Found 0 unconnected pads **
+
+** Found 174 Footprint errors **
+[missing_footprint]: Missing footprint A1 (RaspberryPi_Pico2)
+    Local override; warning
+[missing_footprint]: Missing footprint C19 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C20 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C21 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C22 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C23 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint J17 (CAN)
+    Local override; warning
+[missing_footprint]: Missing footprint J18 (CAN)
+    Local override; warning
+[missing_footprint]: Missing footprint J19 (BATT)
+    Local override; warning
+[missing_footprint]: Missing footprint J22 (DC_IN)
+    Local override; warning
+[missing_footprint]: Missing footprint R49 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint TP1 (CAN_TX)
+    Local override; warning
+[missing_footprint]: Missing footprint TP2 (CAN_RX)
+    Local override; warning
+[missing_footprint]: Missing footprint U3 (MCP2518FDT-H/SL)
+    Local override; warning
+[missing_footprint]: Missing footprint U4 (MCP2558FD)
+    Local override; warning
+[missing_footprint]: Missing footprint U5 (4.0 MHz)
+    Local override; warning
+[missing_footprint]: Missing footprint C1 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C2 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C3 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C4 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C5 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C6 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C7 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C8 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C9 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C10 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C11 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C12 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C13 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C14 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C15 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C16 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C17 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C18 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint D1 (B0)
+    Local override; warning
+[missing_footprint]: Missing footprint D2 (B1)
+    Local override; warning
+[missing_footprint]: Missing footprint D3 (B2)
+    Local override; warning
+[missing_footprint]: Missing footprint D4 (B3)
+    Local override; warning
+[missing_footprint]: Missing footprint D5 (B4)
+    Local override; warning
+[missing_footprint]: Missing footprint D6 (B5)
+    Local override; warning
+[missing_footprint]: Missing footprint D7 (B6)
+    Local override; warning
+[missing_footprint]: Missing footprint D8 (B7)
+    Local override; warning
+[missing_footprint]: Missing footprint D9 (B8)
+    Local override; warning
+[missing_footprint]: Missing footprint D10 (B9)
+    Local override; warning
+[missing_footprint]: Missing footprint D11 (B10)
+    Local override; warning
+[missing_footprint]: Missing footprint D12 (B11)
+    Local override; warning
+[missing_footprint]: Missing footprint D13 (B12)
+    Local override; warning
+[missing_footprint]: Missing footprint D14 (B13)
+    Local override; warning
+[missing_footprint]: Missing footprint D15 (B14)
+    Local override; warning
+[missing_footprint]: Missing footprint D16 (B15)
+    Local override; warning
+[missing_footprint]: Missing footprint J1 (B1)
+    Local override; warning
+[missing_footprint]: Missing footprint J2 (B0)
+    Local override; warning
+[missing_footprint]: Missing footprint J3 (B2)
+    Local override; warning
+[missing_footprint]: Missing footprint J4 (B3)
+    Local override; warning
+[missing_footprint]: Missing footprint J5 (B4)
+    Local override; warning
+[missing_footprint]: Missing footprint J6 (B5)
+    Local override; warning
+[missing_footprint]: Missing footprint J7 (B6)
+    Local override; warning
+[missing_footprint]: Missing footprint J8 (B7)
+    Local override; warning
+[missing_footprint]: Missing footprint J9 (B8)
+    Local override; warning
+[missing_footprint]: Missing footprint J10 (B9)
+    Local override; warning
+[missing_footprint]: Missing footprint J11 (B10)
+    Local override; warning
+[missing_footprint]: Missing footprint J12 (B11)
+    Local override; warning
+[missing_footprint]: Missing footprint J13 (B12)
+    Local override; warning
+[missing_footprint]: Missing footprint J14 (B13)
+    Local override; warning
+[missing_footprint]: Missing footprint J15 (B14)
+    Local override; warning
+[missing_footprint]: Missing footprint J16 (B15)
+    Local override; warning
+[missing_footprint]: Missing footprint R1 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R2 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R3 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R4 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R5 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R6 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R7 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R8 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R9 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R10 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R11 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R12 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R13 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R14 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R15 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R16 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R17 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R18 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R19 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R20 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R21 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R22 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R23 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R24 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R25 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R26 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R27 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R28 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R29 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R30 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R31 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R32 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R33 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R34 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R35 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R36 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R37 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R38 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R39 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R40 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R41 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R42 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R43 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R44 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R45 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R46 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R47 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R48 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint U1 (SN74HC165DR)
+    Local override; warning
+[missing_footprint]: Missing footprint U2 (SN74HC165DR)
+    Local override; warning
+[missing_footprint]: Missing footprint C24 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C25 (1000pF-50V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C26 (1000pF-50V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C27 (1000pF-50V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C28 (1000pF-50V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C29 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C30 (4.7uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C31 (4.7uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C32 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C33 (4.7uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C37 (1000pF-50V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint J20 (XY0-R)
+    Local override; warning
+[missing_footprint]: Missing footprint J21 (XY1-L)
+    Local override; warning
+[missing_footprint]: Missing footprint L1 (10uH-10%-500mA-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint L2 (10uH-10%-500mA-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R50 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R51 (49R9-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R52 (49R9-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R53 (100k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R54 (100k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R55 (100k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R56 (100k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R57 (49R9-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R58 (49R9-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint U6 (SN74LVC1G3157DBVR)
+    Local override; warning
+[missing_footprint]: Missing footprint U8 (TLV77033DDC)
+    Local override; warning
+[missing_footprint]: Missing footprint C34 (0.22uF-50V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C35 (68pF-50V-5%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C36 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C40 (10uF-10%-50V-1206)
+    Local override; warning
+[missing_footprint]: Missing footprint C41 (47uF-10%-16V-1206)
+    Local override; warning
+[missing_footprint]: Missing footprint D17 (S1B)
+    Local override; warning
+[missing_footprint]: Missing footprint D18 (5.6V)
+    Local override; warning
+[missing_footprint]: Missing footprint D19 (5.6V)
+    Local override; warning
+[missing_footprint]: Missing footprint D20 (5.6V)
+    Local override; warning
+[missing_footprint]: Missing footprint D21 (S1B)
+    Local override; warning
+[missing_footprint]: Missing footprint D22 (S1B)
+    Local override; warning
+[missing_footprint]: Missing footprint D26 (S1B)
+    Local override; warning
+[missing_footprint]: Missing footprint L3 (5.6 uH-20%-3.4A)
+    Local override; warning
+[missing_footprint]: Missing footprint Q1 (BSS123)
+    Local override; warning
+[missing_footprint]: Missing footprint Q3 (BSS123)
+    Local override; warning
+[missing_footprint]: Missing footprint R59 (100k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R60 (12.4k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R61 (20k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R62 (20k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R63 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R64 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R65 (100k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R66 (20.0k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint U7 (ITS41k0S-ME-N)
+    Local override; warning
+[missing_footprint]: Missing footprint U9 (TPS54202DDC)
+    Local override; warning
+[missing_footprint]: Missing footprint C38 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint C39 (0.1uF-25V-10%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint J24 (ID)
+    Local override; warning
+[missing_footprint]: Missing footprint R67 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R68 (10k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R69 (1.50k-1%-0805)
+    Local override; warning
+[missing_footprint]: Missing footprint R70 (10k-1%-0805)
+    Local override; warning
+
+** End of Report **
