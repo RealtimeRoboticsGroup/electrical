@@ -1,7 +1,7 @@
 (footprint "Molex-70634-0039"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "674bcd0e-0a3a-4258-943f-a9e02fcc2668")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ca6cc51a-0fca-46cf-b74a-b972799fd533")
 		(effects
 			(font
 				(size 1 1)
@@ -114,7 +101,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "807dd2c6-8548-42c0-a91a-ab5a9f818093")
 	)
@@ -134,51 +121,52 @@
 		(at -6.48 -4.3)
 		(size 3.4 3.4)
 		(drill 3.4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "8805bde4-605b-4143-823c-778d39223776")
 	)
 	(pad "" np_thru_hole circle
 		(at 6.48 -4.3)
 		(size 3.4 3.4)
 		(drill 3.4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "cd233ab9-bcbb-4184-bc93-f70e49c18665")
 	)
 	(pad "1" smd roundrect
 		(at 5.08 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
 		(uuid "0bfe1bba-9a6b-416a-bcb2-cc40528ffcd3")
 	)
 	(pad "2" smd roundrect
 		(at 2.54 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
 		(uuid "1444e3a0-06eb-485f-87dd-623190ba99a0")
 	)
 	(pad "3" smd roundrect
 		(at 0 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
 		(uuid "d525f30f-e349-4799-b4ac-52caa744eceb")
 	)
 	(pad "4" smd roundrect
 		(at -2.54 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
 		(uuid "57375bf0-c946-41a3-a2e3-9d20b9c8fdc5")
 	)
 	(pad "5" smd roundrect
 		(at -5.08 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
 		(uuid "82bc0300-32aa-4ca8-adc7-da5ebf831751")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/Molex-015912055.stp"
 		(offset
 			(xyz 0 5.9 2.9)
