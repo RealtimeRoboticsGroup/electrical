@@ -5458,24 +5458,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 140.97 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 140.97 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "87138beb-3ffe-49f8-8fa5-0e014a3ffe09")
 		)
@@ -5573,24 +5555,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 152.4 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 152.4 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,24 +5665,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a2f31276-b829-4494-81db-71897fca89b6")
 		)
@@ -5815,24 +5761,6 @@
 		)
 		(property "DIST P/N" "541-10.0KCCT-ND"
 			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 231.14 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,24 +5865,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 135.89 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 135.89 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 135.89 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +5981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -6080,7 +5990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -6106,7 +6016,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 67.31 0)
 			(effects
 				(font
@@ -6123,25 +6033,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -6219,15 +6111,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 140.97 170.18 0)
 			(effects
@@ -6256,24 +6139,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 140.97 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 140.97 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 140.97 170.18 0)
 			(effects
 				(font
@@ -6351,15 +6216,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 152.4 50.8 0)
 			(effects
@@ -6388,24 +6244,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 152.4 50.8 0)
 			(effects
 				(font
@@ -6518,24 +6356,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 208.28 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 208.28 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "761ce3e9-654d-4671-a19a-b4c92202ee72")
 		)
@@ -6604,24 +6424,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 124.46 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 124.46 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 124.46 237.49 0)
 			(effects
@@ -6651,24 +6453,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 124.46 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 124.46 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 124.46 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,24 +6557,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 196.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 196.85 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,24 +6727,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 170.18 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 170.18 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 170.18 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,24 +6970,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 124.46 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 124.46 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "820b7d89-c9ed-4c67-9d37-846bb9a154f3")
 		)
@@ -7409,24 +7139,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d7e435d4-1180-4a72-af7e-91e5bd555d06")
 		)
@@ -7561,15 +7273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 186.69 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 186.69 170.18 0)
 			(effects
@@ -7598,24 +7301,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 186.69 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 186.69 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 186.69 170.18 0)
 			(effects
 				(font
@@ -7693,15 +7378,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 186.69 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 186.69 50.8 0)
 			(effects
@@ -7730,24 +7406,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 186.69 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 186.69 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 186.69 50.8 0)
 			(effects
 				(font
@@ -7824,24 +7482,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 158.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 158.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 158.75 237.49 0)
 			(effects
@@ -7871,24 +7511,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 158.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 158.75 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +7561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -7948,7 +7570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -7974,7 +7596,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 80.01 0)
 			(effects
 				(font
@@ -7991,25 +7613,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -8349,24 +7953,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 325.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 325.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 325.12 157.48 0)
 			(effects
@@ -8395,24 +7981,6 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
-			(at 325.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 325.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 325.12 157.48 0)
 			(effects
 				(font
@@ -8529,7 +8097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 184.15 0)
 			(effects
 				(font
@@ -8538,7 +8106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 184.15 0)
 			(effects
 				(font
@@ -8564,7 +8132,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 186.69 0)
 			(effects
 				(font
@@ -8581,25 +8149,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 184.15 0)
 			(effects
 				(font
@@ -8651,7 +8201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 90.17 0)
 			(effects
 				(font
@@ -8660,7 +8210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 90.17 0)
 			(effects
 				(font
@@ -8686,7 +8236,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 92.71 0)
 			(effects
 				(font
@@ -8703,25 +8253,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 90.17 0)
 			(effects
 				(font
@@ -8864,15 +8396,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 208.28 50.8 0)
 			(effects
@@ -8901,24 +8424,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 208.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 208.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 208.28 50.8 0)
 			(effects
 				(font
@@ -9163,24 +8668,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 124.46 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 124.46 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "79da81ee-d56b-40a0-9e79-92b83ea35f0b")
 		)
@@ -9249,24 +8736,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 191.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 191.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 191.77 118.11 0)
 			(effects
@@ -9296,24 +8765,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 191.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 191.77 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 191.77 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9390,15 +8841,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 129.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 129.54 50.8 0)
 			(effects
@@ -9427,24 +8869,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 129.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 129.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 129.54 50.8 0)
 			(effects
 				(font
@@ -9622,24 +9046,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 186.69 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 186.69 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7162da8f-d5b0-4c14-93e6-f6b7c3232351")
 		)
@@ -9708,24 +9114,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 203.2 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 203.2 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 203.2 237.49 0)
 			(effects
@@ -9755,24 +9143,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 203.2 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 203.2 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 203.2 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,24 +9247,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 163.83 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 163.83 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 163.83 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,24 +9453,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 325.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 325.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 325.12 95.25 0)
 			(effects
@@ -10147,24 +9481,6 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
-			(at 325.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 325.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 325.12 95.25 0)
 			(effects
 				(font
@@ -10242,15 +9558,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 140.97 50.8 0)
 			(effects
@@ -10279,24 +9586,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 140.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 140.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 140.97 50.8 0)
 			(effects
 				(font
@@ -10409,24 +9698,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 175.26 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 175.26 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b5c71906-4dba-45e0-9fb4-891b3ae15f82")
 		)
@@ -10523,24 +9794,6 @@
 		)
 		(property "DIST P/N" "541-10.0KCCT-ND"
 			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 231.14 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,24 +9905,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 181.61 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 181.61 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d7d295c5-1183-4e8d-bfe8-0064ce69261a")
 		)
@@ -10739,15 +9974,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 163.83 50.8 0)
 			(effects
@@ -10776,24 +10002,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 163.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 163.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 163.83 50.8 0)
 			(effects
 				(font
@@ -10972,24 +10180,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 203.2 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 203.2 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1b5ecdaa-5416-41fe-a9ef-bdb7d136672c")
 		)
@@ -11058,24 +10248,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 147.32 118.11 0)
 			(effects
@@ -11105,24 +10277,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 147.32 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 147.32 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,24 +10352,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 124.46 118.11 0)
 			(effects
@@ -11245,24 +10381,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 124.46 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 124.46 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11439,24 +10557,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 152.4 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 152.4 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "370ac59e-5cbc-4901-aa21-c018512addcd")
 		)
@@ -11566,7 +10666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 190.5 0)
 			(effects
 				(font
@@ -11575,7 +10675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 190.5 0)
 			(effects
 				(font
@@ -11601,7 +10701,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 193.04 0)
 			(effects
 				(font
@@ -11618,25 +10718,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 190.5 0)
 			(effects
 				(font
@@ -11713,24 +10795,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 135.89 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 135.89 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 135.89 118.11 0)
 			(effects
@@ -11760,24 +10824,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 135.89 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 135.89 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 135.89 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,24 +10935,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 129.54 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 129.54 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "18ea2634-80ed-4be3-8a60-ac7e64dbe3c4")
 		)
@@ -12011,24 +11039,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 129.54 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 129.54 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "21677eda-9ab6-4953-b3d7-f349b539b8d9")
 		)
@@ -12098,15 +11108,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 196.85 50.8 0)
 			(effects
@@ -12135,24 +11136,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -12230,15 +11213,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 196.85 170.18 0)
 			(effects
@@ -12267,24 +11241,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 196.85 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 196.85 170.18 0)
 			(effects
 				(font
@@ -12361,24 +11317,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 147.32 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 147.32 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 147.32 237.49 0)
 			(effects
@@ -12408,24 +11346,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 147.32 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 147.32 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 147.32 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12501,24 +11421,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 135.89 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 135.89 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 135.89 237.49 0)
 			(effects
@@ -12548,24 +11450,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 135.89 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 135.89 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 135.89 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,24 +11554,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 175.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 175.26 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 175.26 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12865,24 +11731,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 158.75 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d7e0bd6f-5d63-4ff3-972c-b14a69e30198")
 		)
@@ -12986,24 +11834,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "184b2ad5-473a-47e0-9acd-e762b87f7369")
 		)
@@ -13072,24 +11902,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 203.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 203.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 203.2 118.11 0)
 			(effects
@@ -13119,24 +11931,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 203.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 203.2 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 203.2 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,24 +12100,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 181.61 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 181.61 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 181.61 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13505,7 +12281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 196.85 0)
 			(effects
 				(font
@@ -13514,7 +12290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 196.85 0)
 			(effects
 				(font
@@ -13540,7 +12316,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 199.39 0)
 			(effects
 				(font
@@ -13557,25 +12333,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 196.85 0)
 			(effects
 				(font
@@ -13687,24 +12445,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5b709295-fe90-41e2-81e0-b2550dd1f676")
 		)
@@ -13802,24 +12542,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 196.85 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 196.85 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13961,15 +12683,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 129.54 170.18 0)
 			(effects
@@ -13998,24 +12711,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 129.54 170.18 0)
 			(effects
 				(font
@@ -14120,24 +12815,6 @@
 		)
 		(property "DIST P/N" "541-10.0KCCT-ND"
 			(at 231.14 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 231.14 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14315,24 +12992,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 147.32 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 147.32 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f99e18f5-6996-4f1f-be12-3e8da00452f7")
 		)
@@ -14430,24 +13089,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 158.75 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 158.75 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14654,24 +13295,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 170.18 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 170.18 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 170.18 237.49 0)
 			(effects
@@ -14701,24 +13324,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 170.18 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 170.18 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 170.18 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14830,24 +13435,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 140.97 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 140.97 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f91d1ae1-7ce1-4d24-bca2-ce3f17269885")
 		)
@@ -14945,24 +13532,6 @@
 			)
 		)
 		(property "DIST P/N" "296-8250-1-ND"
-			(at 311.15 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 311.15 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 311.15 156.21 0)
 			(effects
 				(font
@@ -15147,15 +13716,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 163.83 170.18 0)
 			(effects
@@ -15184,24 +13744,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 163.83 170.18 0)
 			(effects
 				(font
@@ -15279,15 +13821,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 208.28 170.18 0)
 			(effects
@@ -15316,24 +13849,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 208.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 208.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 208.28 170.18 0)
 			(effects
 				(font
@@ -15410,24 +13925,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 191.77 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 191.77 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 191.77 237.49 0)
 			(effects
@@ -15457,24 +13954,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 191.77 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 191.77 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 191.77 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15586,24 +14065,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 135.89 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 135.89 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4aca4b15-39b9-498a-93a5-8b9016c4495f")
 		)
@@ -15647,7 +14108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -15656,7 +14117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -15682,7 +14143,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 105.41 0)
 			(effects
 				(font
@@ -15699,25 +14160,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -15769,7 +14212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 222.25 0)
 			(effects
 				(font
@@ -15778,7 +14221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 222.25 0)
 			(effects
 				(font
@@ -15804,7 +14247,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 224.79 0)
 			(effects
 				(font
@@ -15821,25 +14264,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 222.25 0)
 			(effects
 				(font
@@ -15944,24 +14369,6 @@
 		)
 		(property "DIST P/N" "541-10.0KCCT-ND"
 			(at 231.14 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 231.14 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16138,24 +14545,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 191.77 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 191.77 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0d97bbb5-f3d5-48db-a179-b7343511a68b")
 		)
@@ -16199,7 +14588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 203.2 0)
 			(effects
 				(font
@@ -16208,7 +14597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 203.2 0)
 			(effects
 				(font
@@ -16234,7 +14623,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 205.74 0)
 			(effects
 				(font
@@ -16251,25 +14640,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 203.2 0)
 			(effects
 				(font
@@ -16452,7 +14823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 177.8 0)
 			(effects
 				(font
@@ -16461,7 +14832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 177.8 0)
 			(effects
 				(font
@@ -16487,7 +14858,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 180.34 0)
 			(effects
 				(font
@@ -16504,25 +14875,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 177.8 0)
 			(effects
 				(font
@@ -16599,24 +14952,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 181.61 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 181.61 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 181.61 237.49 0)
 			(effects
@@ -16646,24 +14981,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 181.61 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 181.61 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 181.61 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16768,24 +15085,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 208.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 208.28 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 208.28 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16927,15 +15226,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 152.4 170.18 0)
 			(effects
@@ -16964,24 +15254,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 152.4 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -17159,24 +15431,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ab67f719-38cc-41b5-a9f3-5f1cc841234a")
 		)
@@ -17246,15 +15500,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 175.26 50.8 0)
 			(effects
@@ -17283,24 +15528,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 175.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 175.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 175.26 50.8 0)
 			(effects
 				(font
@@ -17413,24 +15640,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 186.69 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 186.69 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5be5371c-3740-426d-aaf3-5c6d05d63761")
 		)
@@ -17499,24 +15708,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 170.18 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 170.18 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 170.18 118.11 0)
 			(effects
@@ -17546,24 +15737,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 170.18 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 170.18 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 170.18 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17639,24 +15812,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 181.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 181.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 181.61 118.11 0)
 			(effects
@@ -17686,24 +15841,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 181.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 181.61 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 181.61 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17754,7 +15891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -17763,7 +15900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -17789,7 +15926,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 60.96 0)
 			(effects
 				(font
@@ -17806,25 +15943,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -17929,24 +16048,6 @@
 		)
 		(property "DIST P/N" "541-10.0KCCT-ND"
 			(at 231.14 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 231.14 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18122,24 +16223,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3ff867bf-7b7c-4d43-bf55-f0cc25fc51e1")
 		)
@@ -18308,24 +16391,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "70c517b1-f807-4781-af78-30e0370de693")
 		)
@@ -18430,24 +16495,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 170.18 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 170.18 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b7b8fd2a-edde-4095-b1e7-4b7ac7b298f5")
 		)
@@ -18491,7 +16538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -18500,7 +16547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -18526,7 +16573,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 99.06 0)
 			(effects
 				(font
@@ -18543,25 +16590,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -18673,24 +16702,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ab5fbd91-417c-42f8-a92b-f5e307108c1a")
 		)
@@ -18760,15 +16771,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 175.26 170.18 0)
 			(effects
@@ -18797,24 +16799,6 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
-			(at 175.26 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 175.26 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 175.26 170.18 0)
 			(effects
 				(font
@@ -18985,24 +16969,6 @@
 		)
 		(property "DIST P/N" "541-10.0KCCT-ND"
 			(at 231.14 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 231.14 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19181,24 +17147,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 311.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 311.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "9"
 			(uuid "1ff1fc7a-c38a-4f53-a5cd-b3e590f22bcc")
 		)
@@ -19345,24 +17293,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 203.2 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 203.2 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c6b83fc9-6c61-4d43-9e42-1545d38b0497")
 		)
@@ -19459,24 +17389,6 @@
 		)
 		(property "DIST P/N" "541-10.0KCCT-ND"
 			(at 231.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 231.14 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19719,24 +17631,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 147.32 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 147.32 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8dd31087-e39d-4114-8f48-c678c859b4e7")
 		)
@@ -19840,24 +17734,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 231.14 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c166425d-b0ab-4563-8f87-1fdaa345440b")
 		)
@@ -19926,24 +17802,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 158.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 158.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 158.75 118.11 0)
 			(effects
@@ -19973,24 +17831,6 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 158.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 158.75 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20041,7 +17881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -20050,7 +17890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -20076,7 +17916,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 73.66 0)
 			(effects
 				(font
@@ -20093,25 +17933,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -20217,24 +18039,6 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 191.77 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 191.77 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 191.77 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20351,7 +18155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 209.55 0)
 			(effects
 				(font
@@ -20360,7 +18164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 209.55 0)
 			(effects
 				(font
@@ -20386,7 +18190,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 212.09 0)
 			(effects
 				(font
@@ -20403,25 +18207,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 209.55 0)
 			(effects
 				(font
@@ -20604,7 +18390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 215.9 0)
 			(effects
 				(font
@@ -20613,7 +18399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 215.9 0)
 			(effects
 				(font
@@ -20639,7 +18425,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 218.44 0)
 			(effects
 				(font
@@ -20656,25 +18442,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 215.9 0)
 			(effects
 				(font
@@ -20787,24 +18555,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 163.83 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 163.83 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1a2659f4-efe1-48b2-ac68-d64c4001ce98")
 		)
@@ -20848,7 +18598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70555-0036"
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
 			(at 104.14 83.82 0)
 			(effects
 				(font
@@ -20857,7 +18607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 104.14 83.82 0)
 			(effects
 				(font
@@ -20883,7 +18633,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "70543-0036"
 			(at 90.678 86.36 0)
 			(effects
 				(font
@@ -20900,25 +18650,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 104.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "DIST P/N" "WM4824-ND"
 			(at 104.14 83.82 0)
 			(effects
 				(font

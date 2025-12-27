@@ -3270,24 +3270,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 276.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 276.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 276.86 78.74 0)
 			(effects
@@ -3316,24 +3298,6 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
-			(at 276.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 276.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 276.86 78.74 0)
 			(effects
 				(font
@@ -3403,24 +3367,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 284.48 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 284.48 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 284.48 71.12 0)
 			(effects
 				(font
@@ -3521,24 +3467,6 @@
 			)
 		)
 		(property "DIST P/N" "WM1735-ND"
-			(at 110.49 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 110.49 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 110.49 205.74 0)
 			(effects
 				(font
@@ -3858,24 +3786,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 148.59 210.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 148.59 210.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e4b1e080-0347-4640-9bd2-993e2d6f6575")
 		)
@@ -3972,24 +3882,6 @@
 		)
 		(property "DIST P/N" "311-100KCRCT-ND"
 			(at 128.27 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 128.27 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 128.27 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,24 +3987,6 @@
 			)
 		)
 		(property "DIST P/N" "296-14908-1-ND"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 270.51 172.72 0)
 			(effects
 				(font
@@ -4229,24 +4103,6 @@
 			)
 		)
 		(property "DIST P/N" "445-6762-1-ND"
-			(at 149.86 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 149.86 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 149.86 82.55 90)
 			(effects
 				(font
@@ -4684,24 +4540,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "19f62fbf-7e5a-4232-9c00-741701e53864")
 		)
@@ -4815,24 +4653,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 165.1 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 165.1 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "46cdce73-1318-415a-a83b-4ebb3a00f20d")
 		)
@@ -4930,24 +4750,6 @@
 		)
 		(property "MFG P/N" "C0805C102J5GACTU"
 			(at 165.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 165.1 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 165.1 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,24 +4861,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 148.59 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 148.59 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fc2abeb3-26b9-4509-8321-4751af0a5b77")
 		)
@@ -5174,24 +4958,6 @@
 		)
 		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
 			(at 148.59 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 148.59 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 148.59 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,24 +5265,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 320.04 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 320.04 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7831fc6d-12e9-46c8-a562-d4bbd22db1ef")
 		)
@@ -5613,24 +5361,6 @@
 			)
 		)
 		(property "DIST P/N" "445-6762-1-ND"
-			(at 149.86 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 149.86 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 149.86 71.12 90)
 			(effects
 				(font
@@ -5903,24 +5633,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 261.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 261.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 261.62 172.72 0)
 			(effects
@@ -5949,24 +5661,6 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
-			(at 261.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 261.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 261.62 172.72 0)
 			(effects
 				(font
@@ -6240,24 +5934,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C519981"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIST" "Digikey"
 			(at 196.85 78.74 0)
 			(effects
@@ -6286,24 +5962,6 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -6539,24 +6197,6 @@
 		)
 		(property "DIST P/N" "311-100KCRCT-ND"
 			(at 135.89 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 135.89 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 135.89 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,24 +6506,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 129.54 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 129.54 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "72330782-bd99-4a51-ac96-29d62b73fb72")
 		)
@@ -6945,24 +6567,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 284.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 284.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 284.48 100.33 0)
 			(effects
 				(font
@@ -7072,24 +6676,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 175.26 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 175.26 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "86cdaace-986f-4ccb-85aa-30af8c73c2a6")
 		)
@@ -7185,24 +6771,6 @@
 			)
 		)
 		(property "DIST P/N" "296-14908-1-ND"
-			(at 287.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 287.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 287.02 149.86 0)
 			(effects
 				(font
@@ -7457,24 +7025,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 148.59 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 148.59 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "74c78eea-c6ba-41de-a7bd-3d5a94e2a565")
 		)
@@ -7572,24 +7122,6 @@
 			)
 		)
 		(property "MFG P/N" "C2012X5R1E475K125AB"
-			(at 189.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 189.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 189.23 78.74 0)
 			(effects
 				(font
@@ -7766,24 +7298,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 306.07 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 306.07 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "93af490e-e165-4736-95aa-aad2957a5b11")
 		)
@@ -7881,24 +7395,6 @@
 			)
 		)
 		(property "MFG P/N" "C2012X5R1E475K125AB"
-			(at 269.24 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 269.24 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 269.24 78.74 0)
 			(effects
 				(font
@@ -8067,24 +7563,6 @@
 			)
 		)
 		(property "DIST P/N" "WM1735-ND"
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 110.49 148.59 0)
 			(effects
 				(font
@@ -8273,24 +7751,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 135.89 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 135.89 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9041ebc6-e2fa-4c42-93c8-21eefabaf237")
 		)
@@ -8395,24 +7855,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 175.26 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 175.26 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ef801f76-57ae-4677-98e5-d8417d095237")
 		)
@@ -8509,24 +7951,6 @@
 		)
 		(property "DIST P/N" "311-100KCRCT-ND"
 			(at 128.27 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 128.27 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 128.27 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)

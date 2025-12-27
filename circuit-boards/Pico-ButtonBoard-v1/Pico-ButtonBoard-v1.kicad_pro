@@ -494,7 +494,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://Space-Cookies-Drawing-Sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -526,7 +526,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -563,18 +563,6 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB",
-          "name": "JLCPCB",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC Part #",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MFG",
           "name": "MFG",
           "show": true
@@ -584,12 +572,6 @@
           "label": "MFG P/N",
           "name": "MFG P/N",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
         },
         {
           "group_by": false,
@@ -611,18 +593,6 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "DIST P/N",
           "name": "DIST P/N",
           "show": true
@@ -633,7 +603,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -695,6 +665,10 @@
     [
       "4e285169-a0a4-4eb6-9253-4dccf3a51578",
       "Board ID"
+    ],
+    [
+      "d0d9a62e-3d08-419e-af51-4493246764fe",
+      "Encoder Inputs"
     ]
   ],
   "text_variables": {}
