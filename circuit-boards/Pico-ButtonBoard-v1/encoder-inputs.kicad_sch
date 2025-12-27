@@ -1,0 +1,5185 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c03de3b1-76da-40bb-9468-1dda7a73ea22")
+	(paper "B")
+	(title_block
+		(title "Pico Button Board")
+		(date "2025-12-25")
+		(rev "1")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 151.892 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03c39698-8c3c-4a80-8e41-d3e02191fc06")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 151.892 165.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0862edab-f659-47b3-a9b1-f51fb2b041a6")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 151.892 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b75f54a-db41-460e-8df4-5f18f77b5122")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 151.892 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c5f6266-f81f-4f46-b4ba-5c42ff9efd07")
+	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 151.892 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28617cff-fafc-4c68-b905-8368d099c893")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 151.892 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dc5682d-f166-42ef-b17e-de7d773f7d0e")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 151.892 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36c598a3-30fe-41ae-a4af-ad12bfc2073e")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 151.892 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37c4d4ec-6f26-4200-abdd-a2235f1328af")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 151.892 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fb0d71f-69f7-4af7-81f5-f7ab537a710e")
+	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 151.892 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88361e59-b33b-49c7-a787-30cb03ee3fef")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 151.892 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9598ec23-c6c2-46cf-989d-f112808581ca")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 151.892 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af56554c-6af9-479e-a6f7-03a0cf6ad60d")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 151.892 170.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5a9e241-b395-420b-a53a-53b47d875a24")
+	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 151.892 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b61a7518-b88f-4bcc-8098-eed5a1467991")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 151.892 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eeff5b2a-3d13-4f08-8348-97c162585532")
+	)
+	(junction
+		(at 165.1 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4882e085-d27d-4c09-9dc6-4b9c6c1ec152")
+	)
+	(junction
+		(at 180.34 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec94ae3-4112-424e-9f0a-05e7b35d5d15")
+	)
+	(junction
+		(at 180.34 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56a67489-b8a3-4d53-9970-cb984b9b3ef3")
+	)
+	(junction
+		(at 180.34 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c2cade4-4c44-495b-8e6e-d4c7beb839cd")
+	)
+	(junction
+		(at 172.72 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "820dabc0-4ab9-4d63-ae48-b7046203876e")
+	)
+	(junction
+		(at 172.72 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9ff7d39-087c-485a-ad32-b14d27e2a01b")
+	)
+	(junction
+		(at 165.1 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e00c9bc1-e62b-404b-96a9-3c5036f5dbee")
+	)
+	(junction
+		(at 165.1 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85e8757-8fbb-4778-877a-9aaf64a36c03")
+	)
+	(junction
+		(at 172.72 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0b3b933-96fe-4d54-89e2-4d59405185a8")
+	)
+	(wire
+		(pts
+			(xy 158.75 59.69) (xy 165.1 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0a5891-a17d-4d9d-9536-5aeb2f40a928")
+	)
+	(wire
+		(pts
+			(xy 158.75 64.77) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ad0167-7fd2-44b3-8bf8-1f91b5cad11b")
+	)
+	(wire
+		(pts
+			(xy 158.75 172.72) (xy 180.34 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1214ea2d-b31b-477d-aac5-2e3ec3e13698")
+	)
+	(wire
+		(pts
+			(xy 172.72 170.18) (xy 172.72 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c680249-b358-49b5-994f-3961641ef0cd")
+	)
+	(wire
+		(pts
+			(xy 165.1 132.08) (xy 165.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfbaa28-03e4-41ce-be73-1c12d9c53153")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ba9c2a-575f-4a2d-b45b-2d5bc2890221")
+	)
+	(wire
+		(pts
+			(xy 172.72 62.23) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2633a78b-0ff3-4b6c-8d2d-b0426480c9d3")
+	)
+	(wire
+		(pts
+			(xy 158.75 115.57) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e23f29f-5146-4ec5-b6ef-3adff85f6ace")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.76) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3511c422-b9db-456d-886e-f3427547e22a")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 170.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fa2770-004a-4813-b32a-a1cf72d37536")
+	)
+	(wire
+		(pts
+			(xy 180.34 118.11) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379f1859-3854-427b-aaab-2fc3369e6965")
+	)
+	(wire
+		(pts
+			(xy 172.72 115.57) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad9aa64-363f-47d3-8fd0-33fff788aa87")
+	)
+	(wire
+		(pts
+			(xy 172.72 170.18) (xy 172.72 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e36f666-edad-48f1-97bb-9050d4cd35b2")
+	)
+	(wire
+		(pts
+			(xy 198.12 105.41) (xy 209.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4482baad-f76e-4579-b9c8-9e5dc802a40c")
+	)
+	(wire
+		(pts
+			(xy 161.29 45.72) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4687c1b6-6d37-47d0-8685-9336966e3a5e")
+	)
+	(wire
+		(pts
+			(xy 198.12 58.42) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477b8674-68b7-486a-af7d-1cec551474b0")
+	)
+	(wire
+		(pts
+			(xy 266.7 38.1) (xy 265.43 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0ce83a-3481-4090-a44f-c52d005d1486")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4048dd-45fa-4230-9c70-efed96da96f4")
+	)
+	(wire
+		(pts
+			(xy 165.1 167.64) (xy 165.1 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5179d56c-e673-41eb-9a4f-585c608a0d6c")
+	)
+	(wire
+		(pts
+			(xy 198.12 172.72) (xy 209.55 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53abe4ad-7d2c-48da-b947-f82f5876faac")
+	)
+	(wire
+		(pts
+			(xy 198.12 160.02) (xy 209.55 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5503f6da-3ca0-49f0-b9c1-3b604e38eb28")
+	)
+	(wire
+		(pts
+			(xy 158.75 113.03) (xy 165.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5896e4a1-00d9-4bfe-9202-a93647287c2c")
+	)
+	(wire
+		(pts
+			(xy 158.75 118.11) (xy 180.34 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9c33ea-05d0-4224-a7ca-f9a573658cd5")
+	)
+	(wire
+		(pts
+			(xy 198.12 52.07) (xy 209.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d805a1e-ef40-4048-8919-d7f16c78c517")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f653e3a-3f6b-45a7-b649-11e9ea6d882b")
+	)
+	(wire
+		(pts
+			(xy 170.18 59.69) (xy 170.18 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6122999c-b406-471e-8987-d9e9ff33295f")
+	)
+	(wire
+		(pts
+			(xy 265.43 38.1) (xy 265.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676124e4-f208-43d8-912f-afc5934700a4")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 190.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a5e073-dd8d-46ea-91af-da8595229c0b")
+	)
+	(wire
+		(pts
+			(xy 165.1 167.64) (xy 170.18 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688aff6c-da8b-432c-aeb5-a507a32e7964")
+	)
+	(wire
+		(pts
+			(xy 158.75 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693afc42-b108-47e2-93f2-1044981b35c1")
+	)
+	(wire
+		(pts
+			(xy 170.18 167.64) (xy 170.18 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d95f3bc-cd17-40ba-a47d-063cd402b706")
+	)
+	(wire
+		(pts
+			(xy 161.29 54.61) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d17035-1160-4d61-bea3-ca9d3d6d8fed")
+	)
+	(wire
+		(pts
+			(xy 180.34 118.11) (xy 190.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b73733a-78b8-4e01-b946-052ddfec6da7")
+	)
+	(wire
+		(pts
+			(xy 172.72 62.23) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e51bbe2-fc33-49db-af46-56fbc3d9b68c")
+	)
+	(wire
+		(pts
+			(xy 172.72 166.37) (xy 190.5 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8435ab7d-246e-4f53-b974-7ceced111a69")
+	)
+	(wire
+		(pts
+			(xy 165.1 153.67) (xy 165.1 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86383f8e-0b6a-49cb-8910-649be7869f31")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 180.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a31581-2f53-4edf-9b24-a81082096700")
+	)
+	(wire
+		(pts
+			(xy 170.18 52.07) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89353b39-74e6-4f25-af24-5477ac21e970")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94715790-a7f0-468e-a7fa-3dcddd351924")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 165.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9475ce87-43aa-4be1-9abc-9b10ebd59941")
+	)
+	(wire
+		(pts
+			(xy 172.72 186.69) (xy 172.72 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9576ddb8-b929-48b5-b277-4ed3f7898420")
+	)
+	(wire
+		(pts
+			(xy 172.72 132.08) (xy 172.72 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b6fce7-8536-450f-9512-6304383fcf54")
+	)
+	(wire
+		(pts
+			(xy 158.75 54.61) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9829bc98-1f2b-4e80-a32c-f9f04592117d")
+	)
+	(wire
+		(pts
+			(xy 158.75 167.64) (xy 165.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9993170d-83f2-4bcf-a065-d725d9c1a683")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 190.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a143419e-5253-483c-93a4-75cd1edf2627")
+	)
+	(wire
+		(pts
+			(xy 266.7 45.72) (xy 262.89 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f2764c-54e8-44a8-8df4-080565c6e65f")
+	)
+	(wire
+		(pts
+			(xy 198.12 166.37) (xy 209.55 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa16dbb7-1dbc-4d5c-9c00-eb170e26bb36")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ab912e-4b4d-4b27-b4da-7c93d33c6e79")
+	)
+	(wire
+		(pts
+			(xy 180.34 132.08) (xy 180.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b207b4ff-2988-4046-bced-8e9cc484b704")
+	)
+	(wire
+		(pts
+			(xy 265.43 40.64) (xy 262.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bcfb64-6e8b-4ced-823e-b07de58db72c")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b857a18a-1c40-44be-b802-e6ff7ae3a215")
+	)
+	(wire
+		(pts
+			(xy 198.12 64.77) (xy 209.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9450b6e-0ba3-4b8c-95c9-d8e63ee0e352")
+	)
+	(wire
+		(pts
+			(xy 165.1 186.69) (xy 165.1 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17aceef-b5b3-4f10-af5c-0c117cd780fe")
+	)
+	(wire
+		(pts
+			(xy 180.34 186.69) (xy 180.34 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3710e43-ced2-45c3-8776-7b20c0e9a448")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 170.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c378f467-a4a2-4d73-9547-e6f1a28ef93b")
+	)
+	(wire
+		(pts
+			(xy 198.12 118.11) (xy 209.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb86d6f-c41d-4dc9-9c84-3acf574c3bf5")
+	)
+	(wire
+		(pts
+			(xy 180.34 172.72) (xy 190.5 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01d352c-3b46-4038-a0fb-67994e6b1ffe")
+	)
+	(wire
+		(pts
+			(xy 161.29 162.56) (xy 161.29 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0596ef1-23e1-4d47-9a8f-b6c84ea100ae")
+	)
+	(wire
+		(pts
+			(xy 180.34 64.77) (xy 190.5 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c58c60-3e86-46b3-b551-4a8f1ef82386")
+	)
+	(wire
+		(pts
+			(xy 158.75 62.23) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d728e531-85b4-45f8-be43-e21ef0eb7bcb")
+	)
+	(wire
+		(pts
+			(xy 172.72 115.57) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fc535f-2c71-4502-a95c-d6dcc8b3c4d5")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 172.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44bd9fe-29e4-4286-a42c-e36f59cfffa4")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b79fb4-b871-4e78-95ed-b0e5231710e0")
+	)
+	(wire
+		(pts
+			(xy 161.29 153.67) (xy 165.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7d7bd4-7e8c-4d85-90ac-1cb84355b946")
+	)
+	(wire
+		(pts
+			(xy 180.34 64.77) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed260b3b-72f2-424f-8e83-339c69e6bd18")
+	)
+	(wire
+		(pts
+			(xy 158.75 162.56) (xy 161.29 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda2778d-ac68-4cfc-a93d-3e890274615c")
+	)
+	(wire
+		(pts
+			(xy 158.75 170.18) (xy 172.72 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1c698f-ef37-4cc9-b3a0-949900f384e9")
+	)
+	(wire
+		(pts
+			(xy 170.18 160.02) (xy 190.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92b17ac-5655-4c2a-adf4-bc04634c2977")
+	)
+	(wire
+		(pts
+			(xy 180.34 172.72) (xy 180.34 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda7f735-3677-46ec-9700-c148adf5813f")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9af22e-9a64-4121-9d1e-8bb80f6440b3")
+	)
+	(label "ENC_VCC"
+		(at 158.75 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3efb7f90-3b39-4c9a-8138-041cf1e065fd")
+	)
+	(label "ENC_VCC"
+		(at 158.75 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1a902a6-0cba-4d45-aa77-a7aea5e93f38")
+	)
+	(label "ENC_VCC"
+		(at 262.89 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6186b3b-5355-4592-80e4-01652b562238")
+	)
+	(label "ENC_VCC"
+		(at 158.75 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fafff915-ccad-4a26-a01e-3ae709fef2d4")
+	)
+	(hierarchical_label "ENC0_A"
+		(shape output)
+		(at 209.55 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "186585c9-3570-4147-a2c8-1867cec6526f")
+	)
+	(hierarchical_label "ENC1_PWM"
+		(shape output)
+		(at 209.55 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "308bd5ef-e277-47ee-b963-1eade8d4bf4d")
+	)
+	(hierarchical_label "ENC2_PWM"
+		(shape output)
+		(at 209.55 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "385cba7c-60fe-46c7-aa12-88f9fb37a12f")
+	)
+	(hierarchical_label "ENC2_A"
+		(shape output)
+		(at 209.55 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a489410-7676-4a3f-abaa-b0fa6c703ec3")
+	)
+	(hierarchical_label "ENC1_A"
+		(shape output)
+		(at 209.55 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b2749f0-07a7-42de-a74c-e0eaea1c97ce")
+	)
+	(hierarchical_label "ENC2_B"
+		(shape output)
+		(at 209.55 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81f237f4-37e3-4171-8505-13134d3ed8a6")
+	)
+	(hierarchical_label "ENC0_B"
+		(shape output)
+		(at 209.55 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8b4a029-1bcb-43d1-901a-a0770bca7534")
+	)
+	(hierarchical_label "ENC0_PWM"
+		(shape output)
+		(at 209.55 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea98d378-66da-4047-889d-e2eac3a80b66")
+	)
+	(hierarchical_label "ENC1_B"
+		(shape output)
+		(at 209.55 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eae5d2a3-c98d-404f-8101-3dd1e29526fd")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 257.81 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09dd226c-0e16-472a-9b4c-dce9ff6c5fe5")
+		(property "Reference" "J604"
+			(at 257.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ENC PWR"
+			(at 257.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa7ee930-b33a-48a2-bd1d-d234eb72bc1a")
+		)
+		(pin "3"
+			(uuid "592d8427-a9f2-4c01-be0b-d3338bc6633a")
+		)
+		(pin "1"
+			(uuid "9312e1be-7462-4160-844f-3f91990479fd")
+		)
+		(instances
+			(project ""
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "J604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "167ffc77-3132-4ded-ba2a-613f5e4b943b")
+		(property "Reference" "R602"
+			(at 192.278 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5881868e-a169-47e0-aff7-c36889d56707")
+		)
+		(pin "2"
+			(uuid "9d4cb92f-7c8a-4b16-9817-8b00fe87139b")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "168a3dff-872d-4e68-a65f-37435f3b3030")
+		(property "Reference" "R607"
+			(at 166.624 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 162.56 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 164.084 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a382c37b-533a-4a97-be7e-3cd37667d465")
+		)
+		(pin "2"
+			(uuid "e67701a2-e9ef-4f28-b313-9e9863f7baf4")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1698d081-2705-4077-85a7-9a5b91338993")
+		(property "Reference" "#PWR0612"
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b01fad95-5b9f-423a-a663-11230a398923")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 180.34 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18510ca5-6bc2-4d2e-841f-2d48b80bfbab")
+		(property "Reference" "R609"
+			(at 181.864 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 177.8 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 179.324 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ed77d18-a7d5-497e-ba40-75bc5c04be9c")
+		)
+		(pin "2"
+			(uuid "11d3abd7-5b18-4427-b575-95c700830b89")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 153.67 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19ea768e-ec24-4d67-9bc3-a91718fd34f4")
+		(property "Reference" "J601"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ENC0"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0039"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 5 position 0.100\" (2.54mm)"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Molex"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0705430039"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM4827-ND"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "453a84a5-4233-41cd-ba50-f5a4e84f84ff")
+		)
+		(pin "2"
+			(uuid "b5d030e5-486e-4e29-829a-40fe658435b3")
+		)
+		(pin "1"
+			(uuid "d17fdf42-c077-4b92-bdd1-1baadac0ed92")
+		)
+		(pin "3"
+			(uuid "f20d89a9-5078-4c30-b7b1-9ddc475ece7a")
+		)
+		(pin "5"
+			(uuid "bfbae608-46a1-45c2-89a8-7b82030f1b6e")
+		)
+		(instances
+			(project ""
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "J601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 266.7 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29ae9cf9-d083-4ff1-b479-4249f41c6462")
+		(property "Reference" "#PWR0617"
+			(at 262.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 269.24 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 266.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1499bee-351f-4ae2-93f4-73d3f6b4929b")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0617")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 153.67 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a4931b6-7e0f-4487-8f44-76493c756f2d")
+		(property "Reference" "J602"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ENC1"
+			(at 153.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0039"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 5 position 0.100\" (2.54mm)"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Molex"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0705430039"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM4827-ND"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5fdeb521-a261-45b8-a0a0-a7cb9a4ea69d")
+		)
+		(pin "2"
+			(uuid "4e13ec57-5821-46b4-b10f-d5ce7f4ca2da")
+		)
+		(pin "1"
+			(uuid "10e9dd83-7b28-40d3-85d6-2c49c53a7f0f")
+		)
+		(pin "3"
+			(uuid "ee1aab77-8137-4213-b7ab-98fbff1ef8a9")
+		)
+		(pin "5"
+			(uuid "6ee9498a-1c71-4345-8703-bdb45fdf562f")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "J602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b29f06e-5e9f-4950-92b4-ca79540b0926")
+		(property "Reference" "#PWR0608"
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2fa38ee-5b4b-4a0f-92b7-c6cbde4b88dc")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34114763-108d-4040-9505-036b4fa889e5")
+		(property "Reference" "R616"
+			(at 192.278 161.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 157.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a746d46-246e-4b04-b113-c5a4a5666efd")
+		)
+		(pin "2"
+			(uuid "c28f3d00-daea-4980-9516-34845fd474d7")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R616")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e6aa71-ede2-4c1e-b345-3ee343301a0b")
+		(property "Reference" "#PWR0605"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c81cdf39-4860-4a2c-919d-352887ad3f60")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "378c7034-1646-4a14-962d-14844a0a62d0")
+		(property "Reference" "R606"
+			(at 192.278 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c89e566d-04ed-4061-b1a0-f87da4806343")
+		)
+		(pin "2"
+			(uuid "21d94234-c29c-4668-837b-36032113304c")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a07d709-e10e-4be0-b370-e4de347c54bd")
+		(property "Reference" "R618"
+			(at 192.278 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 173.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c65c027-4b0f-4d64-9e3e-94fc74eb4e3a")
+		)
+		(pin "2"
+			(uuid "27a332d2-26a0-4615-83af-f95609e467f0")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R618")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42827ca5-d917-49b8-8d23-a0fe4013e3f7")
+		(property "Reference" "#PWR0615"
+			(at 180.34 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12a44f1e-06d2-4aba-b594-a45b5d6214ff")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 153.67 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4985628b-0bdc-4a69-92fe-f4104c42f3f5")
+		(property "Reference" "J603"
+			(at 153.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ENC2"
+			(at 153.67 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0039"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 5 position 0.100\" (2.54mm)"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Molex"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0705430039"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM4827-ND"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8c7129e7-83c2-44ba-b6f8-afb8aabfeccd")
+		)
+		(pin "2"
+			(uuid "12c60d76-2635-4348-973e-a95fec14d2b8")
+		)
+		(pin "1"
+			(uuid "88358501-6cde-46b6-bc57-26002dc87f48")
+		)
+		(pin "3"
+			(uuid "a5a0b89e-a36a-4db4-bffc-c9df099ae832")
+		)
+		(pin "5"
+			(uuid "d95671b2-f5d1-453e-8486-e6f67d211e88")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "J603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 172.72 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4eff5d41-695f-4300-84f5-159b6cd148e4")
+		(property "Reference" "R614"
+			(at 174.244 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 170.18 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 171.704 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 172.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 172.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 172.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 172.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 172.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51fbf36-43c6-4a3f-b919-849cf7fe86c3")
+		)
+		(pin "2"
+			(uuid "c686ece8-9768-466c-b24d-e0a41d514944")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R614")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66cea67c-9e3c-4eef-95fb-17d745ce5684")
+		(property "Reference" "R612"
+			(at 192.278 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fffa4fe-b6ee-4db4-8cb1-9ab8a111808d")
+		)
+		(pin "2"
+			(uuid "df78a8ec-1861-465b-a58f-9fd84db948ba")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bd5d967-68f3-4f4e-99a5-185cb16f5d29")
+		(property "Reference" "#PWR0614"
+			(at 172.72 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7da049d-1818-49f4-a6ac-d2416ce37b10")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0614")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7136429d-9ca6-4357-a91f-a0462f8bbf6e")
+		(property "Reference" "R611"
+			(at 192.278 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "365efd9d-87de-4732-bd23-14ff1ff5bb00")
+		)
+		(pin "2"
+			(uuid "d2723a38-5618-4741-a686-0aab79a80a0a")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84fbd40b-0767-4176-b2f5-d9317f9f2e97")
+		(property "Reference" "R605"
+			(at 192.278 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "799dd121-eb6c-4c7d-9bcd-6f0008e65997")
+		)
+		(pin "2"
+			(uuid "46c5c4c2-9451-4d21-b0f2-65f410b333ad")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86e2de6d-aa57-42c0-a7e9-48e5a60ba5d7")
+		(property "Reference" "R617"
+			(at 192.278 167.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 164.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a33a75b4-fcc3-4b72-b5d0-44af93cd8911")
+		)
+		(pin "2"
+			(uuid "02ff50ec-686e-443b-99fa-eabdbfdd55d2")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R617")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88117e4d-981d-435d-bf91-e2895a6f896a")
+		(property "Reference" "#PWR0610"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c0b8373-77d0-4cb3-96b8-f9f9fe65162d")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0610")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 172.72 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dcaaac1-7a9a-4b4f-aef2-9e8122da3860")
+		(property "Reference" "R608"
+			(at 174.244 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 170.18 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 171.704 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33bfeebd-8061-4769-8085-b4b1fa5a7829")
+		)
+		(pin "2"
+			(uuid "a3e37ec5-0c8e-44bd-84ac-62b35323fe3c")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 38.1 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a36f5fc3-35db-4d66-924e-25869d16d856")
+		(property "Reference" "#PWR0616"
+			(at 262.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 269.494 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 266.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36f4afd7-d71c-4119-945d-183f92891fd1")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0616")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a398a4c4-e162-4dfe-b213-9b4f2192f4a8")
+		(property "Reference" "#PWR0609"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4c01834-d512-40bf-b561-5df0a216f6db")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af71fe7c-42ab-46e1-9c55-71bc4d1f6412")
+		(property "Reference" "R610"
+			(at 192.278 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R-1%-0805"
+			(at 194.31 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.056 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RMCF0805FT49R9"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80ea07bf-8356-4ea8-9768-f00d102b32d9")
+		)
+		(pin "2"
+			(uuid "b9e196a6-a1f9-40fa-a170-4742d31f1b48")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R610")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bde160cc-e9f9-4288-9fe1-c39b1bf069cd")
+		(property "Reference" "#PWR0607"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de03e1a0-8e7e-4429-a1cb-97c29c94a1ad")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6ec615d-5159-4726-a0f4-697d2f92ba5a")
+		(property "Reference" "#PWR0601"
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edf307dd-9af9-4bfd-b11d-ed287797d7d7")
+		)
+		(instances
+			(project ""
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 180.34 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0c95f37-f4f4-46e4-acd3-73f78bf47cef")
+		(property "Reference" "R615"
+			(at 181.864 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 177.8 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 179.324 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 180.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 180.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 180.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 180.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 180.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21977e0e-43d3-4b67-8091-5893a2d2bb83")
+		)
+		(pin "2"
+			(uuid "b01b6fc5-0a26-4d5f-a09b-de2cacaa99a1")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbd764f8-8e52-4439-b500-fd596f226508")
+		(property "Reference" "R613"
+			(at 166.624 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 162.56 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 164.084 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be4ed3dd-5d2d-4beb-a5cc-4f253d138242")
+		)
+		(pin "2"
+			(uuid "e6487543-b61f-4692-a18f-471dee07dcbe")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R613")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 180.34 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5faf5c9-44cf-444c-a0c8-f963a4666bf7")
+		(property "Reference" "R604"
+			(at 181.864 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 177.8 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 179.324 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a2a4db1-1be7-4b95-98e7-5adfe85ce33b")
+		)
+		(pin "2"
+			(uuid "ec9557d9-f337-4306-ab17-ac3d8f124916")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb71c4d6-4a4d-4057-bb1f-f84651ca3ee7")
+		(property "Reference" "R601"
+			(at 166.624 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 162.56 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 164.084 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a60b5945-db56-4e4a-b882-260226358413")
+		)
+		(pin "2"
+			(uuid "b578ac67-806d-4112-85a5-86c4a9046479")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f048cf50-28ee-4d5c-919d-0d2c44df3d44")
+		(property "Reference" "#PWR0604"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3d546cb-d271-4348-8c9f-bf1db718f812")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1b36ce2-3338-405e-a4ee-d340e4bbb526")
+		(property "Reference" "#PWR0603"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a96a56b-5acb-4e3a-81c1-3e93a5c1bbe7")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f221bc26-a616-456b-9778-aaca5093f174")
+		(property "Reference" "#PWR0613"
+			(at 165.1 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d9fac2-0664-4e7e-8037-ce4c4adcc2ed")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "#PWR0613")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 172.72 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff2cc936-60cc-4e3e-99b7-4ba1decad5d0")
+		(property "Reference" "R603"
+			(at 174.244 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k-1%-0805"
+			(at 170.18 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 171.704 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "ERJ-6ENF2002V"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "P20.0KCCT-ND"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67de44fa-3646-4d64-b10e-9bc019e4f20c")
+		)
+		(pin "2"
+			(uuid "a2e28ba3-7ae1-41f2-9cde-d60f584ffa22")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
+					(reference "R603")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
