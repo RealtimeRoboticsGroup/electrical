@@ -3081,30 +3081,6 @@
 		)
 		(uuid "eae6fb9f-c88c-4b6f-9f75-dd860b2f5850")
 	)
-	(text_box "TODO:\n- Add 2x quadrature encoder inputs + PWM with 5V power.\n- Change SL right angle to vertical headers."
-		(exclude_from_sim no)
-		(at 138.43 27.94 0)
-		(size 124.46 22.86)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "0476263d-c6a5-4667-aff8-9c861d2f9884")
-	)
 	(junction
 		(at 250.19 166.37)
 		(diameter 0)
@@ -4505,7 +4481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0021c613-77f5-4cd5-986b-582e051dfb19")
-		(property "Reference" "H103"
+		(property "Reference" "H4"
 			(at 91.44 240.0299 0)
 			(effects
 				(font
@@ -4553,7 +4529,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "H103")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4569,7 +4545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b427a8-6d4c-4123-9da6-068b1ad800bc")
-		(property "Reference" "FID103"
+		(property "Reference" "FID2"
 			(at 139.7 250.1899 0)
 			(effects
 				(font
@@ -4587,7 +4563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_Cross_1.5mm_Mask2mm"
+		(property "Footprint" "Pico-ButtonBoard:Fiducial_1.6mm_Mask3mm"
 			(at 137.16 251.46 0)
 			(effects
 				(font
@@ -4617,7 +4593,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "FID103")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ddbf245-569b-4f25-8c03-bef7eb46e9a7")
-		(property "Reference" "FID104"
+		(property "Reference" "FID5"
 			(at 156.21 240.0299 0)
 			(effects
 				(font
@@ -4716,7 +4692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_Cross_1.5mm_Mask2mm"
+		(property "Footprint" "Pico-ButtonBoard:Fiducial_1.6mm_Mask3mm"
 			(at 153.67 241.3 0)
 			(effects
 				(font
@@ -4746,7 +4722,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "FID104")
+					(reference "FID5")
 					(unit 1)
 				)
 			)
@@ -5021,7 +4997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1669c32d-f613-4ada-a8a6-bc3287ba121b")
-		(property "Reference" "C104"
+		(property "Reference" "C20"
 			(at 337.82 110.998 0)
 			(effects
 				(font
@@ -5111,7 +5087,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "C104")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5127,7 +5103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf80d27-4156-404d-a283-383af609b934")
-		(property "Reference" "FID102"
+		(property "Reference" "FID4"
 			(at 139.7 245.1099 0)
 			(effects
 				(font
@@ -5145,7 +5121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_Cross_1.5mm_Mask2mm"
+		(property "Footprint" "Pico-ButtonBoard:Fiducial_1.6mm_Mask3mm"
 			(at 137.16 246.38 0)
 			(effects
 				(font
@@ -5175,7 +5151,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "FID102")
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -5191,7 +5167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31c7db84-0fdd-4f04-b55a-6a3bf085f483")
-		(property "Reference" "J101"
+		(property "Reference" "J22"
 			(at 57.912 63.5 0)
 			(effects
 				(font
@@ -5279,7 +5255,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "J101")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36009194-e8aa-49d1-a8d1-73f14f3dd559")
-		(property "Reference" "FID105"
+		(property "Reference" "FID1"
 			(at 156.21 245.1099 0)
 			(effects
 				(font
@@ -5378,7 +5354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_Cross_1.5mm_Mask2mm"
+		(property "Footprint" "Pico-ButtonBoard:Fiducial_1.6mm_Mask3mm"
 			(at 153.67 246.38 0)
 			(effects
 				(font
@@ -5408,7 +5384,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "FID105")
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -5424,7 +5400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "386f6bd4-4f63-4008-bd1a-8fd12c8c1f1e")
-		(property "Reference" "H104"
+		(property "Reference" "H3"
 			(at 91.44 246.3799 0)
 			(effects
 				(font
@@ -5472,7 +5448,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "H104")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5554,7 +5530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4690e3f8-cec7-4c66-9e4f-ee0234baf606")
-		(property "Reference" "A101"
+		(property "Reference" "A1"
 			(at 206.6133 171.45 0)
 			(effects
 				(font
@@ -5572,7 +5548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
+		(property "Footprint" "Pico-ButtonBoard:RaspberryPi_Pico_Common_Unspecified"
 			(at 204.47 184.15 0)
 			(effects
 				(font
@@ -5732,7 +5708,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "A101")
+					(reference "A1")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bba1e5d-2e63-47e1-bba1-88012955e152")
-		(property "Reference" "J103"
+		(property "Reference" "J20"
 			(at 378.968 124.46 0)
 			(effects
 				(font
@@ -5835,7 +5811,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "J103")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -5851,7 +5827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c7429a3-87da-4a2c-8144-50d7dafc26da")
-		(property "Reference" "C105"
+		(property "Reference" "C22"
 			(at 349.25 110.998 0)
 			(effects
 				(font
@@ -5941,7 +5917,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "C105")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5956,7 +5932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cc0e185-2775-4363-b4cb-d4a8bca24298")
-		(property "Reference" "R101"
+		(property "Reference" "R59"
 			(at 169.926 94.742 0)
 			(effects
 				(font
@@ -6046,7 +6022,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "R101")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -6061,7 +6037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64c7c796-6790-4ccd-b25a-73dc447fed6d")
-		(property "Reference" "C101"
+		(property "Reference" "C26"
 			(at 170.18 103.378 0)
 			(effects
 				(font
@@ -6151,7 +6127,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "C101")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "661e150d-95f7-412b-b499-ec4597ffa694")
-		(property "Reference" "U101"
+		(property "Reference" "U4"
 			(at 261.62 167.5698 0)
 			(effects
 				(font
@@ -6261,7 +6237,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "U101")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6407,7 +6383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78db6527-8c14-49df-a4d3-f474f85854ab")
-		(property "Reference" "FID101"
+		(property "Reference" "FID3"
 			(at 139.7 240.0299 0)
 			(effects
 				(font
@@ -6425,7 +6401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_Cross_1.5mm_Mask2mm"
+		(property "Footprint" "Pico-ButtonBoard:Fiducial_1.6mm_Mask3mm"
 			(at 137.16 241.3 0)
 			(effects
 				(font
@@ -6455,7 +6431,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "FID101")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -6470,7 +6446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ffeb753-f811-4749-b8cb-ef04dd0d8335")
-		(property "Reference" "J104"
+		(property "Reference" "J19"
 			(at 378.968 142.24 0)
 			(effects
 				(font
@@ -6558,7 +6534,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "J104")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -6769,7 +6745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b1e7b8-ea85-44f1-bebf-d45afbe3b674")
-		(property "Reference" "H101"
+		(property "Reference" "H1"
 			(at 71.12 240.0299 0)
 			(effects
 				(font
@@ -6817,7 +6793,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "H101")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6897,7 +6873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b35d9c0-762d-4396-bd02-098d82f4c0e5")
-		(property "Reference" "C103"
+		(property "Reference" "C23"
 			(at 273.05 117.348 0)
 			(effects
 				(font
@@ -6987,7 +6963,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "C103")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7003,7 +6979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f44f40e-2e1e-412e-9b33-374d2ec29b60")
-		(property "Reference" "J102"
+		(property "Reference" "J21"
 			(at 57.912 72.39 0)
 			(effects
 				(font
@@ -7091,7 +7067,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "J102")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -7106,7 +7082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a10a9d62-497b-4bec-b1e9-5724151834e6")
-		(property "Reference" "C102"
+		(property "Reference" "C4"
 			(at 260.35 188.468 0)
 			(effects
 				(font
@@ -7196,7 +7172,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "C102")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7212,7 +7188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e2707f-3d31-4819-9106-fb1b61f816e8")
-		(property "Reference" "U102"
+		(property "Reference" "U5"
 			(at 285.3533 124.46 0)
 			(effects
 				(font
@@ -7341,7 +7317,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "U102")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7748,7 +7724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf6b4e5b-e725-4dd7-a619-f5066d4ce1d2")
-		(property "Reference" "FID106"
+		(property "Reference" "FID6"
 			(at 156.21 250.1899 0)
 			(effects
 				(font
@@ -7766,7 +7742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_Cross_1.5mm_Mask2mm"
+		(property "Footprint" "Pico-ButtonBoard:Fiducial_1.6mm_Mask3mm"
 			(at 153.67 251.46 0)
 			(effects
 				(font
@@ -7796,7 +7772,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "FID106")
+					(reference "FID6")
 					(unit 1)
 				)
 			)
@@ -7877,7 +7853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b81a9f-2e6d-424b-b10e-76e2560f1853")
-		(property "Reference" "H102"
+		(property "Reference" "H2"
 			(at 71.12 246.3799 0)
 			(effects
 				(font
@@ -7925,7 +7901,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "H102")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8005,7 +7981,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e0759325-b9f1-4662-847b-5439e4701b50")
-		(property "Reference" "TP102"
+		(property "Reference" "TP5"
 			(at 314.96 124.206 0)
 			(effects
 				(font
@@ -8056,7 +8032,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "TP102")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8266,7 +8242,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ffb2d6b9-ecab-4038-8725-653ad01d7f22")
-		(property "Reference" "TP101"
+		(property "Reference" "TP4"
 			(at 311.15 124.206 0)
 			(effects
 				(font
@@ -8317,7 +8293,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "TP101")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8333,7 +8309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fffca177-3168-4473-9793-778976f0e4c6")
-		(property "Reference" "U103"
+		(property "Reference" "U8"
 			(at 339.9633 142.24 0)
 			(effects
 				(font
@@ -8441,7 +8417,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "U103")
+					(reference "U8")
 					(unit 1)
 				)
 			)
