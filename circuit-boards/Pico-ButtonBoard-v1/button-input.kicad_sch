@@ -5378,7 +5378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "000ac64c-103c-4300-84b2-148d9cf66199")
-		(property "Reference" "R207"
+		(property "Reference" "R2"
 			(at 142.24 37.592 90)
 			(effects
 				(font
@@ -5467,7 +5467,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R207")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5482,7 +5482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00b7f0d7-7049-4395-a7be-066042161dcd")
-		(property "Reference" "R211"
+		(property "Reference" "R3"
 			(at 153.67 37.592 90)
 			(effects
 				(font
@@ -5571,7 +5571,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R211")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5586,7 +5586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01cde29a-7fa8-49a5-8f46-0045f4dadf55")
-		(property "Reference" "R238"
+		(property "Reference" "R83"
 			(at 227.33 94.234 90)
 			(effects
 				(font
@@ -5674,7 +5674,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R238")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -5689,7 +5689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "070c282a-bfd2-4b09-9506-54c6cf2e6def")
-		(property "Reference" "R237"
+		(property "Reference" "R81"
 			(at 227.33 87.884 90)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R237")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -5792,7 +5792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07786c5e-5779-4d52-bc54-f11cb5a04f8c")
-		(property "Reference" "R205"
+		(property "Reference" "R76"
 			(at 136.906 42.672 90)
 			(effects
 				(font
@@ -5881,7 +5881,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R205")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -5963,7 +5963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b0c6f81-4589-4191-a127-2996e178ec37")
-		(property "Reference" "J202"
+		(property "Reference" "J4"
 			(at 102.362 67.31 0)
 			(effects
 				(font
@@ -6051,7 +6051,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J202")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6066,7 +6066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bd90d9f-0568-4390-a25e-9b9fcc676ffe")
-		(property "Reference" "D204"
+		(property "Reference" "D11"
 			(at 138.43 170.434 0)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D204")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6171,7 +6171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e41de04-e643-497f-a5f7-773bb340d752")
-		(property "Reference" "D205"
+		(property "Reference" "D3"
 			(at 149.86 51.054 0)
 			(effects
 				(font
@@ -6261,7 +6261,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D205")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6276,7 +6276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e4b6243-0be9-4182-9018-1c80aaa8d03a")
-		(property "Reference" "R232"
+		(property "Reference" "R33"
 			(at 209.55 156.972 90)
 			(effects
 				(font
@@ -6365,7 +6365,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R232")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1127f303-40c2-4089-b00a-db95e2a7536a")
-		(property "Reference" "C202"
+		(property "Reference" "C33"
 			(at 125.73 236.22 90)
 			(effects
 				(font
@@ -6469,7 +6469,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C202")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6484,7 +6484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13d4f244-fdb4-4cf8-93fd-5712c01a04a4")
-		(property "Reference" "R227"
+		(property "Reference" "R7"
 			(at 198.12 37.592 90)
 			(effects
 				(font
@@ -6573,7 +6573,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R227")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6654,7 +6654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1708e9af-fa73-4525-88b8-6790bd00bde6")
-		(property "Reference" "R218"
+		(property "Reference" "R53"
 			(at 171.196 162.052 90)
 			(effects
 				(font
@@ -6743,7 +6743,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R218")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -6890,7 +6890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19c07ba8-3103-4440-ad23-f594d7892a89")
-		(property "Reference" "R202"
+		(property "Reference" "R66"
 			(at 125.476 162.052 90)
 			(effects
 				(font
@@ -6979,7 +6979,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R202")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -7060,7 +7060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1baeff63-cb63-4bb8-84ae-fca5547a91b4")
-		(property "Reference" "R240"
+		(property "Reference" "R87"
 			(at 227.33 106.934 90)
 			(effects
 				(font
@@ -7148,7 +7148,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R240")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -7228,7 +7228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21222ba7-b3fc-44a9-bf83-6e4858fbe2fe")
-		(property "Reference" "D212"
+		(property "Reference" "D21"
 			(at 184.15 170.434 0)
 			(effects
 				(font
@@ -7318,7 +7318,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D212")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -7333,7 +7333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "228c092c-33a7-43f0-9913-bfaa440f33ef")
-		(property "Reference" "D211"
+		(property "Reference" "D6"
 			(at 184.15 51.054 0)
 			(effects
 				(font
@@ -7423,7 +7423,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D211")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7438,7 +7438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "234433a6-19e6-46f5-a24a-9dd3972bc2b4")
-		(property "Reference" "C208"
+		(property "Reference" "C25"
 			(at 160.02 236.22 90)
 			(effects
 				(font
@@ -7527,7 +7527,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C208")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7543,7 +7543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2571e63c-b2c7-4832-a51e-bdc094662dc8")
-		(property "Reference" "J204"
+		(property "Reference" "J6"
 			(at 102.362 80.01 0)
 			(effects
 				(font
@@ -7631,7 +7631,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J204")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7908,7 +7908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35f9649a-9372-4601-a4e1-e471dc3bb2a0")
-		(property "Reference" "C218"
+		(property "Reference" "C5"
 			(at 324.358 155.194 0)
 			(effects
 				(font
@@ -7998,7 +7998,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C218")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8079,7 +8079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37d1eb9c-a63a-4997-b346-fa21752d0d0a")
-		(property "Reference" "J210"
+		(property "Reference" "J13"
 			(at 102.362 186.69 0)
 			(effects
 				(font
@@ -8167,7 +8167,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J210")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a3799b0-5bf2-413e-8342-a9ef885204e2")
-		(property "Reference" "J206"
+		(property "Reference" "J8"
 			(at 102.362 92.71 0)
 			(effects
 				(font
@@ -8271,7 +8271,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J206")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8351,7 +8351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c7221b8-556d-449d-86c3-da78c9894493")
-		(property "Reference" "D215"
+		(property "Reference" "D8"
 			(at 205.74 51.054 0)
 			(effects
 				(font
@@ -8441,7 +8441,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D215")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f6ab0ce-5bd1-4077-8438-bd2f919bf99c")
-		(property "Reference" "R201"
+		(property "Reference" "R74"
 			(at 125.476 42.672 90)
 			(effects
 				(font
@@ -8677,7 +8677,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R201")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -8692,7 +8692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44ed459c-22bc-4945-a3b6-144c590302b0")
-		(property "Reference" "C213"
+		(property "Reference" "C40"
 			(at 193.04 116.84 90)
 			(effects
 				(font
@@ -8781,7 +8781,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C213")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -8796,7 +8796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "454fbf89-01bd-4be7-9b11-c1f895c9f893")
-		(property "Reference" "D201"
+		(property "Reference" "D1"
 			(at 127 51.054 0)
 			(effects
 				(font
@@ -8886,7 +8886,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D201")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ae64d9b-2b51-47f4-a32f-45bad612a41f")
-		(property "Reference" "R223"
+		(property "Reference" "R6"
 			(at 187.96 37.592 90)
 			(effects
 				(font
@@ -9055,7 +9055,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R223")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9070,7 +9070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c92f489-b326-437f-9066-04ae7fa3d221")
-		(property "Reference" "C216"
+		(property "Reference" "C12"
 			(at 204.47 236.22 90)
 			(effects
 				(font
@@ -9159,7 +9159,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C216")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9174,7 +9174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c980976-2d87-4090-a31d-0204b2fb8397")
-		(property "Reference" "R216"
+		(property "Reference" "R25"
 			(at 165.1 156.972 90)
 			(effects
 				(font
@@ -9263,7 +9263,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R216")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9409,7 +9409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f02b641-fc9e-4a1f-80cb-094bcffe37b3")
-		(property "Reference" "C217"
+		(property "Reference" "C2"
 			(at 324.612 93.218 0)
 			(effects
 				(font
@@ -9498,7 +9498,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C217")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9513,7 +9513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5051c91e-0c5f-485d-bbbe-da7b84bbb6d9")
-		(property "Reference" "D203"
+		(property "Reference" "D2"
 			(at 138.43 51.054 0)
 			(effects
 				(font
@@ -9603,7 +9603,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D203")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9618,7 +9618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "529c9a4c-cecd-45fe-abe1-b2e33c01eceb")
-		(property "Reference" "R219"
+		(property "Reference" "R5"
 			(at 176.53 37.592 90)
 			(effects
 				(font
@@ -9707,7 +9707,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R219")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9722,7 +9722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "548d80b5-e5db-4764-9f45-b323f8c4bddd")
-		(property "Reference" "R236"
+		(property "Reference" "R79"
 			(at 227.33 81.534 90)
 			(effects
 				(font
@@ -9810,7 +9810,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R236")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -9825,7 +9825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5565e7bf-cbb7-40ad-9b37-bd98bdf5f5a6")
-		(property "Reference" "R221"
+		(property "Reference" "R84"
 			(at 182.626 42.672 90)
 			(effects
 				(font
@@ -9914,7 +9914,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R221")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -9929,7 +9929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55722edc-dea6-4e36-846d-7e4a6ae6806a")
-		(property "Reference" "D207"
+		(property "Reference" "D4"
 			(at 161.29 51.054 0)
 			(effects
 				(font
@@ -10019,7 +10019,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D207")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10100,7 +10100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b1f0b17-b5a7-4a51-a14e-4eb90e51075f")
-		(property "Reference" "R229"
+		(property "Reference" "R88"
 			(at 204.216 42.672 90)
 			(effects
 				(font
@@ -10189,7 +10189,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R229")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -10204,7 +10204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bbd3f04-afb6-4b2f-8efb-b94287379898")
-		(property "Reference" "C205"
+		(property "Reference" "C36"
 			(at 148.59 116.84 90)
 			(effects
 				(font
@@ -10293,7 +10293,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C205")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -10308,7 +10308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c17cd69-ccb5-4df2-8c85-39bb88f2ac8e")
-		(property "Reference" "C201"
+		(property "Reference" "C34"
 			(at 125.73 116.84 90)
 			(effects
 				(font
@@ -10397,7 +10397,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C201")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -10477,7 +10477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e7f1d4f-70f4-4461-8748-1289ba17092c")
-		(property "Reference" "R212"
+		(property "Reference" "R24"
 			(at 153.67 156.972 90)
 			(effects
 				(font
@@ -10566,7 +10566,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R212")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10648,7 +10648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "612f5a0e-a168-4cb6-a2d4-8d14c19cac6a")
-		(property "Reference" "J211"
+		(property "Reference" "J14"
 			(at 102.362 193.04 0)
 			(effects
 				(font
@@ -10736,7 +10736,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J211")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -10751,7 +10751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61360f1a-6933-4ddd-aed5-4dfc58295cb1")
-		(property "Reference" "C203"
+		(property "Reference" "C35"
 			(at 137.16 116.84 90)
 			(effects
 				(font
@@ -10840,7 +10840,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C203")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -10855,7 +10855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62d67765-8963-4d88-a63f-509b939fd7dc")
-		(property "Reference" "R204"
+		(property "Reference" "R19"
 			(at 130.81 156.972 90)
 			(effects
 				(font
@@ -10944,7 +10944,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R204")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10959,7 +10959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "654e8906-d48e-4d88-bd0c-29c570bfbd99")
-		(property "Reference" "R203"
+		(property "Reference" "R1"
 			(at 130.81 37.592 90)
 			(effects
 				(font
@@ -11048,7 +11048,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R203")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11063,7 +11063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6559453a-c92c-4d94-8548-6b41d8b6baa1")
-		(property "Reference" "D213"
+		(property "Reference" "D7"
 			(at 194.31 51.054 0)
 			(effects
 				(font
@@ -11153,7 +11153,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D213")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11168,7 +11168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68b3da6e-74b0-4b3f-b137-5089346692a3")
-		(property "Reference" "D214"
+		(property "Reference" "D20"
 			(at 194.31 170.434 0)
 			(effects
 				(font
@@ -11258,7 +11258,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D214")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -11273,7 +11273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "699b80b2-84fb-48d9-bd70-114b80e7c8a1")
-		(property "Reference" "C206"
+		(property "Reference" "C28"
 			(at 148.59 236.22 90)
 			(effects
 				(font
@@ -11362,7 +11362,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C206")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -11377,7 +11377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b4bd574-3af7-4f66-8bc8-af12b626b842")
-		(property "Reference" "C204"
+		(property "Reference" "C30"
 			(at 137.16 236.22 90)
 			(effects
 				(font
@@ -11466,7 +11466,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C204")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11481,7 +11481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cd3f538-7374-4035-819b-67c159c3a78e")
-		(property "Reference" "R220"
+		(property "Reference" "R29"
 			(at 176.53 156.972 90)
 			(effects
 				(font
@@ -11570,7 +11570,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R220")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11651,7 +11651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f06d196-8e72-4496-a554-15f110e1a2f5")
-		(property "Reference" "R214"
+		(property "Reference" "R58"
 			(at 159.766 162.052 90)
 			(effects
 				(font
@@ -11740,7 +11740,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R214")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -11755,7 +11755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "711957b8-26b6-4918-88ea-5c918423eddd")
-		(property "Reference" "R241"
+		(property "Reference" "R65"
 			(at 227.33 181.864 90)
 			(effects
 				(font
@@ -11843,7 +11843,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R241")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -11858,7 +11858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71c845fc-d322-4541-9009-7185eb7efe73")
-		(property "Reference" "C215"
+		(property "Reference" "C41"
 			(at 204.47 116.84 90)
 			(effects
 				(font
@@ -11947,7 +11947,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C215")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -12027,7 +12027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72b4fc98-54f0-4aae-8d5f-d89086d48c51")
-		(property "Reference" "R222"
+		(property "Reference" "R49"
 			(at 182.626 162.052 90)
 			(effects
 				(font
@@ -12116,7 +12116,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R222")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -12263,7 +12263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ba26b5f-6b79-4f86-9640-ab4b928caeda")
-		(property "Reference" "J212"
+		(property "Reference" "J15"
 			(at 102.362 199.39 0)
 			(effects
 				(font
@@ -12351,7 +12351,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J212")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -12366,7 +12366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e622e60-8e4a-44b0-87d6-e621503e9c57")
-		(property "Reference" "R245"
+		(property "Reference" "R54"
 			(at 227.33 207.264 90)
 			(effects
 				(font
@@ -12454,7 +12454,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R245")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -12469,7 +12469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f6ab4c6-3349-4107-9600-3a1c0d11203f")
-		(property "Reference" "R228"
+		(property "Reference" "R34"
 			(at 198.12 156.972 90)
 			(effects
 				(font
@@ -12558,7 +12558,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R228")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -12638,7 +12638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81dc769a-805b-42eb-90b3-65797b062d97")
-		(property "Reference" "D202"
+		(property "Reference" "D9"
 			(at 127 170.434 0)
 			(effects
 				(font
@@ -12728,7 +12728,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D202")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -12743,7 +12743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8586cddb-a161-4c98-92f3-3f1599dfda03")
-		(property "Reference" "R247"
+		(property "Reference" "R47"
 			(at 227.33 219.964 90)
 			(effects
 				(font
@@ -12831,7 +12831,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R247")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -12912,7 +12912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8811a667-58b1-4b5c-98a0-289c1ada63b3")
-		(property "Reference" "R210"
+		(property "Reference" "R61"
 			(at 148.336 162.052 90)
 			(effects
 				(font
@@ -13001,7 +13001,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R210")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -13016,7 +13016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "894d2774-93cf-4baf-b5a4-8a9c09edd94f")
-		(property "Reference" "R213"
+		(property "Reference" "R80"
 			(at 159.766 42.672 90)
 			(effects
 				(font
@@ -13105,7 +13105,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R213")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -13251,7 +13251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cb27e27-f025-40ec-b0d3-044df25f199c")
-		(property "Reference" "C210"
+		(property "Reference" "C15"
 			(at 171.45 236.22 90)
 			(effects
 				(font
@@ -13340,7 +13340,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C210")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13355,7 +13355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dc8bf63-8e38-4ae4-80b5-5de0a630614d")
-		(property "Reference" "R208"
+		(property "Reference" "R20"
 			(at 142.24 156.972 90)
 			(effects
 				(font
@@ -13444,7 +13444,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R208")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13459,7 +13459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93d44823-da8c-42a8-abc2-562db13549ac")
-		(property "Reference" "U202"
+		(property "Reference" "U3"
 			(at 313.2933 133.35 0)
 			(effects
 				(font
@@ -13591,7 +13591,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "U202")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13671,7 +13671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98034004-4c51-4bc8-b75c-25c336f30a06")
-		(property "Reference" "D208"
+		(property "Reference" "D14"
 			(at 161.29 170.434 0)
 			(effects
 				(font
@@ -13761,7 +13761,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D208")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -13776,7 +13776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98eb5df6-958c-4aeb-b5a9-248233f925db")
-		(property "Reference" "D216"
+		(property "Reference" "D19"
 			(at 205.74 170.434 0)
 			(effects
 				(font
@@ -13866,7 +13866,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D216")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -13881,7 +13881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a597c42-beb0-4861-b903-75040b446d89")
-		(property "Reference" "C214"
+		(property "Reference" "C13"
 			(at 193.04 236.22 90)
 			(effects
 				(font
@@ -13970,7 +13970,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C214")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13985,7 +13985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ae2bc86-820f-4cb5-8994-30fa14548bee")
-		(property "Reference" "R206"
+		(property "Reference" "R64"
 			(at 136.906 162.052 90)
 			(effects
 				(font
@@ -14074,7 +14074,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R206")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -14090,7 +14090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0ce8685-84ae-47f1-afd7-3c3bdf987514")
-		(property "Reference" "J208"
+		(property "Reference" "J10"
 			(at 102.362 105.41 0)
 			(effects
 				(font
@@ -14178,7 +14178,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J208")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -14194,7 +14194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a618fbdf-9ea0-4cf1-8e81-1c90c154f7f3")
-		(property "Reference" "J216"
+		(property "Reference" "J23"
 			(at 102.362 224.79 0)
 			(effects
 				(font
@@ -14282,7 +14282,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J216")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -14297,7 +14297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8f5d718-ec33-4545-935d-644ac1450604")
-		(property "Reference" "R233"
+		(property "Reference" "R73"
 			(at 227.33 62.484 90)
 			(effects
 				(font
@@ -14385,7 +14385,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R233")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -14465,7 +14465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad93d864-e6b4-4b53-b732-ae6cf48c73f7")
-		(property "Reference" "R225"
+		(property "Reference" "R86"
 			(at 192.786 42.672 90)
 			(effects
 				(font
@@ -14554,7 +14554,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R225")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -14570,7 +14570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b21f86b4-4d0e-458f-9b6e-841603683b65")
-		(property "Reference" "J213"
+		(property "Reference" "J16"
 			(at 102.362 205.74 0)
 			(effects
 				(font
@@ -14658,7 +14658,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J213")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -14805,7 +14805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b58ac6f2-75b6-4ee4-846f-458afc30f770")
-		(property "Reference" "J209"
+		(property "Reference" "J11"
 			(at 102.362 180.34 0)
 			(effects
 				(font
@@ -14893,7 +14893,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J209")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -14908,7 +14908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b606638f-6345-4090-bafe-578db6ffba60")
-		(property "Reference" "C212"
+		(property "Reference" "C14"
 			(at 182.88 236.22 90)
 			(effects
 				(font
@@ -14997,7 +14997,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C212")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -15012,7 +15012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b63c3f30-8448-451c-8519-25678f720527")
-		(property "Reference" "R231"
+		(property "Reference" "R18"
 			(at 209.55 37.592 90)
 			(effects
 				(font
@@ -15101,7 +15101,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R231")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15181,7 +15181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba083ffb-8134-4588-8b59-b675df01cf78")
-		(property "Reference" "D206"
+		(property "Reference" "D12"
 			(at 149.86 170.434 0)
 			(effects
 				(font
@@ -15271,7 +15271,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D206")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -15352,7 +15352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be93f9cd-2f83-4817-bbb2-3dc2cd7a4fdc")
-		(property "Reference" "R248"
+		(property "Reference" "R45"
 			(at 227.33 226.314 90)
 			(effects
 				(font
@@ -15440,7 +15440,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R248")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -15455,7 +15455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf3616d4-48f9-4b26-bfb5-bb67f2f75702")
-		(property "Reference" "D209"
+		(property "Reference" "D5"
 			(at 172.72 51.054 0)
 			(effects
 				(font
@@ -15545,7 +15545,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D209")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15560,7 +15560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c027465a-ab15-48d0-97b2-983db75cd482")
-		(property "Reference" "R224"
+		(property "Reference" "R35"
 			(at 187.96 156.972 90)
 			(effects
 				(font
@@ -15649,7 +15649,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R224")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -15664,7 +15664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2e35e93-c540-4282-8900-20eea0675c68")
-		(property "Reference" "C209"
+		(property "Reference" "C38"
 			(at 171.45 116.84 90)
 			(effects
 				(font
@@ -15753,7 +15753,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C209")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -15768,7 +15768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c38b3986-9f99-4cb9-8396-fd276402df00")
-		(property "Reference" "C211"
+		(property "Reference" "C39"
 			(at 182.88 116.84 90)
 			(effects
 				(font
@@ -15857,7 +15857,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C211")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -15873,7 +15873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c48e990d-dba0-4f59-99bb-edda5ad3f2d8")
-		(property "Reference" "J201"
+		(property "Reference" "J3"
 			(at 102.362 60.96 0)
 			(effects
 				(font
@@ -15961,7 +15961,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J201")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -15976,7 +15976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc1cbf9c-08c4-4d65-95f0-fccd0b8ab819")
-		(property "Reference" "R234"
+		(property "Reference" "R75"
 			(at 227.33 68.834 90)
 			(effects
 				(font
@@ -16064,7 +16064,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R234")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -16144,7 +16144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d04014a0-c1da-440d-9568-585d9afd954d")
-		(property "Reference" "R239"
+		(property "Reference" "R85"
 			(at 227.33 100.584 90)
 			(effects
 				(font
@@ -16232,7 +16232,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R239")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -16312,7 +16312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d12b0b8c-1a88-464a-a5b8-e50047619fa8")
-		(property "Reference" "R246"
+		(property "Reference" "R48"
 			(at 227.33 213.614 90)
 			(effects
 				(font
@@ -16400,7 +16400,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R246")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -16415,7 +16415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2fb1abe-d56a-4d1a-bf71-fed71c1b369f")
-		(property "Reference" "R217"
+		(property "Reference" "R82"
 			(at 171.196 42.672 90)
 			(effects
 				(font
@@ -16504,7 +16504,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R217")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -16520,7 +16520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d32e22c4-fdf3-4e0d-8c64-55ce52634f12")
-		(property "Reference" "J207"
+		(property "Reference" "J9"
 			(at 102.362 99.06 0)
 			(effects
 				(font
@@ -16608,7 +16608,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J207")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -16623,7 +16623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3b61dc9-9d28-46d1-a5d6-b451592b8860")
-		(property "Reference" "R243"
+		(property "Reference" "R60"
 			(at 227.33 194.564 90)
 			(effects
 				(font
@@ -16711,7 +16711,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R243")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -16726,7 +16726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d991ccc8-b18c-46e3-ac81-978266fb8405")
-		(property "Reference" "D210"
+		(property "Reference" "D15"
 			(at 172.72 170.434 0)
 			(effects
 				(font
@@ -16816,7 +16816,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "D210")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -16897,7 +16897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df2c82a8-f65b-4504-8437-630b1d94612d")
-		(property "Reference" "R244"
+		(property "Reference" "R55"
 			(at 227.33 200.914 90)
 			(effects
 				(font
@@ -16985,7 +16985,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R244")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -17066,7 +17066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1d8da7a-f05a-428b-93fb-62800807bd71")
-		(property "Reference" "U201"
+		(property "Reference" "U1"
 			(at 313.2933 71.12 0)
 			(effects
 				(font
@@ -17198,7 +17198,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "U201")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17213,7 +17213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2ad23cc-1434-4f92-be26-6ca2a25c2628")
-		(property "Reference" "R230"
+		(property "Reference" "R44"
 			(at 204.216 162.052 90)
 			(effects
 				(font
@@ -17302,7 +17302,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R230")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -17317,7 +17317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2e4bd40-2600-46da-bfa1-5b315a04ffc5")
-		(property "Reference" "R235"
+		(property "Reference" "R77"
 			(at 227.33 75.184 90)
 			(effects
 				(font
@@ -17405,7 +17405,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R235")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -17551,7 +17551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea6b7208-defd-4a71-abc6-10264d35b0b4")
-		(property "Reference" "R209"
+		(property "Reference" "R78"
 			(at 148.336 42.672 90)
 			(effects
 				(font
@@ -17640,7 +17640,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R209")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -17655,7 +17655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eada1e1a-b155-4105-b54b-0a70bad90de0")
-		(property "Reference" "R242"
+		(property "Reference" "R63"
 			(at 227.33 188.214 90)
 			(effects
 				(font
@@ -17743,7 +17743,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R242")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -17758,7 +17758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb379fec-940b-46b9-b928-93af3ca2eed3")
-		(property "Reference" "C207"
+		(property "Reference" "C37"
 			(at 160.02 116.84 90)
 			(effects
 				(font
@@ -17847,7 +17847,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "C207")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -17863,7 +17863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee5a3b93-2bbe-4dc1-9ad0-18d4be2525bc")
-		(property "Reference" "J203"
+		(property "Reference" "J5"
 			(at 102.362 73.66 0)
 			(effects
 				(font
@@ -17951,7 +17951,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J203")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -17966,7 +17966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efbc584a-a949-42c9-ace8-439f2853a73a")
-		(property "Reference" "R226"
+		(property "Reference" "R46"
 			(at 192.786 162.052 90)
 			(effects
 				(font
@@ -18055,7 +18055,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R226")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -18137,7 +18137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f23a3c64-e576-49eb-a87a-5c7e7e5d8efb")
-		(property "Reference" "J214"
+		(property "Reference" "J25"
 			(at 102.362 212.09 0)
 			(effects
 				(font
@@ -18225,7 +18225,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J214")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -18372,7 +18372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f76e16c5-c9ae-47c6-91ee-93e50ed9e346")
-		(property "Reference" "J215"
+		(property "Reference" "J24"
 			(at 102.362 218.44 0)
 			(effects
 				(font
@@ -18460,7 +18460,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J215")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -18475,7 +18475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc9ebfb2-005d-424f-b32a-68b2a3920685")
-		(property "Reference" "R215"
+		(property "Reference" "R4"
 			(at 165.1 37.592 90)
 			(effects
 				(font
@@ -18564,7 +18564,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "R215")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -18580,7 +18580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "feb4e33b-d7f4-4a9f-a578-d6f75472c33d")
-		(property "Reference" "J205"
+		(property "Reference" "J7"
 			(at 102.362 86.36 0)
 			(effects
 				(font
@@ -18668,7 +18668,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/0ff2bd57-0772-402e-b5ad-a11115b3bfe5"
-					(reference "J205")
+					(reference "J7")
 					(unit 1)
 				)
 			)
