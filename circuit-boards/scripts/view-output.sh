@@ -22,6 +22,6 @@ popd
 
 pushd ${gerberfiles}
 $pdfviewer *.pdf &
-$gerberviewer *.g?? *.drl &
+$gerberviewer *.g?? *.g? *.drl &
 popd
 

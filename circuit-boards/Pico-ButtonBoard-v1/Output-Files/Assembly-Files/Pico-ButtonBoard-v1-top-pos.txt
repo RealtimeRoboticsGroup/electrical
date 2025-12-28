@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-12-27T23:57:13-0800 ###
+### Footprint positions - created on 2025-12-28T11:28:21-0800 ###
 ### Printed by KiCad version 9.0.6-9.0.6~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -62,8 +62,8 @@ J22       DC_IN                Molex-70543-0001                                 
 J23       B15                  Molex-70543-0001                                     8.9500    -6.0594   90.0000  top
 J24       B14                  Molex-70543-0001                                     8.9500    -6.3594   90.0000  top
 J25       B13                  Molex-70543-0001                                     8.9500    -6.6594   90.0000  top
-J26       XY1-L                Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical     9.0179    -4.0730   90.0000  top
-J27       XY0-R                Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical     9.0179    -4.5176   90.0000  top
+J26       XY1-L                Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical     9.0079    -4.0730   90.0000  top
+J27       XY0-R                Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical     9.0079    -4.5176   90.0000  top
 L1        5.6_uH-20%-3.4A      Cyntec-MS6-Inductor                                  7.5850    -5.5150   90.0000  top
 L2        10uH-10%-500mA-0805  L_0805_2012Metric_Pad1.05x1.20mm_HandSolder          8.6800    -3.3850  180.0000  top
 Q1        BSS123               SOT-23-3                                             8.4550    -5.9200  180.0000  top
@@ -112,7 +112,7 @@ TP3       CAN_RX               TestPoint_Keystone_5000-5004_Miniature           
 TP4       CAN_TX               TestPoint_Keystone_5000-5004_Miniature               8.5350    -5.0150    0.0000  top
 TP5       CAN_RX               TestPoint_Keystone_5000-5004_Miniature               8.6700    -5.0150    0.0000  top
 TP6       CAN_RX               TestPoint_Keystone_5000-5004_Miniature               8.8400    -3.7600    0.0000  top
-TP7       CAN_RX               TestPoint_Keystone_5000-5004_Miniature               8.8400    -4.1750    0.0000  top
+TP7       CAN_RX               TestPoint_Keystone_5000-5004_Miniature               8.8200    -4.1870    0.0000  top
 U1        SN74HC165DR          SO-16_3.9x9.9mm_P1.27mm                              7.7300    -6.2850    0.0000  top
 U2        TPS54202DDC          SOT-23-6                                             7.8500    -5.5800    0.0000  top
 U3        SN74HC165DR          SO-16_3.9x9.9mm_P1.27mm                              8.2300    -6.2850    0.0000  top

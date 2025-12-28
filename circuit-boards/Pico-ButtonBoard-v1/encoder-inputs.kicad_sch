@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2025-12-25")
+		(date "2025-12-28")
 		(rev "1")
 	)
 	(lib_symbols
@@ -1998,7 +1998,7 @@
 		(at 257.81 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2038,6 +2038,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "61300311121"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "732-5316-ND"
 			(at 257.81 43.18 0)
 			(effects
 				(font
