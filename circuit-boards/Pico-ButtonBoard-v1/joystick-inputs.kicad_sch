@@ -6,31 +6,54 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2025-12-28")
+		(date "2025-12-29")
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "74xGxx:74LVC1G3157"
+		(symbol "Analog_ADC:MCP3201"
+			(pin_names
+				(offset 0.762)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 5.08 7.62 0)
+				(at 3.81 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "74LVC1G3157"
-				(at 10.16 -7.62 0)
+			(property "Value" "MCP3201"
+				(at 3.81 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
+				(at 19.05 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21290D.pdf"
+				(at 20.32 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.7V 12-Bit A/D Converter with SPI™ Serial Interface, PDIP-8/SOIC-8/MSOP-8/TSSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -39,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(property "ki_keywords" "12-Bit Differential ADC SPI 1ch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,36 +80,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SPDT Analog Switch CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT* SC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LVC1G3157_1_1"
+			(symbol "MCP3201_0_0"
 				(polyline
 					(pts
-						(xy -7.62 0) (xy -5.08 0)
+						(xy -11.43 0) (xy -6.35 5.08) (xy 10.16 5.08) (xy 10.16 -5.08) (xy -6.35 -5.08) (xy -11.43 0)
 					)
 					(stroke
 						(width 0.254)
@@ -96,196 +93,19 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -7.62 -10.16) (xy -5.08 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 7.62) (xy 0 6.35) (xy -2.54 5.08) (xy -2.54 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 0 3.81) (xy -2.54 2.54) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -5.08 5.08) (xy -5.08 0) (xy -5.08 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -5.08) (xy 0 -3.81) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy 0 -6.35) (xy -2.54 -7.62) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.794)
-					(radius 0.762)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -3.81 -0.762) (xy -3.81 -10.16) (xy -5.08 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 7.62) (xy 0 6.35) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54) (xy 0 3.81) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -5.08) (xy 0 -3.81) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 0 -6.35) (xy 2.54 -7.62) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "~"
+			)
+			(symbol "MCP3201_1_1"
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 3.81)
+					(name "IN+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -294,45 +114,9 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -10.16 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 5.08 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -5.08 180)
-					(length 5.08)
-					(name "~"
+					(at -12.7 -2.54 0)
+					(length 3.81)
+					(name "IN-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -347,23 +131,100 @@
 						)
 					)
 				)
-			)
-			(symbol "74LVC1G3157_2_1"
-				(rectangle
-					(start -2.54 5.08)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "Vref"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type background)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin power_in line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "Vss"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "Dout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "~{CS}/SHDN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -371,24 +232,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1241,37 +1084,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pico-ButtonBoard:TLV77033DDC"
+		(symbol "Regulator_Linear:MCP1700x-300xxTT"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 10.16 0)
+				(at -3.81 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TLV77033DDC"
-				(at 0 7.62 0)
+			(property "Value" "MCP1700x-300xxTT"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "Components/TexasInstruments-TLV70033DDC.pdf"
-				(at 0 -22.86 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1279,16 +1117,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "200-mA fixed LDO, 3.3V, active output discharge, 55dB@1MHz PSRR, 3.35..5.5Vin, 45mV dropout, SOT-23-5"
-				(at 1.27 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFG" "Texas Instruments"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1297,7 +1126,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG P/N" "TLV70033DDCR"
+			(property "Description" "250mA Low Quiscent Current LDO, 3.0V output, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1306,25 +1135,7 @@
 					(hide yes)
 				)
 			)
-			(property "DIST" "Digikey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DIST P/N" "296-27937-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single-Output power-supply-rejection-ration low-dropout-regulator"
+			(property "ki_keywords" "regulator linear ldo"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1342,10 +1153,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV77033DDC_0_1"
+			(symbol "MCP1700x-300xxTT_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 5.08)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1354,28 +1165,12 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "MCP1700x-300xxTT_1_1"
 				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "EN"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1400,7 +1195,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1409,36 +1204,16 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 2.54 180)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "OUT"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLV77033DDC_1_1"
-				(pin passive line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1800,107 +1575,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDA"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "3V3A"
 		(exclude_from_sim no)
@@ -2081,12 +1755,6 @@
 		(uuid "30e85754-bf68-4188-b4e0-3b20e8edba4c")
 	)
 	(junction
-		(at 233.68 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3694f81e-e6a9-43f3-8a23-7db64690671f")
-	)
-	(junction
 		(at 118.11 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2105,22 +1773,10 @@
 		(uuid "53da0994-417a-4289-89e5-160e413bd183")
 	)
 	(junction
-		(at 306.07 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5476894d-f8f1-4c43-860e-ad5dacfa34ab")
-	)
-	(junction
 		(at 120.65 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5880f35b-bfa5-405e-b864-bd5f2819c4e4")
-	)
-	(junction
-		(at 223.52 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "682d4532-c57d-4e4b-9735-e75e08400470")
 	)
 	(junction
 		(at 175.26 153.67)
@@ -2135,16 +1791,16 @@
 		(uuid "7c2b3027-56e1-4548-ba42-a041a185b0f8")
 	)
 	(junction
-		(at 320.04 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7eb7863b-591b-400a-8584-09399030b278")
-	)
-	(junction
 		(at 175.26 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88003a9a-d2c6-474f-adca-3fb7da14a970")
+	)
+	(junction
+		(at 231.14 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b378aacb-0335-4ffa-8579-e080e5bd7caa")
 	)
 	(junction
 		(at 189.23 71.12)
@@ -2198,16 +1854,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 138.43) (xy 320.04 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0306d637-342b-404c-9118-8288afdbbb07")
-	)
-	(wire
-		(pts
 			(xy 129.54 71.12) (xy 129.54 76.2)
 		)
 		(stroke
@@ -2248,33 +1894,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 71.12) (xy 223.52 71.12)
+			(xy 196.85 71.12) (xy 226.06 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1428d611-3a3e-4a89-9a4a-e705bd013672")
-	)
-	(wire
-		(pts
-			(xy 306.07 173.99) (xy 306.07 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "153cabb9-fcef-4abe-ac7c-886ac45586b8")
-	)
-	(wire
-		(pts
-			(xy 320.04 119.38) (xy 309.88 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158ded31-7105-4dc6-b477-dbf2e63d85ed")
 	)
 	(wire
 		(pts
@@ -2288,6 +1914,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 129.54) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1740e4a3-0d9b-4a66-811e-4addf3a19761")
+	)
+	(wire
+		(pts
 			(xy 196.85 71.12) (xy 196.85 76.2)
 		)
 		(stroke
@@ -2295,6 +1931,16 @@
 			(type default)
 		)
 		(uuid "19392e42-1a60-4f6f-86fc-4111c21db54d")
+	)
+	(wire
+		(pts
+			(xy 243.84 137.16) (xy 340.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be15d95-e76d-404d-9a76-7a2f3bc4789d")
 	)
 	(wire
 		(pts
@@ -2308,6 +1954,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 127) (xy 233.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc80913-8f20-40f5-8535-82fd696fc886")
+	)
+	(wire
+		(pts
 			(xy 276.86 71.12) (xy 284.48 71.12)
 		)
 		(stroke
@@ -2318,17 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 83.82) (xy 233.68 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2a659b-df65-49f0-9f01-530ffbfa7029")
-	)
-	(wire
-		(pts
-			(xy 233.68 81.28) (xy 233.68 83.82)
+			(xy 233.68 78.74) (xy 233.68 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2388,7 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 146.05) (xy 189.23 144.78)
+			(xy 189.23 134.62) (xy 189.23 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2435,16 +2081,6 @@
 			(type default)
 		)
 		(uuid "45352d92-b431-4784-bc96-e9ec91f1179a")
-	)
-	(wire
-		(pts
-			(xy 236.22 81.28) (xy 236.22 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b8d6a8-d310-45c1-8025-1d91ca955bee")
 	)
 	(wire
 		(pts
@@ -2508,26 +2144,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 154.94) (xy 276.86 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c0cfaf7-8c89-476f-ad9d-91a38be33504")
-	)
-	(wire
-		(pts
-			(xy 306.07 160.02) (xy 340.36 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d396b65-8d58-478c-ae54-3b093e9039e4")
-	)
-	(wire
-		(pts
 			(xy 129.54 71.12) (xy 147.32 71.12)
 		)
 		(stroke
@@ -2538,6 +2154,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 139.7) (xy 340.36 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b06bb0-1fe7-480e-a6a1-a8c2ad94a84f")
+	)
+	(wire
+		(pts
 			(xy 128.27 146.05) (xy 128.27 163.83)
 		)
 		(stroke
@@ -2545,26 +2171,6 @@
 			(type default)
 		)
 		(uuid "6510ea17-9dd9-4b56-9617-0059e1f14d44")
-	)
-	(wire
-		(pts
-			(xy 297.18 149.86) (xy 309.88 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f23668-2123-442f-8352-b85e4b67fec2")
-	)
-	(wire
-		(pts
-			(xy 309.88 149.86) (xy 309.88 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f42478-397a-494b-89a8-0e4dd243c199")
 	)
 	(wire
 		(pts
@@ -2618,23 +2224,23 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 71.12) (xy 226.06 71.12)
+			(xy 218.44 134.62) (xy 189.23 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85e41d4b-b3f8-41a2-adf4-4ac8580be8b7")
+		(uuid "81455653-fbc5-4552-b1f0-c799c1a7af9e")
 	)
 	(wire
 		(pts
-			(xy 189.23 153.67) (xy 189.23 154.94)
+			(xy 228.6 127) (xy 231.14 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89d40d3c-08ab-42ea-912e-062077abde83")
+		(uuid "88a82067-0ec8-483d-98b3-b8f729c4d842")
 	)
 	(wire
 		(pts
@@ -2648,13 +2254,23 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 139.7) (xy 306.07 139.7)
+			(xy 215.9 139.7) (xy 215.9 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f2c1ce3-dc80-465c-a6d0-3ca252d3dec1")
+		(uuid "8e160c74-551b-4f9a-bcc9-ab009af694ee")
+	)
+	(wire
+		(pts
+			(xy 231.14 127) (xy 233.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f885bbf-131e-4754-8328-fe7074691c09")
 	)
 	(wire
 		(pts
@@ -2668,16 +2284,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 160.02) (xy 306.07 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9399d4b1-12b4-41cf-9228-ad53055ef08f")
-	)
-	(wire
-		(pts
 			(xy 118.11 205.74) (xy 118.11 198.12)
 		)
 		(stroke
@@ -2688,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 153.67) (xy 189.23 153.67)
+			(xy 175.26 153.67) (xy 340.36 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2788,13 +2394,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 71.12) (xy 223.52 73.66)
+			(xy 243.84 134.62) (xy 340.36 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a73a86a3-e7f2-4c9e-80f5-242d11043d89")
+		(uuid "a9622642-73a3-4638-a4db-fd2e345cb007")
 	)
 	(wire
 		(pts
@@ -2845,46 +2451,6 @@
 			(type default)
 		)
 		(uuid "b2318b16-0f67-42b7-b696-f131995ca070")
-	)
-	(wire
-		(pts
-			(xy 189.23 144.78) (xy 276.86 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3fc91a3-c615-4dbe-a416-0ce2e7c3aff5")
-	)
-	(wire
-		(pts
-			(xy 306.07 139.7) (xy 306.07 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4314cd0-58af-4845-9756-c5b7f54774eb")
-	)
-	(wire
-		(pts
-			(xy 320.04 119.38) (xy 340.36 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b933465f-59e3-492b-98c7-d25a1512ad6b")
-	)
-	(wire
-		(pts
-			(xy 320.04 119.38) (xy 320.04 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbfde66d-2b4f-445b-8eec-e6e0481e9dd8")
 	)
 	(wire
 		(pts
@@ -2948,6 +2514,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 139.7) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de147972-ddb1-4f03-8542-e45e495707a9")
+	)
+	(wire
+		(pts
 			(xy 269.24 71.12) (xy 276.86 71.12)
 		)
 		(stroke
@@ -2965,16 +2541,6 @@
 			(type default)
 		)
 		(uuid "e1adcb23-372f-4d36-a67d-63bd8c384280")
-	)
-	(wire
-		(pts
-			(xy 233.68 83.82) (xy 233.68 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2771ba3-5932-4ace-974b-47db47e49ac2")
 	)
 	(wire
 		(pts
@@ -3048,16 +2614,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 73.66) (xy 223.52 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f28b044d-121a-4d42-999e-5b1f9735eb74")
-	)
-	(wire
-		(pts
 			(xy 189.23 81.28) (xy 189.23 85.09)
 		)
 		(stroke
@@ -3068,7 +2624,7 @@
 	)
 	(hierarchical_label "ADC2"
 		(shape output)
-		(at 340.36 119.38 0)
+		(at 340.36 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3088,6 +2644,39 @@
 		)
 		(uuid "4820eb3f-6274-4c3c-9d2b-b162b547485e")
 	)
+	(hierarchical_label "ADC_SCK"
+		(shape input)
+		(at 340.36 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52b95013-7d1f-4af5-aea4-d0a220d52f74")
+	)
+	(hierarchical_label "ADC_MISO"
+		(shape output)
+		(at 340.36 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8c7749d-c32f-4520-856d-9093800236e5")
+	)
+	(hierarchical_label "~{ADC_CS}"
+		(shape input)
+		(at 340.36 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e749775a-58e0-4eb5-a9ec-074d426c1727")
+	)
 	(hierarchical_label "ADC1"
 		(shape output)
 		(at 340.36 203.2 0)
@@ -3098,17 +2687,6 @@
 			(justify left)
 		)
 		(uuid "ebcdf4b2-c181-404b-b43f-282bea847792")
-	)
-	(hierarchical_label "ADC3{slash}~{ADC2}_SEL"
-		(shape input)
-		(at 340.36 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec0563be-bab7-44c5-8f4d-5d43746d3148")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -3185,7 +2763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07ec3718-6640-4b84-b63e-0ce5b2e81cc0")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 279.4 77.978 0)
 			(effects
 				(font
@@ -3275,7 +2853,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3290,7 +2868,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "088ea4b9-c1ff-407d-90d8-813080be441d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 284.48 65.786 0)
 			(effects
 				(font
@@ -3341,7 +2919,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -3356,7 +2934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a01cb73-eb2f-46f4-a46e-f6aa63c7a4fb")
-		(property "Reference" "J27"
+		(property "Reference" "J26"
 			(at 110.49 192.532 0)
 			(effects
 				(font
@@ -3456,23 +3034,24 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "J27")
+					(reference "J26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 128.27 237.49 0)
+		(lib_id "power:+3V3")
+		(at 231.14 127 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "19cb92dc-ef28-425c-805b-9a7fa7f7b1a9")
-		(property "Reference" "#PWR0307"
-			(at 128.27 243.84 0)
+		(uuid "108ad9a5-dc68-4c3b-93ac-8aa6a2235439")
+		(property "Reference" "#PWR0311"
+			(at 231.14 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,8 +3059,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 128.27 241.3 0)
+		(property "Value" "+3V3A"
+			(at 231.14 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 237.49 0)
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 237.49 0)
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,8 +3085,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 128.27 237.49 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,12 +3095,144 @@
 			)
 		)
 		(pin "1"
-			(uuid "edd4ff39-5771-4d43-aa03-4d191b667020")
+			(uuid "fe89b2d4-3fa6-40f5-bbb3-90dbc9a94952")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0307")
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13ee1efd-4bbb-48c2-a697-fa4da1d46aa2")
+		(property "Reference" "#PWR0322"
+			(at 215.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d82df6ab-bac1-4116-99d5-0853fee26f87")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba2d8f2-5d86-4119-b3bd-5a139379e665")
+		(property "Reference" "#PWR0310"
+			(at 223.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c45c729d-fd29-499f-86a5-a277d52159a4")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -3593,71 +3304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 196.85 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c2b1865-142d-47ba-8580-ebcd9953c9da")
-		(property "Reference" "#PWR0318"
-			(at 196.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 196.85 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 196.85 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "413c1038-37d1-4d24-a75c-9c8ff9b447ca")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0318")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 148.59 210.82 270)
 		(unit 1)
@@ -3666,7 +3312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20e648a3-63dd-4b90-8821-4981edd52e31")
-		(property "Reference" "R39"
+		(property "Reference" "R36"
 			(at 146.558 212.344 90)
 			(effects
 				(font
@@ -3755,7 +3401,73 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "R39")
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 237.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24aa079c-cc38-4832-b8ca-4bfc7504732a")
+		(property "Reference" "#PWR0319"
+			(at 165.1 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44563efe-6c72-4483-83d2-6745dd4e36f2")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -3770,7 +3482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27041fb7-9cb6-4d32-b663-2d41477bb4e3")
-		(property "Reference" "R40"
+		(property "Reference" "R33"
 			(at 129.794 171.45 90)
 			(effects
 				(font
@@ -3858,400 +3570,23 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "R40")
+					(reference "R33")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G3157")
-		(at 270.51 172.72 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2896e841-78cb-49b8-8c4a-9e89c9569957")
-		(property "Reference" "U7"
-			(at 274.32 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G3157DBVR"
-			(at 274.32 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/TexasInstruments-sn74lvc1g3157.pdf"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Texas Instruments"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "SN74LVC1G3157DBVR"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "296-14908-1-ND"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "bab8086e-8064-4487-8211-f92c3f028526")
-		)
-		(pin "3"
-			(uuid "cf43f139-252a-4ecf-9ec9-2fa0b3064126")
-		)
-		(pin "2"
-			(uuid "cb2ae610-c477-4140-9b11-490636209e28")
-		)
-		(pin "4"
-			(uuid "fd4365bb-6375-4fde-ba46-a87cbc68e28a")
-		)
-		(pin "1"
-			(uuid "e60cbc05-ab5a-46bd-bf70-cf144cde0b29")
-		)
-		(pin "6"
-			(uuid "831eee81-855f-4691-9026-5171f7179696")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "U7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 118.11 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ac7c52c-5c87-4592-a8d8-1a566e91b18f")
-		(property "Reference" "#PWR0303"
-			(at 118.11 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 118.11 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 118.11 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57e4ecfb-2361-46e6-b93e-3ec53c04bdbb")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 165.1 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42fd52f2-9a3f-4bcc-a61a-1bd494a49d68")
-		(property "Reference" "#PWR0314"
-			(at 165.1 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 165.1 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 165.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4a2547d-30c3-4e8b-8899-79e2dd361a1e")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0314")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 175.26 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43642686-82a4-40fb-bae8-ff41ec8f1c24")
-		(property "Reference" "#PWR0316"
-			(at 175.26 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 175.26 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 175.26 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa88faab-d52f-44cf-8b23-9460d1e56e87")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0316")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 175.26 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "468fd29f-a75e-41f4-9477-7dfe0c9c4843")
-		(property "Reference" "#PWR0315"
-			(at 175.26 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 175.26 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 175.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00de8d4d-1456-4c07-af15-747ab3030a74")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0315")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 135.89 237.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47656ce6-8c81-4795-bcc2-3d38ddd510b4")
-		(property "Reference" "#PWR0310"
+		(uuid "36bec279-5985-4f01-ba5d-fa708f4aa59b")
+		(property "Reference" "#PWR0318"
 			(at 135.89 243.84 0)
 			(effects
 				(font
@@ -4260,7 +3595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 135.89 241.3 0)
 			(effects
 				(font
@@ -4286,7 +3621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" ""
 			(at 135.89 237.49 0)
 			(effects
 				(font
@@ -4296,45 +3631,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "277b950e-cb0b-4f18-a61f-5d7f8d35c2e0")
+			(uuid "be7b53f1-1b9d-46f9-bbcf-12a74b8130ec")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0310")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Pico-ButtonBoard:TLV77033DDC")
-		(at 233.68 73.66 0)
+		(lib_id "power:GND")
+		(at 175.26 237.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53761966-bab3-4a52-8918-d086429c0458")
-		(property "Reference" "U9"
-			(at 233.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV77033DDC"
-			(at 233.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 233.68 99.06 0)
+		(uuid "3976db43-3007-43e3-9b8e-1870eef8bcea")
+		(property "Reference" "#PWR0321"
+			(at 175.26 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,8 +3661,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/TexasInstruments-TLV70033DDC.pdf"
-			(at 233.68 96.52 0)
+		(property "Value" "GND"
+			(at 175.26 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,8 +3678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200-mA fixed LDO, 3.3V, active output discharge, 55dB@1MHz PSRR, 3.35..5.5Vin, 45mV dropout, SOT-23-5"
-			(at 234.95 101.6 0)
+		(property "Datasheet" ""
+			(at 175.26 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,61 +3687,220 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Texas Instruments"
-			(at 233.68 73.66 0)
+		(property "Description" ""
+			(at 175.26 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MFG P/N" "TLV70033DDCR"
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "296-27937-1-ND"
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "19f62fbf-7e5a-4232-9c00-741701e53864")
-		)
-		(pin "2"
-			(uuid "8370643c-3bdf-40fd-a4e2-cfcd411c22d3")
-		)
-		(pin "3"
-			(uuid "c321179c-bdbb-4326-9eb5-d3de4359f629")
-		)
-		(pin "4"
-			(uuid "ebb0a26a-cbea-4bd4-9665-049ed640152d")
 		)
 		(pin "1"
-			(uuid "0eeb80d6-0494-4385-a4db-0e42c65bb309")
+			(uuid "8b723608-3c01-4276-804b-51721d822725")
 		)
 		(instances
-			(project ""
+			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "U9")
+					(reference "#PWR0321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46764478-d4f3-47f5-9d3d-5e336dcf694c")
+		(property "Reference" "#PWR0306"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "211586d6-f07f-4891-8820-795f336bbb2b")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50ed542c-2f63-4b4b-92c4-7a3d6d88828c")
+		(property "Reference" "#PWR0313"
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a8e4311-c270-4eb0-baf0-e593a3a6878a")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "588fa0bf-5006-4bef-bb60-593df6a6fa00")
+		(property "Reference" "#PWR0303"
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08246dbf-a7ad-4bd3-b095-c97e69e7f713")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -4429,7 +3915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61abf8f3-c38b-4c9d-a126-01c4f0ae2569")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 166.37 223.52 90)
 			(effects
 				(font
@@ -4518,7 +4004,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4533,7 +4019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62e5d52b-6bcb-4a22-92c4-c3aeeb88972e")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 166.37 166.37 90)
 			(effects
 				(font
@@ -4622,7 +4108,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4637,7 +4123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64130cb8-6672-4ae2-995f-89a56d99c5f3")
-		(property "Reference" "R36"
+		(property "Reference" "R32"
 			(at 146.558 147.574 90)
 			(effects
 				(font
@@ -4726,7 +4212,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "R36")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4837,136 +4323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 128.27 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65c4b52f-db38-4b6e-b66b-405bd3d4b250")
-		(property "Reference" "#PWR0306"
-			(at 128.27 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 128.27 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 128.27 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f6ef084-c69b-4939-85f5-06e003bbc5e4")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 189.23 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6852cd27-ebe3-4748-ab8d-12ce4a99118a")
-		(property "Reference" "#PWR0317"
-			(at 189.23 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 189.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "811b2f45-3a9b-47e2-8335-b4e61515564e")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 298.45 71.12 270)
 		(unit 1)
@@ -5033,16 +4389,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 320.04 135.89 0)
+		(lib_id "Analog_ADC:MCP3201")
+		(at 231.14 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7a9ab489-009f-4327-8415-9ff920b57911")
-		(property "Reference" "C6"
-			(at 321.31 134.62 90)
+		(fields_autoplaced yes)
+		(uuid "7690c7a4-4690-4b30-881f-566a47c5ee6c")
+		(property "Reference" "U7"
+			(at 230.7433 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,25 +4407,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF-50V-5%-0805"
-			(at 316.484 136.144 90)
+		(property "Value" "MCP3201T-CI/SN"
+			(at 230.7433 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 320.04 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 135.89 0)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 250.19 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,8 +4425,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
-			(at 320.04 135.89 0)
+		(property "Datasheet" "Components/Microchip-MCP3201.pdf"
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.7V 12-Bit A/D Converter with SPI™ Serial Interface, PDIP-8/SOIC-8/MSOP-8/TSSOP-8"
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Microchip"
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "MCP3201T-CI/SN"
+			(at 231.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +4462,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 320.04 135.89 0)
+			(at 231.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,8 +4470,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "399-C0805C102J5GACTUCT-ND"
-			(at 320.04 135.89 0)
+		(property "DIST P/N" "MCP3201T-CI/SNCT-ND"
+			(at 231.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,34 +4479,100 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "KEMET"
-			(at 320.04 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "C0805C102J5GACTU"
-			(at 320.04 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "03d4b4e4-0b89-40bb-8606-2f595c9843dc")
 		)
 		(pin "2"
-			(uuid "7831fc6d-12e9-46c8-a562-d4bbd22db1ef")
+			(uuid "39472804-2bcb-43c7-981b-a1524290749a")
+		)
+		(pin "3"
+			(uuid "3a7d65c7-2a21-46ae-8dc6-4cf2dd7dd25d")
 		)
 		(pin "1"
-			(uuid "fb73fbbb-a3a8-4677-8ca6-f5ddfd348fa9")
+			(uuid "c4fb2d83-d9ad-4e8d-b3bd-03f8610ce753")
+		)
+		(pin "7"
+			(uuid "cd30bb40-f193-4b6b-a6bf-aa37ab087a4c")
+		)
+		(pin "8"
+			(uuid "1356cb6a-ba6b-4dfc-b8b0-b7dc8348b02e")
+		)
+		(pin "6"
+			(uuid "f7e188bc-ac86-495e-aa90-1127114279ad")
+		)
+		(pin "5"
+			(uuid "b9489f69-7502-4cb4-afdd-6a7e2c606a4b")
+		)
+		(instances
+			(project ""
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d8d7fd6-7761-4714-8768-1f989a095473")
+		(property "Reference" "#PWR0302"
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b154886b-a1df-47cf-b3aa-a47ce40c9915")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C6")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -5241,16 +4683,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 306.07 177.8 0)
+		(lib_id "power:GND")
+		(at 284.48 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7ff4818f-9156-4894-b29b-7c467a2f9388")
-		(property "Reference" "#PWR0327"
-			(at 306.07 184.15 0)
+		(uuid "8443909b-ae1a-4520-b0ee-eafc05bde725")
+		(property "Reference" "#PWR0325"
+			(at 284.48 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,8 +4701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 306.07 181.61 0)
+		(property "Value" "GND"
+			(at 284.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +4710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 177.8 0)
+			(at 284.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +4719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 177.8 0)
+			(at 284.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,8 +4727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 306.07 177.8 0)
+		(property "Description" ""
+			(at 284.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,28 +4737,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "acbc2856-9aa3-4f65-93bc-496f4c973854")
+			(uuid "a8235b61-8633-4ff2-ad77-6de5ba25ae4a")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0327")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 270.51 162.56 0)
+		(lib_id "power:GND")
+		(at 118.11 157.48 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "887a75af-e8a1-45b9-8bca-cfaf11c3ca27")
-		(property "Reference" "#PWR0323"
-			(at 270.51 166.37 0)
+		(uuid "84698acb-31fb-4666-9e92-700c838d93f5")
+		(property "Reference" "#PWR0324"
+			(at 118.11 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,8 +4767,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3A"
-			(at 270.51 159.004 0)
+		(property "Value" "GND"
+			(at 118.11 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +4776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 162.56 0)
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +4785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 162.56 0)
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,8 +4793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 270.51 162.56 0)
+		(property "Description" ""
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,12 +4803,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c6d9b4c-7fbf-4619-b6a7-63f0b51123e8")
+			(uuid "1a21ef87-6374-47f2-93c2-546ce665927e")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0323")
+					(reference "#PWR0324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89277b44-96e3-446a-afc7-646ae61ef793")
+		(property "Reference" "#PWR0314"
+			(at 135.89 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca567b44-b0db-41b6-91c8-0a6f8fac7964")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -5372,15 +4882,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 261.62 172.72 0)
+		(at 223.52 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8af0575f-7dff-411c-8b1a-7d6defce37a1")
-		(property "Reference" "C21"
-			(at 259.08 171.958 0)
+		(property "Reference" "C20"
+			(at 220.98 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +4899,7 @@
 			)
 		)
 		(property "Value" "0.1uF-25V-10%-0805"
-			(at 259.08 173.99 0)
+			(at 220.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +4908,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 261.62 172.72 0)
+			(at 223.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +4917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 172.72 0)
+			(at 223.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +4926,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 261.62 172.72 0)
+			(at 223.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +4935,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 261.62 172.72 0)
+			(at 223.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +4944,7 @@
 			)
 		)
 		(property "DIST P/N" "CC0805KRX7R8BB104"
-			(at 261.62 172.72 0)
+			(at 223.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +4953,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 261.62 172.72 0)
+			(at 223.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +4962,7 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
-			(at 261.62 172.72 0)
+			(at 223.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,23 +4979,24 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 276.86 85.09 0)
+		(lib_id "power:GND")
+		(at 269.24 85.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8e5d06e6-2b52-4c91-ab81-d8590b20f416")
-		(property "Reference" "#PWR0325"
-			(at 276.86 91.44 0)
+		(uuid "8ee5fafc-b7fa-4ef6-84eb-ddc39437540f")
+		(property "Reference" "#PWR0307"
+			(at 269.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,8 +5004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 276.86 88.9 0)
+		(property "Value" "GND"
+			(at 269.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 85.09 0)
+			(at 269.24 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 85.09 0)
+			(at 269.24 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,8 +5030,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 276.86 85.09 0)
+		(property "Description" ""
+			(at 269.24 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,28 +5040,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0bd0619-4f3a-4ab9-a998-080a8f1cf97d")
+			(uuid "fc0e1167-6a70-4138-9b81-10b750b5f38b")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0325")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 320.04 144.78 0)
+		(lib_id "power:GND")
+		(at 118.11 214.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "94e71004-2c73-4979-a31e-edbeeb9aee0e")
-		(property "Reference" "#PWR0328"
-			(at 320.04 151.13 0)
+		(uuid "a21bf74a-170a-429b-8167-e72f12426cb8")
+		(property "Reference" "#PWR0323"
+			(at 118.11 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,8 +5070,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 320.04 148.59 0)
+		(property "Value" "GND"
+			(at 118.11 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 144.78 0)
+			(at 118.11 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 144.78 0)
+			(at 118.11 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,73 +5096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 320.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f54dbc2e-5f1d-45bc-a4e4-c8d90daebd76")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0328")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 233.68 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a00d452b-0dcb-4b09-86cd-eb0f1e58c1ac")
-		(property "Reference" "#PWR0319"
-			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 233.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 233.68 85.09 0)
+		(property "Description" ""
+			(at 118.11 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,12 +5106,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e19414c0-9182-4798-96d6-8fd7f574f7ea")
+			(uuid "30d97606-93a6-4caa-a86a-4bb6a3c59b59")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0319")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -5680,7 +5127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2664c2f-c6df-4a9f-bad0-0ce86097ac84")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 199.39 77.978 0)
 			(effects
 				(font
@@ -5770,24 +5217,24 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 261.62 175.26 0)
+		(lib_id "power:GND")
+		(at 276.86 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a4082cb8-ea52-403a-92bf-965f88992bda")
-		(property "Reference" "#PWR0321"
-			(at 261.62 181.61 0)
+		(uuid "ae242623-fd79-43df-b469-162511aab7b2")
+		(property "Reference" "#PWR0309"
+			(at 276.86 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,8 +5242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 261.62 179.07 0)
+		(property "Value" "GND"
+			(at 276.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 175.26 0)
+			(at 276.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +5260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 175.26 0)
+			(at 276.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,8 +5268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 261.62 175.26 0)
+		(property "Description" ""
+			(at 276.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,12 +5278,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "219a283f-555a-4715-9b22-5fc8e8e33130")
+			(uuid "01395d5c-2429-4476-b7a1-031ab4078f28")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0321")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -5851,7 +5298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b05e7a7a-b3a4-468c-b05a-8f856382695e")
-		(property "Reference" "R43"
+		(property "Reference" "R39"
 			(at 137.414 228.6 90)
 			(effects
 				(font
@@ -5939,7 +5386,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "R43")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -6078,7 +5525,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 261.62 170.18 0)
+		(at 223.52 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6087,7 +5534,7 @@
 		(dnp no)
 		(uuid "b3156f85-716d-4cb6-b753-6f670c3941d5")
 		(property "Reference" "#PWR0320"
-			(at 261.62 173.99 0)
+			(at 223.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +5543,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 261.62 166.624 0)
+			(at 223.52 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +5551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 170.18 0)
+			(at 223.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +5560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 170.18 0)
+			(at 223.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +5569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 261.62 170.18 0)
+			(at 223.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,6 +5590,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 228.6 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b795f0da-87c3-4f5e-9696-5ee45a3becdc")
+		(property "Reference" "#PWR0312"
+			(at 228.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcee70e4-61bc-473b-8014-e3548273a8ce")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 129.54 78.74 0)
 		(unit 1)
@@ -6151,7 +5664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb2fe0c1-bb85-48ea-addf-ed67f82c602d")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 127 76.708 0)
 			(effects
 				(font
@@ -6241,7 +5754,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6256,7 +5769,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bc1300c8-98ec-42af-aa2b-b49e559aafce")
-		(property "Reference" "TP7"
+		(property "Reference" "TP6"
 			(at 284.48 94.996 0)
 			(effects
 				(font
@@ -6307,7 +5820,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "TP7")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6322,7 +5835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc8ef23d-3f37-496f-a39f-bc2a2d798b21")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 176.53 223.52 90)
 			(effects
 				(font
@@ -6411,48 +5924,40 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G3157")
-		(at 287.02 149.86 180)
+		(lib_id "Regulator_Linear:MCP1700x-300xxTT")
+		(at 233.68 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be07b458-4676-4623-a483-5bfb578dabf7")
-		(property "Reference" "U7"
-			(at 288.29 162.56 0)
+		(fields_autoplaced yes)
+		(uuid "be1fb440-b7b6-460f-9489-84516ef88295")
+		(property "Reference" "U9"
+			(at 233.68 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G3157DBVR"
-			(at 288.29 160.02 0)
+		(property "Value" "MCP1700T-3302E/TT"
+			(at 233.68 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 287.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/TexasInstruments-sn74lvc1g3157.pdf"
-			(at 287.02 149.86 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 233.68 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,8 +5965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
-			(at 287.02 149.86 0)
+		(property "Datasheet" "Components/Microchip-MCP1700.pdf"
+			(at 233.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,8 +5974,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Texas Instruments"
-			(at 287.02 149.86 0)
+		(property "Description" "250mA Low Quiscent Current LDO, 3.0V output, SOT-23"
+			(at 233.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,8 +5983,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "SN74LVC1G3157DBVR"
-			(at 287.02 149.86 0)
+		(property "MFG" "Microchip"
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "MCP1700T-3302E/TT"
+			(at 233.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6488,7 +6002,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 287.02 149.86 0)
+			(at 233.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,167 +6010,28 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "296-14908-1-ND"
-			(at 287.02 149.86 0)
+		(property "DIST P/N" "MCP1700T3302ETTCT-ND"
+			(at 233.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "5"
-			(uuid "bab8086e-8064-4487-8211-f92c3f028527")
-		)
-		(pin "3"
-			(uuid "760764fe-2787-42a3-a64e-c39df5b5b9c9")
 		)
 		(pin "2"
-			(uuid "cb2ae610-c477-4140-9b11-490636209e29")
-		)
-		(pin "4"
-			(uuid "1760c217-333b-4a45-b03d-e9bbd6e8b52b")
+			(uuid "6fd7535f-b426-4217-bc9a-b3d2ff3b21a3")
 		)
 		(pin "1"
-			(uuid "9405d567-423c-4a00-9da6-4aabd28ca287")
+			(uuid "cfe660b7-3c7f-4c1a-906c-575d80d5f26b")
 		)
-		(pin "6"
-			(uuid "597b7cbb-ece4-439b-9b61-be4af0b9a4f8")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 135.89 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be20b866-0f93-4353-9c68-51ea1a1ad342")
-		(property "Reference" "#PWR0309"
-			(at 135.89 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 135.89 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 135.89 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d72c455-b97e-4a57-bfdf-13deac1362aa")
+		(pin "3"
+			(uuid "780e8fe3-264b-4023-bd66-2965eb3a8bda")
 		)
 		(instances
-			(project "Pico-ButtonBoard-v1"
+			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 284.48 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "beae9f71-6f5b-490e-9bca-3003476b8394")
-		(property "Reference" "#PWR0329"
-			(at 284.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 284.48 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 284.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dc55277-4855-482d-8c18-464b23ae476e")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0329")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -6671,7 +6046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7fd0732-5dda-4e49-bbd8-27cf754d879e")
-		(property "Reference" "R38"
+		(property "Reference" "R35"
 			(at 146.558 204.724 90)
 			(effects
 				(font
@@ -6760,7 +6135,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "R38")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -6775,7 +6150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d912fc70-11eb-4382-888f-d30a9429135e")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 186.69 76.708 0)
 			(effects
 				(font
@@ -6865,23 +6240,24 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 270.51 182.88 0)
+		(lib_id "power:GND")
+		(at 165.1 180.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d9633728-e48d-4475-ac63-8b98246d0fd1")
-		(property "Reference" "#PWR0324"
-			(at 270.51 189.23 0)
+		(uuid "dcc80a5f-79c4-4fb5-9434-0c8324e5c567")
+		(property "Reference" "#PWR0315"
+			(at 165.1 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,8 +6265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 270.51 186.69 0)
+		(property "Value" "GND"
+			(at 165.1 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +6274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 182.88 0)
+			(at 165.1 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +6283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 182.88 0)
+			(at 165.1 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,108 +6291,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 270.51 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70df6c2c-0ad5-4a79-953c-6a36a5c92cdc")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0324")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 306.07 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0586c29-8190-43d3-aad7-07740e5676ab")
-		(property "Reference" "R28"
-			(at 307.594 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k-1%-0805"
-			(at 303.53 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 305.054 169.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 306.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 306.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Vishay Dale"
-			(at 306.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "CRCW080510K0FKEA"
-			(at 306.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 306.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "541-10.0KCCT-ND"
-			(at 306.07 170.18 0)
+		(property "Description" ""
+			(at 165.1 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,15 +6301,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "93af490e-e165-4736-95aa-aad2957a5b11")
-		)
-		(pin "2"
-			(uuid "8288308c-7e10-4d9a-8f18-d3a1e70c501b")
+			(uuid "ffa9a746-7712-4f53-92d4-efdfbc81d31c")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "R28")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -7048,7 +6321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1a68e20-427a-4f23-8d51-3d835537138c")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 266.7 76.708 0)
 			(effects
 				(font
@@ -7138,23 +6411,24 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 165.1 180.34 0)
+		(lib_id "power:GND")
+		(at 128.27 237.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6b33275-c55a-414c-a9d2-a3a288bfa1da")
-		(property "Reference" "#PWR0313"
-			(at 165.1 186.69 0)
+		(uuid "e62ba6e3-e83d-4c46-96d3-538ef755b33c")
+		(property "Reference" "#PWR0317"
+			(at 128.27 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,8 +6436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 165.1 184.15 0)
+		(property "Value" "GND"
+			(at 128.27 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +6445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 180.34 0)
+			(at 128.27 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +6454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 180.34 0)
+			(at 128.27 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,8 +6462,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 165.1 180.34 0)
+		(property "Description" ""
+			(at 128.27 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,12 +6472,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "038fba0f-829b-4338-b6f3-88fa168907b3")
+			(uuid "83130980-b325-475d-82ab-d0e142bde732")
 		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0313")
+					(reference "#PWR0317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e65c4c9f-18e9-4fe9-97c2-ed0e107934af")
+		(property "Reference" "#PWR0316"
+			(at 175.26 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9ef4e85-703c-44ec-ae8c-014288288822")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -7218,7 +6558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea37c92a-7c2d-4948-b55b-c5213845264a")
-		(property "Reference" "J26"
+		(property "Reference" "J25"
 			(at 110.49 135.382 0)
 			(effects
 				(font
@@ -7318,72 +6658,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "J26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 118.11 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecdc4a8a-046e-4294-bac8-cd62ea1bcf7c")
-		(property "Reference" "#PWR0302"
-			(at 118.11 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 118.11 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 118.11 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69f98ee0-b89c-423b-b93a-f674c383c6c2")
-		)
-		(instances
-			(project ""
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0302")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -7398,7 +6673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed074a08-e6c6-46bd-8484-5dcab5984ba0")
-		(property "Reference" "R41"
+		(property "Reference" "R34"
 			(at 137.414 171.45 90)
 			(effects
 				(font
@@ -7486,7 +6761,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "R41")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7501,7 +6776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efa277d5-4762-4b24-9cde-0d169a208cc1")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 176.53 166.37 90)
 			(effects
 				(font
@@ -7590,7 +6865,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7605,7 +6880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4c78d14-2f7e-4a93-af1c-dd9583b34481")
-		(property "Reference" "R42"
+		(property "Reference" "R38"
 			(at 129.794 228.6 90)
 			(effects
 				(font
@@ -7693,72 +6968,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 269.24 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa1ac8fa-c914-4e29-a7e9-ef4e74ee31fd")
-		(property "Reference" "#PWR0322"
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 269.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 269.24 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3308adc-9115-4f7a-9170-3f2302d8e2e4")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/685073ee-f919-44b0-8568-43a13e57da9c"
-					(reference "#PWR0322")
+					(reference "R38")
 					(unit 1)
 				)
 			)
