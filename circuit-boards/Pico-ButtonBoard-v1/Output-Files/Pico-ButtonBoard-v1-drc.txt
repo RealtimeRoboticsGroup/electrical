@@ -1,5 +1,5 @@
 ** Drc report for Pico-ButtonBoard-v1.kicad_pcb **
-** Created on 2025-12-28T11:42:56-0800 **
+** Created on 2025-12-29T17:09:23-0800 **
 
 ** Found 3 DRC violations **
 [lib_footprint_mismatch]: Footprint 'RaspberryPi_Pico_Common_Unspecified' does not match copy in library 'Pico-ButtonBoard'.
@@ -7,10 +7,10 @@
     @(8025.00 mils, 3775.00 mils): Footprint A1
 [lib_footprint_mismatch]: Footprint 'Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical' does not match copy in library 'Pico-ButtonBoard'.
     Local override; warning
-    @(9007.91 mils, 4517.64 mils): Footprint J27
+    @(9007.91 mils, 4517.64 mils): Footprint J26
 [lib_footprint_mismatch]: Footprint 'Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical' does not match copy in library 'Pico-ButtonBoard'.
     Local override; warning
-    @(9007.91 mils, 4073.03 mils): Footprint J26
+    @(9007.91 mils, 4073.03 mils): Footprint J25
 
 ** Found 0 unconnected pads **
 

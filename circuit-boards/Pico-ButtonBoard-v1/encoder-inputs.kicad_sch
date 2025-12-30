@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2025-12-28")
+		(date "2025-12-29")
 		(rev "1")
 	)
 	(lib_symbols
@@ -937,7 +937,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 151.892 54.864 0)
+		(at 150.622 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,31 +946,9 @@
 		)
 		(uuid "03c39698-8c3c-4a80-8e41-d3e02191fc06")
 	)
-	(text "5V"
-		(exclude_from_sim no)
-		(at 151.892 165.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0862edab-f659-47b3-a9b1-f51fb2b041a6")
-	)
-	(text "A"
-		(exclude_from_sim no)
-		(at 151.892 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b75f54a-db41-460e-8df4-5f18f77b5122")
-	)
 	(text "B"
 		(exclude_from_sim no)
-		(at 151.892 62.484 0)
+		(at 150.622 106.934 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -981,7 +959,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 151.892 118.364 0)
+		(at 150.622 162.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -992,7 +970,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 151.892 57.404 0)
+		(at 150.622 101.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1003,7 +981,7 @@
 	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 151.892 59.944 0)
+		(at 150.622 104.394 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1014,7 +992,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 151.892 108.204 0)
+		(at 150.622 152.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1025,7 +1003,7 @@
 	)
 	(text "B"
 		(exclude_from_sim no)
-		(at 151.892 115.824 0)
+		(at 150.622 160.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1034,31 +1012,9 @@
 		)
 		(uuid "4fb0d71f-69f7-4af7-81f5-f7ab537a710e")
 	)
-	(text "PWM"
-		(exclude_from_sim no)
-		(at 151.892 172.974 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88361e59-b33b-49c7-a787-30cb03ee3fef")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 151.892 162.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9598ec23-c6c2-46cf-989d-f112808581ca")
-	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 151.892 113.284 0)
+		(at 150.622 157.734 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1067,20 +1023,9 @@
 		)
 		(uuid "af56554c-6af9-479e-a6f7-03a0cf6ad60d")
 	)
-	(text "B"
-		(exclude_from_sim no)
-		(at 151.892 170.434 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5a9e241-b395-420b-a53a-53b47d875a24")
-	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 151.892 65.024 0)
+		(at 150.622 109.474 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1091,7 +1036,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 151.892 110.744 0)
+		(at 150.622 155.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1101,62 +1046,44 @@
 		(uuid "eeff5b2a-3d13-4f08-8348-97c162585532")
 	)
 	(junction
-		(at 165.1 59.69)
+		(at 163.83 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4882e085-d27d-4c09-9dc6-4b9c6c1ec152")
 	)
 	(junction
-		(at 180.34 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ec94ae3-4112-424e-9f0a-05e7b35d5d15")
-	)
-	(junction
-		(at 180.34 64.77)
+		(at 179.07 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56a67489-b8a3-4d53-9970-cb984b9b3ef3")
 	)
 	(junction
-		(at 180.34 118.11)
+		(at 179.07 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c2cade4-4c44-495b-8e6e-d4c7beb839cd")
 	)
 	(junction
-		(at 172.72 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "820dabc0-4ab9-4d63-ae48-b7046203876e")
-	)
-	(junction
-		(at 172.72 115.57)
+		(at 171.45 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9ff7d39-087c-485a-ad32-b14d27e2a01b")
 	)
 	(junction
-		(at 165.1 113.03)
+		(at 163.83 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e00c9bc1-e62b-404b-96a9-3c5036f5dbee")
 	)
 	(junction
-		(at 165.1 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e85e8757-8fbb-4778-877a-9aaf64a36c03")
-	)
-	(junction
-		(at 172.72 62.23)
+		(at 171.45 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0b3b933-96fe-4d54-89e2-4d59405185a8")
 	)
 	(wire
 		(pts
-			(xy 158.75 59.69) (xy 165.1 59.69)
+			(xy 157.48 104.14) (xy 163.83 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 64.77) (xy 180.34 64.77)
+			(xy 157.48 109.22) (xy 179.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1176,27 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 172.72) (xy 180.34 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1214ea2d-b31b-477d-aac5-2e3ec3e13698")
-	)
-	(wire
-		(pts
-			(xy 172.72 170.18) (xy 172.72 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c680249-b358-49b5-994f-3961641ef0cd")
-	)
-	(wire
-		(pts
-			(xy 165.1 132.08) (xy 165.1 135.89)
+			(xy 163.83 176.53) (xy 163.83 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 107.95) (xy 161.29 99.06)
+			(xy 160.02 152.4) (xy 160.02 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 172.72 71.12)
+			(xy 171.45 106.68) (xy 171.45 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 172.72 115.57)
+			(xy 157.48 160.02) (xy 171.45 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 111.76) (xy 209.55 111.76)
+			(xy 196.85 156.21) (xy 208.28 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 113.03) (xy 170.18 105.41)
+			(xy 168.91 157.48) (xy 168.91 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 118.11) (xy 180.34 124.46)
+			(xy 179.07 162.56) (xy 179.07 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 115.57) (xy 172.72 111.76)
+			(xy 171.45 160.02) (xy 171.45 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1276,17 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 170.18) (xy 172.72 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e36f666-edad-48f1-97bb-9050d4cd35b2")
-	)
-	(wire
-		(pts
-			(xy 198.12 105.41) (xy 209.55 105.41)
+			(xy 196.85 149.86) (xy 208.28 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 165.1 45.72)
+			(xy 160.02 90.17) (xy 163.83 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 58.42) (xy 209.55 58.42)
+			(xy 196.85 102.87) (xy 208.28 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +1213,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 38.1) (xy 265.43 38.1)
+			(xy 265.43 82.55) (xy 264.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 165.1 82.55)
+			(xy 163.83 123.19) (xy 163.83 127)
 		)
 		(stroke
 			(width 0)
@@ -1336,37 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 167.64) (xy 165.1 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5179d56c-e673-41eb-9a4f-585c608a0d6c")
-	)
-	(wire
-		(pts
-			(xy 198.12 172.72) (xy 209.55 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53abe4ad-7d2c-48da-b947-f82f5876faac")
-	)
-	(wire
-		(pts
-			(xy 198.12 160.02) (xy 209.55 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5503f6da-3ca0-49f0-b9c1-3b604e38eb28")
-	)
-	(wire
-		(pts
-			(xy 158.75 113.03) (xy 165.1 113.03)
+			(xy 157.48 157.48) (xy 163.83 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1243,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 118.11) (xy 180.34 118.11)
+			(xy 157.48 162.56) (xy 179.07 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +1253,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 52.07) (xy 209.55 52.07)
+			(xy 196.85 96.52) (xy 208.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +1263,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 165.1 100.33)
+			(xy 163.83 143.51) (xy 163.83 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1406,7 +1273,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 170.18 52.07)
+			(xy 168.91 104.14) (xy 168.91 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +1283,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 38.1) (xy 265.43 40.64)
+			(xy 264.16 82.55) (xy 264.16 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +1293,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 111.76) (xy 190.5 111.76)
+			(xy 171.45 156.21) (xy 189.23 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1436,17 +1303,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 167.64) (xy 170.18 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688aff6c-da8b-432c-aeb5-a507a32e7964")
-	)
-	(wire
-		(pts
-			(xy 158.75 107.95) (xy 161.29 107.95)
+			(xy 157.48 152.4) (xy 160.02 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1456,17 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 167.64) (xy 170.18 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d95f3bc-cd17-40ba-a47d-063cd402b706")
-	)
-	(wire
-		(pts
-			(xy 161.29 54.61) (xy 161.29 45.72)
+			(xy 160.02 99.06) (xy 160.02 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1323,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 118.11) (xy 190.5 118.11)
+			(xy 179.07 162.56) (xy 189.23 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 172.72 58.42)
+			(xy 171.45 106.68) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1496,27 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 166.37) (xy 190.5 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8435ab7d-246e-4f53-b974-7ceced111a69")
-	)
-	(wire
-		(pts
-			(xy 165.1 153.67) (xy 165.1 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86383f8e-0b6a-49cb-8910-649be7869f31")
-	)
-	(wire
-		(pts
-			(xy 180.34 78.74) (xy 180.34 82.55)
+			(xy 179.07 123.19) (xy 179.07 127)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 52.07) (xy 190.5 52.07)
+			(xy 168.91 96.52) (xy 189.23 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 165.1 71.12)
+			(xy 163.83 104.14) (xy 163.83 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 45.72) (xy 165.1 46.99)
+			(xy 163.83 90.17) (xy 163.83 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1556,17 +1383,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 186.69) (xy 172.72 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9576ddb8-b929-48b5-b277-4ed3f7898420")
-	)
-	(wire
-		(pts
-			(xy 172.72 132.08) (xy 172.72 135.89)
+			(xy 171.45 176.53) (xy 171.45 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1393,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 54.61) (xy 161.29 54.61)
+			(xy 157.48 99.06) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1586,17 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 167.64) (xy 165.1 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9993170d-83f2-4bcf-a065-d725d9c1a683")
-	)
-	(wire
-		(pts
-			(xy 170.18 105.41) (xy 190.5 105.41)
+			(xy 168.91 149.86) (xy 189.23 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 45.72) (xy 262.89 45.72)
+			(xy 265.43 90.17) (xy 261.62 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1616,17 +1423,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 166.37) (xy 209.55 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa16dbb7-1dbc-4d5c-9c00-eb170e26bb36")
-	)
-	(wire
-		(pts
-			(xy 165.1 113.03) (xy 165.1 124.46)
+			(xy 163.83 157.48) (xy 163.83 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 132.08) (xy 180.34 135.89)
+			(xy 179.07 176.53) (xy 179.07 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 40.64) (xy 262.89 40.64)
+			(xy 264.16 85.09) (xy 261.62 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +1453,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 58.42) (xy 190.5 58.42)
+			(xy 171.45 102.87) (xy 189.23 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1463,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 64.77) (xy 209.55 64.77)
+			(xy 196.85 109.22) (xy 208.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1676,27 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 186.69) (xy 165.1 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17aceef-b5b3-4f10-af5c-0c117cd780fe")
-	)
-	(wire
-		(pts
-			(xy 180.34 186.69) (xy 180.34 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3710e43-ced2-45c3-8776-7b20c0e9a448")
-	)
-	(wire
-		(pts
-			(xy 165.1 113.03) (xy 170.18 113.03)
+			(xy 163.83 157.48) (xy 168.91 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 118.11) (xy 209.55 118.11)
+			(xy 196.85 162.56) (xy 208.28 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1716,27 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 172.72) (xy 190.5 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d01d352c-3b46-4038-a0fb-67994e6b1ffe")
-	)
-	(wire
-		(pts
-			(xy 161.29 162.56) (xy 161.29 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0596ef1-23e1-4d47-9a8f-b6c84ea100ae")
-	)
-	(wire
-		(pts
-			(xy 180.34 64.77) (xy 190.5 64.77)
+			(xy 179.07 109.22) (xy 189.23 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 172.72 62.23)
+			(xy 157.48 106.68) (xy 171.45 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 115.57) (xy 172.72 124.46)
+			(xy 171.45 160.02) (xy 171.45 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 78.74) (xy 172.72 82.55)
+			(xy 171.45 123.19) (xy 171.45 127)
 		)
 		(stroke
 			(width 0)
@@ -1776,7 +1533,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.06) (xy 165.1 99.06)
+			(xy 160.02 143.51) (xy 163.83 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1786,17 +1543,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 153.67) (xy 165.1 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb7d7bd4-7e8c-4d85-90ac-1cb84355b946")
-	)
-	(wire
-		(pts
-			(xy 180.34 64.77) (xy 180.34 71.12)
+			(xy 179.07 109.22) (xy 179.07 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1806,47 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 162.56) (xy 161.29 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda2778d-ac68-4cfc-a93d-3e890274615c")
-	)
-	(wire
-		(pts
-			(xy 158.75 170.18) (xy 172.72 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee1c698f-ef37-4cc9-b3a0-949900f384e9")
-	)
-	(wire
-		(pts
-			(xy 170.18 160.02) (xy 190.5 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92b17ac-5655-4c2a-adf4-bc04634c2977")
-	)
-	(wire
-		(pts
-			(xy 180.34 172.72) (xy 180.34 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda7f735-3677-46ec-9700-c148adf5813f")
-	)
-	(wire
-		(pts
-			(xy 165.1 59.69) (xy 170.18 59.69)
+			(xy 163.83 104.14) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +1562,7 @@
 		(uuid "fe9af22e-9a64-4121-9d1e-8bb80f6440b3")
 	)
 	(label "ENC_VCC"
-		(at 158.75 57.15 0)
+		(at 157.48 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1865,17 +1572,7 @@
 		(uuid "3efb7f90-3b39-4c9a-8138-041cf1e065fd")
 	)
 	(label "ENC_VCC"
-		(at 158.75 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1a902a6-0cba-4d45-aa77-a7aea5e93f38")
-	)
-	(label "ENC_VCC"
-		(at 262.89 43.18 0)
+		(at 261.62 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1885,7 +1582,7 @@
 		(uuid "f6186b3b-5355-4592-80e4-01652b562238")
 	)
 	(label "ENC_VCC"
-		(at 158.75 110.49 0)
+		(at 157.48 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1896,7 +1593,7 @@
 	)
 	(hierarchical_label "ENC0_A"
 		(shape output)
-		(at 209.55 52.07 0)
+		(at 208.28 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1907,7 +1604,7 @@
 	)
 	(hierarchical_label "ENC1_PWM"
 		(shape output)
-		(at 209.55 118.11 0)
+		(at 208.28 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1916,31 +1613,9 @@
 		)
 		(uuid "308bd5ef-e277-47ee-b963-1eade8d4bf4d")
 	)
-	(hierarchical_label "ENC2_PWM"
-		(shape output)
-		(at 209.55 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "385cba7c-60fe-46c7-aa12-88f9fb37a12f")
-	)
-	(hierarchical_label "ENC2_A"
-		(shape output)
-		(at 209.55 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a489410-7676-4a3f-abaa-b0fa6c703ec3")
-	)
 	(hierarchical_label "ENC1_A"
 		(shape output)
-		(at 209.55 105.41 0)
+		(at 208.28 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1949,20 +1624,9 @@
 		)
 		(uuid "6b2749f0-07a7-42de-a74c-e0eaea1c97ce")
 	)
-	(hierarchical_label "ENC2_B"
-		(shape output)
-		(at 209.55 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "81f237f4-37e3-4171-8505-13134d3ed8a6")
-	)
 	(hierarchical_label "ENC0_B"
 		(shape output)
-		(at 209.55 58.42 0)
+		(at 208.28 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1973,7 +1637,7 @@
 	)
 	(hierarchical_label "ENC0_PWM"
 		(shape output)
-		(at 209.55 64.77 0)
+		(at 208.28 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1984,7 +1648,7 @@
 	)
 	(hierarchical_label "ENC1_B"
 		(shape output)
-		(at 209.55 111.76 0)
+		(at 208.28 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1995,7 +1659,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 257.81 43.18 180)
+		(at 256.54 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2003,8 +1667,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09dd226c-0e16-472a-9b4c-dce9ff6c5fe5")
-		(property "Reference" "J17"
-			(at 257.81 34.29 0)
+		(property "Reference" "J16"
+			(at 256.54 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +1676,7 @@
 			)
 		)
 		(property "Value" "ENC PWR"
-			(at 257.81 36.83 0)
+			(at 256.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +1684,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 257.81 43.18 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +1693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 43.18 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +1702,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 257.81 43.18 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +1711,7 @@
 			)
 		)
 		(property "MFG" "Würth Elektronik"
-			(at 257.81 43.18 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +1720,7 @@
 			)
 		)
 		(property "MFG P/N" "61300311121"
-			(at 257.81 43.18 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +1729,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 257.81 43.18 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +1738,7 @@
 			)
 		)
 		(property "DIST P/N" "732-5316-ND"
-			(at 257.81 43.18 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +1758,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "J17")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -2102,15 +1766,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 52.07 270)
+		(at 193.04 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "167ffc77-3132-4ded-ba2a-613f5e4b943b")
-		(property "Reference" "R32"
-			(at 192.278 53.594 90)
+		(property "Reference" "R28"
+			(at 191.008 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +1783,7 @@
 			)
 		)
 		(property "Value" "49.9R-1%-0805"
-			(at 194.31 49.784 90)
+			(at 193.04 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +1791,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 53.086 90)
+			(at 192.786 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +1800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 52.07 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +1809,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 194.31 52.07 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +1818,7 @@
 			)
 		)
 		(property "MFG" "Stackpole"
-			(at 194.31 52.07 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +1827,7 @@
 			)
 		)
 		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 52.07 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +1836,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 194.31 52.07 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +1845,7 @@
 			)
 		)
 		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 52.07 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +1862,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R32")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2206,15 +1870,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 128.27 180)
+		(at 163.83 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "168a3dff-872d-4e68-a65f-37435f3b3030")
-		(property "Reference" "R67"
-			(at 166.624 132.08 90)
+		(property "Reference" "R63"
+			(at 165.354 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +1886,7 @@
 			)
 		)
 		(property "Value" "20k-1%-0805"
-			(at 162.56 128.27 90)
+			(at 161.29 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +1894,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 164.084 128.016 90)
+			(at 162.814 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +1903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 128.27 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +1912,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 165.1 128.27 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +1921,7 @@
 			)
 		)
 		(property "MFG" "Panasonic"
-			(at 165.1 128.27 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +1930,7 @@
 			)
 		)
 		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 165.1 128.27 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +1939,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 165.1 128.27 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +1948,7 @@
 			)
 		)
 		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 165.1 128.27 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,72 +1965,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1698d081-2705-4077-85a7-9a5b91338993")
-		(property "Reference" "#PWR0612"
-			(at 165.1 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b01fad95-5b9f-423a-a663-11230a398923")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "#PWR0612")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -2374,15 +1973,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 180.34 128.27 180)
+		(at 179.07 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "18510ca5-6bc2-4d2e-841f-2d48b80bfbab")
-		(property "Reference" "R69"
-			(at 181.864 132.08 90)
+		(property "Reference" "R65"
+			(at 180.594 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +1989,7 @@
 			)
 		)
 		(property "Value" "20k-1%-0805"
-			(at 177.8 128.27 90)
+			(at 176.53 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +1997,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 179.324 128.016 90)
+			(at 178.054 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2006,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 128.27 0)
+			(at 179.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2015,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 180.34 128.27 0)
+			(at 179.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2024,7 @@
 			)
 		)
 		(property "MFG" "Panasonic"
-			(at 180.34 128.27 0)
+			(at 179.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2033,7 @@
 			)
 		)
 		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 180.34 128.27 0)
+			(at 179.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2042,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 180.34 128.27 0)
+			(at 179.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2051,7 @@
 			)
 		)
 		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 180.34 128.27 0)
+			(at 179.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2068,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R69")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -2477,7 +2076,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 153.67 59.69 0)
+		(at 152.4 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2486,8 +2085,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19ea768e-ec24-4d67-9bc3-a91718fd34f4")
-		(property "Reference" "J18"
-			(at 153.67 48.26 0)
+		(property "Reference" "J17"
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2094,7 @@
 			)
 		)
 		(property "Value" "ENC0"
-			(at 153.67 50.8 0)
+			(at 152.4 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2102,7 @@
 			)
 		)
 		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0039"
-			(at 153.67 59.69 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2111,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
-			(at 153.67 59.69 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2120,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 5 position 0.100\" (2.54mm)"
-			(at 153.67 59.69 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2129,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 153.67 59.69 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2138,7 @@
 			)
 		)
 		(property "MFG P/N" "0705430039"
-			(at 153.67 59.69 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2147,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 153.67 59.69 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2156,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4827-ND"
-			(at 153.67 59.69 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2182,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "J18")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2190,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 266.7 45.72 270)
+		(at 265.43 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2599,7 +2198,7 @@
 		(dnp no)
 		(uuid "29ae9cf9-d083-4ff1-b479-4249f41c6462")
 		(property "Reference" "#PWR0617"
-			(at 262.89 45.72 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2207,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 269.24 45.466 90)
+			(at 267.97 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 45.72 0)
+			(at 265.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 45.72 0)
+			(at 265.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 266.7 45.72 0)
+			(at 265.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2256,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 153.67 113.03 0)
+		(at 152.4 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2666,8 +2265,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a4931b6-7e0f-4487-8f44-76493c756f2d")
-		(property "Reference" "J1"
-			(at 153.67 101.6 0)
+		(property "Reference" "J2"
+			(at 152.4 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2274,7 @@
 			)
 		)
 		(property "Value" "ENC1"
-			(at 153.67 104.14 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2282,7 @@
 			)
 		)
 		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0039"
-			(at 153.67 113.03 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2291,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
-			(at 153.67 113.03 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2300,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 5 position 0.100\" (2.54mm)"
-			(at 153.67 113.03 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2309,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 153.67 113.03 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2318,7 @@
 			)
 		)
 		(property "MFG P/N" "0705430039"
-			(at 153.67 113.03 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2327,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 153.67 113.03 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +2336,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4827-ND"
-			(at 153.67 113.03 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2362,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2771,7 +2370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 135.89 0)
+		(at 163.83 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2779,7 +2378,7 @@
 		(dnp no)
 		(uuid "2b29f06e-5e9f-4950-92b4-ca79540b0926")
 		(property "Reference" "#PWR0608"
-			(at 165.1 142.24 0)
+			(at 163.83 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 139.7 0)
+			(at 163.83 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 135.89 0)
+			(at 163.83 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 135.89 0)
+			(at 163.83 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 135.89 0)
+			(at 163.83 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,112 +2434,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 194.31 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34114763-108d-4040-9505-036b4fa889e5")
-		(property "Reference" "R15"
-			(at 192.278 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "49.9R-1%-0805"
-			(at 194.31 157.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 161.036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Stackpole"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a746d46-246e-4b04-b113-c5a4a5666efd")
-		)
-		(pin "2"
-			(uuid "c28f3d00-daea-4980-9516-34845fd474d7")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 180.34 82.55 0)
+		(at 179.07 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2948,7 +2443,7 @@
 		(dnp no)
 		(uuid "36e6aa71-ede2-4c1e-b345-3ee343301a0b")
 		(property "Reference" "#PWR0605"
-			(at 180.34 88.9 0)
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2452,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 86.36 0)
+			(at 179.07 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +2460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 82.55 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +2469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 82.55 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 82.55 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,15 +2500,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 64.77 270)
+		(at 193.04 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "378c7034-1646-4a14-962d-14844a0a62d0")
-		(property "Reference" "R30"
-			(at 192.278 66.294 90)
+		(property "Reference" "R26"
+			(at 191.008 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +2517,7 @@
 			)
 		)
 		(property "Value" "49.9R-1%-0805"
-			(at 194.31 62.484 90)
+			(at 193.04 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +2525,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 65.786 90)
+			(at 192.786 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +2534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 64.77 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +2543,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 194.31 64.77 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +2552,7 @@
 			)
 		)
 		(property "MFG" "Stackpole"
-			(at 194.31 64.77 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +2561,7 @@
 			)
 		)
 		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 64.77 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +2570,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 194.31 64.77 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +2579,7 @@
 			)
 		)
 		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 64.77 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +2596,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R30")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3109,393 +2604,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a07d709-e10e-4be0-b370-e4de347c54bd")
-		(property "Reference" "R17"
-			(at 192.278 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "49.9R-1%-0805"
-			(at 194.31 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 173.736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 194.31 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Stackpole"
-			(at 194.31 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 194.31 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c65c027-4b0f-4d64-9e3e-94fc74eb4e3a")
-		)
-		(pin "2"
-			(uuid "27a332d2-26a0-4615-83af-f95609e467f0")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42827ca5-d917-49b8-8d23-a0fe4013e3f7")
-		(property "Reference" "#PWR0615"
-			(at 180.34 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12a44f1e-06d2-4aba-b594-a45b5d6214ff")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "#PWR0615")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 153.67 167.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4985628b-0bdc-4a69-92fe-f4104c42f3f5")
-		(property "Reference" "J2"
-			(at 153.67 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ENC2"
-			(at 153.67 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0039"
-			(at 153.67 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
-			(at 153.67 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole 5 position 0.100\" (2.54mm)"
-			(at 153.67 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Molex"
-			(at 153.67 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "0705430039"
-			(at 153.67 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 153.67 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "WM4827-ND"
-			(at 153.67 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8c7129e7-83c2-44ba-b6f8-afb8aabfeccd")
-		)
-		(pin "2"
-			(uuid "12c60d76-2635-4348-973e-a95fec14d2b8")
-		)
-		(pin "1"
-			(uuid "88358501-6cde-46b6-bc57-26002dc87f48")
-		)
-		(pin "3"
-			(uuid "a5a0b89e-a36a-4db4-bffc-c9df099ae832")
-		)
-		(pin "5"
-			(uuid "d95671b2-f5d1-453e-8486-e6f67d211e88")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 172.72 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4eff5d41-695f-4300-84f5-159b6cd148e4")
-		(property "Reference" "R71"
-			(at 174.244 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k-1%-0805"
-			(at 170.18 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 171.704 182.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 172.72 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Panasonic"
-			(at 172.72 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 172.72 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 172.72 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 172.72 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e51fbf36-43c6-4a3f-b919-849cf7fe86c3")
-		)
-		(pin "2"
-			(uuid "c686ece8-9768-466c-b24d-e0a41d514944")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 194.31 118.11 270)
+		(at 193.04 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3503,7 +2612,7 @@
 		(dnp no)
 		(uuid "66cea67c-9e3c-4eef-95fb-17d745ce5684")
 		(property "Reference" "R14"
-			(at 192.278 119.634 90)
+			(at 191.008 164.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +2621,7 @@
 			)
 		)
 		(property "Value" "49.9R-1%-0805"
-			(at 194.31 115.824 90)
+			(at 193.04 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +2629,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 119.126 90)
+			(at 192.786 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +2638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 118.11 0)
+			(at 193.04 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +2647,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 194.31 118.11 0)
+			(at 193.04 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +2656,7 @@
 			)
 		)
 		(property "MFG" "Stackpole"
-			(at 194.31 118.11 0)
+			(at 193.04 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +2665,7 @@
 			)
 		)
 		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 118.11 0)
+			(at 193.04 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +2674,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 194.31 118.11 0)
+			(at 193.04 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +2683,7 @@
 			)
 		)
 		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 118.11 0)
+			(at 193.04 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,73 +2707,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 172.72 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bd5d967-68f3-4f4e-99a5-185cb16f5d29")
-		(property "Reference" "#PWR0614"
-			(at 172.72 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7da049d-1818-49f4-a6ac-d2416ce37b10")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "#PWR0614")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 111.76 270)
+		(at 193.04 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3672,7 +2716,7 @@
 		(dnp no)
 		(uuid "7136429d-9ca6-4357-a91f-a0462f8bbf6e")
 		(property "Reference" "R13"
-			(at 192.278 113.284 90)
+			(at 191.008 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +2725,7 @@
 			)
 		)
 		(property "Value" "49.9R-1%-0805"
-			(at 194.31 109.474 90)
+			(at 193.04 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +2733,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 112.776 90)
+			(at 192.786 157.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +2742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 111.76 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +2751,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 194.31 111.76 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +2760,7 @@
 			)
 		)
 		(property "MFG" "Stackpole"
-			(at 194.31 111.76 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +2769,7 @@
 			)
 		)
 		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 111.76 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +2778,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 194.31 111.76 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,7 +2787,7 @@
 			)
 		)
 		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 111.76 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,15 +2812,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 58.42 270)
+		(at 193.04 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "84fbd40b-0767-4176-b2f5-d9317f9f2e97")
-		(property "Reference" "R31"
-			(at 192.278 59.944 90)
+		(property "Reference" "R27"
+			(at 191.008 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +2829,7 @@
 			)
 		)
 		(property "Value" "49.9R-1%-0805"
-			(at 194.31 56.134 90)
+			(at 193.04 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +2837,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 59.436 90)
+			(at 192.786 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +2846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 58.42 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +2855,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 194.31 58.42 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +2864,7 @@
 			)
 		)
 		(property "MFG" "Stackpole"
-			(at 194.31 58.42 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +2873,7 @@
 			)
 		)
 		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 58.42 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +2882,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 194.31 58.42 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +2891,7 @@
 			)
 		)
 		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 58.42 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,111 +2908,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 194.31 166.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86e2de6d-aa57-42c0-a7e9-48e5a60ba5d7")
-		(property "Reference" "R16"
-			(at 192.278 167.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "49.9R-1%-0805"
-			(at 194.31 164.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 167.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 194.31 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Stackpole"
-			(at 194.31 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 194.31 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a33a75b4-fcc3-4b72-b5d0-44af93cd8911")
-		)
-		(pin "2"
-			(uuid "02ff50ec-686e-443b-99fa-eabdbfdd55d2")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R16")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3976,7 +2916,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 135.89 0)
+		(at 179.07 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3984,7 +2924,7 @@
 		(dnp no)
 		(uuid "88117e4d-981d-435d-bf91-e2895a6f896a")
 		(property "Reference" "#PWR0610"
-			(at 180.34 142.24 0)
+			(at 179.07 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +2933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 139.7 0)
+			(at 179.07 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 135.89 0)
+			(at 179.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +2950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 135.89 0)
+			(at 179.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +2959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 135.89 0)
+			(at 179.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,15 +2981,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 172.72 128.27 180)
+		(at 171.45 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9dcaaac1-7a9a-4b4f-aef2-9e8122da3860")
-		(property "Reference" "R68"
-			(at 174.244 132.08 90)
+		(property "Reference" "R64"
+			(at 172.974 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,7 +2997,7 @@
 			)
 		)
 		(property "Value" "20k-1%-0805"
-			(at 170.18 128.27 90)
+			(at 168.91 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +3005,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 171.704 128.016 90)
+			(at 170.434 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +3014,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 128.27 0)
+			(at 171.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +3023,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 172.72 128.27 0)
+			(at 171.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +3032,7 @@
 			)
 		)
 		(property "MFG" "Panasonic"
-			(at 172.72 128.27 0)
+			(at 171.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +3041,7 @@
 			)
 		)
 		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 172.72 128.27 0)
+			(at 171.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +3050,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 172.72 128.27 0)
+			(at 171.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +3059,7 @@
 			)
 		)
 		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 172.72 128.27 0)
+			(at 171.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +3076,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R68")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -4144,7 +3084,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 266.7 38.1 270)
+		(at 265.43 82.55 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4153,7 +3093,7 @@
 		(dnp no)
 		(uuid "a36f5fc3-35db-4d66-924e-25869d16d856")
 		(property "Reference" "#PWR0616"
-			(at 262.89 38.1 0)
+			(at 261.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +3102,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 269.494 38.1 90)
+			(at 268.224 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +3111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 38.1 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +3120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 38.1 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +3129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 266.7 38.1 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +3151,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 135.89 0)
+		(at 171.45 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4219,7 +3159,7 @@
 		(dnp no)
 		(uuid "a398a4c4-e162-4dfe-b213-9b4f2192f4a8")
 		(property "Reference" "#PWR0609"
-			(at 172.72 142.24 0)
+			(at 171.45 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +3168,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 139.7 0)
+			(at 171.45 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +3176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 135.89 0)
+			(at 171.45 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +3185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 135.89 0)
+			(at 171.45 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +3194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 135.89 0)
+			(at 171.45 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +3216,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 105.41 270)
+		(at 193.04 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4284,7 +3224,7 @@
 		(dnp no)
 		(uuid "af71fe7c-42ab-46e1-9c55-71bc4d1f6412")
 		(property "Reference" "R12"
-			(at 192.278 106.934 90)
+			(at 191.008 151.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +3233,7 @@
 			)
 		)
 		(property "Value" "49.9R-1%-0805"
-			(at 194.31 103.124 90)
+			(at 193.04 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +3241,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.056 106.426 90)
+			(at 192.786 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +3250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 105.41 0)
+			(at 193.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +3259,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 194.31 105.41 0)
+			(at 193.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +3268,7 @@
 			)
 		)
 		(property "MFG" "Stackpole"
-			(at 194.31 105.41 0)
+			(at 193.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +3277,7 @@
 			)
 		)
 		(property "MFG P/N" "RMCF0805FT49R9"
-			(at 194.31 105.41 0)
+			(at 193.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +3286,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 194.31 105.41 0)
+			(at 193.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +3295,7 @@
 			)
 		)
 		(property "DIST P/N" "RMCF0805FT49R9CT-ND"
-			(at 194.31 105.41 0)
+			(at 193.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +3320,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 100.33 0)
+		(at 163.83 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4388,7 +3328,7 @@
 		(dnp no)
 		(uuid "bde160cc-e9f9-4288-9fe1-c39b1bf069cd")
 		(property "Reference" "#PWR0607"
-			(at 165.1 106.68 0)
+			(at 163.83 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +3337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 104.14 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +3345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 100.33 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +3354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 100.33 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +3363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 100.33 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +3385,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 46.99 0)
+		(at 163.83 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4453,7 +3393,7 @@
 		(dnp no)
 		(uuid "c6ec615d-5159-4726-a0f4-697d2f92ba5a")
 		(property "Reference" "#PWR0601"
-			(at 165.1 53.34 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +3402,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 50.8 0)
+			(at 163.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +3410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 46.99 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +3419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 46.99 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +3428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 46.99 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,221 +3450,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 180.34 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0c95f37-f4f4-46e4-acd3-73f78bf47cef")
-		(property "Reference" "R72"
-			(at 181.864 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k-1%-0805"
-			(at 177.8 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 179.324 182.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 180.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Panasonic"
-			(at 180.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 180.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 180.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 180.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21977e0e-43d3-4b67-8091-5893a2d2bb83")
-		)
-		(pin "2"
-			(uuid "b01b6fc5-0a26-4d5f-a09b-de2cacaa99a1")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 165.1 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbd764f8-8e52-4439-b500-fd596f226508")
-		(property "Reference" "R70"
-			(at 166.624 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k-1%-0805"
-			(at 162.56 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 164.084 182.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 165.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Panasonic"
-			(at 165.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 165.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 165.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 165.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be4ed3dd-5d2d-4beb-a5cc-4f253d138242")
-		)
-		(pin "2"
-			(uuid "e6487543-b61f-4692-a18f-471dee07dcbe")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 180.34 74.93 180)
+		(at 179.07 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e5faf5c9-44cf-444c-a0c8-f963a4666bf7")
-		(property "Reference" "R50"
-			(at 181.864 78.74 90)
+		(property "Reference" "R46"
+			(at 180.594 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +3466,7 @@
 			)
 		)
 		(property "Value" "20k-1%-0805"
-			(at 177.8 74.93 90)
+			(at 176.53 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +3474,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 179.324 74.676 90)
+			(at 178.054 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +3483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 74.93 0)
+			(at 179.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +3492,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 180.34 74.93 0)
+			(at 179.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +3501,7 @@
 			)
 		)
 		(property "MFG" "Panasonic"
-			(at 180.34 74.93 0)
+			(at 179.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +3510,7 @@
 			)
 		)
 		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 180.34 74.93 0)
+			(at 179.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +3519,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 180.34 74.93 0)
+			(at 179.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +3528,7 @@
 			)
 		)
 		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 180.34 74.93 0)
+			(at 179.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +3545,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R50")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -4819,15 +3553,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 74.93 180)
+		(at 163.83 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "eb71c4d6-4a4d-4057-bb1f-f84651ca3ee7")
-		(property "Reference" "R52"
-			(at 166.624 78.74 90)
+		(property "Reference" "R48"
+			(at 165.354 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +3569,7 @@
 			)
 		)
 		(property "Value" "20k-1%-0805"
-			(at 162.56 74.93 90)
+			(at 161.29 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +3577,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 164.084 74.676 90)
+			(at 162.814 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +3586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 74.93 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +3595,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 165.1 74.93 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +3604,7 @@
 			)
 		)
 		(property "MFG" "Panasonic"
-			(at 165.1 74.93 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +3613,7 @@
 			)
 		)
 		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 165.1 74.93 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +3622,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 165.1 74.93 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +3631,7 @@
 			)
 		)
 		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 165.1 74.93 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +3648,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R52")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4922,7 +3656,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 82.55 0)
+		(at 171.45 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4930,7 +3664,7 @@
 		(dnp no)
 		(uuid "f048cf50-28ee-4d5c-919d-0d2c44df3d44")
 		(property "Reference" "#PWR0604"
-			(at 172.72 88.9 0)
+			(at 171.45 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +3673,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 86.36 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +3681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 82.55 0)
+			(at 171.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +3690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 82.55 0)
+			(at 171.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +3699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 82.55 0)
+			(at 171.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +3721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 82.55 0)
+		(at 163.83 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4995,7 +3729,7 @@
 		(dnp no)
 		(uuid "f1b36ce2-3338-405e-a4ee-d340e4bbb526")
 		(property "Reference" "#PWR0603"
-			(at 165.1 88.9 0)
+			(at 163.83 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +3738,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 86.36 0)
+			(at 163.83 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +3746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 82.55 0)
+			(at 163.83 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +3755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 82.55 0)
+			(at 163.83 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +3764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 82.55 0)
+			(at 163.83 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,81 +3785,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f221bc26-a616-456b-9778-aaca5093f174")
-		(property "Reference" "#PWR0613"
-			(at 165.1 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5d9fac2-0664-4e7e-8037-ce4c4adcc2ed")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "#PWR0613")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 172.72 74.93 180)
+		(at 171.45 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ff2cc936-60cc-4e3e-99b7-4ba1decad5d0")
-		(property "Reference" "R51"
-			(at 174.244 78.74 90)
+		(property "Reference" "R47"
+			(at 172.974 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +3802,7 @@
 			)
 		)
 		(property "Value" "20k-1%-0805"
-			(at 170.18 74.93 90)
+			(at 168.91 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +3810,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 171.704 74.676 90)
+			(at 170.434 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +3819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 74.93 0)
+			(at 171.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +3828,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 172.72 74.93 0)
+			(at 171.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +3837,7 @@
 			)
 		)
 		(property "MFG" "Panasonic"
-			(at 172.72 74.93 0)
+			(at 171.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +3846,7 @@
 			)
 		)
 		(property "MFG P/N" "ERJ-6ENF2002V"
-			(at 172.72 74.93 0)
+			(at 171.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +3855,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 172.72 74.93 0)
+			(at 171.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +3864,7 @@
 			)
 		)
 		(property "DIST P/N" "P20.0KCCT-ND"
-			(at 172.72 74.93 0)
+			(at 171.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +3881,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R51")
+					(reference "R47")
 					(unit 1)
 				)
 			)
