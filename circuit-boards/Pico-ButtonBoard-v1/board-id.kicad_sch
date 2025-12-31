@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2025-12-30")
+		(date "2025-12-31")
 		(rev "1")
 	)
 	(lib_symbols
@@ -1156,7 +1156,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1b913962-f40e-4b75-974c-a57671816d1e")
 		(property "Reference" "C30"
 			(at 201.93 144.78 90)
@@ -1521,7 +1521,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8ef0f99b-8f47-4d7a-a959-5857a82569b6")
 		(property "Reference" "C31"
 			(at 190.5 144.78 90)
