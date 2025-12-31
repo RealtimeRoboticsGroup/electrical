@@ -536,16 +536,6 @@
 		(uuid "d9c89970-aa0a-4110-9068-45c779673a6c")
 	)
 	(fp_line
-		(start -5.237939 -25.61)
-		(end -4.235 -25.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f628e1d5-2c18-438f-a6af-172dca80f1d1")
-	)
-	(fp_line
 		(start -3.9 -22.306)
 		(end -3.9 -21.09)
 		(stroke
@@ -574,16 +564,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f76f7be2-7693-40bf-ae8d-d717fc5a687a")
-	)
-	(fp_line
-		(start 4.235 -25.61)
-		(end 5.237939 -25.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "49db3458-d891-4364-ab7d-4768738ea2af")
 	)
 	(fp_line
 		(start 5.237939 25.61)
@@ -2014,10 +1994,9 @@
 		(uuid "b50c143f-c195-4491-bcf4-47b7687283c9")
 		(members "0728b9e7-b8f2-42f9-9f23-f70889a4b85f" "24f8ebd3-1e0c-41b3-9814-e5a8584b1f6d"
 			"37ee7b62-58ba-49a1-bd5e-f920161da31a" "4517162e-4436-4207-b460-dd13f4b5aa10"
-			"49db3458-d891-4364-ab7d-4768738ea2af" "80d8aa0f-b809-4c65-a8e5-a8e4d6d3dd2b"
-			"896a0bc1-9323-4e82-b48b-347747f532b2" "a39c7d34-0f58-425a-abb8-258534026c26"
-			"b736620b-63dd-4731-954a-fcec006e38e6" "b7ce93c5-e329-40c8-bbed-4fec25dc2009"
-			"c94727df-554e-4bd1-b72d-174b9836ee12" "f628e1d5-2c18-438f-a6af-172dca80f1d1"
+			"80d8aa0f-b809-4c65-a8e5-a8e4d6d3dd2b" "896a0bc1-9323-4e82-b48b-347747f532b2"
+			"a39c7d34-0f58-425a-abb8-258534026c26" "b736620b-63dd-4731-954a-fcec006e38e6"
+			"b7ce93c5-e329-40c8-bbed-4fec25dc2009" "c94727df-554e-4bd1-b72d-174b9836ee12"
 		)
 	)
 	(group ""
@@ -2036,87 +2015,37 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_PinSockets_H8.50mm.step"
-		(hide yes)
+	(model "${KIPRJMOD}/3dModels/rpi_pico2.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 2.54)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico.step"
+	(model "${KIPRJMOD}/3dModels/PinHeader_1x20_P2.54mm_Vertical.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 8.89 24.13 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders_H2.54mm.step"
-		(hide yes)
+	(model "${KIPRJMOD}/3dModels/PinHeader_1x20_P2.54mm_Vertical.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -8.89 24.13 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_H.step"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W.step"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W_AddedHeaders_H2.54mm.step"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_WH.step"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

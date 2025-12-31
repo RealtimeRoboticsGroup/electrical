@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2025-12-29")
+		(date "2025-12-30")
 		(rev "1")
 	)
 	(lib_symbols
@@ -249,6 +249,206 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3321,6 +3521,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 116.84) (xy 353.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e55af40-5b35-4bf9-9205-db52ebbaaa3d")
+	)
+	(wire
+		(pts
 			(xy 325.12 137.16) (xy 325.12 142.24)
 		)
 		(stroke
@@ -3781,6 +3991,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 119.38) (xy 372.11 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969d93ef-675d-49b4-b20e-6a341ddc551f")
+	)
+	(wire
+		(pts
 			(xy 149.86 149.86) (xy 181.61 149.86)
 		)
 		(stroke
@@ -3838,6 +4058,16 @@
 			(type default)
 		)
 		(uuid "a5eb1f59-0415-4885-ae53-269c53a71e03")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 154.94 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0bae4b-7b89-42c6-9e51-7828c4a24d4d")
 	)
 	(wire
 		(pts
@@ -4121,6 +4351,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 116.84) (xy 353.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf78a57-6d04-4fd3-baa9-221969550366")
+	)
+	(wire
+		(pts
 			(xy 121.92 130.81) (xy 121.92 132.08)
 		)
 		(stroke
@@ -4288,6 +4528,16 @@
 			(justify left bottom)
 		)
 		(uuid "335b342c-8d53-406e-87cf-f2d380a2c92c")
+	)
+	(label "V_PS"
+		(at 370.84 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fbe47fb-07a2-4b2b-aa64-9077a50d193d")
 	)
 	(label "ENC1_A"
 		(at 180.34 129.54 180)
@@ -4468,6 +4718,16 @@
 			(justify right bottom)
 		)
 		(uuid "c0a00a36-83d4-4b6e-a3c8-bed72877d1de")
+	)
+	(label "V_PS"
+		(at 154.94 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0b994fe-7079-472c-be35-340d51801cfa")
 	)
 	(label "CAN_L"
 		(at 370.84 139.7 180)
@@ -5055,7 +5315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1669c32d-f613-4ada-a8a6-bc3287ba121b")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 337.82 110.998 0)
 			(effects
 				(font
@@ -5145,7 +5405,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5746,7 +6006,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 377.19 121.92 0)
+		(at 377.19 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5754,7 +6014,7 @@
 		(dnp no)
 		(uuid "5bba1e5d-2e63-47e1-bba1-88012955e152")
 		(property "Reference" "J19"
-			(at 378.968 124.46 0)
+			(at 378.968 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +6023,7 @@
 			)
 		)
 		(property "Value" "CAN"
-			(at 378.714 121.92 0)
+			(at 378.714 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +6032,7 @@
 			)
 		)
 		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
-			(at 377.19 121.92 0)
+			(at 377.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +6041,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
-			(at 377.19 121.92 0)
+			(at 377.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +6050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 121.92 0)
+			(at 377.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +6059,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 390.652 121.92 0)
+			(at 390.652 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +6067,7 @@
 			)
 		)
 		(property "MFG P/N" "70543-0036"
-			(at 390.652 124.46 0)
+			(at 390.652 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +6075,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 377.19 121.92 0)
+			(at 377.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +6084,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4824-ND"
-			(at 377.19 121.92 0)
+			(at 377.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +6117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c7429a3-87da-4a2c-8144-50d7dafc26da")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 349.25 110.998 0)
 			(effects
 				(font
@@ -5947,7 +6207,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6462,109 +6722,6 @@
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
 					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 377.19 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ffeb753-f811-4749-b8cb-ef04dd0d8335")
-		(property "Reference" "J18"
-			(at 378.968 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN"
-			(at 378.714 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0001"
-			(at 377.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
-			(at 377.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 377.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Molex"
-			(at 390.652 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "70543-0036"
-			(at 390.652 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 377.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "WM4824-ND"
-			(at 377.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df8f8501-b7a1-4d6a-983b-2291fe00e35e")
-		)
-		(pin "1"
-			(uuid "bd70f7a4-e1d7-4d0e-a5ca-6a3f6fa05dec")
-		)
-		(instances
-			(project "Pico-ButtonBoard-v1"
-				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -7331,6 +7488,72 @@
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 353.06 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6c1de02-a575-4ef0-9057-f4269322502c")
+		(property "Reference" "#PWR0125"
+			(at 353.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 353.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 353.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0fd403-8f9a-403a-ae7e-e749b3fb2559")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -8139,7 +8362,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e0759325-b9f1-4662-847b-5439e4701b50")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 314.96 124.206 0)
 			(effects
 				(font
@@ -8190,7 +8413,118 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "TP5")
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 377.19 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e97ea310-5281-4689-baeb-13ac2543d6eb")
+		(property "Reference" "J18"
+			(at 377.19 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAN"
+			(at 381 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pico-ButtonBoard:Molex-70543-0003"
+			(at 377.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
+			(at 377.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 377.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Molex"
+			(at 395.732 127.508 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "MFG P/N" "0705430038"
+			(at 395.732 129.54 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "DIST" "Mouser"
+			(at 377.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM4826-ND"
+			(at 377.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a73eea66-09d5-4796-abc0-173cd38b3304")
+		)
+		(pin "3"
+			(uuid "a50e75f5-2e29-4701-842d-492b65a4fdd4")
+		)
+		(pin "1"
+			(uuid "61738eb8-4915-4fd2-b230-bc9165f52139")
+		)
+		(pin "4"
+			(uuid "848013ab-ef41-4b30-8085-5947b98c1dd7")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -8465,7 +8799,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ffb2d6b9-ecab-4038-8725-653ad01d7f22")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 311.15 124.206 0)
 			(effects
 				(font
@@ -8516,7 +8850,7 @@
 		(instances
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8662,7 +8996,7 @@
 		)
 		(uuid "0ff2bd57-0772-402e-b5ad-a11115b3bfe5")
 		(property "Sheetname" "Button Inputs"
-			(at 76.2 189.992 0)
+			(at 76.2 195.58 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -8764,7 +9098,7 @@
 		)
 		(uuid "4e285169-a0a4-4eb6-9253-4dccf3a51578")
 		(property "Sheetname" "Board ID"
-			(at 76.962 96.266 0)
+			(at 76.708 101.092 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -8933,7 +9267,7 @@
 	)
 	(sheet
 		(at 54.61 115.57)
-		(size 44.45 29.21)
+		(size 44.45 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8947,7 +9281,7 @@
 		)
 		(uuid "d0d9a62e-3d08-419e-af51-4493246764fe")
 		(property "Sheetname" "Encoder Inputs"
-			(at 76.708 131.064 0)
+			(at 76.708 128.27 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -9104,6 +9438,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "V_PS" passive
+			(at 146.05 63.5 0)
+			(uuid "eddeb1b9-ea7f-4981-8c23-54f6e47a0564")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
