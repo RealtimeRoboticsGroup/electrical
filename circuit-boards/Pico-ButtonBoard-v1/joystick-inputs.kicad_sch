@@ -3491,7 +3491,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "27041fb7-9cb6-4d32-b663-2d41477bb4e3")
 		(property "Reference" "R48"
 			(at 129.794 171.45 90)
@@ -5307,7 +5307,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b05e7a7a-b3a4-468c-b05a-8f856382695e")
 		(property "Reference" "R46"
 			(at 137.414 228.6 90)
@@ -6682,7 +6682,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ed074a08-e6c6-46bd-8484-5dcab5984ba0")
 		(property "Reference" "R47"
 			(at 137.414 171.45 90)
@@ -6889,7 +6889,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f4c78d14-2f7e-4a93-af1c-dd9583b34481")
 		(property "Reference" "R45"
 			(at 129.794 228.6 90)
