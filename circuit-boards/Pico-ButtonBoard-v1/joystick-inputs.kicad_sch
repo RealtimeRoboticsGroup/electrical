@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2025-12-30")
+		(date "2025-12-31")
 		(rev "1")
 	)
 	(lib_symbols
@@ -1641,6 +1641,17 @@
 			(justify right)
 		)
 		(uuid "3dcf02b8-d943-4265-8130-1b252f1e5d0d")
+	)
+	(text "Link: Radio Master TX2 Schematic"
+		(exclude_from_sim no)
+		(at 47.752 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.rcgroups.com/forums/showthread.php?3869543-Blog-17-RadioMaster-TX16S-schematic-diagram")
+		)
+		(uuid "58572b26-2972-4794-91be-55efd96bdb2e")
 	)
 	(text "3V3A"
 		(exclude_from_sim no)

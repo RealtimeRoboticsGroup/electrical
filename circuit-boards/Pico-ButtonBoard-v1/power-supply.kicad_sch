@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2025-12-30")
+		(date "2025-12-31")
 		(rev "1")
 	)
 	(lib_symbols
@@ -2389,6 +2389,16 @@
 		)
 		(uuid "bc7c6d06-45e7-402f-aa04-2a88a3e4861b")
 	)
+	(text "7.2-7.7V Setpoint"
+		(exclude_from_sim no)
+		(at 226.822 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8f1b17b-8891-495c-95be-d5786dffa8e7")
+	)
 	(text_box "Power supply input range:  8V - 30V\n- Allows use of M12 and M18 Milwaukee battery packs.\n\n- Input power can be sourced from either a Milwaukee battery pack an AC power adapter.\n- Voltage of the battery pack may be higher than the AC adapter.\n- The battery pack is disabled from supplying power whenever the AC adapter is greater than 9V.\n- All inputs are protected from reverse polarity"
 		(exclude_from_sim no)
 		(at 17.78 22.86 0)
@@ -3853,7 +3863,7 @@
 				)
 			)
 		)
-		(property "Value" "S1B"
+		(property "Value" "B340AE-13"
 			(at 68.58 123.952 0)
 			(effects
 				(font
@@ -3870,7 +3880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/onsemi-S1B.pdf"
+		(property "Datasheet" "Components/DiodesInc-B340AE.pdf"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -3888,7 +3898,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "onsemi"
+		(property "MFG" "Diodes Inc"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -3897,7 +3907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "S1B"
+		(property "MFG P/N" "B340AE-13"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -3915,7 +3925,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "S1BFSCT-ND"
+		(property "DIST P/N" "B340AE-13DICT-ND"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -4799,7 +4809,7 @@
 				)
 			)
 		)
-		(property "Value" "S1B"
+		(property "Value" "B340AE-13"
 			(at 68.326 97.79 0)
 			(effects
 				(font
@@ -4816,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/onsemi-S1B.pdf"
+		(property "Datasheet" "Components/DiodesInc-B340AE.pdf"
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -4834,7 +4844,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "onsemi"
+		(property "MFG" "Diodes Inc"
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -4843,7 +4853,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "S1B"
+		(property "MFG P/N" "B340AE-13"
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -4861,7 +4871,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "S1BFSCT-ND"
+		(property "DIST P/N" "B340AE-13DICT-ND"
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -4902,7 +4912,7 @@
 				)
 			)
 		)
-		(property "Value" "S1B"
+		(property "Value" "B340AE-13"
 			(at 200.66 123.952 0)
 			(effects
 				(font
@@ -4919,7 +4929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/onsemi-S1B.pdf"
+		(property "Datasheet" "Components/DiodesInc-B340AE.pdf"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -4937,7 +4947,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "onsemi"
+		(property "MFG" "Diodes Inc"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -4946,7 +4956,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "S1B"
+		(property "MFG P/N" "B340AE-13"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -4964,7 +4974,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "S1BFSCT-ND"
+		(property "DIST P/N" "B340AE-13DICT-ND"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -5304,7 +5314,7 @@
 				)
 			)
 		)
-		(property "Value" "S1B"
+		(property "Value" "B340AE-13"
 			(at 335.28 126.492 0)
 			(effects
 				(font
@@ -5321,7 +5331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/onsemi-S1B.pdf"
+		(property "Datasheet" "Components/DiodesInc-B340AE.pdf"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -5339,7 +5349,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "onsemi"
+		(property "MFG" "Diodes Inc"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -5348,7 +5358,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "S1B"
+		(property "MFG P/N" "B340AE-13"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -5366,7 +5376,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "S1BFSCT-ND"
+		(property "DIST P/N" "B340AE-13DICT-ND"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -5645,7 +5655,7 @@
 				)
 			)
 		)
-		(property "Value" "12.4k-1%-0805"
+		(property "Value" "13k-1%-0805"
 			(at 266.7 147.32 90)
 			(effects
 				(font
@@ -5680,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole"
+		(property "MFG" "TE Connectivity Passive Product"
 			(at 269.24 147.32 0)
 			(effects
 				(font
@@ -5689,7 +5699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RMCF0805FT12K4"
+		(property "MFG P/N" "CRG0805F13K"
 			(at 269.24 147.32 0)
 			(effects
 				(font
@@ -5707,7 +5717,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "RMCF0805FT12K4CT-ND"
+		(property "DIST P/N" "A126339CT-ND"
 			(at 269.24 147.32 0)
 			(effects
 				(font
@@ -6496,7 +6506,7 @@
 				)
 			)
 		)
-		(property "Value" "S1B"
+		(property "Value" "B340AE-13"
 			(at 68.326 106.426 0)
 			(effects
 				(font
@@ -6513,7 +6523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/onsemi-S1B.pdf"
+		(property "Datasheet" "Components/DiodesInc-B340AE.pdf"
 			(at 68.58 102.87 0)
 			(effects
 				(font
@@ -6531,7 +6541,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "onsemi"
+		(property "MFG" "Diodes Inc"
 			(at 68.58 102.87 0)
 			(effects
 				(font
@@ -6540,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "S1B"
+		(property "MFG P/N" "B340AE-13"
 			(at 68.58 102.87 0)
 			(effects
 				(font
@@ -6558,7 +6568,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "S1BFSCT-ND"
+		(property "DIST P/N" "B340AE-13DICT-ND"
 			(at 68.58 102.87 0)
 			(effects
 				(font
