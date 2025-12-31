@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2025-12-29")
+		(date "2025-12-30")
 		(rev "1")
 	)
 	(lib_symbols
@@ -1045,6 +1045,17 @@
 		)
 		(uuid "eeff5b2a-3d13-4f08-8348-97c162585532")
 	)
+	(text "EXAMPLE CODE: Github: PIO PWM Input Code"
+		(exclude_from_sim no)
+		(at 351.536 84.328 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(href "https://github.com/GitJer/Some_RPI-Pico_stuff/tree/main/PwmIn")
+		)
+		(uuid "fc66a633-097e-4c93-a906-567ac7377842")
+	)
 	(junction
 		(at 163.83 104.14)
 		(diameter 0)
@@ -1773,7 +1784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "167ffc77-3132-4ded-ba2a-613f5e4b943b")
-		(property "Reference" "R28"
+		(property "Reference" "R31"
 			(at 191.008 98.044 90)
 			(effects
 				(font
@@ -1862,7 +1873,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R28")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2507,7 +2518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "378c7034-1646-4a14-962d-14844a0a62d0")
-		(property "Reference" "R26"
+		(property "Reference" "R29"
 			(at 191.008 110.744 90)
 			(effects
 				(font
@@ -2596,7 +2607,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R26")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2819,7 +2830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84fbd40b-0767-4176-b2f5-d9317f9f2e97")
-		(property "Reference" "R27"
+		(property "Reference" "R30"
 			(at 191.008 104.394 90)
 			(effects
 				(font
@@ -2908,7 +2919,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R27")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5faf5c9-44cf-444c-a0c8-f963a4666bf7")
-		(property "Reference" "R46"
+		(property "Reference" "R41"
 			(at 180.594 123.19 90)
 			(effects
 				(font
@@ -3545,7 +3556,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R46")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3560,7 +3571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb71c4d6-4a4d-4057-bb1f-f84651ca3ee7")
-		(property "Reference" "R48"
+		(property "Reference" "R43"
 			(at 165.354 123.19 90)
 			(effects
 				(font
@@ -3648,7 +3659,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R48")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff2cc936-60cc-4e3e-99b7-4ba1decad5d0")
-		(property "Reference" "R47"
+		(property "Reference" "R42"
 			(at 172.974 123.19 90)
 			(effects
 				(font
@@ -3881,7 +3892,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/d0d9a62e-3d08-419e-af51-4493246764fe"
-					(reference "R47")
+					(reference "R42")
 					(unit 1)
 				)
 			)
