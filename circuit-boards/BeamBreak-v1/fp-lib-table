@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BeamBreak")(type "KiCad")(uri "${KIPRJMOD}/BeamBreak-v1.pretty")(options "")(descr ""))
+)

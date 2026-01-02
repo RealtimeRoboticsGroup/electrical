@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BeamBreak")(type "KiCad")(uri "${KIPRJMOD}/BeamBreak.kicad_sym")(options "")(descr ""))
+  (lib (name "NX Adapter")(type "KiCad")(uri "/home/scott/Documents/Projects/dev/git/RealtimeRobotics-electrical/circuit-boards/NX-J401-Adapter-v5/NX-AdapterBoard.kicad_sym")(options "")(descr ""))
+)
