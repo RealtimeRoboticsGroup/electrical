@@ -1,0 +1,253 @@
+(footprint "VishayDale-IHLE3232"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a8a27a92-bbc6-48e4-bfd5-32813fb79cb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VishayDale-IHLE3232"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "375f9c2a-d910-4969-b5bb-c34f458c2f83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f470b515-136c-4cea-8e98-dbea472eefa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d165dadc-c34f-4ff7-8c35-c6ec6f73b601")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.1308 -5.1308)
+		(end -3.0988 -5.1308)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "edd2c3bd-43e6-4018-bf66-d02258c555ec")
+	)
+	(fp_line
+		(start -5.1308 -3.0988)
+		(end -5.1308 -5.1308)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8b5b4f8-6478-4e32-85ed-aea5784c35e8")
+	)
+	(fp_line
+		(start -5.1308 5.1308)
+		(end -5.1308 3.0988)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d29a745-02d1-4156-ab8e-02a214dfd127")
+	)
+	(fp_line
+		(start -3.0988 5.1308)
+		(end -5.1308 5.1308)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5628c3d3-37ac-46a5-9fc1-04552ac86b26")
+	)
+	(fp_line
+		(start 0 -1.524)
+		(end 0 -2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f40b1f7e-8a75-48f0-81e3-414c16a03f72")
+	)
+	(fp_line
+		(start 0 2.032)
+		(end 0 1.524)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a07ae95b-3af7-4518-8fe4-749a39406101")
+	)
+	(fp_line
+		(start 3.0988 -5.1308)
+		(end 5.1308 -5.1308)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "48c365aa-588d-4e12-bb22-1a5beffd17dc")
+	)
+	(fp_line
+		(start 5.1308 -5.1308)
+		(end 5.1308 -3.0988)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3cb27ae3-2a18-4b29-ab84-78005c342fc6")
+	)
+	(fp_line
+		(start 5.1308 3.0988)
+		(end 5.1308 5.1308)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba46dff1-cf78-40d1-9ccc-4f674ecb2c62")
+	)
+	(fp_line
+		(start 5.1308 5.1308)
+		(end 3.0988 5.1308)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "198e45cc-c1b6-4e26-9073-26147c0b9369")
+	)
+	(fp_arc
+		(start 0 -1.524)
+		(mid 0.508 -1.016)
+		(end 0 -0.508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30ae4690-8c4e-4e66-8554-9e93c77d8412")
+	)
+	(fp_arc
+		(start 0 -0.508)
+		(mid 0.508 0)
+		(end 0 0.508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f189b51-660d-433f-81dc-0e9c53a8ce8b")
+	)
+	(fp_arc
+		(start 0 0.508)
+		(mid 0.508 1.016)
+		(end 0 1.524)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9554880e-79bf-491e-a669-7f9f5c150ac0")
+	)
+	(fp_rect
+		(start -5.1308 -5.1308)
+		(end 5.1308 5.1308)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b75e100a-b412-4978-88a3-a89c358233cc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "44d08367-09bb-470d-a179-3a46bbd11a61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -3.81)
+		(size 5.334 2.6416)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "83a1a338-e626-4396-b04d-bd695eecf41f")
+	)
+	(pad "2" smd roundrect
+		(at 0 3.81)
+		(size 5.334 2.6416)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "fa8f014e-90c1-4e7b-b553-ce706071c370")
+	)
+	(pad "3" smd roundrect
+		(at -3.61315 0)
+		(size 3.0353 2.8448)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "18cb8efd-88ff-4432-8667-2d5126734437")
+	)
+	(pad "3" smd roundrect
+		(at 3.61315 0)
+		(size 3.0353 2.8448)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "88b62723-e97f-40f2-ac7c-d8461eb732ff")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dModels/VishayDale-IHLE3232DDER330M5A.stp"
+		(offset
+			(xyz -7.4168 -3.2512 -3.556)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
