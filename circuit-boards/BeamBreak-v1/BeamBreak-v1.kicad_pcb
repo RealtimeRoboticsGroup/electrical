@@ -1130,7 +1130,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Components/Vishay-ihle-5050fh-5a.pdf"
+		(property "Datasheet" "Components/VishayDale-IHLE-3232dd-5a.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1143,7 +1143,7 @@
 				)
 			)
 		)
-		(property "Description" "6.8 µH Shielded Inductor 14.9 A 12.09mOhm Max Nonstandard"
+		(property "Description" "33uH-159m-20%"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4186,7 +4186,7 @@
 			(net 1 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "31b730a1-2162-43e7-8a34-d4755009109d")
+			(uuid "3bfd887e-ec00-411d-8002-bcd4192e846f")
 		)
 		(pad "2" thru_hole circle
 			(at 5 0 270)
@@ -4208,7 +4208,7 @@
 			(net 3 "/Power Supply/DCIN")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "a0c70eb6-84e0-4354-8bf4-bdc8c3de7a96")
+			(uuid "3e7fbe51-6abb-4cc5-be82-712eb502573c")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dModels/Weidmuller-1824740000.stp"
