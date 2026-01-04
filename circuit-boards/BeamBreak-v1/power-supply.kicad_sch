@@ -4690,7 +4690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Vishay-ihle-5050fh-5a.pdf"
+		(property "Datasheet" "Components/VishayDale-IHLE-3232dd-5a.pdf"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -4699,7 +4699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6.8 µH Shielded Inductor 14.9 A 12.09mOhm Max Nonstandard"
+		(property "Description" "33uH-159m-20%"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -5375,8 +5375,7 @@
 			(effects
 				(font
 					(size 1.905 1.905)
-					(thickness 0.381)
-					(bold yes)
+					(thickness 0.2381)
 				)
 				(justify left)
 			)

@@ -1,0 +1,164 @@
+*$
+* LM3478
+*****************************************************************************
+* (C) Copyright 2018 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: Texas Instruments Inc.
+* Part: LM3478
+* Date: 01MAR2018
+* Model Type: AVERAGE
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.p001
+* EVM Order Number: LM3478-BOOST
+* EVM Users Guide: SNVA656A–June 2012–Revised October 2013
+* Datasheet: SNVS085X –JULY 2000–REVISED DECEMBER 2017
+* Topologies Supported: Boost, SEPIC
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+*
+* Model Usage Notes:
+* 
+* 1. Since this is an average model used for AC analysis, 
+*    only the pins affecting AC analysis are modeled.
+* 2. Additional pins - VOUT, SW are added for BOOSTl; VOUT, SW1 and SW2
+*     added for SEPIC.
+* 3. The model takes the inductance (L), switching frequency (FS), 
+*    and current sense resitors(RSN),(RSL) as parameters.
+*    Pass appropriate values to these parameters based
+*    on the application circuit.
+* 4. The model contains two models - one for average BOOST(LM3478_AVG_BOOST)
+*    and another for average SEPIC(LM3478_AVG_SEPIC) 
+* 5. The operating quiescent current and thermal properties 
+*    have not been modeled.
+*
+*****************************************************************************  
+.SUBCKT LM3478_AVG_BOOST COMP FA_SD AGND PGND SW FB VIN VOUT DR ISEN PARAMS: L=1.8u RSN=0.015 RSL=0 FS=400000
+E_U5_ABM4         U5_D2 0 VALUE { (V(U5_N14480982) )    }
+R_U5_Rdc1         U5_N14480982 0  10k TC=0,0 
+E_U5_ABM1         U5_SA 0 VALUE { (((0.092+40u*{RSL})*{Fs})/{RSN})    }
+C_U5_C1         GND U5_CX  {4/({L}*(6.28*{Fs})**2)}  TC=0,0 
+D_D1        U5_N14480023 U5_CLPP D_D1
+G_U5_ABMII2         0 U5_N14480982 VALUE { (V(U5_D2X) * 100u)    }
+V_U5_V3         U5_CLPN1 0 48m
+G_U5_ABMII1         0 U5_N14480023 VALUE { (V(U5_DCX) * 100u)    }
+V_U5_V2         U5_CLPP 0 {1-{58.33n*{Fs}}}
+E_U5_ABM3         DR 0 VALUE { (V(U5_N14480023) )    }
+R_U5_Rdc         U5_N14480023 0  10k TC=0,0 
+D_D21          U5_CLPN1 U5_N14480982 D_D1
+X_U5_H1    U5_CX SW U5_VM 0 CCM_U5_H1 
+D_D20         U5_CLPN U5_N14480023 D_D1
+G_U5_ABMII3         VOUT U5_CX VALUE { -(V(COMP) / ({Acs}*{RSN}))    }
+V_U5_V1         U5_CLPN 0 {60n*{Fs}}
+E_U5_E2         U5_N14484020 0 GND VOUT 1
+G_U5_ABM3I1         U5_CX VOUT VALUE { -{(V(U5_SA)*V(DR)/{Fs})+(v(VIN)*V(DR)/(
++ {L}*{Fs}*2))}     }
+E_U5_ABM7         U5_D2X 0 VALUE { (1-V(DR) )    }
+D_D4        U5_N14480982 U5_D2X D_D1
+E_U5_ABM5         U5_DCX 0 VALUE { ( V(U5_CXP)/  
++ (V(U5_N14484020) + 1u))   }
+G_U5_ABM2I1         GND VOUT VALUE { (V(DR) * V(U5_VM))    }
+E_U5_E1         U5_CXP 0 U5_CX VOUT 1
+G_ABM2I1         COMP GND VALUE { (V(N16644669) - V(FB))*-800u    }
+R_R1         GND COMP  50k  
+V_V28         N16644669 GND 1.26
+R_R8         GND AGND  1m  
+R_R9         GND PGND  1m 
+.PARAM ACS=2.2    
+.ENDS LM3478_AVG_BOOST
+*$
+.SUBCKT LM3478_AVG_SEPIC COMP AGND PGND SW1 SW2 FB VIN VOUT FA_SD DR ISEN PARAMS: rsl=2k rsn=0.02 l1=33u l2=33u rfadj=28k  
+V_V28         N16647307 GND 1.26
+G_ABM2I1         COMP GND VALUE { (V(N16647307) - V(FB))*-800u    }
+X_U5 COMP DR GND SW1 SW2 VIN VOUT CCM_SEPIC  PARAMS: rsl={rsl} rsn={rsn} l1={l1} l2={l2} rfadj={rfadj} 
+R_R1         GND COMP  47.5k 
+R_R8         GND AGND  1m  
+R_R9         GND PGND  1m   
+.ENDS LM3478_AVG_SEPIC
+*$
+.SUBCKT CCM_SEPIC COMP DC GRND SW1 SW2 VIN VOUT  PARAMS: rsl={rsl} rsn={rsn} l1={l1} l2={l2} rfadj={rfadj}  
+G_ABM3I1         SW2 VOUT VALUE { {(V(SA)*V(DC)/{Fs})+(v(VIN)*V(DC)/({L}*
++ {Fs}*2))}     }
+G_ABMII1         0 N14480023 VALUE { (V(DCX) * 100u)    }
+D_D19         N14480023 CLPP D_D1
+V_V3         CLPN1 0 48m
+D_D21         N14480982 D2X D_D3
+G_ABMII2         0 N14480982 VALUE { (V(D2X) * 100u)    }
+D_D20         CLPN N14480023 D_D1
+E_E1         CXP 0 SW1 GRND 1
+E_ABM1         SA 0 VALUE { (((0.092+40u*{RSL})*{Fs})/{RSN})    }
+C_C1         GRND SW2  {4/({L}*(6.28*{Fs})**2)}  TC=0,0 
+E_E3         N16655710 0 CXP N16653860 1
+E_E2         N16653860 0 GRND VOUT 1
+G_ABM2I1         GRND VOUT VALUE { ((V(VM)*V(DC))/V(D2))    }
+E_ABM7         D2X 0 VALUE { (1-V(DC) )    }
+E_ABM5         DCX 0 VALUE { ( V(CXP)/  
++ V(N16655710)+ 1u)   }
+E_ABM3         DC 0 VALUE { (V(N14480023) )    }
+V_V1         CLPN 0 {60n*{Fs}}
+R_Rdc         N14480023 0  10k TC=0,0 
+E_ABM4         D2 0 VALUE { (V(N14480982) )    }
+X_H1    SW1 VIN VM 0 CCM_SEPIC_H1 
+V_V2         CLPP 0 {1-{58.33n*{Fs}}}
+R_Rdc1         N14480982 0  10k TC=0,0 
+D_D22         CLPN1 N14480982 D_D3
+G_ABMII3         VOUT SW2 VALUE { -(V(COMP) / ({Acs}*{RSN}))    }
+.PARAM  acs=2.2 Fs={1.7011e9*({rfadj}**-0.79)} L={{l1}+{l2}}
+.ENDS CCM_SEPIC
+*$
+.subckt CCM_SEPIC_H1 1 2 3 4  
+H_H1         3 4 VH_H1 1
+VH_H1         1 2 0V
+.ends CCM_SEPIC_H1
+*$
+.subckt CCM_U5_H1 1 2 3 4  
+H_U5_H1         3 4 VH_U5_H1 1
+VH_U5_H1         1 2 0V
+.ends CCM_U5_H1
+*$
+.model D_D1 d
++ bv=500
++ cjo=4.7e-010
++ eg=0.69
++ ibv=1e-006
++ is=9e-006
++ m=0.8
++ rs=0.06
++ vj=1
++ xti=2
+*$
+.MODEL D_D3 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+*$
+.SUBCKT LDCR IN OUT
++ PARAMs:  L=1u DCR=0.01 IC=0
+L             IN 1  {L} 
+RDCR	1 OUT {DCR}
+.ENDS LDCR
+*$
+.SUBCKT CESR IN OUT
++ PARAMs:  C=100u ESR=0.01 X=2 IC=0
+C	IN 1  {C*X} 
+RESR	1 OUT {ESR/X}
+.ENDS CESR
+*$
