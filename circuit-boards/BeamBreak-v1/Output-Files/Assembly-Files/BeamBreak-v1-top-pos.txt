@@ -1,41 +1,39 @@
-### Footprint positions - created on 2026-01-04T20:32:22-0800 ###
+### Footprint positions - created on 2026-01-04T23:11:16-0800 ###
 ### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                Package                                           PosX       PosY       Rot  Side
 C1        1nF-50V-5%-0805    C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.7200    -3.9250   90.0000  top
-C2        100uF-20%-35V      CP_Radial_D6.3mm_P2.50mm                        6.9584    -3.9860    0.0000  top
+C2        100uF-20%-35V      CP_Radial_D6.3mm_P2.50mm                        7.0284    -4.0360   90.0000  top
 C3        0.1uF-50V-5%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.2610    -4.0400   90.0000  top
 C4        10pF-50V-5%-0805   C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.6390    -4.0400   90.0000  top
 C5        22nF-50V-5%-0805   C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.7590    -4.0400    0.0000  top
-C6        100uF-20%-35V      CP_Radial_D6.3mm_P2.50mm                        7.7604    -4.2510    0.0000  top
-C7        100uF-20%-35V      CP_Radial_D6.3mm_P2.50mm                        7.7605    -4.5266    0.0000  top
+C6        100uF-20%-35V      CP_Radial_D6.3mm_P2.50mm                        7.8104    -4.3010   90.0000  top
+C7        100uF-20%-35V      CP_Radial_D6.3mm_P2.50mm                        7.8105    -4.5766   90.0000  top
 C8        0.1uF-50V-5%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3350    -4.7120   90.0000  top
-D1        B340AE-13          D_SMA                                           8.3180    -3.9460  -90.0000  top
-D2        PWR                LED_1206_3216Metric                             8.4450    -3.9930  -90.0000  top
-D3        B340AE-13          D_SMA                                           7.5350    -4.4100  180.0000  top
-D4        B340AE-13          D_SMA                                           7.5350    -4.5500  180.0000  top
-D5        B340AE-13          D_SMA                                           7.1510    -4.6042  180.0000  top
-D6        SIG                LED_1206_3216Metric                             8.3710    -4.7130    0.0000  top
-D7        B340AE-13          D_SMA                                           7.1510    -4.7442  180.0000  top
+D1        PWR                LED_1206_3216Metric                             8.3750    -3.9240    0.0000  top
+D2        B340AE-13          D_SMA                                           7.5350    -4.4100  180.0000  top
+D3        B340AE-13          D_SMA                                           7.5350    -4.5500  180.0000  top
+D4        B340AE-13          D_SMA                                           7.1510    -4.6042  180.0000  top
+D5        SIG                LED_1206_3216Metric                             8.3750    -4.7160    0.0000  top
+D6        B340AE-13          D_SMA                                           7.1510    -4.7442  180.0000  top
+D7        B340AE-13          D_SMA                                           7.8390    -4.7480  180.0000  top
 J1        Power              Weidmuller-1824740000                           6.8034    -3.9716  -90.0000  top
 J2        SENSOR             Molex-70555-0003                                7.9980    -4.4200   90.0000  top
 J3        OUT                Molex-70555-0002                                6.9200    -4.4900  180.0000  top
-L1        33uH-159m-20%      VishayDale-IHLE3232                             7.1750    -4.3300   90.0000  top
-Q1        SI2318CDS-T1-GE3   SOT-23-3                                        7.4520    -4.2470   90.0000  top
+L1        33uH-159m-20%      VishayDale-IHLE3232                             7.1800    -4.3300   90.0000  top
+Q1        SI2318CDS-T1-GE3   SOT-23-3                                        7.4540    -4.2470   90.0000  top
 R1        59.0k-1%-0805      R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.2230    -3.8660  180.0000  top
 R2        1k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3860    -3.8660    0.0000  top
 R3        8.66k-1%-0805      R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.5490    -3.8660    0.0000  top
 R4        7.32k-1%-0805      R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.8000    -3.9250  -90.0000  top
-R5        50mOhm-1%-0805     R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.5560    -4.2520   90.0000  top
-R6        100R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.6360    -4.2520  -90.0000  top
-R7        2k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.9013    -4.7070  180.0000  top
-R8        499R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.0513    -4.7070    0.0000  top
-R9        499R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.2013    -4.7070  180.0000  top
-R10       100R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     6.8810    -4.7590  180.0000  top
-R11       499R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.0513    -4.7870  180.0000  top
-R12       499R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.2013    -4.7870  180.0000  top
-R13       499R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.3564    -4.7980    0.0000  top
+R5        2k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.3906    -4.0190  180.0000  top
+R6        50mOhm-1%-0805     R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.5590    -4.2520   90.0000  top
+R7        100R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.6360    -4.2520  -90.0000  top
+R8        499R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.0270    -4.7270   90.0000  top
+R9        499R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.1070    -4.7270  -90.0000  top
+R10       499R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.1870    -4.7270   90.0000  top
+R11       100R-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     6.8810    -4.7590  180.0000  top
 U1        ITS41k0S-ME-N      SOT-223-3_TabPin2                               8.0650    -3.9450    0.0000  top
 U2        LM3478MA           SOIC-8_3.9x4.9mm_P1.27mm                        7.4520    -4.0150  180.0000  top
 U3        TLP2361(TPL,E      SO-5-6_4.55x3.7mm_P1.27mm                       7.5400    -4.7110  180.0000  top

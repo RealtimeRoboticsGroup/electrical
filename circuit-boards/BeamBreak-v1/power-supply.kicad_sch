@@ -3051,7 +3051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "071893ad-9717-4c24-9250-0b3665154bb7")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 317.5 129.794 90)
 			(effects
 				(font
@@ -3141,7 +3141,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3588,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d917ea7-9c14-4021-9e34-c5286c69f66e")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 226.06 129.5399 0)
 			(effects
 				(font
@@ -3678,7 +3678,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3797,7 +3797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58ca56c3-4c7d-41c6-b1c2-80179811acb9")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 238.252 97.282 0)
 			(effects
 				(font
@@ -3885,7 +3885,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4030,7 +4030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d61f402-dc51-4547-a441-06d74d461313")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 210.82 121.92 90)
 			(effects
 				(font
@@ -4118,7 +4118,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4876,7 +4876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ba2859-6a6c-4f6d-9741-6adec27d2d6d")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 82.042 111.252 0)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6020,7 +6020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4751c63-c44b-4bca-beaf-212388db2cad")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 316.738 117.094 0)
 			(effects
 				(font
@@ -6110,7 +6110,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6190,7 +6190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8b247db-1893-4b02-9b85-5c28cbcd70c1")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 238.252 80.772 0)
 			(effects
 				(font
@@ -6278,7 +6278,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
