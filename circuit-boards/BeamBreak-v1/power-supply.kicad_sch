@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Beam Break Adapter")
-		(date "2026-01-02")
+		(date "2026-01-04")
 		(rev "1")
 		(company "1868 SPACE COOKIES")
 	)
@@ -3051,7 +3051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "071893ad-9717-4c24-9250-0b3665154bb7")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 317.5 129.794 90)
 			(effects
 				(font
@@ -3141,7 +3141,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3588,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d917ea7-9c14-4021-9e34-c5286c69f66e")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 226.06 129.5399 0)
 			(effects
 				(font
@@ -3678,7 +3678,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4030,7 +4030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d61f402-dc51-4547-a441-06d74d461313")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 210.82 121.92 90)
 			(effects
 				(font
@@ -4118,7 +4118,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4876,7 +4876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ba2859-6a6c-4f6d-9741-6adec27d2d6d")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 82.042 111.252 0)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5044,7 +5044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b06e240b-85dd-40a6-8a9f-6d0a9acdb5c2")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 154.432 138.684 0)
 			(effects
 				(font
@@ -5134,7 +5134,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6020,7 +6020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4751c63-c44b-4bca-beaf-212388db2cad")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 316.738 117.094 0)
 			(effects
 				(font
@@ -6110,7 +6110,7 @@
 		(instances
 			(project "BeamBreak-v1"
 				(path "/e06719a9-8757-4adc-9d1f-350085f61c1c/75796ea9-201f-4aa5-bea1-483188c429a4"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
