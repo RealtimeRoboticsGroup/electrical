@@ -1,5 +1,5 @@
-### Footprint positions - created on 2025-12-31T18:37:58-0800 ###
-### Printed by KiCad version 9.0.6-9.0.6~ubuntu24.04.1
+### Footprint positions - created on 2026-01-20T22:12:35-0800 ###
+### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                  Package                                                PosX       PosY       Rot  Side
@@ -23,14 +23,14 @@ D8        B7                   LED_1206_3216Metric                              
 D9        B8                   LED_1206_3216Metric                                  7.4250    -6.7800  180.0000  top
 D10       B340AE-13            D_SMA                                                7.5850    -5.2000  -90.0000  top
 D11       B9                   LED_1206_3216Metric                                  7.7250    -6.7800  180.0000  top
-D12       B340AE-13            D_SMA                                                7.8960    -5.8840    0.0000  top
-D13       B10                  LED_1206_3216Metric                                  8.0250    -6.7800  180.0000  top
-D14       5.6V                 SOT-23-3                                             8.2050    -5.9200    0.0000  top
-D15       B11                  LED_1206_3216Metric                                  8.3250    -6.7800  180.0000  top
-D16       B12                  LED_1206_3216Metric                                  8.6250    -6.7800  180.0000  top
-D17       B340AE-13            D_SMA                                                8.6800    -5.5100    0.0000  top
-D18       B340AE-13            D_SMA                                                8.6800    -5.6600    0.0000  top
-D19       B340AE-13            D_SMA                                                8.6800    -5.8100    0.0000  top
+D12       PWR                  Broadcom-HSMF-C158-LED                               7.8650    -5.2000   90.0000  top
+D13       B340AE-13            D_SMA                                                7.8960    -5.8840    0.0000  top
+D14       B10                  LED_1206_3216Metric                                  8.0250    -6.7800  180.0000  top
+D15       5.6V                 SOT-23-3                                             8.2050    -5.9200    0.0000  top
+D16       B11                  LED_1206_3216Metric                                  8.3250    -6.7800  180.0000  top
+D17       B12                  LED_1206_3216Metric                                  8.6250    -6.7800  180.0000  top
+D18       B340AE-13            D_SMA                                                8.6800    -5.5100    0.0000  top
+D19       B340AE-13            D_SMA                                                8.6800    -5.6600    0.0000  top
 D20       B15                  LED_1206_3216Metric                                  8.7828    -6.0098  -90.0000  top
 D21       B14                  LED_1206_3216Metric                                  8.7828    -6.3098  -90.0000  top
 D22       B13                  LED_1206_3216Metric                                  8.7828    -6.6098  -90.0000  top
@@ -88,7 +88,7 @@ R19       100k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      
 R20       20k-1%-0805          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          7.9720    -5.4980   90.0000  top
 R21       1.50k-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.0250    -6.6900  180.0000  top
 R22       1.50k-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.3250    -6.6900  180.0000  top
-R23       10k-1%-0805          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.4550    -6.0310  180.0000  top
+R23       100k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.4550    -6.0310  180.0000  top
 R24       49.9R-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.5928    -3.7850    0.0000  top
 R25       49.9R-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.5928    -3.9450    0.0000  top
 R26       49.9R-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.5930    -4.0830    0.0000  top

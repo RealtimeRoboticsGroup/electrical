@@ -1,0 +1,172 @@
+(footprint "Broadcom-HSMF-C158-LED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "534df55c-b8aa-4c35-8afb-99314e903adc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Broadcom-HSMF-C158-LED"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58f24f15-776f-4a2a-b9e1-822f97628ee3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9275540c-c712-4e77-b371-fefdf2dc9ec8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c17fa955-142e-463e-b392-c1f297e22ddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 1.4508)
+		(end 2.7508 1.4508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a98e7d3e-ce5e-4839-86a5-4fee3bcd2419")
+	)
+	(fp_line
+		(start 0.3 -0.4)
+		(end 0.3 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "066959d2-f041-4b91-8455-a71e1009a72d")
+	)
+	(fp_line
+		(start 2.7508 -1.4508)
+		(end -2.7 -1.4508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b13df1d6-2f99-4da0-992a-96ef90846179")
+	)
+	(fp_line
+		(start 2.7508 1.4508)
+		(end 2.7508 -1.4508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34b4c7fd-d7e8-4af4-83c0-72fb544a0e71")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.4) (xy -0.5 0.4) (xy 0.3 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b2810886-ec96-407b-9c43-18aea90a9a4f")
+	)
+	(fp_rect
+		(start -2.7178 -1.4478)
+		(end 2.7432 1.4478)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "290ebb37-dd9c-4947-ad1f-30ee79b8a285")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4dc8e8c0-d783-4e3a-ba18-7cc46b757ffc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.75 -0.7)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "279e111d-22b2-4997-aff3-86cd2080f02d")
+	)
+	(pad "2" smd roundrect
+		(at 1.75 -0.7)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "355bfa6b-8847-4d5c-b5ab-d656e3a95db0")
+	)
+	(pad "3" smd roundrect
+		(at -1.75 0.7)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "525bb928-a05d-4864-a2de-cd3252bef3d6")
+	)
+	(pad "4" smd roundrect
+		(at 1.75 0.7)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e20e9bd3-bb46-4c16-8ed2-e6e7b64f6f1d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dModels/Broadcom-HSMF-C158.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)
