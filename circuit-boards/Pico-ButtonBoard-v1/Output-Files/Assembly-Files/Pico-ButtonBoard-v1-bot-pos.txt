@@ -1,5 +1,5 @@
-### Footprint positions - created on 2025-12-31T18:37:58-0800 ###
-### Printed by KiCad version 9.0.6-9.0.6~ubuntu24.04.1
+### Footprint positions - created on 2026-01-20T22:12:35-0800 ###
+### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
 # Ref     Val                 Package                                           PosX       PosY       Rot  Side
@@ -22,25 +22,28 @@ C24       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     8.
 C25       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     8.1750    -3.8250  180.0000  bottom
 C26       68pF-50V-5%-0805    C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     8.0520    -5.4980  -90.0000  bottom
 C27       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.9450    -6.7274   90.0000  bottom
-C28       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.7750    -5.5800  180.0000  bottom
-C29       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.6450    -6.7274   90.0000  bottom
-C30       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.4000    -3.3600    0.0000  bottom
-C31       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.4000    -3.5200    0.0000  bottom
-C32       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3450    -6.7274   90.0000  bottom
-C33       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -4.5500    0.0000  bottom
-C34       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -4.8500    0.0000  bottom
-C35       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -5.1500    0.0000  bottom
-C36       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -5.4500    0.0000  bottom
-C37       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -5.7500    0.0000  bottom
-C38       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -6.0500    0.0000  bottom
-C39       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -6.2900    0.0000  bottom
-C40       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -6.5300    0.0000  bottom
+C28       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.9210    -4.6520    0.0000  bottom
+C29       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.7750    -5.5800  180.0000  bottom
+C30       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.6450    -6.7274   90.0000  bottom
+C31       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.4000    -3.3600    0.0000  bottom
+C32       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.4000    -3.5200    0.0000  bottom
+C33       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3450    -6.7274   90.0000  bottom
+C34       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -4.5500    0.0000  bottom
+C35       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -4.8500    0.0000  bottom
+C36       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -5.1500    0.0000  bottom
+C37       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -5.4500    0.0000  bottom
+C38       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -5.7500    0.0000  bottom
+C39       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -6.0500    0.0000  bottom
+C40       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -6.2900    0.0000  bottom
+C41       0.1uF-25V-10%-0805  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     7.3200    -6.5300    0.0000  bottom
 D23       5.6V                SOT-23-3                                        8.4550    -5.9200  180.0000  bottom
 D24       5.6V                SOT-23-3                                        8.2050    -5.9200    0.0000  bottom
 FID4      Fiducial            Fiducial_1.6mm_Mask3mm                          8.7760    -7.0490  180.0000  bottom
 FID5      Fiducial            Fiducial_1.6mm_Mask3mm                          7.2380    -6.8130  180.0000  bottom
 FID6      Fiducial            Fiducial_1.6mm_Mask3mm                          7.1050    -3.0800  180.0000  bottom
 Q2        BSS123              SOT-23-3                                        8.3310    -5.5800    0.0000  bottom
+Q3        BSS123              SOT-23-3                                        7.9220    -4.9240    0.0000  bottom
+Q4        BSS123              SOT-23-3                                        7.7470    -4.9240  180.0000  bottom
 R35       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.7400    -5.9500    0.0000  bottom
 R36       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.7400    -6.1100  180.0000  bottom
 R37       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.7400    -6.1900    0.0000  bottom
@@ -65,27 +68,32 @@ R55       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.
 R56       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.1050    -6.7274   90.0000  bottom
 R57       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.0250    -6.7274  -90.0000  bottom
 R58       100k-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.9720    -5.4980  -90.0000  bottom
-R59       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.8050    -6.7274   90.0000  bottom
-R60       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.7250    -6.7274  -90.0000  bottom
-R61       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.5050    -6.7274   90.0000  bottom
-R62       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4250    -6.7274  -90.0000  bottom
-R63       20k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4000    -3.6800  180.0000  bottom
-R64       20k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4000    -3.7600  180.0000  bottom
-R65       20k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4000    -3.8400  180.0000  bottom
-R66       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -4.4700    0.0000  bottom
-R67       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -4.6300  180.0000  bottom
-R68       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -4.7700    0.0000  bottom
-R69       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -4.9300  180.0000  bottom
-R70       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.0700    0.0000  bottom
-R71       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.2300  180.0000  bottom
-R72       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.3700    0.0000  bottom
-R73       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.5300  180.0000  bottom
-R74       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.6700    0.0000  bottom
-R75       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.8300  180.0000  bottom
-R76       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.9700    0.0000  bottom
-R77       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.1300  180.0000  bottom
-R78       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.2100    0.0000  bottom
-R79       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.3700  180.0000  bottom
-R80       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.4500    0.0000  bottom
-R81       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.6100  180.0000  bottom
+R59       100k-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.9210    -4.7320    0.0000  bottom
+R60       100k-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.9210    -4.8120  180.0000  bottom
+R61       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.9000    -5.0950   90.0000  bottom
+R62       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.8200    -5.0950   90.0000  bottom
+R63       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.8050    -6.7274   90.0000  bottom
+R64       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.7400    -5.0950  -90.0000  bottom
+R65       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.7250    -6.7274  -90.0000  bottom
+R66       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.5050    -6.7274   90.0000  bottom
+R67       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4250    -6.7274  -90.0000  bottom
+R68       20k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4000    -3.6800  180.0000  bottom
+R69       20k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4000    -3.7600  180.0000  bottom
+R70       20k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4000    -3.8400  180.0000  bottom
+R71       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -4.4700    0.0000  bottom
+R72       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -4.6300  180.0000  bottom
+R73       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -4.7700    0.0000  bottom
+R74       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -4.9300  180.0000  bottom
+R75       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.0700    0.0000  bottom
+R76       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.2300  180.0000  bottom
+R77       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.3700    0.0000  bottom
+R78       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.5300  180.0000  bottom
+R79       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.6700    0.0000  bottom
+R80       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.8300  180.0000  bottom
+R81       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -5.9700    0.0000  bottom
+R82       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.1300  180.0000  bottom
+R83       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.2100    0.0000  bottom
+R84       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.3700  180.0000  bottom
+R85       10k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.4500    0.0000  bottom
+R86       1.50k-1%-0805       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3200    -6.6100  180.0000  bottom
 ## End
