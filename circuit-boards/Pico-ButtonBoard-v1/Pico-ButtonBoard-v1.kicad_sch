@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2026-01-20")
+		(date "2026-01-21")
 		(rev "1")
 	)
 	(lib_symbols
@@ -4844,6 +4844,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 88.9 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
@@ -4900,6 +4909,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 137.16 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 137.16 251.46 0)
 			(effects
 				(font
@@ -5029,6 +5047,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 153.67 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 153.67 241.3 0)
 			(effects
 				(font
@@ -5396,6 +5423,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 340.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9435ef0e-4881-4109-af15-94ed5bef7703")
 		)
@@ -5458,6 +5494,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 137.16 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 137.16 246.38 0)
 			(effects
 				(font
@@ -5564,6 +5609,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f3d80e4d-1761-4800-a8ec-db4137c6dec8")
 		)
@@ -5634,6 +5688,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 153.67 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
@@ -5690,6 +5753,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 88.9 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 88.9 247.65 0)
 			(effects
 				(font
@@ -5856,6 +5928,15 @@
 			)
 		)
 		(property "DIST P/N" "2648-SC1632-ND"
+			(at 204.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 204.47 137.16 0)
 			(effects
 				(font
@@ -6092,6 +6173,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 377.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d541452d-7278-49fe-9cf0-75f3bc911b99")
 		)
@@ -6198,6 +6288,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 346.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35f74e1b-9a95-4649-90e5-fc13d7c41a48")
 		)
@@ -6222,7 +6321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cc0e185-2775-4363-b4cb-d4a8bca24298")
-		(property "Reference" "R55"
+		(property "Reference" "R56"
 			(at 169.926 94.742 0)
 			(effects
 				(font
@@ -6303,6 +6402,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a799fa8-4d0e-4739-ab1b-e3e41284f590")
 		)
@@ -6312,7 +6420,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -6400,6 +6508,15 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 172.72 104.14 0)
 			(effects
 				(font
@@ -6504,6 +6621,15 @@
 			)
 		)
 		(property "DIST P/N" "1923-831018041CT-ND"
+			(at 250.19 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 250.19 168.91 0)
 			(effects
 				(font
@@ -6710,6 +6836,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 137.16 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 137.16 241.3 0)
 			(effects
 				(font
@@ -6975,6 +7110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 200.66 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
@@ -7031,6 +7175,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 68.58 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 68.58 241.3 0)
 			(effects
 				(font
@@ -7203,6 +7356,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 275.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1cc6f10-0e72-4db7-8c1a-d7d7fc290b11")
 		)
@@ -7299,6 +7461,15 @@
 			)
 		)
 		(property "DIST P/N" "WM4824-ND"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -7404,6 +7575,15 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
+			(at 262.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 262.89 189.23 0)
 			(effects
 				(font
@@ -7644,6 +7824,15 @@
 			)
 		)
 		(property "DIST P/N" "MCP2518FDT-H/SLCT-ND"
+			(at 283.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 283.21 139.7 0)
 			(effects
 				(font
@@ -8150,6 +8339,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 153.67 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b"
@@ -8271,6 +8469,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 68.58 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 68.58 247.65 0)
 			(effects
 				(font
@@ -8407,6 +8614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 314.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bffb620b-698c-4cb1-b1c4-373e98bf1eb6")
 		)
@@ -8501,6 +8717,15 @@
 			)
 		)
 		(property "DIST P/N" "WM4826-ND"
+			(at 377.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 377.19 119.38 0)
 			(effects
 				(font
@@ -8844,6 +9069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 311.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ca9011e-ce44-4a7c-8b1b-196474759e12")
 		)
@@ -8939,6 +9173,15 @@
 			)
 		)
 		(property "DIST P/N" "MCP2558FD-H/SN-ND"
+			(at 337.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 337.82 128.27 0)
 			(effects
 				(font
