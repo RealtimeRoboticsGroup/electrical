@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-01-20T22:12:35-0800 ###
+### Footprint positions - created on 2026-01-21T16:48:34-0800 ###
 ### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -88,7 +88,7 @@ R19       100k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      
 R20       20k-1%-0805          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          7.9720    -5.4980   90.0000  top
 R21       1.50k-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.0250    -6.6900  180.0000  top
 R22       1.50k-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.3250    -6.6900  180.0000  top
-R23       100k-1%-0805         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.4550    -6.0310  180.0000  top
+R23       20k-1%-0805          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.4550    -6.0310  180.0000  top
 R24       49.9R-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.5928    -3.7850    0.0000  top
 R25       49.9R-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.5928    -3.9450    0.0000  top
 R26       49.9R-1%-0805        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder          8.5930    -4.0830    0.0000  top

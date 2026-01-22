@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2026-01-20")
+		(date "2026-01-21")
 		(rev "1")
 	)
 	(lib_symbols
@@ -1134,6 +1134,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 220.98 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3d84b31-f3b4-43d6-9c25-c37d207b5733")
 		)
@@ -1231,6 +1240,15 @@
 		)
 		(property "MFG P/N" "311-1141-1-ND"
 			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.66 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,6 +1621,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 189.23 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4792262b-44ee-451e-aa7f-f2c1ab79da33")
 		)
@@ -1700,6 +1727,15 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 182.88 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,6 +1912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 220.98 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c134ec8b-6a16-4645-9f6a-3bc78ef166e6")
 		)
@@ -1973,6 +2018,15 @@
 		)
 		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 173.99 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,6 +2132,15 @@
 			)
 		)
 		(property "DIST P/N" "WM4826-ND"
+			(at 137.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 137.16 128.27 0)
 			(effects
 				(font

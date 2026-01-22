@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pico Button Board")
-		(date "2026-01-20")
+		(date "2026-01-21")
 		(rev "1")
 	)
 	(lib_symbols
@@ -3099,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 102.87) (xy 102.87 102.87)
+			(xy 60.96 102.87) (xy 78.74 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3729,6 +3729,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 102.87) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c546d633-4df4-46b6-986e-c75e9001006e")
+	)
+	(wire
+		(pts
 			(xy 262.89 116.84) (xy 262.89 120.65)
 		)
 		(stroke
@@ -4080,7 +4090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03111dbd-2b9b-40df-9fc1-234b094123d9")
-		(property "Reference" "R59"
+		(property "Reference" "R60"
 			(at 85.344 227.33 90)
 			(effects
 				(font
@@ -4159,6 +4169,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 83.82 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5733b165-5424-4843-9c39-e77fdae88faf")
 		)
@@ -4168,7 +4187,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R59")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -4391,6 +4410,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 251.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56fa9ea0-9e20-4c55-8762-b14e475073eb")
 		)
@@ -4508,6 +4536,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 284.48 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc04e2bd-8811-4f7e-a137-a2658853bc16")
 		)
@@ -4532,7 +4569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1eb1c42d-9d25-4e2b-b4d7-13dc63c542f3")
-		(property "Reference" "R58"
+		(property "Reference" "R59"
 			(at 288.29 128.016 90)
 			(effects
 				(font
@@ -4611,6 +4648,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 284.48 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36277d89-4608-43dc-b780-a48479f57a8c")
 		)
@@ -4620,7 +4666,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R58")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -4708,6 +4754,15 @@
 		)
 		(property "DIST P/N" "MMBZ5232BLT1GOSCT-ND"
 			(at 110.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,6 +4873,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f55e8dee-4c5b-495a-9a3d-423c1532d608")
 		)
@@ -4908,7 +4972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24ae74ed-4dbd-474a-a9ae-2703062e85c3")
-		(property "Reference" "R60"
+		(property "Reference" "R61"
 			(at 85.344 208.28 90)
 			(effects
 				(font
@@ -4987,6 +5051,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 83.82 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6ccd642-191a-46c9-8fca-060d14ccf034")
 		)
@@ -4996,7 +5069,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R60")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -5150,6 +5223,15 @@
 			)
 		)
 		(property "DIST P/N" "1276-2876-1-ND"
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 85.09 144.78 0)
 			(effects
 				(font
@@ -5456,6 +5538,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 227.33 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ceec6a4-b5b2-4e4a-9fd8-7b2bb5057b22")
 		)
@@ -5559,6 +5650,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 288.29 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e1a83ba-fbe5-4d94-a703-56a57d45f541")
 		)
@@ -5583,7 +5683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d2d4727-4f59-4865-af51-e6c201282e36")
-		(property "Reference" "R53"
+		(property "Reference" "R36"
 			(at 104.394 115.57 90)
 			(effects
 				(font
@@ -5591,7 +5691,7 @@
 				)
 			)
 		)
-		(property "Value" "10k-1%-0805"
+		(property "Value" "1.50k-1%-0805"
 			(at 100.33 111.76 90)
 			(effects
 				(font
@@ -5626,7 +5726,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Vishay Dale"
+		(property "MFG" "YAGEO"
 			(at 102.87 111.76 0)
 			(effects
 				(font
@@ -5635,7 +5735,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "CRCW080510K0FKEA"
+		(property "MFG P/N" "RC0805FR-071K5L"
 			(at 102.87 111.76 0)
 			(effects
 				(font
@@ -5653,8 +5753,17 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "541-10.0KCCT-ND"
+		(property "DIST P/N" "311-1.50KCRCT-ND"
 			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5780,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R53")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -5816,7 +5925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "472c4f3f-5504-4eed-afeb-86ad7f88a326")
-		(property "Reference" "R52"
+		(property "Reference" "R54"
 			(at 139.954 157.48 90)
 			(effects
 				(font
@@ -5895,6 +6004,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 138.43 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2869d2d7-d274-4423-8fe0-4427be020182")
 		)
@@ -5904,7 +6022,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R52")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -5990,6 +6108,15 @@
 			)
 		)
 		(property "DIST P/N" "B340AE-13DICT-ND"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -6101,6 +6228,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 200.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d654d2c-0f89-472e-9a9b-6a4ae676ccd7")
 		)
@@ -6125,7 +6261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a72b91d-aeac-4e13-b32b-1a355104a6dc")
-		(property "Reference" "R62"
+		(property "Reference" "R63"
 			(at 103.886 207.772 90)
 			(effects
 				(font
@@ -6205,6 +6341,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 102.87 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3a47053-8c3b-4ef3-abde-0684cfd9e39b")
 		)
@@ -6214,7 +6359,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R62")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -6302,6 +6447,15 @@
 		)
 		(property "DIST P/N" "MMBZ5232BLT1GOSCT-ND"
 			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,6 +6767,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 124.46 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "748be2dc-8714-43d5-9289-af82dcbf264f")
 		)
@@ -6711,6 +6874,15 @@
 			)
 		)
 		(property "DIST P/N" "B340AE-13DICT-ND"
+			(at 335.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -6824,6 +6996,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 210.82 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "34ee60c8-61ef-43a6-bd91-3eb12e17c963")
 		)
@@ -6930,6 +7111,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 102.87 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a91be83f-f98a-4054-9604-b51cba226365")
 		)
@@ -6997,6 +7187,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -7164,6 +7363,15 @@
 		)
 		(property "DIST P/N" "A126339CT-ND"
 			(at 269.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7342,6 +7550,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 127 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a91be83f-f98a-4054-9604-b51cba226366")
 		)
@@ -7445,6 +7662,15 @@
 			)
 		)
 		(property "MFG P/N" "311-1141-1-ND"
+			(at 266.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 266.7 119.38 0)
 			(effects
 				(font
@@ -7587,6 +7813,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d349e7c-35eb-41f6-8a5b-7826e36d22f5")
 		)
@@ -7689,6 +7924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 311.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b9ce34a-0661-4cc9-8412-79baede784a5")
 		)
@@ -7750,6 +7994,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 316.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 316.23 123.19 0)
 			(effects
 				(font
@@ -7859,6 +8112,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21a9d44e-06cf-4184-ac85-2dfd7be4a652")
 		)
@@ -7872,6 +8134,118 @@
 			(project ""
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 82.55 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7c1c826-5fcb-4444-bfd5-75aad801862c")
+		(property "Reference" "R35"
+			(at 86.36 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.50k-1%-0805"
+			(at 82.55 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 82.296 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RC0805FR-071K5L"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "311-1.50KCRCT-ND"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 82.55 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7adada0d-1ce8-444c-ae35-9168815b5641")
+		)
+		(pin "2"
+			(uuid "5804c38b-6946-4e17-b78c-3eb5a0e266d2")
+		)
+		(instances
+			(project "Pico-ButtonBoard-v1"
+				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7965,6 +8339,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 91.44 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72242018-31e6-4ec6-b1ec-262af0f2cfa3")
 		)
@@ -7989,7 +8372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6442cd0-3ac1-4eef-b572-247f84b61834")
-		(property "Reference" "R64"
+		(property "Reference" "R65"
 			(at 118.364 209.55 90)
 			(effects
 				(font
@@ -8068,6 +8451,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 116.84 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d6f3368-f56d-46c4-850e-ac097de703fe")
 		)
@@ -8077,7 +8469,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R64")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -8222,7 +8614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc0812d8-41f3-4c82-a033-0d08595240a3")
-		(property "Reference" "R51"
+		(property "Reference" "R53"
 			(at 139.954 133.35 90)
 			(effects
 				(font
@@ -8301,6 +8693,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 138.43 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5fa780a-3c03-45d2-8731-35c0b86fa9be")
 		)
@@ -8310,7 +8711,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R51")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -8471,6 +8872,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 102.87 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2d9ba298-6742-40d3-bcd9-fdebfd0fa7ef")
 		)
@@ -8495,7 +8905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9669789-a4c1-4d31-9ccd-daa1737742de")
-		(property "Reference" "R61"
+		(property "Reference" "R62"
 			(at 128.016 206.502 90)
 			(effects
 				(font
@@ -8575,6 +8985,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 127 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f7702f7-d6f0-4bd3-8748-b77ad07d551e")
 		)
@@ -8584,7 +9003,7 @@
 		(instances
 			(project "Pico-ButtonBoard-v1"
 				(path "/644201a9-3a2f-4df3-9c93-2ae55394df4b/dd046a3a-8e17-4277-b6b1-7e4df1560d2f"
-					(reference "R61")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -8607,7 +9026,7 @@
 				)
 			)
 		)
-		(property "Value" "100k-1%-0805"
+		(property "Value" "20k-1%-0805"
 			(at 100.33 153.67 90)
 			(effects
 				(font
@@ -8642,7 +9061,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "YAGEO"
+		(property "MFG" "Panasonic"
 			(at 102.87 153.67 0)
 			(effects
 				(font
@@ -8651,7 +9070,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0805FR-07100KL"
+		(property "MFG P/N" "ERJ-6ENF2002V"
 			(at 102.87 153.67 0)
 			(effects
 				(font
@@ -8669,8 +9088,17 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-100KCRCT-ND"
+		(property "DIST P/N" "P20.0KCCT-ND"
 			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,6 +9275,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 237.49 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c17e3c41-6cf0-44ea-bdb7-c31306cbbed8")
 		)
@@ -8948,6 +9385,15 @@
 			)
 		)
 		(property "DIST P/N" "BSS123NCT-ND"
+			(at 118.11 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 118.11 144.78 0)
 			(effects
 				(font
@@ -9068,6 +9514,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 153.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48c14d33-b647-43e2-8d66-25a198ed4aa1")
 		)
@@ -9172,6 +9627,15 @@
 			)
 		)
 		(property "DIST P/N" "BSS123NCT-ND"
+			(at 100.33 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 100.33 222.25 0)
 			(effects
 				(font
