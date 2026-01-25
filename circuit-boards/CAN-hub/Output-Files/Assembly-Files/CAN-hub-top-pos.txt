@@ -1,0 +1,12 @@
+### Footprint positions - created on 2026-01-24T16:40:21-0800 ###
+### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+J1        CAN       Molex-70555-0001     6.9600    -4.6149  180.0000  top
+J2        CAN       Molex-70555-0001     7.1100    -4.6149    0.0000  top
+J3        CAN       Molex-70555-0001     6.9600    -5.0150  180.0000  top
+J4        CAN       Molex-70555-0001     7.1100    -5.0150    0.0000  top
+J5        CAN       Molex-70555-0001     6.9600    -5.4150  180.0000  top
+J6        CAN       Molex-70555-0001     7.1100    -5.4150    0.0000  top
+## End

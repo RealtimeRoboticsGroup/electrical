@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CAN-hub")(type "KiCad")(uri "${KIPRJMOD}/CAN-hub.pretty")(options "")(descr ""))
+)
