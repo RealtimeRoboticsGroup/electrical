@@ -9469,7 +9469,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f6ed954-6625-4cdd-9215-4854520f102a")
 		(property "Reference" "J75"
@@ -9790,7 +9790,7 @@
 		(lib_id "Graphic:SYM_Arrow_Large")
 		(at 454.66 285.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9832,15 +9832,6 @@
 			)
 		)
 		(property "Description" "Filled arrow, 300mil"
-			(at 454.66 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 454.66 285.75 0)
 			(effects
 				(font
@@ -10712,7 +10703,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25b2bd46-4514-41d7-9098-49be265b279e")
 		(property "Reference" "J73"
@@ -12746,7 +12737,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "593d7f97-b1b8-4fa0-9a74-e6a4ba4cea34")
 		(property "Reference" "J71"
@@ -13612,7 +13603,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7660b8c1-fae6-43b3-a2a6-b6e3a6f02ac3")
 		(property "Reference" "J50"
@@ -14859,7 +14850,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "966083ec-c031-443a-b0cb-70a3c72d3a03")
 		(property "Reference" "J72"
@@ -15743,7 +15734,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a555a9cd-d56b-453c-8274-54647e0fd3ad")
 		(property "Reference" "J51"
@@ -15851,7 +15842,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e6589e-3ddc-4cad-ba98-cea303848cdc")
 		(property "Reference" "J70"
@@ -16283,7 +16274,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a0451b-d492-4e0b-b201-9ced05d1a319")
 		(property "Reference" "J74"
