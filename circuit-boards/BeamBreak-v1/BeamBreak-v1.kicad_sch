@@ -698,8 +698,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D1"
-				(at -0.3174 -3.81 90)
+			(property "Reference" "D5"
+				(at 1.016 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -707,8 +707,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "LED"
-				(at -2.8574 -3.81 90)
+			(property "Value" "SIG"
+				(at -1.27 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -725,7 +725,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -743,7 +743,34 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "DIST" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIST P/N" "1080-1418-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Everlight"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG P/N" "QTLP650D3TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -819,7 +846,7 @@
 					)
 					(fill
 						(type color)
-						(color 0 194 0 1)
+						(color 255 255 0 1)
 					)
 				)
 				(pin passive line
@@ -4013,7 +4040,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "1080-1419-1-ND"
+		(property "DIST P/N" "1080-1418-1-ND"
 			(at 234.95 118.11 0)
 			(effects
 				(font
@@ -4031,7 +4058,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
+		(property "MFG P/N" "QTLP650D3TR"
 			(at 234.95 118.11 0)
 			(effects
 				(font

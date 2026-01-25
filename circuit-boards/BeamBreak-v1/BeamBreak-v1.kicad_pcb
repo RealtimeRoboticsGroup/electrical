@@ -12976,7 +12976,7 @@
 				)
 			)
 		)
-		(property "DIST P/N" "1080-1419-1-ND"
+		(property "DIST P/N" "1080-1418-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13002,7 +13002,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
+		(property "MFG P/N" "QTLP650D3TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
