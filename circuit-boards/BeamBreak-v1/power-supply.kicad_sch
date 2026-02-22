@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Beam Break Adapter")
-		(date "2026-01-04")
+		(date "2026-02-22")
 		(rev "1")
 		(company "1868 SPACE COOKIES")
 	)
@@ -4717,7 +4717,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "IHLE5050FHER6R8M5A"
+		(property "MFG P/N" "IHLE3232DDER330M5A"
 			(at 180.34 100.33 90)
 			(effects
 				(font
@@ -4735,7 +4735,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "541-IHLE5050FHER6R8M5ACT-ND"
+		(property "DIST P/N" "541-IHLE3232DDER330M5ACT-ND"
 			(at 180.34 100.33 90)
 			(effects
 				(font
