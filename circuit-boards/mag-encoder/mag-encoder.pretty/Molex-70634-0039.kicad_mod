@@ -1,25 +1,25 @@
 (footprint "Molex-70634-0039"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 7.3152 -14.5542 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ea9ef098-31a5-4a44-8086-f37c860a9796")
+		(uuid "58f8c2a8-9ab1-44ab-a1b5-007f49dc5ec7")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.635 0.635)
+				(thickness 0.127)
 			)
 		)
 	)
-	(property "Value" "Molex-70634-0039"
+	(property "Value" "0015912055"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "674bcd0e-0a3a-4258-943f-a9e02fcc2668")
+		(uuid "2fde080d-2e35-4a74-8adc-c30efb35ae9b")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Datasheet" "Components/Molex-015912055_sd.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca6cc51a-0fca-46cf-b74a-b972799fd533")
+		(uuid "edc6dc1f-cfec-4af5-8e24-6f9cdd3e5ad7")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Description" "Connector Header Surface Mount, Right Angle 5 position 0.100\" (2.54mm)"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "32045968-0c37-4c3c-b712-47ce8813f9f4")
+		(uuid "a30b43d7-c06f-4f99-9737-70c444e2c318")
 		(effects
 			(font
 				(size 1 1)
@@ -53,12 +53,51 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "MFG" "Molex"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4cc7dd37-288d-40c8-882a-d432bb7be70e")
+		(uuid "fb3ea6ad-3e99-4522-a70c-96202a0a5e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "0015912055"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a2d9be3-0f36-498e-b6bf-5c3cb89a6e68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST" "Digikey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57173823-e149-4b54-bd3f-a61edaf4da48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST P/N" "WM1343-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbb3f4ba-910d-45cb-aafa-c5237ed58b0d")
 		(effects
 			(font
 				(size 1 1)
@@ -68,61 +107,90 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -8.375 -18.5)
-		(end 8.375 -18.5)
+		(start -8.4 -13)
+		(end -6.4 -13)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "13e86093-229b-464e-b217-fc7733ff10ed")
+		(layer "F.CrtYd")
+		(uuid "ec722dda-117e-47b6-89a4-f8c0c43bb333")
 	)
 	(fp_line
-		(start -8.375 0)
-		(end -8.375 -18.5)
+		(start -8.4 0)
+		(end -8.4 -13)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "a28c5cc1-9785-4744-8e5d-62d7d6b52c97")
+		(layer "F.CrtYd")
+		(uuid "c7826e6d-76f1-490f-8a5e-c00f39b8cd4b")
 	)
 	(fp_line
-		(start -8.375 0)
-		(end 8.375 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "27d92c1c-fa30-4b3b-ab56-b1f054ca4a85")
-	)
-	(fp_line
-		(start 8.375 0)
-		(end 8.375 -18.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "062afc6c-bf33-4b68-9735-ca96443d87f3")
-	)
-	(fp_rect
-		(start -8.4 -18)
+		(start -8.4 0)
 		(end 8.4 0)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "F.CrtYd")
-		(uuid "807dd2c6-8548-42c0-a91a-ab5a9f818093")
+		(uuid "129a8a1f-5020-4976-9831-7a46a38efe4b")
+	)
+	(fp_line
+		(start -6.4 -18)
+		(end 6.4 -18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a2396fd-f117-46e6-83dc-38ec6041e6ec")
+	)
+	(fp_line
+		(start -6.4 -13)
+		(end -6.4 -18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0be7e030-fc8c-476e-85de-8ff51020e730")
+	)
+	(fp_line
+		(start 6.4 -13)
+		(end 6.4 -18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff658fb8-5f3d-4ea6-ba3e-c5f0a7ac0d74")
+	)
+	(fp_line
+		(start 8.4 -13)
+		(end 6.4 -13)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "260b232d-7746-43fc-a133-542ec0ae5d66")
+	)
+	(fp_line
+		(start 8.4 0)
+		(end 8.4 -13)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e792f0f9-9f64-456b-816c-1926056e107d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e74a24c2-e4f9-41d1-bc00-12f05f12d5cf")
+		(uuid "77540500-eb80-4538-b7ab-bb288982cced")
 		(effects
 			(font
 				(size 1 1)
@@ -134,52 +202,55 @@
 		(at -6.48 -4.3)
 		(size 3.4 3.4)
 		(drill 3.4)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "8805bde4-605b-4143-823c-778d39223776")
+		(layers "*.Cu" "*.Mask")
+		(clearance 0.635)
+		(uuid "47b0f4af-caf3-41b1-b4db-0d477d17af45")
 	)
 	(pad "" np_thru_hole circle
 		(at 6.48 -4.3)
 		(size 3.4 3.4)
 		(drill 3.4)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "cd233ab9-bcbb-4184-bc93-f70e49c18665")
+		(layers "*.Cu" "*.Mask")
+		(clearance 0.635)
+		(uuid "cc2e15cb-6fb9-42c1-87bb-1645a054e2e1")
 	)
 	(pad "1" smd roundrect
 		(at 5.08 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
-		(uuid "0bfe1bba-9a6b-416a-bcb2-cc40528ffcd3")
+		(uuid "2c8facc4-820c-4cdd-b7d9-66223c750e42")
 	)
 	(pad "2" smd roundrect
 		(at 2.54 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
-		(uuid "1444e3a0-06eb-485f-87dd-623190ba99a0")
+		(uuid "fd85a9b7-b63d-4f90-a1ff-28eaf03bbe14")
 	)
 	(pad "3" smd roundrect
 		(at 0 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
-		(uuid "d525f30f-e349-4799-b4ac-52caa744eceb")
+		(uuid "ae453b57-d745-41c0-baad-ee7257b52379")
 	)
 	(pad "4" smd roundrect
 		(at -2.54 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
-		(uuid "57375bf0-c946-41a3-a2e3-9d20b9c8fdc5")
+		(uuid "ac06a1fc-fe28-4575-a820-88f8725aacb4")
 	)
 	(pad "5" smd roundrect
 		(at -5.08 -14.99)
 		(size 1.65 5.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07352941176)
-		(uuid "82bc0300-32aa-4ca8-adc7-da5ebf831751")
+		(uuid "74a88e65-32ca-4844-8024-617f7119d2b0")
 	)
-	(model "${KIPRJMOD}/3dModels/Molex-015912055.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3Dmodels/Molex-015912055.stp"
 		(offset
 			(xyz 0 5.9 2.9)
 		)

@@ -617,7 +617,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -665,5 +665,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "COPYRIGHT_YEAR": "2026"
+  }
 }
