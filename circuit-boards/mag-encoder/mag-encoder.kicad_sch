@@ -6,8 +6,9 @@
 	(paper "B")
 	(title_block
 		(title "WCP Mag Encoder (WCP-2435)")
-		(date "2025-09-20")
+		(date "2026-03-22")
 		(rev "1")
+		(company "Space Cookies FRC Team 1868")
 	)
 	(lib_symbols
 		(symbol "74LS32_1"
@@ -9179,7 +9180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "mag-encoder:LED_0603_1608Metric"
 			(at 271.78 204.47 0)
 			(effects
 				(font
@@ -9350,7 +9351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "mag-encoder:R_0603_1608Metric"
 			(at 285.496 181.864 90)
 			(effects
 				(font
@@ -9457,7 +9458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "mag-encoder:LED_0603_1608Metric"
 			(at 284.48 204.47 0)
 			(effects
 				(font
@@ -9626,7 +9627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "mag-encoder:R_0603_1608Metric"
 			(at 332.486 143.764 90)
 			(effects
 				(font
@@ -9730,7 +9731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "mag-encoder:R_0603_1608Metric"
 			(at 322.834 112.776 90)
 			(effects
 				(font
@@ -9965,7 +9966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "mag-encoder:C_0603_1608Metric"
 			(at 272.7452 158.75 0)
 			(effects
 				(font
@@ -10490,7 +10491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "mag-encoder:D_SOD-123"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -10560,7 +10561,7 @@
 			(uuid "a2ebce17-0b12-492d-98e6-3b1ae8cbdb3a")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "D5")
 					(unit 1)
@@ -10770,7 +10771,7 @@
 			(uuid "cf9eb3c0-2cb7-4c64-8886-bb05c24dcb94")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "U2")
 					(unit 5)
@@ -10936,7 +10937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "mag-encoder:PinHeader_1x06_P2.54mm_Vertical"
 			(at 111.76 154.94 0)
 			(effects
 				(font
@@ -10982,7 +10983,7 @@
 			(uuid "6aad2f0e-feb7-45be-be22-af1221c889b6")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "J1")
 					(unit 1)
@@ -11016,7 +11017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "mag-encoder:R_0603_1608Metric"
 			(at 322.834 94.996 90)
 			(effects
 				(font
@@ -11283,7 +11284,7 @@
 			(uuid "a2a0ebe7-fa37-45f1-bf03-f045800f9461")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "#PWR010")
 					(unit 1)
@@ -11557,7 +11558,7 @@
 			(uuid "2e187a7e-9f60-4038-b4e5-3b56285e9465")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "#PWR03")
 					(unit 1)
@@ -11688,7 +11689,7 @@
 			(uuid "2ac52f15-53f0-4b90-a4e5-64bdb2d9039c")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "#PWR01")
 					(unit 1)
@@ -11724,7 +11725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "mag-encoder:R_0603_1608Metric"
 			(at 270.764 181.864 90)
 			(effects
 				(font
@@ -11830,7 +11831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "mag-encoder:C_0603_1608Metric"
 			(at 94.2848 95.25 0)
 			(effects
 				(font
@@ -11998,7 +11999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "mag-encoder:SOT-23"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -12071,7 +12072,7 @@
 			(uuid "eee9bd43-8e20-4972-8b26-32c418a07412")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "U1")
 					(unit 1)
@@ -12316,7 +12317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "mag-encoder:R_0603_1608Metric"
 			(at 169.164 98.044 90)
 			(effects
 				(font
@@ -12422,7 +12423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "mag-encoder:C_0603_1608Metric"
 			(at 271.4752 73.66 0)
 			(effects
 				(font
@@ -12528,7 +12529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "mag-encoder:C_0603_1608Metric"
 			(at 192.7352 142.24 0)
 			(effects
 				(font
@@ -12844,7 +12845,7 @@
 			(uuid "680e985a-e746-47aa-8c23-115b8b3e3318")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "J2")
 					(unit 1)
@@ -13010,7 +13011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "mag-encoder:LED_0603_1608Metric"
 			(at 322.58 154.94 0)
 			(effects
 				(font
@@ -13080,7 +13081,7 @@
 			(uuid "5b78338a-64c9-486d-9b0a-3cd2c695ee7b")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "D3")
 					(unit 1)
@@ -13230,7 +13231,7 @@
 			(uuid "686c673b-428f-483b-afad-59c5bfcecee0")
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "U3")
 					(unit 1)
@@ -13263,7 +13264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "mag-encoder:R_0603_1608Metric"
 			(at 261.874 145.034 90)
 			(effects
 				(font
@@ -13462,7 +13463,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "H2")
 					(unit 1)
@@ -13499,7 +13500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "mag-encoder:LED_0603_1608Metric"
 			(at 170.18 90.17 0)
 			(effects
 				(font
@@ -13605,7 +13606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "mag-encoder:C_0603_1608Metric"
 			(at 136.8552 95.25 0)
 			(effects
 				(font
@@ -13774,7 +13775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "mag-encoder:R_0603_1608Metric"
 			(at 322.834 128.016 90)
 			(effects
 				(font
@@ -13862,7 +13863,7 @@
 		(file
 			(name "Space-Cookies-Drawing-Sheet.kicad_wks")
 			(type worksheet)
-			(data |KLUv/aCsAwIA5OIBnpWE3A0d0CiQQD4oz/9chfx5/icViG8V2OFSQV88wN9IOF/0DcoNyQ3TYcrw
+			(data |KLUv/aD+LQIA5OIBnpWE3A0d0CiQQD4oz/9chfx5/icViG8V2OFSQV88wN9IOF/0DcoNyQ3TYcrw
 				j9BR4JioCGNjhgffsfzyMXiJTcuZh/kVl7/uJ3ugBm7GlN5J3jHWNDa9cS8H9JA8gTFn9lh9mvEC
 				PGQ0fSboNdPl70azTMbTe+zBxD4r6q4hj2Pjm38QcFaunEGmWrh0t62C48EVhojiQdV2HjR4YaLq
 				GTVyeNbHcrRZ/U8JJLJCPrBveA0VzdO+S763nsptryx08d4OmRUFjcoVlpHaibOrosHHL4fk6Q0P
@@ -15471,21 +15472,118 @@
 				8Q9t5g7Iyy6cSYCMywoGpgxjZgnkG8wkRgbMTIJG8WqYPEj7mHSmAk+5PWd65M/+GDDuAXDHkjnj
 				xe3QHxdI6X3JzFDVLAH1IcwjQWlyxpjZYBE0a5mBBcqf19xIDgI2fPdP+OtNEYPHqgIDigDTfi2T
 				DXA3WcM4njjLRMltbs9eARiwFgbMv/wTpRhHYpae0O/MgUcxmvVCqz8zYGbMJP7YMAZ+PQXKYmVC
-				nYfdH6N68iHqekBK5ejHkJlxRPDwlmYUgEphKSYMBob5CIt3aWYeVEtIPJOB2Tc4DuUTAOYohSDw
-				hnprOTwB6bp2oFG1pyhROTgHJ1xw1SiWhTPwfPAUD3sAewB7AKqhPbNo+z6dPNaiJ8U/6GJn4wPJ
-				jkG/E0qV02EHDFI/HEw1ZwaJ2wS6u43k2RvOseTjtp6mINbbo1DgsPDXG6i0tRatRDVoCgtOiZpO
-				U3I6fKRBd6N3S80v9yyvhPK2g4l1KxkEZ1L0r690QpPX1dbK44wVZWosF+rmA2joeT2m7YdGBceX
-				H9VBHe3E0J2FadQqmaBd9fXh3sIoclrrQ2hgsGRLke4wfjpU+ZItIoM15cnwiCBtMqT+OkDL/5Xa
-				W+0KDV6QbO/Fg1IkumuCGoUelvLSRZg/LbOjMpt57vuK/DFT1WtUBH7IjpTrKEQ6jFgszI8lAeJm
-				YcWQfjCGwmctOdjNxFBpHYfDM3XP4mZmWP4mpMizootqFSTrlrtocltIvA6vWbJbKcz3OUZS4PGI
-				hy87fftXjTBLHu3l/1Oc5ICi0iDI4EOKuc+kYtRU6fwcRfqLccrBSVWcnqP54svu1O7P9cEm+MC8
-				BhoaRI11CgACAsszwCiEgU3iHoGAAiRIY1vAU3gICEzT7GkrNZzWd/yxg9YJ/PDLKC7hxKtaZ9Ms
-				aWXCNy5h2ILYATNWREO9RtfugZ8DAubWEiF8eeQSmSxYtZTltXFz5c0lgjhsUf8sR7eIifekBmHz
-				5JHkXolFRQh2PLraLpVItw0lCBFQFJ/B2jKr5W39WgTKJRh+TSBYX5vRyV+rvQMQDjR4lbgguIPS
-				itg7ISmPURhkOBm2VqaxvMzfUIGwBLtvB1EzoCYibxMkUThwmV1AsHkGqaoA/mfGUS1NSYebs4Yw
-				wBhy6w==|
+				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
+				HNzSFh/xhjWC9/RPwA==|
 			)
-			(checksum "0343F15584B627F5BA61C1FE21EF9B36")
+			(checksum "089099923E9804C57E217F75F98ACDAF")
 		)
 	)
 )
