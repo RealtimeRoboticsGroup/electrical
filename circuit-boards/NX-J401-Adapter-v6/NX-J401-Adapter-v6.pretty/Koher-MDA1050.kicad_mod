@@ -1,0 +1,136 @@
+(footprint "Koher-MDA1050"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa8fb895-c7aa-4f45-9118-54b4b81cdf02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Koher-MDA1050"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52af3e99-1432-44dd-842c-879b1dbc1338")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75639286-ad44-4b05-9c73-298c55941c60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0513efa5-264f-4b9a-802c-ab341fbd0c49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.3 -5.1)
+		(end -6.3 5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "77acd6c0-230c-4d2d-9583-55deb56e336e")
+	)
+	(fp_line
+		(start -6.3 -5.1)
+		(end 6.3 -5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "572baf07-aa96-4c7d-8c2b-4845083affdf")
+	)
+	(fp_line
+		(start -6.3 5.1)
+		(end 6.3 5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3604472f-c67f-4c5e-9e68-57efb2a7795a")
+	)
+	(fp_line
+		(start 6.3 -5.1)
+		(end 6.3 5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "392bcfa3-6841-442d-afe8-e110107e62db")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8307e86-36a1-430c-8791-314aca7b507a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.475 0)
+		(size 3.55 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "eb9d9513-3132-4bb1-9522-6a4c2a15b64b")
+	)
+	(pad "2" smd roundrect
+		(at 4.475 0)
+		(size 3.55 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "f19732d0-5114-4cea-9fe3-a7ebfc589052")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dModels/Inductor-WE-LHMI_1040+(rev1).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
