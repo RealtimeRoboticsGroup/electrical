@@ -487,7 +487,9 @@
     "pinned_footprint_libs": [
       "NX-J401-Adapter"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "NX-J401-Adapter"
+    ]
   },
   "meta": {
     "filename": "NX-J401-Adapter-v6.kicad_pro",
@@ -704,7 +706,7 @@
         "uuid": "3c9fa76f-2b37-4666-8575-58caa65def04"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R18,R24-25,#DOC3,D8-11,C46-48,L3,U5,LP1-3",
     "variants": []
   },
   "sheets": [
@@ -718,11 +720,7 @@
     ],
     [
       "958ef65b-dc3d-4755-b7b0-3d4dc8feed9f",
-      "CANable2.0-1"
-    ],
-    [
-      "c052088f-0573-4795-8f52-2807e14771a7",
-      "CANable2.0-2"
+      "CANable2.0"
     ],
     [
       "f8ff9f31-2365-4daa-ba47-54bf7f47daed",
