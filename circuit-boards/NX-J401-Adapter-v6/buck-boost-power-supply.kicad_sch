@@ -10536,7 +10536,7 @@
 				)
 			)
 		)
-		(property "Value" "Power Supply Analysis"
+		(property "Value" "15V-3A-Power Supply Analysis"
 			(at 142.748 241.046 0)
 			(show_name no)
 			(do_not_autoplace no)

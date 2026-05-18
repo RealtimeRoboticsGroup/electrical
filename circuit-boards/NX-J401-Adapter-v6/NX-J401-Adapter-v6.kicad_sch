@@ -1343,324 +1343,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Dual_Bidirectional"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D6"
-				(at 0.4953 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_Dual_Bidirectional"
-				(at 0.4953 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Dual LED, bidirectional"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode bicolor dual"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_Dual_Bidirectional_0_1"
-				(polyline
-					(pts
-						(xy -4.572 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 3.81) (xy -1.016 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.286 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 4.318) (xy 4.318 5.842) (xy 3.556 5.842)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 3.048) (xy 5.588 4.572) (xy 4.826 4.572)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 0) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 5.842) (xy 4.318 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 4.572) (xy 5.588 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Dual_Bidirectional_1_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.016 -3.81) (xy 1.27 -2.54) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 194 0 0 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.002 2.5376) (xy -2.032 2.5348) (xy -2.0144 -2.5383) (xy -0.9871 -2.5432)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 4.572)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 1.27) (xy -1.016 2.54) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 0 194 0 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.2768 2.5376) (xy 2.2844 2.5376) (xy 2.2889 -2.5369) (xy 1.2756 -2.5341)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "KA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.048)
-					(name "AK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1833,6 +1515,231 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D9"
+				(at 1.016 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "PWR"
+				(at -1.27 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIST" "Digikey"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIST P/N" "1080-1419-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG" "Everlight"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 0 194 0 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2294,6 +2201,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NX-J401-Adapter:Light_Pipe"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NX-J401-Adapter:Bivar-LP-230"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "Components/Bivar-LP-230.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG" "Bivar"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG P/N" "LP-230"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIST" "Digikey"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIST P/N" "492-1859-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Light_Pipe_1_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0) (xy 2.54 2.54) (xy 6.35 2.54) (xy 6.35 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.35 2.54)
+					(end 8.89 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.35 0)
+					(end 8.89 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -2572,56 +2618,68 @@
 		)
 	)
 	(junction
-		(at 115.57 67.31)
+		(at 114.3 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07eb100e-d6ec-4d95-9075-3f269d798a91")
 	)
 	(junction
-		(at 135.89 67.31)
+		(at 134.62 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1fb4a39b-67b9-4423-be8d-f33d0398aa02")
+		(uuid "10448a41-deee-405f-ae58-b668a4c6e284")
 	)
 	(junction
-		(at 168.91 31.75)
+		(at 158.75 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23526170-daa5-403c-8a7f-65d2b3f52723")
 	)
 	(junction
-		(at 160.02 67.31)
+		(at 149.86 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cac754c-4393-46b7-a05b-5d9d7c445266")
 	)
 	(junction
-		(at 152.4 238.76)
+		(at 170.18 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d9e880b-ea27-4a11-95aa-c5da82eb6db5")
+	)
+	(junction
+		(at 151.13 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7ada40d-0e56-4174-acb5-d94ae41d448b")
 	)
 	(junction
-		(at 160.02 53.34)
+		(at 149.86 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0d48254-832b-41a1-94ab-33dd57cdb6bb")
 	)
 	(junction
-		(at 135.89 31.75)
+		(at 170.18 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4d0f79a-fdf7-4926-b222-32cfa1cc79f4")
+		(uuid "c4848c13-8125-4149-8558-c3818ff4e8fa")
 	)
 	(junction
-		(at 115.57 31.75)
+		(at 114.3 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1a2e452-460a-4c91-a363-844679c19288")
 	)
+	(junction
+		(at 134.62 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbf37bcf-09ff-45a5-8c35-de8a36f0ed03")
+	)
 	(wire
 		(pts
-			(xy 160.02 60.96) (xy 160.02 67.31)
+			(xy 149.86 74.93) (xy 149.86 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2631,17 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 243.84) (xy 104.14 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030fb13c-3837-41bc-8ee0-4aaf4f25217b")
-	)
-	(wire
-		(pts
-			(xy 135.89 31.75) (xy 135.89 45.72)
+			(xy 134.62 45.72) (xy 134.62 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2651,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 181.61 67.31)
+			(xy 149.86 81.28) (xy 170.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2661,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 100.33 31.75)
+			(xy 99.06 63.5) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2671,17 +2719,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 157.48) (xy 181.61 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b0184b2-2d4e-4d6d-94af-651e54ec2aaf")
-	)
-	(wire
-		(pts
-			(xy 115.57 31.75) (xy 115.57 45.72)
+			(xy 114.3 45.72) (xy 114.3 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2691,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 220.98) (xy 104.14 224.79)
+			(xy 102.87 193.04) (xy 102.87 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 210.82) (xy 181.61 210.82)
+			(xy 82.55 182.88) (xy 180.34 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 215.9) (xy 152.4 226.06)
+			(xy 151.13 187.96) (xy 151.13 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2721,7 +2759,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 67.31) (xy 135.89 67.31)
+			(xy 114.3 81.28) (xy 134.62 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2731,7 +2769,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 243.84) (xy 104.14 243.84)
+			(xy 170.18 60.96) (xy 170.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24243ebe-10f5-429f-a103-c2196cabf2e0")
+	)
+	(wire
+		(pts
+			(xy 170.18 74.93) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d8238b-8d94-41a1-b229-8e25ce4d7c48")
+	)
+	(wire
+		(pts
+			(xy 87.63 210.82) (xy 102.87 210.82)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2799,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 100.33 52.07)
+			(xy 90.17 66.04) (xy 99.06 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2751,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 105.41) (xy 181.61 105.41)
+			(xy 90.17 119.38) (xy 180.34 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2761,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 54.61) (xy 320.04 54.61)
+			(xy 250.19 68.58) (xy 318.77 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 53.34) (xy 115.57 67.31)
+			(xy 114.3 67.31) (xy 114.3 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2781,7 +2839,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 115.57 67.31)
+			(xy 99.06 81.28) (xy 114.3 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2791,7 +2849,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53) (xy 100.33 49.53)
+			(xy 170.18 45.72) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d1e9c9-cf38-455e-99c3-5018ee5f5550")
+	)
+	(wire
+		(pts
+			(xy 90.17 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2801,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 236.22) (xy 152.4 238.76)
+			(xy 151.13 208.28) (xy 151.13 210.82)
 		)
 		(stroke
 			(width 0)
@@ -2811,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 39.37) (xy 160.02 53.34)
+			(xy 149.86 53.34) (xy 149.86 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2821,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 31.75) (xy 168.91 31.75)
+			(xy 154.94 45.72) (xy 158.75 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2831,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 105.41) (xy 318.77 105.41)
+			(xy 248.92 119.38) (xy 317.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2841,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 102.87) (xy 318.77 102.87)
+			(xy 248.92 116.84) (xy 317.5 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2851,7 +2919,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 46.99) (xy 168.91 53.34)
+			(xy 158.75 60.96) (xy 158.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2861,17 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 152.4) (xy 318.77 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6ec714-62bd-4631-b31f-ccfb55c401a2")
-	)
-	(wire
-		(pts
-			(xy 83.82 213.36) (xy 181.61 213.36)
+			(xy 82.55 185.42) (xy 180.34 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2881,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 236.22) (xy 134.62 238.76)
+			(xy 133.35 208.28) (xy 133.35 210.82)
 		)
 		(stroke
 			(width 0)
@@ -2891,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 215.9) (xy 152.4 215.9)
+			(xy 82.55 187.96) (xy 151.13 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2901,7 +2959,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 67.31) (xy 160.02 67.31)
+			(xy 102.87 205.74) (xy 102.87 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f60da86-ba75-4641-8c8d-f972d8223638")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 149.86 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2911,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 57.15) (xy 320.04 57.15)
+			(xy 250.19 71.12) (xy 318.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2921,17 +2989,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 154.94) (xy 181.61 154.94)
+			(xy 170.18 81.28) (xy 180.34 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97e02622-d998-4cea-ae36-e7ff9fd7e70d")
+		(uuid "892ba2c1-3d42-485f-bcb3-0037b82e5796")
 	)
 	(wire
 		(pts
-			(xy 88.9 223.52) (xy 83.82 223.52)
+			(xy 87.63 195.58) (xy 82.55 195.58)
 		)
 		(stroke
 			(width 0)
@@ -2941,7 +3009,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 31.75) (xy 115.57 31.75)
+			(xy 99.06 45.72) (xy 114.3 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2951,17 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 149.86) (xy 318.77 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a253ad50-fd77-42c5-b6f4-4a053b3b7b55")
-	)
-	(wire
-		(pts
-			(xy 135.89 53.34) (xy 135.89 67.31)
+			(xy 134.62 67.31) (xy 134.62 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2971,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 218.44) (xy 134.62 226.06)
+			(xy 133.35 190.5) (xy 133.35 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2981,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 110.49) (xy 181.61 110.49)
+			(xy 90.17 124.46) (xy 180.34 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2991,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 243.84) (xy 88.9 223.52)
+			(xy 87.63 210.82) (xy 87.63 195.58)
 		)
 		(stroke
 			(width 0)
@@ -3001,7 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 31.75) (xy 181.61 31.75)
+			(xy 158.75 45.72) (xy 170.18 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3011,7 +3069,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 52.07) (xy 100.33 67.31)
+			(xy 99.06 66.04) (xy 99.06 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3021,17 +3079,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 160.02) (xy 181.61 160.02)
+			(xy 170.18 45.72) (xy 180.34 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c02d26fd-882c-4c04-91dc-6f58a18e46aa")
+		(uuid "b99fb378-7087-4997-874c-4a45f156808d")
 	)
 	(wire
 		(pts
-			(xy 83.82 220.98) (xy 104.14 220.98)
+			(xy 82.55 193.04) (xy 102.87 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3041,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 53.34) (xy 168.91 53.34)
+			(xy 149.86 67.31) (xy 158.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3051,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 218.44) (xy 134.62 218.44)
+			(xy 82.55 190.5) (xy 133.35 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3061,7 +3119,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 238.76) (xy 152.4 238.76)
+			(xy 133.35 210.82) (xy 151.13 210.82)
 		)
 		(stroke
 			(width 0)
@@ -3071,17 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 152.4) (xy 181.61 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e24c8d-1988-4533-8fd9-4dc4e3a036d8")
-	)
-	(wire
-		(pts
-			(xy 91.44 107.95) (xy 181.61 107.95)
+			(xy 90.17 121.92) (xy 180.34 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3091,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 31.75) (xy 135.89 31.75)
+			(xy 114.3 45.72) (xy 134.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3101,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 113.03) (xy 181.61 113.03)
+			(xy 90.17 127) (xy 180.34 127)
 		)
 		(stroke
 			(width 0)
@@ -3111,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 208.28) (xy 181.61 208.28)
+			(xy 82.55 180.34) (xy 180.34 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3121,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 31.75) (xy 168.91 39.37)
+			(xy 158.75 45.72) (xy 158.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3131,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 31.75) (xy 154.94 31.75)
+			(xy 134.62 45.72) (xy 144.78 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3140,7 +3188,7 @@
 		(uuid "fe38c5ed-79b4-433b-8829-e5e0eed8239d")
 	)
 	(label "~{REC}"
-		(at 88.9 190.5 0)
+		(at 87.63 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3150,7 +3198,7 @@
 		(uuid "0ca974fe-9496-4b71-9400-2100bbe5ba49")
 	)
 	(label "PC_LED+"
-		(at 76.2 193.04 180)
+		(at 74.93 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3160,7 +3208,7 @@
 		(uuid "1414b6e3-3e40-4e7f-bd06-e50627ee5484")
 	)
 	(label "UART2_RXD"
-		(at 76.2 187.96 180)
+		(at 74.93 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3170,7 +3218,7 @@
 		(uuid "1c5aeabc-2957-4a02-9625-ae0b0aa82ab3")
 	)
 	(label "V_OUT_RTN"
-		(at 320.04 57.15 180)
+		(at 318.77 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3180,7 +3228,7 @@
 		(uuid "21d910ee-ea5f-4c18-9460-508761e01014")
 	)
 	(label "UART2_RXD"
-		(at 157.48 210.82 180)
+		(at 156.21 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3190,7 +3238,7 @@
 		(uuid "38bc562a-2a62-46c4-a880-41c88fb7e106")
 	)
 	(label "GND1"
-		(at 76.2 182.88 180)
+		(at 74.93 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3200,7 +3248,7 @@
 		(uuid "3f4a32d7-a324-446a-b7c3-f7e740a855d0")
 	)
 	(label "PC_LED-"
-		(at 83.82 223.52 180)
+		(at 82.55 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3210,7 +3258,7 @@
 		(uuid "61e9a435-5033-450a-a959-b8d62a0c241a")
 	)
 	(label "V_IN"
-		(at 91.44 49.53 0)
+		(at 90.17 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3220,7 +3268,7 @@
 		(uuid "65527a22-18f1-4a1d-b839-3904d7f62289")
 	)
 	(label "PC_LED+"
-		(at 83.82 220.98 180)
+		(at 82.55 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3230,7 +3278,7 @@
 		(uuid "6656a596-37e7-4ed9-bef9-38a51b30c86e")
 	)
 	(label "UART2_TXD"
-		(at 157.48 213.36 180)
+		(at 156.21 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3240,7 +3288,7 @@
 		(uuid "73d17cbe-8554-48d5-b0a4-4abd7fd9b984")
 	)
 	(label "GND1"
-		(at 88.9 185.42 0)
+		(at 87.63 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3250,7 +3298,7 @@
 		(uuid "7861ac8c-b1f4-495c-bb92-071b7b0ee046")
 	)
 	(label "V_OUT"
-		(at 320.04 54.61 180)
+		(at 318.77 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3260,7 +3308,7 @@
 		(uuid "79f58c0a-66d7-4452-aea4-c489feaa333c")
 	)
 	(label "3V3"
-		(at 83.82 208.28 180)
+		(at 82.55 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3270,7 +3318,7 @@
 		(uuid "85a0c95f-cd0f-4698-b83f-2f1bbdb59cdc")
 	)
 	(label "PC_LED-"
-		(at 88.9 193.04 0)
+		(at 87.63 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,7 +3328,7 @@
 		(uuid "8d0819e3-77c3-4cdf-a2fb-5dbe98200989")
 	)
 	(label "UART2_RXD"
-		(at 83.82 210.82 180)
+		(at 82.55 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3290,7 +3338,7 @@
 		(uuid "8f26e5b5-eb02-46cc-94ea-321381b2256d")
 	)
 	(label "~{SYS_RESET}"
-		(at 88.9 187.96 0)
+		(at 87.63 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3300,7 +3348,7 @@
 		(uuid "96fb0c1b-1536-4061-99ed-08f5bce7f9f7")
 	)
 	(label "V_IN_RTN"
-		(at 91.44 52.07 0)
+		(at 90.17 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3310,7 +3358,7 @@
 		(uuid "9fa10835-cfe1-4b1b-bb31-5bbc3613b3d2")
 	)
 	(label "~{SYS_RESET}"
-		(at 83.82 215.9 180)
+		(at 82.55 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3320,7 +3368,7 @@
 		(uuid "a9f0d22f-de0d-49bb-bbdc-3fbb218f7bb2")
 	)
 	(label "~{REC}"
-		(at 83.82 218.44 180)
+		(at 82.55 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3330,7 +3378,7 @@
 		(uuid "b4d5ba45-fcf4-410d-b604-c322084e28d7")
 	)
 	(label "GND1"
-		(at 76.2 190.5 180)
+		(at 74.93 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3340,7 +3388,7 @@
 		(uuid "e37351de-c827-438a-a109-62eee1cc8b8f")
 	)
 	(label "UART2_TXD"
-		(at 76.2 185.42 180)
+		(at 74.93 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3350,7 +3398,7 @@
 		(uuid "eda1fbe6-1d11-4dbb-815d-bc38a57e59ca")
 	)
 	(label "UART2_TXD"
-		(at 83.82 213.36 180)
+		(at 82.55 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3360,7 +3408,7 @@
 		(uuid "f48e6427-ab97-47ad-8543-a5d787bae497")
 	)
 	(label "3V3"
-		(at 88.9 182.88 0)
+		(at 87.63 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3371,7 +3419,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 297.18 210.82 0)
+		(at 295.91 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3382,7 +3430,7 @@
 		(fields_autoplaced yes)
 		(uuid "0863c514-1ac8-4471-93e4-8cf1cdca7f8b")
 		(property "Reference" "H3"
-			(at 299.72 209.5499 0)
+			(at 298.45 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3393,7 +3441,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 299.72 212.0899 0)
+			(at 298.45 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3404,7 +3452,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 297.18 210.82 0)
+			(at 295.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 210.82 0)
+			(at 295.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3426,7 +3474,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 297.18 210.82 0)
+			(at 295.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,8 +3494,127 @@
 		)
 	)
 	(symbol
+		(lib_id "NX-J401-Adapter:Light_Pipe")
+		(at 179.07 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e5cae64-4126-45ee-9dd2-fbe78ebe0a5e")
+		(property "Reference" "LP3"
+			(at 189.23 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 179.07 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:Bivar-LP-230"
+			(at 179.07 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Components/Bivar-LP-230.pdf"
+			(at 179.07 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Bivar"
+			(at 189.23 214.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MFG P/N" "LP-230"
+			(at 189.23 217.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 179.07 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST P/N" "492-1859-ND"
+			(at 179.07 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "LP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 83.82 187.96 180)
+		(at 82.55 160.02 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3457,7 +3624,7 @@
 		(dnp no)
 		(uuid "1ac162ad-0c4e-405d-9bdc-edb1ce146f4c")
 		(property "Reference" "J1"
-			(at 82.296 179.578 0)
+			(at 81.026 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3467,7 +3634,7 @@
 			)
 		)
 		(property "Value" "NX BUTTON"
-			(at 82.296 177.038 0)
+			(at 81.026 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3477,7 +3644,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:Molex-0878331031"
-			(at 83.82 187.96 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +3655,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-878331031_sd.pdf"
-			(at 83.82 187.96 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,7 +3666,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 187.96 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3510,7 +3677,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 83.82 200.152 0)
+			(at 82.55 172.212 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -3521,7 +3688,7 @@
 			)
 		)
 		(property "MFG P/N" "0878331031"
-			(at 90.424 197.612 0)
+			(at 89.154 169.672 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -3532,7 +3699,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 83.82 187.96 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +3710,7 @@
 			)
 		)
 		(property "DIST P/N" "WM3598-ND"
-			(at 83.82 187.96 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3554,7 +3721,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
-			(at 83.82 187.96 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3604,72 +3771,20 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_Bidirectional")
-		(at 104.14 232.41 90)
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 170.18 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(uuid "1c15131b-a253-4348-a0fc-55788e8450a0")
-		(property "Reference" "D1"
-			(at 107.442 227.076 90)
+		(dnp no)
+		(uuid "4ae23e3c-f69a-4c92-8c5a-bc37c5f28ac4")
+		(property "Reference" "D9"
+			(at 172.72 70.104 90)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PC"
-			(at 94.742 232.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm"
-			(at 104.14 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/KingBright-RG-LED-P937EGW.pdf"
-			(at 104.14 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual LED, bidirectional"
-			(at 104.14 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Kingbright"
-			(at 109.982 231.648 90)
-			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -3678,19 +3793,52 @@
 				(justify right)
 			)
 		)
-		(property "MFG P/N" "WP937EGW"
-			(at 109.982 233.68 90)
-			(show_name yes)
+		(property "Value" "PWR"
+			(at 172.72 72.39 90)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 104.14 232.41 0)
+			(at 170.18 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3700,8 +3848,30 @@
 				)
 			)
 		)
-		(property "DIST P/N" "754-1751-ND"
-			(at 104.14 232.41 0)
+		(property "DIST P/N" "1080-1419-1-ND"
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Everlight"
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
+			(at 170.18 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,15 +3882,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b22e3399-9be3-433f-8a9a-084679e58ef5")
+			(uuid "df553c34-fbee-4dde-a989-50cc8407eadd")
 		)
 		(pin "2"
-			(uuid "6a872e6f-60fa-46f7-87e4-3d092d6895c5")
+			(uuid "52a648fe-8acd-49e2-8596-af88a2725cd6")
 		)
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "D1")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3728,7 +3898,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 297.18 215.9 0)
+		(at 295.91 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3739,7 +3909,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e0d131b-50ea-4782-ab55-76272feb029e")
 		(property "Reference" "H4"
-			(at 299.72 214.6299 0)
+			(at 298.45 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3750,7 +3920,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 299.72 217.1699 0)
+			(at 298.45 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3761,7 +3931,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 297.18 215.9 0)
+			(at 295.91 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,7 +3942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 215.9 0)
+			(at 295.91 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +3953,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 297.18 215.9 0)
+			(at 295.91 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,7 +3974,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 86.36 52.07 180)
+		(at 85.09 66.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3814,7 +3984,7 @@
 		(dnp no)
 		(uuid "55d9630b-88c4-4e94-95d0-3cfd135cbe5f")
 		(property "Reference" "J2"
-			(at 86.106 44.704 0)
+			(at 84.836 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3824,7 +3994,7 @@
 			)
 		)
 		(property "Value" "POWER"
-			(at 86.36 46.99 0)
+			(at 85.09 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3834,7 +4004,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 86.36 52.07 0)
+			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3845,7 +4015,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-436500200_sd.pdf"
-			(at 86.36 52.07 0)
+			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3856,7 +4026,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)"
-			(at 86.36 52.07 0)
+			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3867,7 +4037,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 78.486 54.102 0)
+			(at 77.216 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3878,7 +4048,7 @@
 			)
 		)
 		(property "MFG P/N" "0436500200"
-			(at 78.486 56.134 0)
+			(at 77.216 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3889,7 +4059,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 86.36 52.07 0)
+			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3900,7 +4070,7 @@
 			)
 		)
 		(property "DIST P/N" "WM1860-ND"
-			(at 86.36 52.07 0)
+			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,7 +4081,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
-			(at 86.36 52.07 0)
+			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3938,7 +4108,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 323.85 105.41 0)
+		(at 322.58 119.38 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3949,7 +4119,7 @@
 		(dnp no)
 		(uuid "688d955c-8dab-4f7d-b875-03ae8c66334f")
 		(property "Reference" "J5"
-			(at 323.85 99.822 0)
+			(at 322.58 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3959,7 +4129,7 @@
 			)
 		)
 		(property "Value" "CAN1"
-			(at 328.422 104.394 0)
+			(at 327.152 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3969,7 +4139,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:Molex-70555-0001"
-			(at 323.85 105.41 0)
+			(at 322.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3980,7 +4150,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-70555-0001.pdf"
-			(at 323.85 105.41 0)
+			(at 322.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,7 +4161,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 323.85 105.41 0)
+			(at 322.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4172,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 319.786 111.252 0)
+			(at 318.516 125.222 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -4013,7 +4183,7 @@
 			)
 		)
 		(property "MFG P/N" "0705550036"
-			(at 319.786 108.966 0)
+			(at 318.516 122.936 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -4024,7 +4194,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 323.85 105.41 0)
+			(at 322.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4205,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4175-ND"
-			(at 323.85 105.41 0)
+			(at 322.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4216,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
-			(at 323.85 105.41 0)
+			(at 322.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4072,8 +4242,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 170.18 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7165566f-c749-4be0-b093-567743081a5c")
+		(property "Reference" "R18"
+			(at 167.64 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K-1%-0603"
+			(at 172.72 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.164 57.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 170.18 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 170.18 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-072KL"
+			(at 170.18 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C105576"
+			(at 170.18 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea8642d8-6a79-47de-9df4-17d285b6f768")
+		)
+		(pin "2"
+			(uuid "b912221b-fc20-451b-aeeb-ee3bb703557c")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
-		(at 168.91 43.18 270)
+		(at 158.75 57.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4083,7 +4366,7 @@
 		(dnp no)
 		(uuid "95ad7b97-7594-4adc-b7ea-086b368ac758")
 		(property "Reference" "D3"
-			(at 169.926 45.72 90)
+			(at 159.766 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4094,7 +4377,7 @@
 			)
 		)
 		(property "Value" "15V"
-			(at 171.45 43.18 90)
+			(at 161.29 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4105,7 +4388,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 168.91 43.18 0)
+			(at 158.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +4399,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Nxperia-BZT52H_SER.pdf"
-			(at 168.91 43.18 0)
+			(at 158.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 43.18 0)
+			(at 158.75 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,7 +4421,7 @@
 			)
 		)
 		(property "MFG" "Nexperia"
-			(at 168.91 43.18 90)
+			(at 158.75 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4149,7 +4432,7 @@
 			)
 		)
 		(property "MFG P/N" "BZT52H-C15,115"
-			(at 166.116 43.18 0)
+			(at 155.956 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4159,7 +4442,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 168.91 43.18 90)
+			(at 158.75 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4170,7 +4453,7 @@
 			)
 		)
 		(property "DIST P/N" "1727-3593-1-ND"
-			(at 168.91 43.18 90)
+			(at 158.75 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4464,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C454949"
-			(at 168.91 43.18 90)
+			(at 158.75 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4208,7 +4491,7 @@
 	)
 	(symbol
 		(lib_id "NX-AdapterBoard:SQM40061EL_GE3")
-		(at 160.02 34.29 90)
+		(at 149.86 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4219,7 +4502,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fc562e1-2b1f-46b8-b739-04c25fdc0c59")
 		(property "Reference" "Q1"
-			(at 160.02 25.4 90)
+			(at 149.86 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4229,7 +4512,7 @@
 			)
 		)
 		(property "Value" "SQM120P06-07L_GE3"
-			(at 160.02 27.94 90)
+			(at 149.86 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4239,7 +4522,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:TO-263-2"
-			(at 157.48 29.21 0)
+			(at 147.32 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4250,7 +4533,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Vishay-sqm120p06-07l.pdf"
-			(at 172.72 34.29 0)
+			(at 162.56 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4261,7 +4544,7 @@
 			)
 		)
 		(property "Description" "P-Channel 60 V 120A (Tc) 375W (Tc) Surface Mount TO-263 (D2PAK)"
-			(at 160.02 34.29 0)
+			(at 149.86 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4272,7 +4555,7 @@
 			)
 		)
 		(property "MFG" "Vishay Siliconix"
-			(at 160.02 34.29 90)
+			(at 149.86 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +4566,7 @@
 			)
 		)
 		(property "MFG P/N" "SQM120P06-07L_GE3"
-			(at 160.02 34.29 90)
+			(at 149.86 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4577,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C222447"
-			(at 160.02 34.29 90)
+			(at 149.86 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +4607,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 152.4 231.14 270)
+		(at 151.13 203.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4335,7 +4618,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6db84a3-ba35-451a-8bf9-96827daead3a")
 		(property "Reference" "SW2"
-			(at 156.21 229.87 90)
+			(at 154.94 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4346,7 +4629,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 156.21 232.41 90)
+			(at 154.94 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4357,7 +4640,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:SW_TL1105VF100Q_EWI"
-			(at 157.48 231.14 0)
+			(at 156.21 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4368,7 +4651,7 @@
 			)
 		)
 		(property "Datasheet" "Components/E-SWITCH-tl1105vf100q-drawing.pdf"
-			(at 157.48 231.14 0)
+			(at 156.21 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4379,7 +4662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 231.14 0)
+			(at 151.13 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4390,7 +4673,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 152.4 231.14 0)
+			(at 151.13 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,7 +4684,7 @@
 			)
 		)
 		(property "DIST P/N" "EG2507-ND"
-			(at 152.4 231.14 0)
+			(at 151.13 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4412,7 +4695,7 @@
 			)
 		)
 		(property "MFG" "E-Switch"
-			(at 152.4 231.14 0)
+			(at 151.13 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +4706,7 @@
 			)
 		)
 		(property "MFG P/N" "TL1105VF100Q"
-			(at 152.4 231.14 0)
+			(at 151.13 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4733,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 297.18 205.74 0)
+		(at 295.91 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4461,7 +4744,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac3b15f1-c5f2-4462-a3ad-d1a849f07198")
 		(property "Reference" "H2"
-			(at 299.72 204.4699 0)
+			(at 298.45 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4472,7 +4755,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 299.72 207.0099 0)
+			(at 298.45 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4483,7 +4766,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 297.18 205.74 0)
+			(at 295.91 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4494,7 +4777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 205.74 0)
+			(at 295.91 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4505,7 +4788,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 297.18 205.74 0)
+			(at 295.91 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,7 +4809,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 325.12 57.15 0)
+		(at 323.85 71.12 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4537,7 +4820,7 @@
 		(dnp no)
 		(uuid "b097381b-f334-4407-bfcf-9e9b28f1a4aa")
 		(property "Reference" "J7"
-			(at 324.866 51.054 0)
+			(at 323.596 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4547,7 +4830,7 @@
 			)
 		)
 		(property "Value" "15V"
-			(at 329.184 55.626 0)
+			(at 327.914 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4557,7 +4840,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 325.12 57.15 0)
+			(at 323.85 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4568,7 +4851,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-436500200_sd.pdf"
-			(at 325.12 57.15 0)
+			(at 323.85 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,7 +4862,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)"
-			(at 325.12 57.15 0)
+			(at 323.85 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4590,7 +4873,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 321.818 60.452 0)
+			(at 320.548 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4601,7 +4884,7 @@
 			)
 		)
 		(property "MFG P/N" "0436500200"
-			(at 321.818 62.992 0)
+			(at 320.548 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4612,7 +4895,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 325.12 57.15 0)
+			(at 323.85 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,7 +4906,7 @@
 			)
 		)
 		(property "DIST P/N" "WM1860-ND"
-			(at 325.12 57.15 0)
+			(at 323.85 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4917,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
-			(at 325.12 57.15 0)
+			(at 323.85 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4661,7 +4944,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 238.76 0)
+		(at 151.13 210.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4672,7 +4955,7 @@
 		(dnp no)
 		(uuid "b9cb56be-8273-498e-b709-5240e9ab5f91")
 		(property "Reference" "#PWR01"
-			(at 152.4 245.11 0)
+			(at 151.13 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4683,7 +4966,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 152.4 242.57 0)
+			(at 151.13 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4693,7 +4976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 238.76 0)
+			(at 151.13 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,7 +4987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 238.76 0)
+			(at 151.13 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +4998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 238.76 0)
+			(at 151.13 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,272 +5021,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 86.36 157.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be3db077-de72-4416-9e36-8edaa597f383")
-		(property "Reference" "J4"
-			(at 86.36 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB2"
-			(at 80.264 155.956 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:Molex-70555-0003"
-			(at 86.36 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
-			(at 86.36 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Molex"
-			(at 78.74 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "MFG P/N" "70555-0038"
-			(at 78.74 163.322 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 86.36 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST P/N" "WM4177-ND"
-			(at 86.36 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "1c89f065-eec5-42d4-81b1-8eba687d4497")
-		)
-		(pin "2"
-			(uuid "0f029e65-c49e-4fcf-a8a8-b84b6f8381c8")
-		)
-		(pin "1"
-			(uuid "8fe57eda-1b36-402b-bb22-54b47b858e2d")
-		)
-		(pin "3"
-			(uuid "99260d97-d4fa-49e7-a217-82a811a14e76")
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 323.85 152.4 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be7fba1f-a7e9-4bd7-bed1-b506c9154eab")
-		(property "Reference" "J6"
-			(at 323.85 146.812 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAN1"
-			(at 328.422 151.384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:Molex-70555-0001"
-			(at 323.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/Molex-70555-0001.pdf"
-			(at 323.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 323.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Molex"
-			(at 319.786 158.242 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MFG P/N" "0705550036"
-			(at 319.786 155.956 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 323.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST P/N" "WM4175-ND"
-			(at 323.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "XXXXXX"
-			(at 323.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "107882ce-6da0-48a6-8e7d-3e4dcfb4c86e")
-		)
-		(pin "2"
-			(uuid "fc24ae19-8c52-4d5c-9657-8faabc3eaa7c")
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
-		(at 115.57 49.53 90)
+		(at 114.3 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5013,7 +5032,7 @@
 		(dnp no)
 		(uuid "cab66cfa-deeb-41b6-8518-5493499a624b")
 		(property "Reference" "D2"
-			(at 118.11 48.2599 90)
+			(at 116.84 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5024,7 +5043,7 @@
 			)
 		)
 		(property "Value" "24V"
-			(at 118.11 50.8 90)
+			(at 116.84 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5035,7 +5054,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:D_SMC_Littelfuse_DO-214AB"
-			(at 115.57 49.53 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5046,7 +5065,7 @@
 			)
 		)
 		(property "Datasheet" "Components/littelfuse-tvs-smdj-datasheet.pdf"
-			(at 115.57 49.53 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,7 +5076,7 @@
 			)
 		)
 		(property "Description" "24V 26.7V 2uA 38.9V 3kW@10/1000us 77.12A Bidirectional TVS SMC(DO-214AB) ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 115.57 49.53 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5068,7 +5087,7 @@
 			)
 		)
 		(property "MFG" " DOWO"
-			(at 115.57 49.53 90)
+			(at 114.3 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +5098,7 @@
 			)
 		)
 		(property "MFG P/N" " SMDJ24CA"
-			(at 111.76 49.53 0)
+			(at 110.49 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5089,7 +5108,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C284061"
-			(at 115.57 49.53 90)
+			(at 114.3 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5116,7 +5135,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 297.18 200.66 0)
+		(at 295.91 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5127,7 +5146,7 @@
 		(fields_autoplaced yes)
 		(uuid "cba75052-33a3-41c5-87ee-4ee5e0091dd2")
 		(property "Reference" "H1"
-			(at 299.72 199.3899 0)
+			(at 298.45 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5138,7 +5157,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 299.72 201.9299 0)
+			(at 298.45 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5149,7 +5168,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 297.18 200.66 0)
+			(at 295.91 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,7 +5179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 200.66 0)
+			(at 295.91 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5171,7 +5190,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 297.18 200.66 0)
+			(at 295.91 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5192,7 +5211,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 86.36 110.49 180)
+		(at 85.09 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5202,7 +5221,7 @@
 		(dnp no)
 		(uuid "e1fb7999-d617-46bc-8edf-cc761b59d499")
 		(property "Reference" "J3"
-			(at 86.36 102.87 0)
+			(at 85.09 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5212,7 +5231,7 @@
 			)
 		)
 		(property "Value" "USB1"
-			(at 80.264 108.966 0)
+			(at 78.994 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5222,7 +5241,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:Molex-70555-0003"
-			(at 86.36 110.49 0)
+			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5233,7 +5252,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-70555-0001.pdf"
-			(at 86.36 110.49 0)
+			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,7 +5263,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 110.49 0)
+			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5255,7 +5274,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 78.74 114.3 0)
+			(at 77.47 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5266,7 +5285,7 @@
 			)
 		)
 		(property "MFG P/N" "70555-0038"
-			(at 78.74 116.332 0)
+			(at 77.47 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5277,7 +5296,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 86.36 110.49 0)
+			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5288,7 +5307,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4177-ND"
-			(at 86.36 110.49 0)
+			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +5340,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_US")
-		(at 135.89 49.53 0)
+		(at 134.62 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5331,7 +5350,7 @@
 		(dnp no)
 		(uuid "e4909287-c56a-4a9d-8e2d-2121dcb9590d")
 		(property "Reference" "C1"
-			(at 137.668 47.498 90)
+			(at 136.398 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5342,7 +5361,7 @@
 			)
 		)
 		(property "Value" "10uF-50V-10%-X7R-1210"
-			(at 132.334 49.784 90)
+			(at 131.064 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5352,7 +5371,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 135.89 49.53 0)
+			(at 134.62 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5363,7 +5382,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Murata-GRM32ER71H106KA12-01.pdf"
-			(at 135.89 49.53 0)
+			(at 134.62 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5374,7 +5393,7 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
-			(at 135.89 49.53 0)
+			(at 134.62 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5385,7 +5404,7 @@
 			)
 		)
 		(property "MFG" "Murata Eelectronics"
-			(at 135.89 49.53 0)
+			(at 134.62 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5415,7 @@
 			)
 		)
 		(property "MFG P/N" " GRM32ER71H106KA12L"
-			(at 135.89 49.53 0)
+			(at 134.62 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5426,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C77102"
-			(at 135.89 49.53 0)
+			(at 134.62 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5434,7 +5453,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 160.02 57.15 0)
+		(at 149.86 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5445,7 +5464,7 @@
 		(dnp no)
 		(uuid "e9de2911-5f21-49ca-9823-f3d68dc5f798")
 		(property "Reference" "R1"
-			(at 161.798 57.15 0)
+			(at 151.638 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5456,7 +5475,7 @@
 			)
 		)
 		(property "Value" "5.9k-1%-0603"
-			(at 156.972 57.15 90)
+			(at 146.812 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5466,7 +5485,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 159.004 57.404 90)
+			(at 148.844 71.374 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5477,7 +5496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 57.15 0)
+			(at 149.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5488,7 +5507,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 5.9kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 160.02 57.15 0)
+			(at 149.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5499,7 +5518,7 @@
 			)
 		)
 		(property "MFG" "UNI-ROYAL"
-			(at 160.02 57.15 90)
+			(at 149.86 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5510,7 +5529,7 @@
 			)
 		)
 		(property "MFG P/N" "0603WAF5901T5E"
-			(at 160.02 57.15 90)
+			(at 149.86 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5521,7 +5540,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C23071"
-			(at 160.02 57.15 90)
+			(at 149.86 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5547,8 +5566,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 134.62 231.14 270)
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 102.87 201.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5556,32 +5576,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1aabdd0-ce7d-4c20-b541-925d62b7c0ae")
-		(property "Reference" "SW1"
-			(at 138.43 229.87 90)
+		(uuid "ef3d7620-6b08-42dd-9369-b0f0c4c9f471")
+		(property "Reference" "D10"
+			(at 105.41 200.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "RECOVERY"
-			(at 138.43 232.41 90)
+		(property "Value" "PC"
+			(at 105.41 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "NX-J401-Adapter:SW_TL1105VF100Q_EWI"
-			(at 139.7 231.14 0)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 102.87 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,8 +5610,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "Components/E-SWITCH-tl1105vf100q-drawing.pdf"
-			(at 139.7 231.14 0)
+		(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
+			(at 102.87 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5602,8 +5621,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 231.14 0)
+		(property "Description" "Light emitting diode"
+			(at 102.87 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5614,7 +5633,133 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 134.62 231.14 0)
+			(at 102.87 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST P/N" "1080-1419-1-ND"
+			(at 102.87 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Everlight"
+			(at 102.87 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
+			(at 102.87 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f229ca67-b72b-40b5-80db-661c02bc15fb")
+		)
+		(pin "2"
+			(uuid "9b00d7de-9ef7-4942-9cbf-8d63fecfb37c")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 133.35 203.2 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1aabdd0-ce7d-4c20-b541-925d62b7c0ae")
+		(property "Reference" "SW1"
+			(at 137.16 201.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RECOVERY"
+			(at 137.16 204.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:SW_TL1105VF100Q_EWI"
+			(at 138.43 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Components/E-SWITCH-tl1105vf100q-drawing.pdf"
+			(at 138.43 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 133.35 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,7 +5770,7 @@
 			)
 		)
 		(property "DIST P/N" "EG2507-ND"
-			(at 134.62 231.14 0)
+			(at 133.35 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5636,7 +5781,7 @@
 			)
 		)
 		(property "MFG" "E-Switch"
-			(at 134.62 231.14 0)
+			(at 133.35 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5647,7 +5792,7 @@
 			)
 		)
 		(property "MFG P/N" "TL1105VF100Q"
-			(at 134.62 231.14 0)
+			(at 133.35 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,7 +5818,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 25.4)
+		(at 180.34 39.37)
 		(size 69.85 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5688,7 +5833,7 @@
 		)
 		(uuid "048331f9-005d-457c-bfd7-5224f9f99d07")
 		(property "Sheetname" "15V 3A Buck-Boost Power Supply"
-			(at 217.17 47.498 0)
+			(at 215.9 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5699,7 +5844,7 @@
 			)
 		)
 		(property "Sheetfile" "buck-boost-power-supply.kicad_sch"
-			(at 181.356 25.146 0)
+			(at 180.086 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5710,7 +5855,7 @@
 			)
 		)
 		(property "Page" "${#}/${##}"
-			(at 251.206 25.908 0)
+			(at 249.936 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5721,7 +5866,7 @@
 			)
 		)
 		(pin "+V_IN" passive
-			(at 181.61 31.75 180)
+			(at 180.34 45.72 180)
 			(uuid "3fea3d02-eba9-405e-bfe1-9141543497d9")
 			(effects
 				(font
@@ -5731,7 +5876,7 @@
 			)
 		)
 		(pin "+V_OUT" passive
-			(at 251.46 54.61 0)
+			(at 250.19 68.58 0)
 			(uuid "a71f8987-f7bd-4ed8-9f90-f0385c2aedda")
 			(effects
 				(font
@@ -5741,7 +5886,7 @@
 			)
 		)
 		(pin "-V_IN" passive
-			(at 181.61 67.31 180)
+			(at 180.34 81.28 180)
 			(uuid "de909d24-8590-4396-a1f6-e88ea6b626b8")
 			(effects
 				(font
@@ -5751,7 +5896,7 @@
 			)
 		)
 		(pin "-V_OUT" passive
-			(at 251.46 57.15 0)
+			(at 250.19 71.12 0)
 			(uuid "ad43a86d-057f-4dd1-a18c-3b0061d0f5cc")
 			(effects
 				(font
@@ -5769,7 +5914,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 203.2)
+		(at 180.34 175.26)
 		(size 68.58 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5784,7 +5929,7 @@
 		)
 		(uuid "7f338915-7b6e-40c1-9733-742b14680646")
 		(property "Sheetname" "USB Serial"
-			(at 216.408 211.328 0)
+			(at 215.138 183.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5794,7 +5939,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-serial.kicad_sch"
-			(at 181.61 202.692 0)
+			(at 180.34 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5805,7 +5950,7 @@
 			)
 		)
 		(property "Page" "${#}/${##}"
-			(at 249.682 203.962 0)
+			(at 248.412 176.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5816,7 +5961,7 @@
 			)
 		)
 		(pin "3V3" passive
-			(at 181.61 208.28 180)
+			(at 180.34 180.34 180)
 			(uuid "84da7bbe-6f14-4066-85ca-94fafaacf4d5")
 			(effects
 				(font
@@ -5826,7 +5971,7 @@
 			)
 		)
 		(pin "RXD" input
-			(at 181.61 210.82 180)
+			(at 180.34 182.88 180)
 			(uuid "76de526a-3ece-42a3-b7d7-72e075d838ec")
 			(effects
 				(font
@@ -5836,7 +5981,7 @@
 			)
 		)
 		(pin "TXD" output
-			(at 181.61 213.36 180)
+			(at 180.34 185.42 180)
 			(uuid "a0e83e50-88a9-401a-bacc-6c958a341def")
 			(effects
 				(font
@@ -5848,13 +5993,13 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 181.61 87.63)
+		(at 180.34 101.6)
 		(size 68.58 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5868,8 +6013,8 @@
 			(color 0 194 0 0.1019607843)
 		)
 		(uuid "958ef65b-dc3d-4755-b7b0-3d4dc8feed9f")
-		(property "Sheetname" "CANable2.0-1"
-			(at 213.614 103.378 0)
+		(property "Sheetname" "CANable2.0"
+			(at 212.344 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5879,7 +6024,7 @@
 			)
 		)
 		(property "Sheetfile" "canable2.kicad_sch"
-			(at 181.61 86.868 0)
+			(at 180.34 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5890,7 +6035,7 @@
 			)
 		)
 		(property "Page" "${#}/${##}"
-			(at 249.428 88.392 0)
+			(at 248.158 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5900,18 +6045,8 @@
 				(justify right top)
 			)
 		)
-		(pin "5V" passive
-			(at 181.61 110.49 180)
-			(uuid "ad2f55c4-fdd1-4aba-babd-3ce7b16f2f74")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CAN_H" passive
-			(at 250.19 102.87 0)
+			(at 248.92 116.84 0)
 			(uuid "751e9ace-b972-42c5-99e5-4fac8e4909a7")
 			(effects
 				(font
@@ -5921,7 +6056,7 @@
 			)
 		)
 		(pin "CAN_L" passive
-			(at 250.19 105.41 0)
+			(at 248.92 119.38 0)
 			(uuid "6d0894a4-c657-41d0-ad96-f85fd7e16bbc")
 			(effects
 				(font
@@ -5931,7 +6066,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 181.61 113.03 180)
+			(at 180.34 127 180)
 			(uuid "a7fb2afb-3323-4d48-81ad-b901769d2cb6")
 			(effects
 				(font
@@ -5941,7 +6076,7 @@
 			)
 		)
 		(pin "USB_DM" passive
-			(at 181.61 107.95 180)
+			(at 180.34 121.92 180)
 			(uuid "0d60f199-1fe9-4258-814f-fa452f8b6769")
 			(effects
 				(font
@@ -5951,8 +6086,18 @@
 			)
 		)
 		(pin "USB_DP" passive
-			(at 181.61 105.41 180)
+			(at 180.34 119.38 180)
 			(uuid "d4c74a0d-3158-4260-869e-eac05b408267")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" passive
+			(at 180.34 124.46 180)
+			(uuid "d9dec02e-8a41-41fd-b7cc-f0a437598253")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,122 +6114,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 134.62)
-		(size 68.58 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 194 0 0.1019607843)
-		)
-		(uuid "c052088f-0573-4795-8f52-2807e14771a7")
-		(property "Sheetname" "CANable2.0-2"
-			(at 213.614 150.368 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-			)
-		)
-		(property "Sheetfile" "canable2.kicad_sch"
-			(at 181.61 133.858 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Page" "${#}/${##}"
-			(at 249.428 135.382 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(pin "5V" passive
-			(at 181.61 157.48 180)
-			(uuid "92a17b67-6c2a-44e9-b466-c3c998d91f5c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_H" passive
-			(at 250.19 149.86 0)
-			(uuid "525b81c2-74e6-407e-8b9c-e9a327590d32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAN_L" passive
-			(at 250.19 152.4 0)
-			(uuid "3d593b0a-f1e1-4af1-9226-42d0ce3441fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" passive
-			(at 181.61 160.02 180)
-			(uuid "d585d8b9-ff80-45e8-9f32-907b3eee3264")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DM" passive
-			(at 181.61 154.94 180)
-			(uuid "9fdcd247-4d7d-40ce-b149-02eb8a948974")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DP" passive
-			(at 181.61 152.4 180)
-			(uuid "67cbec01-be4b-44f3-94a4-0da57586c418")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 181.61 184.15)
+		(at 180.34 156.21)
 		(size 68.58 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6099,7 +6129,7 @@
 		)
 		(uuid "f8ff9f31-2365-4daa-ba47-54bf7f47daed")
 		(property "Sheetname" "NX-Button Interface"
-			(at 214.376 189.992 0)
+			(at 213.106 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6109,7 +6139,7 @@
 			)
 		)
 		(property "Sheetfile" "NX-Button-Interface.kicad_sch"
-			(at 181.61 183.642 0)
+			(at 180.34 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6120,7 +6150,7 @@
 			)
 		)
 		(property "Page" "${#}/${##}"
-			(at 249.428 184.912 0)
+			(at 248.158 156.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6133,7 +6163,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
