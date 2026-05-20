@@ -1,0 +1,186 @@
+(footprint "Molex-PicoLatch-5040500491"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "99716192-56d4-4937-b45c-0e5a69d42521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Molex-PicoLatch-5040500491"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5de1bb49-d0c4-4e39-a5ba-a9299d503d03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e669f5b-ee51-411c-8a91-4f5f7242e4bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faac7e2a-c696-4448-b7be-83771443baed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.875 -3.9)
+		(end -4.875 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f90bb3fc-8177-4a84-8b2c-6baa14327fb2")
+	)
+	(fp_line
+		(start -4.875 0.6)
+		(end -2.8 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ee106d3-eac0-44e6-9d98-d4196f4a5015")
+	)
+	(fp_line
+		(start 2.8 0.6)
+		(end 4.875 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37cab9c9-ef84-46b5-b1e4-323650e27fbb")
+	)
+	(fp_line
+		(start 4.875 -3.9)
+		(end 4.875 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1ac1c4-66b0-4eca-b190-9d22adc97556")
+	)
+	(fp_rect
+		(start -4.9 -7.7)
+		(end 4.9 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "6911716e-6abb-4a91-85df-bc3aeadcd329")
+	)
+	(fp_rect
+		(start -5.5 -6.2)
+		(end 5.5 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c7ef1df9-8cdf-4c58-93f7-4352d16db45f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "935ce0b2-998d-4987-afcc-916797914c41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.25 0 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "92525e09-305a-44c5-921d-8ce5cf80e6b2")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 0 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c2c8f0a5-dbad-49ba-8ec5-9f66437aa1ad")
+	)
+	(pad "3" smd roundrect
+		(at -0.75 0 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ccecb219-2dee-4a06-8415-be557e63f338")
+	)
+	(pad "4" smd roundrect
+		(at -2.25 0 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "3f9fbf92-c287-4317-aeee-2b0fad88608b")
+	)
+	(pad "5" smd roundrect
+		(at -4.805 -5.19 180)
+		(size 1.25 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "04e83ac9-4652-44c1-9eeb-812ddc860668")
+	)
+	(pad "5" smd roundrect
+		(at 4.805 -5.19 180)
+		(size 1.25 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "366b5826-6a60-41b0-97ed-617a193acd28")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dModels/Molex-pico-lock-5040500491.stp"
+		(offset
+			(xyz -2.25 8.15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)
