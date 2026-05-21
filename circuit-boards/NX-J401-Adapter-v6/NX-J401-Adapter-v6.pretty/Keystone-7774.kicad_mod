@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "6a0fa5b8-b1db-4cb6-99ca-7f3ec9403720")
+		(uuid "8fd7cd72-9f32-446e-9085-6d9213bce48f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0a73d92d-7f17-4ffa-b4d3-1e404b29ac4e")
+		(uuid "91cd9b8a-fb0d-4c4c-aa72-0430fa58262c")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "75e92d7d-ef95-4d80-8106-4f44f301b88c")
+		(uuid "ef785438-1c1f-4cef-9bba-466fb478724b")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e1b16a8d-8684-4d0d-ac9b-9687c7676891")
+		(uuid "f2f8c87b-6b20-403d-ad0c-9808133abc84")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -4.1 -9.6)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "02b4854e-e475-44c9-99bd-03e866db3b8f")
+		(uuid "0724214d-d7ab-457b-b9a5-db7f7832d7a6")
 	)
 	(fp_rect
 		(start -4.1 -9.7)
@@ -75,13 +75,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e646bc8f-4adc-41f2-8363-ab1abcbd3aee")
+		(uuid "557a8ec3-93f9-42e4-a768-a3aa792d8f72")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3b4c92f8-9474-4d33-ae6c-80c9660fefaa")
+		(uuid "d92e3436-f7cf-4894-8e65-f52d18125944")
 		(effects
 			(font
 				(size 1 1)
@@ -95,7 +95,7 @@
 		(drill 1.5748)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8eb3c6c9-d0e8-4a32-8de6-0fb6216a1e42")
+		(uuid "c0e5386c-cd92-438d-9461-d10369f1f3cf")
 	)
 	(pad "1" thru_hole circle
 		(at -2.7178 -3.175)
@@ -103,7 +103,7 @@
 		(drill 1.5748)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "29523ad3-9548-437d-baca-99210d29ad1b")
+		(uuid "51a00912-792d-47d1-90ae-4b455e656fea")
 	)
 	(pad "1" thru_hole circle
 		(at 2.7178 -8.255)
@@ -111,7 +111,7 @@
 		(drill 1.5748)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "57b78bcf-663c-4236-a177-aa842354a3a3")
+		(uuid "0af6de03-5dad-44c9-9f4c-c4c8eb2455e5")
 	)
 	(pad "1" thru_hole circle
 		(at 2.7178 -3.175)
@@ -119,7 +119,7 @@
 		(drill 1.5748)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7a8549dc-f1d7-4c21-b2f6-31bb551f2c4e")
+		(uuid "97979059-5333-4a0d-be34-bb9cdf6e5140")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/keystone-PN7774.STEP"
