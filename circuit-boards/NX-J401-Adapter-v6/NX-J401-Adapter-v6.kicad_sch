@@ -4187,16 +4187,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 45.72) (xy 180.34 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b99fb378-7087-4997-874c-4a45f156808d")
-	)
-	(wire
-		(pts
 			(xy 257.81 45.72) (xy 276.86 45.72)
 		)
 		(stroke
@@ -4397,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 168.91 45.72)
+			(xy 161.29 45.72) (xy 180.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4614,6 +4604,16 @@
 			(justify left bottom)
 		)
 		(uuid "9fa10835-cfe1-4b1b-bb31-5bbc3613b3d2")
+	)
+	(label "VIN_PS"
+		(at 177.8 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fe49b0f-c52f-498a-9e58-6395a6cc507c")
 	)
 	(label "~{SYS_RESET}"
 		(at 82.55 187.96 180)
