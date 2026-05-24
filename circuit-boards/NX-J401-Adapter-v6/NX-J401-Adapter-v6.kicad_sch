@@ -3167,8 +3167,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3258,8 +3262,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3437,7 +3440,13 @@
 		(at 151.13 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a7ada40d-0e56-4174-acb5-d94ae41d448b")
+		(uuid "aff0b057-4a92-47f1-a23c-b44c56e15bb1")
+	)
+	(junction
+		(at 63.5 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b912d530-fa70-4445-ae1d-7e25ca3ddeea")
 	)
 	(junction
 		(at 124.46 45.72)
@@ -3524,6 +3533,16 @@
 			(type default)
 		)
 		(uuid "0588b9df-d38f-419b-9d95-3a27ce4fb34b")
+	)
+	(wire
+		(pts
+			(xy 60.96 172.72) (xy 44.45 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082739be-dd54-43e6-b541-cf343283b60e")
 	)
 	(wire
 		(pts
@@ -3987,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 198.12) (xy 44.45 198.12)
+			(xy 44.45 198.12) (xy 63.5 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4034,6 +4053,16 @@
 			(type default)
 		)
 		(uuid "a403e779-0a6e-402a-84af-25465144d148")
+	)
+	(wire
+		(pts
+			(xy 63.5 198.12) (xy 63.5 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a472dee3-bd1d-4bfd-b12e-6fb3e0fbb730")
 	)
 	(wire
 		(pts
@@ -4084,6 +4113,16 @@
 			(type default)
 		)
 		(uuid "a88c33b8-b8a5-4e6b-9031-1f1f2de0f514")
+	)
+	(wire
+		(pts
+			(xy 63.5 203.2) (xy 63.5 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8fae289-70d6-4072-bfde-66129d6275be")
 	)
 	(wire
 		(pts
@@ -4167,6 +4206,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 173.99) (xy 60.96 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a802a3-10bb-4a12-972f-282081ddfbfe")
+	)
+	(wire
+		(pts
 			(xy 161.29 45.72) (xy 161.29 59.69)
 		)
 		(stroke
@@ -4234,6 +4283,16 @@
 			(type default)
 		)
 		(uuid "c90c1bc5-cc77-498e-a07f-460e360f23d2")
+	)
+	(wire
+		(pts
+			(xy 154.94 210.82) (xy 151.13 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb499e70-6416-4fab-9a60-534cbdb73ae4")
 	)
 	(wire
 		(pts
@@ -4317,7 +4376,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 203.2) (xy 44.45 203.2)
+			(xy 44.45 203.2) (xy 63.5 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4407,16 +4466,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 172.72) (xy 44.45 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe3c4b8-880c-4358-aaff-9a0cc63bb738")
-	)
-	(wire
-		(pts
 			(xy 48.26 190.5) (xy 44.45 190.5)
 		)
 		(stroke
@@ -4435,16 +4484,6 @@
 		)
 		(uuid "ff9c401b-c74d-46e0-968b-a777962626f7")
 	)
-	(label "GND_BTN"
-		(at 48.26 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0044e360-ab32-4ef4-b9df-10a799642aa7")
-	)
 	(label "V_OUT_RTN"
 		(at 342.9 71.12 180)
 		(effects
@@ -4455,15 +4494,15 @@
 		)
 		(uuid "21d910ee-ea5f-4c18-9460-508761e01014")
 	)
-	(label "GND_BTN"
-		(at 48.26 172.72 0)
+	(label "3V3_BTN"
+		(at 82.55 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "229dbf07-3558-4aec-b12b-62fc9c2b1ead")
+		(uuid "22f8f196-fed1-4ca9-8261-a6ff31ac5d7a")
 	)
 	(label "UART2_RXD"
 		(at 156.21 182.88 180)
@@ -4544,26 +4583,6 @@
 			(justify right bottom)
 		)
 		(uuid "79f58c0a-66d7-4452-aea4-c489feaa333c")
-	)
-	(label "GND_BTN"
-		(at 48.26 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82834152-51f6-4d68-a373-6108bbb34e97")
-	)
-	(label "3V3"
-		(at 82.55 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85a0c95f-cd0f-4698-b83f-2f1bbdb59cdc")
 	)
 	(label "CAN_RX"
 		(at 48.26 170.18 0)
@@ -5005,6 +5024,162 @@
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 173.99 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44e48462-3af9-414d-ba57-7857a166aeb7")
+		(property "Reference" "#PWR033"
+			(at 60.96 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 60.96 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "068ed76c-ce4e-409c-a493-561560659b9e")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 210.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45551c96-ed29-4be3-8633-0cd6c2c40ebd")
+		(property "Reference" "#PWR032"
+			(at 154.94 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 154.94 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f00b336b-0bb3-4ef8-a0b1-3adf422aac15")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6814,84 +6989,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 210.82 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9cb56be-8273-498e-b709-5240e9ab5f91")
-		(property "Reference" "#PWR01"
-			(at 151.13 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 151.13 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41c20bf1-183a-4ba0-ba8a-aa6ba0336b66")
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 130.81 57.15 0)
 		(mirror y)
@@ -7429,6 +7526,84 @@
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 212.09 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df31c89f-7c8d-44a4-b4d9-c69ebdc0d649")
+		(property "Reference" "#PWR034"
+			(at 63.5 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 63.5 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7ffd509-ee64-40f7-b79e-768cfe6df5e5")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

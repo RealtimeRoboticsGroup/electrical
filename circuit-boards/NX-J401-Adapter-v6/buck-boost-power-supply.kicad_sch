@@ -1960,12 +1960,6 @@
 		(uuid "03faab09-840f-4fde-9876-41d1194fe062")
 	)
 	(junction
-		(at 201.93 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0412bf12-b625-4a23-926c-a0aed664c935")
-	)
-	(junction
 		(at 121.92 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2110,6 +2104,12 @@
 		(uuid "508ee905-1b01-4031-b242-41363257ea42")
 	)
 	(junction
+		(at 201.93 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50cf49ac-fdb0-4bc7-927c-364bd7dfe0ec")
+	)
+	(junction
 		(at 306.07 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2188,12 +2188,6 @@
 		(uuid "73d24bc8-d5cf-4e85-95a8-a51367547815")
 	)
 	(junction
-		(at 201.93 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7778cfe8-b4d3-4f4b-9ed6-e4159b8e7972")
-	)
-	(junction
 		(at 328.93 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2212,6 +2206,18 @@
 		(uuid "859a28d0-0f50-46fb-8a13-039007ff8c0e")
 	)
 	(junction
+		(at 165.1 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f3c3ca-24b2-4320-ab0e-b35774d310b1")
+	)
+	(junction
+		(at 201.93 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9147f347-2855-4734-b438-82d7ee71cc87")
+	)
+	(junction
 		(at 250.19 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2228,12 +2234,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c75165c-4479-43bd-b66e-dc45cda3d687")
-	)
-	(junction
-		(at 201.93 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b14f8621-07f4-49bc-b714-b2b6dd96d672")
 	)
 	(junction
 		(at 52.07 171.45)
@@ -2300,6 +2300,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daa902d4-17c3-4fa0-9e38-d7214d243806")
+	)
+	(junction
+		(at 201.93 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de7bb331-e941-43b6-bd2c-f60bcc7a3f4f")
 	)
 	(junction
 		(at 63.5 171.45)
@@ -2600,16 +2606,6 @@
 			(type default)
 		)
 		(uuid "164c910c-496f-422f-88ee-72ef61dae8a0")
-	)
-	(wire
-		(pts
-			(xy 191.77 152.4) (xy 201.93 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16bb440a-80d1-4e7d-b08f-677d645a220c")
 	)
 	(wire
 		(pts
@@ -3063,6 +3059,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 152.4) (xy 220.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bc28a0-9bf5-4982-931c-d7e6294112b0")
+	)
+	(wire
+		(pts
 			(xy 203.2 85.09) (xy 203.2 90.17)
 		)
 		(stroke
@@ -3143,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 152.4) (xy 220.98 152.4)
+			(xy 191.77 152.4) (xy 201.93 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3200,6 +3206,16 @@
 			(type default)
 		)
 		(uuid "5fa14c4b-2c4b-48e4-800d-645a6ac4eb51")
+	)
+	(wire
+		(pts
+			(xy 162.56 157.48) (xy 165.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6631b3f5-a60f-4364-a52f-1534345fa413")
 	)
 	(wire
 		(pts
@@ -3520,6 +3536,16 @@
 			(type default)
 		)
 		(uuid "8cd9ac57-cc09-4c31-8aab-6800ca5a9dfd")
+	)
+	(wire
+		(pts
+			(xy 165.1 157.48) (xy 165.1 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d794c4a-4475-4b00-a03f-b461fe9ab366")
 	)
 	(wire
 		(pts
@@ -7197,6 +7223,121 @@
 		)
 	)
 	(symbol
+		(lib_id "NX-J401-Adapter:B260A-13-F")
+		(at 201.93 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c7030d-8138-4e36-818a-8f3768b6d375")
+		(property "Reference" "D5"
+			(at 204.47 174.3074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54KFILM"
+			(at 204.47 176.8474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 201.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Components/STmicro-BAT54KFILM.pdf"
+			(at 201.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-65℃~+150℃ 1 Independent 2A 500uA@60V 50A 60V 700mV@2A SMA Schottky Diodes ROHS"
+			(at 201.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "STmicro"
+			(at 201.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "STMicroelectronics"
+			(at 201.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C283259"
+			(at 201.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0beb6656-6ecf-4f6b-a3bf-18399485acfe")
+		)
+		(pin "1"
+			(uuid "240bc624-954f-4e4e-a64e-497833ad778f")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/048331f9-005d-457c-bfd7-5224f9f99d07"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 49.53 201.93 0)
 		(mirror y)
@@ -7914,7 +8055,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B260A-13-F"
+		(property "Value" "BAT54KFILM"
 			(at 114.3 131.1274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7925,7 +8066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7936,7 +8077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Components/STmicro-BAT54KFILM.pdf"
 			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7958,7 +8099,7 @@
 				)
 			)
 		)
-		(property "MFG" "Diodes Inc"
+		(property "MFG" "STmicro"
 			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7969,7 +8110,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "B260A-13-F"
+		(property "MFG P/N" "STMicroelectronics"
 			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7980,7 +8121,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C109094"
+		(property "JLCPCB P/N" "C283259"
 			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8340,6 +8481,121 @@
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/048331f9-005d-457c-bfd7-5224f9f99d07"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:B260A-13-F")
+		(at 201.93 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d709cf-e618-432a-bbd8-db454b2ca0af")
+		(property "Reference" "D6"
+			(at 204.47 155.2574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54KFILM"
+			(at 204.47 157.7974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 201.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Components/STmicro-BAT54KFILM.pdf"
+			(at 201.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-65℃~+150℃ 1 Independent 2A 500uA@60V 50A 60V 700mV@2A SMA Schottky Diodes ROHS"
+			(at 201.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "STmicro"
+			(at 201.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "STMicroelectronics"
+			(at 201.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C283259"
+			(at 201.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f53bcb55-5ba9-47cf-828c-541475ac47bc")
+		)
+		(pin "1"
+			(uuid "71759c09-0506-4fde-b990-6434813b97dc")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/048331f9-005d-457c-bfd7-5224f9f99d07"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11147,121 +11403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NX-J401-Adapter:B260A-13-F")
-		(at 201.93 175.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d25f269c-a1d8-464f-8d26-e6f1efe738ff")
-		(property "Reference" "D6"
-			(at 204.47 174.3074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B260A-13-F"
-			(at 204.47 176.8474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 201.93 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-65℃~+150℃ 1 Independent 2A 500uA@60V 50A 60V 700mV@2A SMA Schottky Diodes ROHS"
-			(at 201.93 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Diodes Inc"
-			(at 201.93 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "B260A-13-F"
-			(at 201.93 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C109094"
-			(at 201.93 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "41abcf93-a681-4c08-a2ce-185e0946346f")
-		)
-		(pin "1"
-			(uuid "2bcc7936-0ca0-4233-9266-e9ee3ed55542")
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/048331f9-005d-457c-bfd7-5224f9f99d07"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 113.03 67.31 0)
 		(unit 1)
@@ -11369,121 +11510,6 @@
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/048331f9-005d-457c-bfd7-5224f9f99d07"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-J401-Adapter:B260A-13-F")
-		(at 201.93 156.21 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3afc9f9-f14b-44d5-9ddb-375784578f68")
-		(property "Reference" "D5"
-			(at 204.47 155.2574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B260A-13-F"
-			(at 204.47 157.7974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 201.93 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-65℃~+150℃ 1 Independent 2A 500uA@60V 50A 60V 700mV@2A SMA Schottky Diodes ROHS"
-			(at 201.93 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Diodes Inc"
-			(at 201.93 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "B260A-13-F"
-			(at 201.93 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C109094"
-			(at 201.93 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "01ad1bf8-57b4-46c7-9305-1077d60992b9")
-		)
-		(pin "1"
-			(uuid "1717ebd3-d2b8-4e4f-9365-b907d38c1a1c")
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/048331f9-005d-457c-bfd7-5224f9f99d07"
-					(reference "D5")
 					(unit 1)
 				)
 			)

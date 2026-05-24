@@ -3933,6 +3933,12 @@
 		(uuid "4a23ac2f-4dbd-4974-b247-4f98abcdee68")
 	)
 	(junction
+		(at 217.17 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4acd42a7-e76c-40ab-980d-3938129125c6")
+	)
+	(junction
 		(at 283.21 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4063,12 +4069,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc1fdd69-c0a9-44a7-8bc2-612a244e9942")
-	)
-	(junction
-		(at 217.17 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d65fd302-8a73-44ee-97a5-c11499edb776")
 	)
 	(junction
 		(at 144.78 232.41)
@@ -4206,6 +4206,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 186.69) (xy 231.14 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f8b24f-d4cf-4b04-bbe1-a783af561117")
+	)
+	(wire
+		(pts
 			(xy 158.75 110.49) (xy 152.4 110.49)
 		)
 		(stroke
@@ -4233,6 +4243,16 @@
 			(type default)
 		)
 		(uuid "04c3d2e2-7469-468c-9907-0f32e8285ba6")
+	)
+	(wire
+		(pts
+			(xy 217.17 199.39) (xy 217.17 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c37289-7f03-4462-b5dd-8de3fcc01ba3")
 	)
 	(wire
 		(pts
@@ -4406,16 +4426,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 175.26) (xy 231.14 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190915ff-4c02-41ba-8bad-46344c10d0b6")
-	)
-	(wire
-		(pts
 			(xy 166.37 90.17) (xy 154.94 90.17)
 		)
 		(stroke
@@ -4476,16 +4486,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 207.01) (xy 231.14 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d105a1-c66b-4aaf-874d-50647acba745")
-	)
-	(wire
-		(pts
 			(xy 166.37 99.06) (xy 158.75 99.06)
 		)
 		(stroke
@@ -4493,16 +4493,6 @@
 			(type default)
 		)
 		(uuid "2737e91a-2ecf-41b7-b80c-51879625bc77")
-	)
-	(wire
-		(pts
-			(xy 231.14 187.96) (xy 231.14 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28a248f1-41f6-45b4-9078-22ccfa523e6a")
 	)
 	(wire
 		(pts
@@ -4563,6 +4553,16 @@
 			(type default)
 		)
 		(uuid "3371e11f-157e-472c-90f7-5d2e20dda602")
+	)
+	(wire
+		(pts
+			(xy 217.17 186.69) (xy 217.17 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ab9612-0ecb-4416-98e4-ccb53c13e96c")
 	)
 	(wire
 		(pts
@@ -4643,16 +4643,6 @@
 			(type default)
 		)
 		(uuid "4307618c-774a-4165-8c68-e410987ae09d")
-	)
-	(wire
-		(pts
-			(xy 217.17 187.96) (xy 217.17 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45766398-9ad4-463f-85ab-38a17bcf3545")
 	)
 	(wire
 		(pts
@@ -4773,6 +4763,16 @@
 			(type default)
 		)
 		(uuid "5ce0c57a-431e-4a80-bfa8-66333fdd5415")
+	)
+	(wire
+		(pts
+			(xy 231.14 175.26) (xy 231.14 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d29a9f4-4a1e-4edb-9b53-90c6cfecbff3")
 	)
 	(wire
 		(pts
@@ -5026,16 +5026,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 175.26) (xy 231.14 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96f70f93-d498-453d-9633-43ae4d5de28b")
-	)
-	(wire
-		(pts
 			(xy 124.46 200.66) (xy 124.46 210.82)
 		)
 		(stroke
@@ -5073,6 +5063,16 @@
 			(type default)
 		)
 		(uuid "9e1136f1-d5b7-4929-bbf2-eedbea06aa76")
+	)
+	(wire
+		(pts
+			(xy 217.17 175.26) (xy 217.17 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5be624-7ac4-40be-a4fd-8273fb58a0ac")
 	)
 	(wire
 		(pts
@@ -5183,6 +5183,16 @@
 			(type default)
 		)
 		(uuid "bbaf08c0-fb21-420a-aa80-7baff3a4970a")
+	)
+	(wire
+		(pts
+			(xy 231.14 199.39) (xy 231.14 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9138f2-34b3-46ba-bf54-d72499a32a82")
 	)
 	(wire
 		(pts
@@ -5396,16 +5406,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 203.2) (xy 217.17 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f478f7-f622-40c7-93f7-40ff07b3556a")
-	)
-	(wire
-		(pts
 			(xy 114.3 218.44) (xy 114.3 232.41)
 		)
 		(stroke
@@ -5476,6 +5476,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 175.26) (xy 231.14 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f213f917-53bc-47b9-88e1-947edfb43e8d")
+	)
+	(wire
+		(pts
 			(xy 154.94 90.17) (xy 139.7 90.17)
 		)
 		(stroke
@@ -5513,16 +5523,6 @@
 			(type default)
 		)
 		(uuid "fe0f57a3-65e8-46c4-ac0f-e300f2209626")
-	)
-	(wire
-		(pts
-			(xy 217.17 175.26) (xy 217.17 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe564754-c557-49c4-a246-3d1259d5693e")
 	)
 	(wire
 		(pts
@@ -5980,6 +5980,60 @@
 		)
 		(uuid "e8c9f0c5-36f9-4080-8271-6a6d7470a050")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 115.57 97.79) (xy 115.57 179.07) (xy 154.94 179.07) (xy 154.94 96.52) (xy 116.84 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "d70dfe2a-d2db-41bb-b466-9e7ec4bbb815")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 119.38 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ac6ba07-c393-4658-aab3-f6d83d131eef")
+		(property "Net Class" "LQFP"
+			(at 120.0785 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 26.67 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Transistor_FET:Si2319CDS")
 		(at 246.38 35.56 270)
@@ -6423,7 +6477,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 231.14 184.15 0)
+		(at 231.14 195.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6434,7 +6488,7 @@
 		(dnp no)
 		(uuid "49de3762-3540-41cd-b21c-56324236c7b1")
 		(property "Reference" "R25"
-			(at 228.6 184.15 90)
+			(at 228.6 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6444,7 +6498,7 @@
 			)
 		)
 		(property "Value" "1K-1%-0603"
-			(at 233.68 184.15 90)
+			(at 233.68 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6454,7 +6508,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 230.124 184.404 90)
+			(at 230.124 195.834 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 184.15 0)
+			(at 231.14 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,7 +6530,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 231.14 184.15 0)
+			(at 231.14 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6487,7 +6541,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 231.14 184.15 90)
+			(at 231.14 195.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6498,7 +6552,7 @@
 			)
 		)
 		(property "MFG P/N" "RC0603FR-071KL"
-			(at 231.14 184.15 90)
+			(at 231.14 195.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6509,7 +6563,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C22548"
-			(at 231.14 184.15 90)
+			(at 231.14 195.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,7 +6665,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 231.14 195.58 90)
+		(at 231.14 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6621,7 +6675,7 @@
 		(dnp no)
 		(uuid "5368ca0e-9176-4440-b7fb-ebafa372b69d")
 		(property "Reference" "D11"
-			(at 233.68 194.564 90)
+			(at 233.68 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6632,7 +6686,7 @@
 			)
 		)
 		(property "Value" "STAT"
-			(at 233.68 196.85 90)
+			(at 233.68 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6643,7 +6697,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 231.14 195.58 0)
+			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6654,7 +6708,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
-			(at 231.14 195.58 0)
+			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,7 +6719,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 231.14 195.58 0)
+			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,7 +6730,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 231.14 195.58 0)
+			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,7 +6741,7 @@
 			)
 		)
 		(property "DIST P/N" "1080-1418-1-ND"
-			(at 231.14 195.58 0)
+			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,7 +6752,7 @@
 			)
 		)
 		(property "MFG" "Everlight"
-			(at 231.14 195.58 0)
+			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6709,7 +6763,7 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D3TR"
-			(at 231.14 195.58 0)
+			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7333,7 +7387,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 217.17 195.58 90)
+		(at 217.17 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7343,7 +7397,7 @@
 		(dnp no)
 		(uuid "64a94e45-5770-4825-831f-a8e0ac1ddcaf")
 		(property "Reference" "D8"
-			(at 219.71 194.564 90)
+			(at 219.71 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7354,7 +7408,7 @@
 			)
 		)
 		(property "Value" "WORD"
-			(at 219.71 196.85 90)
+			(at 219.71 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7365,7 +7419,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 217.17 195.58 0)
+			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7376,7 +7430,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
-			(at 217.17 195.58 0)
+			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7441,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 217.17 195.58 0)
+			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7398,7 +7452,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 217.17 195.58 0)
+			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7409,7 +7463,7 @@
 			)
 		)
 		(property "DIST P/N" "1080-1418-1-ND"
-			(at 217.17 195.58 0)
+			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7420,7 +7474,7 @@
 			)
 		)
 		(property "MFG" "Everlight"
-			(at 217.17 195.58 0)
+			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7431,7 +7485,7 @@
 			)
 		)
 		(property "MFG P/N" "QTLP650D3TR"
-			(at 217.17 195.58 0)
+			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9207,7 +9261,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 217.17 184.15 0)
+		(at 217.17 195.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9218,7 +9272,7 @@
 		(dnp no)
 		(uuid "c9aab6a7-dc83-4d38-87ae-9033d5506f38")
 		(property "Reference" "R24"
-			(at 214.63 184.15 90)
+			(at 214.63 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9228,7 +9282,7 @@
 			)
 		)
 		(property "Value" "1K-1%-0603"
-			(at 219.71 184.15 90)
+			(at 219.71 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9238,7 +9292,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.154 184.404 90)
+			(at 216.154 195.834 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9249,7 +9303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 184.15 0)
+			(at 217.17 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,7 +9314,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 217.17 184.15 0)
+			(at 217.17 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9271,7 +9325,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 217.17 184.15 90)
+			(at 217.17 195.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9282,7 +9336,7 @@
 			)
 		)
 		(property "MFG P/N" "RC0603FR-071KL"
-			(at 217.17 184.15 90)
+			(at 217.17 195.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9293,7 +9347,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C22548"
-			(at 217.17 184.15 90)
+			(at 217.17 195.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
