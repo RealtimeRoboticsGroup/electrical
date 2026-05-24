@@ -3877,16 +3877,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 116.84) (xy 342.9 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f925f2-2fbe-445c-ac26-7e27994336e6")
-	)
-	(wire
-		(pts
 			(xy 299.72 81.28) (xy 304.8 81.28)
 		)
 		(stroke
@@ -4354,6 +4344,16 @@
 			(type default)
 		)
 		(uuid "ee9bc066-0177-49da-9276-5812221d3550")
+	)
+	(wire
+		(pts
+			(xy 248.92 116.84) (xy 342.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e51579-5a94-4d6e-aeab-d40ef6352e80")
 	)
 	(wire
 		(pts
@@ -5988,7 +5988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Components/Adam-Tech-ph1rb-xx-ua.pdf"
 			(at 39.37 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5999,7 +5999,51 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x18, script generated"
+		(property "Description" "CONN HEADER R/A 18POS 2.54MM"
+			(at 39.37 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Adam Tech"
+			(at 39.37 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "PH1RB-18-UA"
+			(at 39.37 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 39.37 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST P/N" "2057-PH1RB-18-UA-ND"
 			(at 39.37 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8268,16 +8312,6 @@
 				(justify right)
 			)
 		)
-		(pin "GND" passive
-			(at 180.34 127 180)
-			(uuid "a7fb2afb-3323-4d48-81ad-b901769d2cb6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_DM" passive
 			(at 180.34 121.92 180)
 			(uuid "0d60f199-1fe9-4258-814f-fa452f8b6769")
@@ -8298,9 +8332,19 @@
 				(justify left)
 			)
 		)
-		(pin "3V3" passive
+		(pin "3V3_USB" passive
 			(at 180.34 124.46 180)
-			(uuid "d9dec02e-8a41-41fd-b7cc-f0a437598253")
+			(uuid "e7375944-6bdf-458a-b2e0-a8cd1439dafb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_CAN" passive
+			(at 180.34 127 180)
+			(uuid "314d4e55-5792-4c9d-8b93-3d53d672df3d")
 			(effects
 				(font
 					(size 1.27 1.27)

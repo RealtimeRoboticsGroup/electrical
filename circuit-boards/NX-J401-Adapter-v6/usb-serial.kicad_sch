@@ -4274,119 +4274,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
-		(at 154.94 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e2185c1-78f1-4859-be04-e3ba3b771f02")
-		(property "Reference" "C60"
-			(at 156.718 131.318 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF-50V-10%-X7R-1210"
-			(at 151.384 133.604 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 154.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/Murata-GRM32ER71H106KA12-01.pdf"
-			(at 154.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
-			(at 154.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Murata Eelectronics"
-			(at 154.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" " GRM32ER71H106KA12L"
-			(at 154.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C77102"
-			(at 154.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e530b51e-2f66-4755-bb48-5b18add57af1")
-		)
-		(pin "2"
-			(uuid "b17e2756-f85e-4b09-bd1d-49d21f0cba30")
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 135.89 154.94 0)
 		(unit 1)
@@ -4822,6 +4709,119 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 154.94 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fca370f-ff72-4c93-a27b-6bac9708ed95")
+		(property "Reference" "C49"
+			(at 155.956 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF-10%-16V-0805"
+			(at 151.384 133.604 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 154.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 22uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 154.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Samsung Electro-Mechanics"
+			(at 154.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "CL21A226KOQNNNE"
+			(at 154.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C296720"
+			(at 154.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e502de7-4b5d-4981-83f0-4e7a89a11c56")
+		)
+		(pin "2"
+			(uuid "86b605d8-7a27-44f7-86ea-6d4ad35e03bf")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "C49")
 					(unit 1)
 				)
 			)
