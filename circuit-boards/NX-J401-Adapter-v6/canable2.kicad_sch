@@ -6135,6 +6135,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 246.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d891e970-c5b6-4f8a-9346-332e60e6fdb4")
 		)
@@ -6163,9 +6174,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02b8345a-29a1-4833-bd05-b56b8f972eaa")
-		(property "Reference" "J1"
+		(property "Reference" "J8"
 			(at 320.04 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6220,6 +6230,61 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 317.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Adam Tech"
+			(at 316.23 185.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MFG P/N" "PH1RB-05-UA"
+			(at 316.23 183.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 317.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST P/N" "2057-PH1RB-05-UA-ND"
+			(at 317.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "897e5d96-b64d-4bc9-adff-45312a1bd6a0")
 		)
@@ -6238,7 +6303,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6255,7 +6320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15a508cf-0c3c-4d6e-b456-82abc467bdd3")
-		(property "Reference" "Q6"
+		(property "Reference" "Q1"
 			(at 76.2 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6344,6 +6409,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 76.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63457c7b-d50d-46a5-89b3-a1f0990844a1")
 		)
@@ -6356,7 +6432,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "Q6")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6373,7 +6449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47e7523c-cb64-4942-832e-dc38ef547c30")
-		(property "Reference" "C48"
+		(property "Reference" "C3"
 			(at 96.266 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6460,6 +6536,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 95.25 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "124f9b8d-79c7-4048-a979-d4e39c0e03d6")
 		)
@@ -6469,7 +6556,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C48")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49de3762-3540-41cd-b21c-56324236c7b1")
-		(property "Reference" "R25"
+		(property "Reference" "R4"
 			(at 228.6 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,6 +6660,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 231.14 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bf348f5-62ad-494c-a2f7-ee0df4f3ed74")
 		)
@@ -6582,7 +6680,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R25")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6674,7 +6772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5368ca0e-9176-4440-b7fb-ebafa372b69d")
-		(property "Reference" "D11"
+		(property "Reference" "D8"
 			(at 233.68 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,6 +6871,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 231.14 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4522e50f-b111-429d-b606-1b03390907f8")
 		)
@@ -6782,7 +6891,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "D11")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6800,7 +6909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c0e2d22-88af-4bad-b18e-4b9dcf83e2fb")
-		(property "Reference" "C37"
+		(property "Reference" "C7"
 			(at 128.27 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6886,6 +6995,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 124.46 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "876b27da-9040-4094-900f-60a78505aee5")
 		)
@@ -6895,7 +7015,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C37")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6913,7 +7033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cd8f920-f0c8-4cec-a9ae-1c0f03c65979")
-		(property "Reference" "R20"
+		(property "Reference" "R2"
 			(at 168.148 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,6 +7121,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 166.37 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ecf181c6-4f44-44a0-8590-b959d466623b")
 		)
@@ -7010,7 +7141,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R20")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7028,7 +7159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e0f4c1b-3e01-4a7d-b698-b2c6c9ca7d07")
-		(property "Reference" "C41"
+		(property "Reference" "C6"
 			(at 158.75 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7114,6 +7245,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 154.94 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68b1f073-d21c-4d4e-a63f-f8d6a23339b2")
 		)
@@ -7123,7 +7265,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C41")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7141,7 +7283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd95a79-f204-4316-a95b-5ab4077b0bb8")
-		(property "Reference" "Q7"
+		(property "Reference" "Q5"
 			(at 248.92 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,6 +7396,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 243.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c18dd95e-f194-4b30-ae12-bdeb9b50838a")
 		)
@@ -7266,7 +7419,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "Q7")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -7284,7 +7437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62d022b3-6965-470a-bf54-61aa3c97310f")
-		(property "Reference" "C36"
+		(property "Reference" "C9"
 			(at 118.11 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7370,6 +7523,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 114.3 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c48830b7-f53b-4166-9b73-b30dfee88e92")
 		)
@@ -7379,7 +7543,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C36")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7396,7 +7560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64a94e45-5770-4825-831f-a8e0ac1ddcaf")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 219.71 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7495,6 +7659,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 217.17 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1bf6fcaa-7901-4d70-bedd-b808aea4535e")
 		)
@@ -7504,7 +7679,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7522,7 +7697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "705fe19f-e3b2-462e-8398-9d05c797702c")
-		(property "Reference" "R22"
+		(property "Reference" "R5"
 			(at 237.236 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7610,6 +7785,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 238.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53afeb49-6cd3-48fc-97fa-48b9369be29f")
 		)
@@ -7619,7 +7805,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R22")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7637,7 +7823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f7775e-cd64-4abf-ab9b-50027942ca6e")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 105.41 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7732,7 +7918,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7824,7 +8010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "778895a4-235f-4e56-af8d-cd4e741bd170")
-		(property "Reference" "C46"
+		(property "Reference" "C2"
 			(at 149.606 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7911,6 +8097,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 148.59 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2bae2bd4-fd9c-48eb-afff-466c4e73a476")
 		)
@@ -7920,7 +8117,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C46")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7938,7 +8135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8780d385-6e38-4257-8483-1c69a8de169b")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 318.77 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,6 +8245,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 318.77 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5efd55e7-29e5-4c1e-97cb-f1522e20afd4")
 		)
@@ -8060,7 +8268,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8077,7 +8285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "904839a0-10b4-47a0-b722-7e5eba7e2c9d")
-		(property "Reference" "C47"
+		(property "Reference" "C1"
 			(at 161.036 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8164,6 +8372,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 160.02 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "915b88b4-5555-462e-854c-7cd2438aba3e")
 		)
@@ -8173,7 +8392,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C47")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8270,6 +8489,17 @@
 			)
 		)
 		(property "JLCPCB P/N" "C529355"
+			(at 134.62 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 134.62 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8451,7 +8681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98f1ba3f-fe89-4573-9909-934ab02ca168")
-		(property "Reference" "R19"
+		(property "Reference" "R1"
 			(at 160.528 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8539,6 +8769,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 158.75 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6849e01c-22fa-4d6b-bf51-a364ea5ff021")
 		)
@@ -8548,7 +8789,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R19")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8566,7 +8807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b27235b-197b-40f9-88ac-601668931abb")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 285.3533 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,6 +8896,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 283.21 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "635cebf5-fb64-412e-a31f-85dcab85fc08")
 		)
@@ -8682,7 +8934,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8700,7 +8952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2d05adb-13fb-4b0f-b7d6-ea40232a09b8")
-		(property "Reference" "C42"
+		(property "Reference" "C21"
 			(at 167.132 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8788,6 +9040,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 166.37 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71dbda71-87a3-40d9-93f9-4cf42d51026b")
 		)
@@ -8797,7 +9060,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C42")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8815,7 +9078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac9f2cd3-cd7b-4513-9181-621fae6d5061")
-		(property "Reference" "R21"
+		(property "Reference" "R7"
 			(at 214.376 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8903,6 +9166,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 215.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7c515d4-51cc-4303-ac49-1e047656f709")
 		)
@@ -8912,7 +9186,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R21")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8930,7 +9204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0a58053-7f9a-4060-b1fd-43732eb223ee")
-		(property "Reference" "C43"
+		(property "Reference" "C22"
 			(at 212.09 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9018,6 +9292,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 215.9 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e616f14d-e4b4-4fa2-aa8b-070c6f55295e")
 		)
@@ -9027,7 +9312,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C43")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9045,7 +9330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1534d98-6357-474e-a983-5a1ef5692a48")
-		(property "Reference" "C38"
+		(property "Reference" "C8"
 			(at 138.43 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,6 +9416,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 134.62 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f710ee7-fe04-46d9-a228-759b774cb9c3")
 		)
@@ -9140,7 +9436,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C38")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9158,7 +9454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6f943bf-9e31-4aca-b04b-67b3af0b0bb3")
-		(property "Reference" "C40"
+		(property "Reference" "C11"
 			(at 148.59 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9244,6 +9540,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 144.78 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7693bd4-9496-4eea-a20e-2cb5181a28ae")
 		)
@@ -9253,7 +9560,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C40")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9aab6a7-dc83-4d38-87ae-9033d5506f38")
-		(property "Reference" "R24"
+		(property "Reference" "R3"
 			(at 214.63 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9357,6 +9664,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 217.17 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62da78b6-7092-4211-8432-3e2bc6549e2b")
 		)
@@ -9366,7 +9684,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R24")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9472,6 +9790,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 260.35 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c10b48b4-769e-4cf7-a3b8-bd36374f6a9a")
 		)
@@ -9499,7 +9828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6607392-e18f-418d-89d6-80ecc781954f")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 130.81 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9552,6 +9881,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c49972c-1f1c-4937-aa15-6a9ee2eba4c1")
 		)
@@ -9570,7 +9910,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9588,7 +9928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd326922-133c-4ad9-96d9-9ae2345a587e")
-		(property "Reference" "C45"
+		(property "Reference" "C36"
 			(at 269.24 115.8239 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9676,6 +10016,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 273.05 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61df3490-ace0-4fb4-a7f1-6a3eb1e96406")
 		)
@@ -9685,7 +10036,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C45")
+					(reference "C36")
 					(unit 1)
 				)
 			)
