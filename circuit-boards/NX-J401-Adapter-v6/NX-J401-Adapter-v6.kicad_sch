@@ -6,11 +6,11 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2026-05-10")
+		(date "2026-05-25")
 		(rev "6")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x18_Pin"
+		(symbol "Connector:Conn_01x15_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,7 +21,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 22.86 0)
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -30,8 +30,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x18_Pin"
-				(at 0 -25.4 0)
+			(property "Value" "Conn_01x15_Pin"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -62,7 +62,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x18, script generated"
+			(property "Description" "Generic connector, single row, 01x15, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -105,18 +105,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x18_Pin_1_1"
-				(rectangle
-					(start 0.8636 20.447)
-					(end 0 20.193)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "Conn_01x15_Pin_1_1"
 				(rectangle
 					(start 0.8636 17.907)
 					(end 0 17.653)
@@ -280,40 +269,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -20.193)
-					(end 0 -20.447)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -22.733)
-					(end 0 -22.987)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 20.32) (xy 0.8636 20.32)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -496,32 +451,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -20.32) (xy 0.8636 -20.32)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -22.86) (xy 0.8636 -22.86)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at 5.08 20.32 180)
+					(at 5.08 17.78 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -539,7 +470,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 17.78 180)
+					(at 5.08 15.24 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -557,7 +488,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 15.24 180)
+					(at 5.08 12.7 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -575,7 +506,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 12.7 180)
+					(at 5.08 10.16 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -593,7 +524,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 10.16 180)
+					(at 5.08 7.62 180)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -611,7 +542,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 7.62 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -629,7 +560,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -647,7 +578,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -665,7 +596,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -683,7 +614,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -701,7 +632,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -7.62 180)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -719,7 +650,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at 5.08 -10.16 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -737,7 +668,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -10.16 180)
+					(at 5.08 -12.7 180)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -755,7 +686,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -12.7 180)
+					(at 5.08 -15.24 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -773,7 +704,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -15.24 180)
+					(at 5.08 -17.78 180)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -783,60 +714,6 @@
 						)
 					)
 					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -17.78 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -20.32 180)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -22.86 180)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3325,6 +3202,48 @@
 		)
 		(uuid "fb55e931-f853-4e34-a0c8-80cdc7836ddd")
 	)
+	(text_box "Mating Connector:\nHousing: Molex 0436450200\nPrecrimped 24AWG wire 450mm: \n   Black: Molex 2147601225\n   Red:   Molex 2147602225"
+		(exclude_from_sim no)
+		(at 16.51 48.26 0)
+		(size 55.88 12.1268)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 0.1019607843)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "24cacc75-5bd8-414c-8c10-1a1ccf753a40")
+	)
+	(text_box "Mating Connector:\nHousing: Molex 0436450200\nPrecrimped 24AWG wire 450mm: \n   Black: Molex 2147601225\n   Red:   Molex 2147602225"
+		(exclude_from_sim no)
+		(at 356.87 50.8 0)
+		(size 55.88 12.1268)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 0.1019607843)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "553a907b-fb02-4b42-96f6-de4c5681d556")
+	)
 	(text_box "Mating Connector:\nHousing: Molex 5040510401\nPrecrimped 24AWG wire 150mm: Molex 0797581003"
 		(exclude_from_sim no)
 		(at 15.24 119.38 0)
@@ -3533,16 +3452,6 @@
 			(type default)
 		)
 		(uuid "0588b9df-d38f-419b-9d95-3a27ce4fb34b")
-	)
-	(wire
-		(pts
-			(xy 60.96 172.72) (xy 44.45 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "082739be-dd54-43e6-b541-cf343283b60e")
 	)
 	(wire
 		(pts
@@ -3776,16 +3685,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 167.64) (xy 44.45 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4393e6db-0888-409f-bcdf-2db8b6e3eae7")
-	)
-	(wire
-		(pts
 			(xy 269.24 45.72) (xy 269.24 53.34)
 		)
 		(stroke
@@ -3873,16 +3772,6 @@
 			(type default)
 		)
 		(uuid "5486c090-ea85-4ebf-b686-e29e8ba2a898")
-	)
-	(wire
-		(pts
-			(xy 48.26 170.18) (xy 44.45 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c292d29-a475-45f5-83df-c47ee0ac768c")
 	)
 	(wire
 		(pts
@@ -4203,16 +4092,6 @@
 			(type default)
 		)
 		(uuid "b719dc48-64ea-4f93-90c6-ad3832e9adbf")
-	)
-	(wire
-		(pts
-			(xy 60.96 173.99) (xy 60.96 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7a802a3-10bb-4a12-972f-282081ddfbfe")
 	)
 	(wire
 		(pts
@@ -4574,16 +4453,6 @@
 		)
 		(uuid "79f58c0a-66d7-4452-aea4-c489feaa333c")
 	)
-	(label "CAN_RX"
-		(at 48.26 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d4e2994-1980-4fc8-9d4e-474b9364dea0")
-	)
 	(label "NX_PC_LED+"
 		(at 48.26 185.42 0)
 		(effects
@@ -4684,16 +4553,6 @@
 		)
 		(uuid "b9975e9b-8f50-4478-9f34-2b1d4c520af8")
 	)
-	(label "CAN_TX"
-		(at 48.26 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8326e42-ac9d-4279-bf9c-1475e66d09c2")
-	)
 	(label "NX_PC_LED-"
 		(at 48.26 182.88 0)
 		(effects
@@ -4726,7 +4585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0863c514-1ac8-4471-93e4-8cf1cdca7f8b")
-		(property "Reference" "H4"
+		(property "Reference" "H6"
 			(at 298.45 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4654,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H4")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -5063,40 +4922,41 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 173.99 0)
-		(mirror y)
+		(lib_id "Mechanical:MountingHole")
+		(at 326.39 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "44e48462-3af9-414d-ba57-7857a166aeb7")
-		(property "Reference" "#PWR033"
-			(at 60.96 180.34 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "33b0de9b-a584-4395-ad11-62141cd7ec7e")
+		(property "Reference" "H9"
+			(at 328.93 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND1"
-			(at 60.96 177.8 0)
+		(property "Value" "MountingHole"
+			(at 328.93 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 60.96 173.99 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 326.39 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,7 +4967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 173.99 0)
+			(at 326.39 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5117,8 +4977,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 173.99 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 326.39 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,13 +4988,21 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "068ed76c-ce4e-409c-a493-561560659b9e")
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 326.39 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "#PWR033")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -5263,7 +5131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
+		(property "Datasheet" ""
 			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5285,7 +5153,7 @@
 				)
 			)
 		)
-		(property "DIST" "Digikey"
+		(property "DIST" ""
 			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5296,7 +5164,7 @@
 				)
 			)
 		)
-		(property "DIST P/N" "1080-1419-1-ND"
+		(property "DIST P/N" ""
 			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5307,7 +5175,7 @@
 				)
 			)
 		)
-		(property "MFG" "Everlight"
+		(property "MFG" "BrtLed(Bright LED Elec)"
 			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5318,7 +5186,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
+		(property "MFG P/N" "BL-HGK33-TRB "
 			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5331,6 +5199,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 168.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C5123493"
+			(at 168.91 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5437,6 +5316,93 @@
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 326.39 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f16cab4-d136-4b0a-9c15-20218397f5ec")
+		(property "Reference" "H7"
+			(at 328.93 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 328.93 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 326.39 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 326.39 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 326.39 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -6220,188 +6186,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x18_Pin")
-		(at 39.37 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "718a2662-39c3-4234-9ab7-da5ca0d6e49b")
-		(property "Reference" "J5"
-			(at 40.132 160.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NX CONTROL & UART"
-			(at 40.132 163.322 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Horizontal"
-			(at 39.37 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/Adam-Tech-ph1rb-xx-ua.pdf"
-			(at 39.37 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN HEADER R/A 18POS 2.54MM"
-			(at 39.37 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Adam Tech"
-			(at 36.322 214.376 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MFG P/N" "PH1RB-18-UA"
-			(at 36.322 216.662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 39.37 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST P/N" "2057-PH1RB-18-UA-ND"
-			(at 39.37 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 39.37 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8e5b258d-2da1-4244-8a11-1810d6526ccb")
-		)
-		(pin "17"
-			(uuid "bdbd65e3-61d8-4c21-b731-ba88779a4768")
-		)
-		(pin "6"
-			(uuid "b58dad44-99d4-4211-bb3d-03869a6e8b90")
-		)
-		(pin "18"
-			(uuid "de2a1a0b-2e74-45a2-b5a2-c52ec78b3a10")
-		)
-		(pin "3"
-			(uuid "ada7d75f-e8e8-4963-a2f9-dae59af9e4ca")
-		)
-		(pin "7"
-			(uuid "26e2ee99-5a9c-4b33-97a9-aeb637206335")
-		)
-		(pin "14"
-			(uuid "c9f4ebe5-007b-48ea-976e-5cae345b1b38")
-		)
-		(pin "13"
-			(uuid "39f56c3e-c68d-475c-a810-7704605e1768")
-		)
-		(pin "4"
-			(uuid "ca594ec9-9571-428b-9391-e31a7822a081")
-		)
-		(pin "12"
-			(uuid "ec1a60ad-4533-4f1e-bdf9-fdcab9ba8049")
-		)
-		(pin "10"
-			(uuid "81562fc6-e3e4-4878-8bbb-108d7c71825f")
-		)
-		(pin "11"
-			(uuid "95ec564f-9ea1-4cc3-9bef-0de058361896")
-		)
-		(pin "16"
-			(uuid "546161eb-f79d-48ba-af93-10bba4007dbe")
-		)
-		(pin "15"
-			(uuid "11e0dd3f-e64e-40e6-8b18-1ffd2901d946")
-		)
-		(pin "8"
-			(uuid "ae6bd2ba-ff06-4a7e-a1e8-d8bef81c31bb")
-		)
-		(pin "9"
-			(uuid "81cf5d1c-5356-4b6e-955c-99d0146c6d55")
-		)
-		(pin "5"
-			(uuid "a432eb14-0d86-423e-9176-d23243209d87")
-		)
-		(pin "1"
-			(uuid "fea9a95f-472e-4bf3-ac62-4a7d58ff17e9")
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NX-J401-Adapter:TI-LM74700QDBVRQ1")
 		(at 281.94 66.04 0)
 		(unit 1)
@@ -6920,7 +6704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3b15f1-c5f2-4462-a3ad-d1a849f07198")
-		(property "Reference" "H3"
+		(property "Reference" "H5"
 			(at 298.45 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6989,7 +6773,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H3")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7007,7 +6791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b097381b-f334-4407-bfcf-9e9b28f1a4aa")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 347.726 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7135,7 +6919,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7367,6 +7151,17 @@
 			)
 		)
 		(property "DIST P/N" "36-7774-ND"
+			(at 393.7 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
 			(at 393.7 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7696,10 +7491,205 @@
 				)
 			)
 		)
+		(property "JLCPCB P/N" "XXXXXX"
+			(at 393.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x15_Pin")
+		(at 39.37 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d62bd688-1957-4101-8f79-7940b4351d3c")
+		(property "Reference" "J3"
+			(at 40.005 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NX CONTROL & UART"
+			(at 40.005 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Horizontal"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Components/Adam-Tech-ph1rb-xx-ua.pdf"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST P/N" "2057-PH1RB-15-UA-ND"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Molex"
+			(at 37.846 213.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MFG P/N" "PH1RB-15-UA"
+			(at 37.846 215.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "412f134f-23fa-4af5-b5be-7e3178903516")
+		)
+		(pin "11"
+			(uuid "d25f9ea7-c018-4ff3-96bb-603a4a7e2ef6")
+		)
+		(pin "1"
+			(uuid "3f8db49a-f0f2-4409-8433-72a85fd63e2e")
+		)
+		(pin "15"
+			(uuid "7656a4e0-0f75-4ebd-be47-d8637b84ce7c")
+		)
+		(pin "5"
+			(uuid "510e4332-2735-434f-a7e2-ea4705b75728")
+		)
+		(pin "13"
+			(uuid "e94f30cf-0a2c-4299-8746-ab2fd2c7b1c5")
+		)
+		(pin "10"
+			(uuid "ad4755b8-d553-424d-8e82-2e16109e5bab")
+		)
+		(pin "7"
+			(uuid "e0f83301-cba5-4b37-aece-8a556226894d")
+		)
+		(pin "2"
+			(uuid "f188af56-7c23-4a32-a16c-cb8f43d3287c")
+		)
+		(pin "3"
+			(uuid "bfcecd2a-646b-4c99-b9f4-7fa4ba524d9f")
+		)
+		(pin "6"
+			(uuid "6a54a69c-0ba6-4ff8-9b3e-aaf722d63c7f")
+		)
+		(pin "9"
+			(uuid "ca0535d9-e487-4d65-8407-0a65966f04d9")
+		)
+		(pin "12"
+			(uuid "f8e3144e-b4f2-4d20-a674-27007ecc5296")
+		)
+		(pin "4"
+			(uuid "07c14fed-f3d5-4025-88c4-dd4d703432b8")
+		)
+		(pin "14"
+			(uuid "7da46c66-069e-432d-ade3-1ef1f7756b2c")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7794,7 +7784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1fb7999-d617-46bc-8edf-cc761b59d499")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 85.09 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7917,7 +7907,94 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "J6")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 326.39 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23ce306-e1ff-4d65-bdff-17f767dbbb54")
+		(property "Reference" "H8"
+			(at 328.93 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 328.93 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 326.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -8092,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
+		(property "Datasheet" ""
 			(at 114.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8114,7 +8191,7 @@
 				)
 			)
 		)
-		(property "DIST" "Digikey"
+		(property "DIST" ""
 			(at 114.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8125,7 +8202,7 @@
 				)
 			)
 		)
-		(property "DIST P/N" "1080-1419-1-ND"
+		(property "DIST P/N" ""
 			(at 114.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8136,7 +8213,7 @@
 				)
 			)
 		)
-		(property "MFG" "Everlight"
+		(property "MFG" "BrtLed(Bright LED Elec)"
 			(at 114.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8147,7 +8224,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "QTLP650D4TR/QT15-21SYGD/S530-E2/TR8"
+		(property "MFG P/N" "BL-HGK33-TRB "
 			(at 114.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8160,6 +8237,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 114.3 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C5123493"
+			(at 114.3 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

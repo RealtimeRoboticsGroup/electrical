@@ -10,7 +10,7 @@
 		(rev "5")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x18_Socket"
+		(symbol "Connector:Conn_01x15_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,7 +21,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 22.86 0)
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -30,8 +30,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x18_Socket"
-				(at 0 -25.4 0)
+			(property "Value" "Conn_01x15_Socket"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -62,7 +62,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x18, script generated"
+			(property "Description" "Generic connector, single row, 01x15, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -105,19 +105,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x18_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 20.32) (xy -0.508 20.32)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x15_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 17.78) (xy -0.508 17.78)
@@ -290,42 +278,6 @@
 					(pts
 						(xy -1.27 -17.78) (xy -0.508 -17.78)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -20.32) (xy -0.508 -20.32)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -22.86) (xy -0.508 -22.86)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 19.812)
-					(mid -0.5058 20.32)
-					(end 0 20.828)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -514,32 +466,8 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -20.828)
-					(mid -0.5058 -20.32)
-					(end 0 -19.812)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -23.368)
-					(mid -0.5058 -22.86)
-					(end 0 -22.352)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 20.32 0)
+					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -557,7 +485,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 17.78 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -575,7 +503,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 15.24 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -593,7 +521,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -611,7 +539,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -629,7 +557,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -647,7 +575,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -665,7 +593,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -683,7 +611,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -701,7 +629,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -719,7 +647,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -737,7 +665,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -755,7 +683,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -773,7 +701,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -791,7 +719,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -801,60 +729,6 @@
 						)
 					)
 					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 0)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -20.32 0)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -22.86 0)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1076,50 +950,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "BLACK"
-		(exclude_from_sim no)
-		(at 125.73 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09c8b1ee-e40f-43cf-b6c1-688af84740e4")
-	)
-	(text "YELLOW"
-		(exclude_from_sim no)
-		(at 125.73 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4c36f394-44ca-4b6b-a7a1-fbf5efa7df14")
-	)
-	(text "BLUE"
-		(exclude_from_sim no)
-		(at 125.73 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5fc6e913-99ca-4376-8e02-b498094c5659")
-	)
-	(text "RED"
-		(exclude_from_sim no)
-		(at 125.73 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b716c56-6f0f-4a49-a789-74015f68e381")
-	)
 	(text "AC OK"
 		(exclude_from_sim no)
 		(at 135.89 118.11 0)
@@ -1142,28 +972,6 @@
 		)
 		(uuid "763553bd-5135-463a-a170-8b693788290d")
 	)
-	(text "YELLOW"
-		(exclude_from_sim no)
-		(at 125.73 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a88d173-4f6c-4fe4-89eb-666acccdf8be")
-	)
-	(text "RED"
-		(exclude_from_sim no)
-		(at 125.73 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "827cb983-dd75-4b70-9a0a-63445802ccb6")
-	)
 	(text "Auto Power On Disable"
 		(exclude_from_sim no)
 		(at 135.89 120.65 0)
@@ -1175,17 +983,6 @@
 		)
 		(uuid "8b0e33ee-abbd-4044-a9bb-b694853861ae")
 	)
-	(text "BLUE"
-		(exclude_from_sim no)
-		(at 125.73 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9d9e2726-e67a-441c-a172-b2e1efe406cc")
-	)
 	(text "SLEEP/WAKE*"
 		(exclude_from_sim no)
 		(at 135.89 135.89 0)
@@ -1196,50 +993,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1203806-3ffb-47c9-8afa-d34e2e5f9e98")
-	)
-	(text "GREEN"
-		(exclude_from_sim no)
-		(at 125.73 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7eb1936-1b0d-4ff8-b295-7d2a63fd8db3")
-	)
-	(text "BLACK"
-		(exclude_from_sim no)
-		(at 127 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d25b6b5d-6905-4e5f-9706-4cbe35e60e8e")
-	)
-	(text "GREEN"
-		(exclude_from_sim no)
-		(at 125.73 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d832388d-0111-4258-99c3-ea1d7c5409c9")
-	)
-	(text "WHITE"
-		(exclude_from_sim no)
-		(at 125.73 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed55ae31-a9c5-4e5d-a843-a92c34d6a5ae")
 	)
 	(no_connect
 		(at 161.29 102.87)
@@ -1361,16 +1114,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 92.71) (xy 161.29 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc6d74d-dfe6-4b19-a823-8adcff303a07")
-	)
-	(wire
-		(pts
 			(xy 132.08 107.95) (xy 161.29 107.95)
 		)
 		(stroke
@@ -1378,26 +1121,6 @@
 			(type default)
 		)
 		(uuid "c4601d6c-542f-48cd-9437-b7b4194b349c")
-	)
-	(wire
-		(pts
-			(xy 132.08 97.79) (xy 161.29 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e357b1dc-d5f0-4345-ae6d-6ec2441aca15")
-	)
-	(wire
-		(pts
-			(xy 132.08 95.25) (xy 161.29 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb32fb4c-dae0-48f1-9ae2-2e2a4a40e62a")
 	)
 	(wire
 		(pts
@@ -1449,26 +1172,6 @@
 		)
 		(uuid "610a32a0-2ac1-45a6-94a7-ee4b0a565ef3")
 	)
-	(label "CAN_TX"
-		(at 135.89 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f81ce1c-4b20-4eb3-8fae-a456da33b3e4")
-	)
-	(label "CAN_RX"
-		(at 135.89 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a404da66-599a-47ec-9b0a-29098ece7bc7")
-	)
 	(label "UART2_TXD"
 		(at 135.89 115.57 0)
 		(effects
@@ -1488,16 +1191,6 @@
 			(justify left bottom)
 		)
 		(uuid "adf964d4-d871-46fc-85a0-1ca88e40ee09")
-	)
-	(label "GND_BTN"
-		(at 135.89 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c162a76b-cecc-4d13-a45c-c7f3bcd67ba1")
 	)
 	(label "NX_PC_LED-"
 		(at 135.89 107.95 0)
@@ -1530,195 +1223,6 @@
 		(uuid "fa9f6cab-81de-4640-9555-13d037ad3ccc")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x18_Socket")
-		(at 127 113.03 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0a46d5a7-c9f4-44cd-9690-f2665741e045")
-		(property "Reference" "J4"
-			(at 128.27 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NX CONTROL & UART"
-			(at 129.54 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical"
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/Sullins-Female_Headers.100_DS.pdf"
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Sullins Connector Solutions"
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "PPTC181LFBN-RC"
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST P/N" "S7016-ND"
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "927c9b9d-c885-4850-8e99-7e214842e466")
-		)
-		(pin "18"
-			(uuid "45df2772-e482-48f6-80d7-5285aac8f7c8")
-		)
-		(pin "1"
-			(uuid "fa83f3e5-87aa-4a93-b18d-26d73cae97c9")
-		)
-		(pin "10"
-			(uuid "4e4c8263-c06e-41ba-8f32-a9d615288af5")
-		)
-		(pin "6"
-			(uuid "4d295196-d542-4b44-91b7-81dbe7a1931b")
-		)
-		(pin "7"
-			(uuid "f4e703d4-73fe-44cd-a242-c7dc7c428863")
-		)
-		(pin "13"
-			(uuid "ecc557d6-9b00-401e-9f56-89dee4121062")
-		)
-		(pin "5"
-			(uuid "6fdd2837-6c65-49ab-88a0-f774d627487d")
-		)
-		(pin "17"
-			(uuid "6e7b547b-1be2-4072-b697-7d0833fdcbd9")
-		)
-		(pin "16"
-			(uuid "7bf7f5b9-e291-43d7-a1f0-252c81920053")
-		)
-		(pin "8"
-			(uuid "55df5ea2-536d-41cd-b518-fba8a411caa9")
-		)
-		(pin "4"
-			(uuid "7e62e3a5-a434-473b-b171-68883a93f1b2")
-		)
-		(pin "9"
-			(uuid "242bafe8-48d0-426c-bff5-3d0b2d347242")
-		)
-		(pin "3"
-			(uuid "e708c7f4-4549-4334-9a6e-cd9502d5299a")
-		)
-		(pin "14"
-			(uuid "e09239c0-bd89-4965-9cc3-fb5811013323")
-		)
-		(pin "15"
-			(uuid "b1547322-b961-4d31-8e6f-9aaec64bc4d9")
-		)
-		(pin "11"
-			(uuid "f61d67ba-d59d-4464-b515-1b8c2aecbe26")
-		)
-		(pin "12"
-			(uuid "8e7621a9-ae10-4130-8d92-c52c99006f9c")
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-			(project "NX-J401-Adapter"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/93b0701a-200b-439a-9431-66cd35259686"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 217.17 102.87 0)
 		(unit 1)
@@ -1730,7 +1234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "364958cc-2516-4abb-8ee6-9d377accd907")
-		(property "Reference" "H5"
+		(property "Reference" "H3"
 			(at 219.71 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1799,15 +1303,16 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x18_Socket")
-		(at 166.37 113.03 0)
+		(lib_id "Connector:Conn_01x15_Socket")
+		(at 127 118.11 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1815,9 +1320,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "904f69f9-2140-473f-ab20-036fb66930f6")
-		(property "Reference" "J3"
-			(at 165.1 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "99f72e29-a049-4893-a6ef-9a8692f5d4ce")
+		(property "Reference" "J6"
+			(at 127.635 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1827,7 +1333,7 @@
 			)
 		)
 		(property "Value" "NX CONTROL & UART"
-			(at 163.83 87.63 0)
+			(at 127.635 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1836,8 +1342,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical"
-			(at 166.37 113.03 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1848,7 +1354,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Sullins-Female_Headers.100_DS.pdf"
-			(at 166.37 113.03 0)
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,8 +1364,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 166.37 113.03 0)
+		(property "Description" "Generic connector, single row, 01x15, script generated"
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1870,7 +1376,7 @@
 			)
 		)
 		(property "MFG" "Sullins Connector Solutions"
-			(at 166.37 113.03 0)
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1880,8 +1386,8 @@
 				)
 			)
 		)
-		(property "MFG P/N" "PPTC181LFBN-RC"
-			(at 166.37 113.03 0)
+		(property "MFG P/N" "PPTC151LFBN-RC"
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1892,7 +1398,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 166.37 113.03 0)
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1902,8 +1408,8 @@
 				)
 			)
 		)
-		(property "DIST P/N" "S7016-ND"
-			(at 166.37 113.03 0)
+		(property "DIST P/N" "S7013-ND"
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +1420,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 166.37 113.03 0)
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,64 +1430,250 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d35de41f-dbab-4d8e-b9ab-cefc689d9aac")
-		)
-		(pin "18"
-			(uuid "27b29b03-849a-43f4-893d-8ec10bb142c3")
-		)
-		(pin "1"
-			(uuid "ca7b2cf3-c656-4859-9441-aec66983b689")
-		)
-		(pin "10"
-			(uuid "a5060300-3b47-4869-aa66-f2632c379525")
-		)
-		(pin "6"
-			(uuid "b2ceccec-f97c-4dc8-878b-a6d0c664b172")
-		)
-		(pin "7"
-			(uuid "48b979da-32e2-4cab-a89b-38e94191ce16")
-		)
-		(pin "13"
-			(uuid "7c2203b7-35b8-49c4-bca6-663719cd2c43")
-		)
-		(pin "5"
-			(uuid "9d870767-7576-451b-b297-23f23c28f5ac")
-		)
-		(pin "17"
-			(uuid "ef8a90d0-dc3c-493d-a37d-040fda1bf1c0")
-		)
-		(pin "16"
-			(uuid "a6c69f82-c548-4e82-a05d-dea6ca8ae88a")
-		)
-		(pin "8"
-			(uuid "6bc1adab-903b-46ce-8f9b-24a52deaa569")
-		)
-		(pin "4"
-			(uuid "cfdcaf84-aea0-432f-ba0b-866c3bf4da12")
-		)
-		(pin "9"
-			(uuid "c0ea66c2-8e4c-433d-8142-ceb0ac4af23c")
-		)
-		(pin "3"
-			(uuid "4c27ccd7-ff80-4ad2-b673-43ad09c3cac7")
-		)
-		(pin "14"
-			(uuid "30617b75-f8db-42b1-9a7f-9ee4711494bb")
+		(property "JLCPCB P/N" "XXXXXX"
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "15"
-			(uuid "aa491b8a-b249-49ed-bbc7-c6bd6c8b9a04")
+			(uuid "7854d692-e4b7-4422-9c5e-f3e2fd1d95d3")
 		)
 		(pin "11"
-			(uuid "b72c94ee-c8b9-4823-8edc-d41b056e0133")
+			(uuid "6d407bbe-1e71-4706-8bdd-6f94d02f4ad7")
 		)
 		(pin "12"
-			(uuid "1395d97a-5090-4bef-a828-d32a6328fca3")
+			(uuid "db2c7479-9648-4dc9-aff0-8043af8aed7d")
+		)
+		(pin "10"
+			(uuid "5cb2ef6e-61b0-42db-bfbd-ee54e189d7df")
+		)
+		(pin "8"
+			(uuid "404b36a5-d88d-49af-a926-4b4f0272f4c6")
+		)
+		(pin "13"
+			(uuid "f93eb8aa-5455-4ede-a11f-aabc3a07ce5e")
+		)
+		(pin "14"
+			(uuid "cfd3c532-cfec-4ab3-8919-8ad60a801184")
+		)
+		(pin "5"
+			(uuid "1b2f5321-b9db-4e80-8b47-940744464fe5")
+		)
+		(pin "4"
+			(uuid "23865610-23cc-4808-b257-23f36eaf3539")
+		)
+		(pin "3"
+			(uuid "c9d665c4-b305-48c1-8cb7-81ddef06b01e")
+		)
+		(pin "1"
+			(uuid "63d79d03-5db7-4808-bed2-7dd377338f54")
+		)
+		(pin "6"
+			(uuid "4ee53934-4ea5-46b4-8fc7-628b61b7c64e")
+		)
+		(pin "2"
+			(uuid "575f9b3a-6650-4431-96b1-5d392802555e")
+		)
+		(pin "7"
+			(uuid "49ff6223-c9e6-4b3a-b2e9-3d454aaf443b")
+		)
+		(pin "9"
+			(uuid "0b3f75bb-08cf-49c0-a43d-5bb70d676f0b")
 		)
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
-					(reference "J3")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x15_Socket")
+		(at 166.37 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a218bb44-d32f-4eb3-8408-459a73b3c281")
+		(property "Reference" "J7"
+			(at 165.735 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NX CONTROL & UART"
+			(at 165.735 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Components/Sullins-Female_Headers.100_DS.pdf"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Sullins Connector Solutions"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "PPTC151LFBN-RC"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST P/N" "S7013-ND"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "7972a8d8-f88c-4bb1-aa4b-46ff52978883")
+		)
+		(pin "11"
+			(uuid "cf6a27b0-3610-4272-9898-f37d50c6942b")
+		)
+		(pin "12"
+			(uuid "34f3452f-df62-4048-a131-5ca7b5fa64e4")
+		)
+		(pin "10"
+			(uuid "1c866e3a-40a8-4366-9d02-4730c4b67e3c")
+		)
+		(pin "8"
+			(uuid "e113317a-9ad5-459e-a496-ea3f6e69ecc8")
+		)
+		(pin "13"
+			(uuid "baebbec4-62e5-4f38-8840-a04f454b6a53")
+		)
+		(pin "14"
+			(uuid "9bc294f5-3d60-44ab-93bd-9d0dc45f226e")
+		)
+		(pin "5"
+			(uuid "da87dfdf-57fe-456b-abea-21b7f81c952b")
+		)
+		(pin "4"
+			(uuid "3df36a50-3b5b-41fa-9156-8f999cad9b22")
+		)
+		(pin "3"
+			(uuid "34e32cb0-69d5-49a6-ad9c-efefde3ee9e2")
+		)
+		(pin "1"
+			(uuid "86c3e7f3-17d4-4ca0-b974-f9c200bd8990")
+		)
+		(pin "6"
+			(uuid "9310800f-ded9-45ca-bf6d-85f39013f5bb")
+		)
+		(pin "2"
+			(uuid "06229482-8e4d-406f-b26a-4f048ef0da23")
+		)
+		(pin "7"
+			(uuid "8b417691-61c7-4875-9c2c-cf7766951bac")
+		)
+		(pin "9"
+			(uuid "81842f6a-9f46-43d8-bb74-08a86c5d0b7b")
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d084ec4a-c22f-421d-86d1-a6746b47d43c")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 219.71 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2068,7 +1760,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 9.5,
-          "width": 3.4
+          "drill": 2.5,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,8 +60,8 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.381,
-          "min_island_area": 9.99999999996,
+          "min_clearance": 0.254,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -810,13 +810,13 @@
           "group_by": false,
           "label": "MFG",
           "name": "MFG",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MFG P/N",
           "name": "MFG P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -840,13 +840,13 @@
           "group_by": false,
           "label": "DIST P/N",
           "name": "DIST P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "DIST",
           "name": "DIST",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -859,6 +859,12 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -866,7 +872,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -909,7 +915,7 @@
         "uuid": "3c9fa76f-2b37-4666-8575-58caa65def04"
       }
     ],
-    "used_designators": "H5-6",
+    "used_designators": "J5,J12-13,H5-9",
     "variants": []
   },
   "sheets": [
