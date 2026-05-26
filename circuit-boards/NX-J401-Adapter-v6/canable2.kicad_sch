@@ -6208,7 +6208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Components/Adam-Tech-ph1rb-xx-ua.pdf"
 			(at 317.5 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6275,6 +6275,17 @@
 			)
 		)
 		(property "DIST P/N" "2057-PH1RB-05-UA-ND"
+			(at 317.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
 			(at 317.5 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6805,7 +6816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
+		(property "Datasheet" ""
 			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6827,7 +6838,7 @@
 				)
 			)
 		)
-		(property "DIST" "Digikey"
+		(property "DIST" ""
 			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6838,7 +6849,7 @@
 				)
 			)
 		)
-		(property "DIST P/N" "1080-1418-1-ND"
+		(property "DIST P/N" ""
 			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6849,7 +6860,7 @@
 				)
 			)
 		)
-		(property "MFG" "Everlight"
+		(property "MFG" "XINGLIGHT"
 			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6860,7 +6871,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "QTLP650D3TR"
+		(property "MFG P/N" "XL-3216UYC "
 			(at 231.14 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6873,6 +6884,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 231.14 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C965824"
+			(at 231.14 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,7 +7615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Components/Everlight-QTLP650(C,D)-2,3,4,7,B.pdf"
+		(property "Datasheet" ""
 			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7615,7 +7637,7 @@
 				)
 			)
 		)
-		(property "DIST" "Digikey"
+		(property "DIST" ""
 			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7648,7 @@
 				)
 			)
 		)
-		(property "DIST P/N" "1080-1418-1-ND"
+		(property "DIST P/N" ""
 			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7637,7 +7659,7 @@
 				)
 			)
 		)
-		(property "MFG" "Everlight"
+		(property "MFG" "XINGLIGHT"
 			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7648,7 +7670,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "QTLP650D3TR"
+		(property "MFG P/N" "XL-3216UYC "
 			(at 217.17 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7661,6 +7683,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 217.17 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C965824"
+			(at 217.17 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,6 +9915,61 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Texas Instruments"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "TPS613222ADBVR"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST P/N" "296-50503-1-ND"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C2071163"
 			(at 130.81 43.18 0)
 			(hide yes)
 			(show_name no)

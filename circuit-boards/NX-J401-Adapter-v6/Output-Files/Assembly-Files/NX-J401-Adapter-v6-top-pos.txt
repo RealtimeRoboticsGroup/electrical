@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-05-25T16:34:02 ###
+### Footprint positions - created on 2026-05-25T21:29:24 ###
 ### Printed by KiCad version 10.0.3-10.0.3~ubuntu26.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -70,17 +70,20 @@ D8        STAT                         LED_1206_3216Metric                      
 D9        WORD                         LED_1206_3216Metric                                         8.2020    -5.5840  -90.0000  top
 H1        MountingHole                 MountingHole_2.5mm                                          6.2985    -3.0902    0.0000  top
 H2        MountingHole                 MountingHole_2.5mm                                          9.9206    -3.0902    0.0000  top
-H3        MountingHole                 MountingHole_2.5mm                                          6.2985    -5.3736    0.0000  top
-H4        MountingHole                 MountingHole_2.5mm                                          9.9206    -5.3736    0.0000  top
-H5        M3.7_MountingHole            MountingHole_3.7mm                                         10.3671    -3.0850    0.0000  top
-H6        M3.7_MountingHole            MountingHole_3.7mm                                         10.3671    -5.3490    0.0000  top
-J1        Terminal                     Keystone-7774                                               6.7150    -2.8922  180.0000  top
+H3        M3.7_MountingHole            MountingHole_3.7mm                                         10.3671    -3.3850    0.0000  top
+H4        M3.7_MountingHole            MountingHole_3.7mm                                         10.3671    -5.3490    0.0000  top
+H5        MountingHole                 MountingHole_2.5mm                                          6.2985    -5.3736    0.0000  top
+H6        MountingHole                 MountingHole_2.5mm                                          9.9206    -5.3736    0.0000  top
+H7        MountingHole                 MountingHole_2.5mm                                          6.6485    -3.0902    0.0000  top
+H8        MountingHole                 MountingHole_2.5mm                                          8.6600    -3.7450    0.0000  top
+H9        MountingHole                 MountingHole_2.5mm                                          8.9450    -5.5700    0.0000  top
+J1        Terminal                     Keystone-7774                                               7.0150    -2.8922  180.0000  top
 J2        Terminal                     Keystone-7774                                               8.9790    -2.8922  180.0000  top
-J3        NX_CONTROL_&_UART            PinSocket_1x18_P2.54mm_Vertical                            10.7195    -3.3670    0.0000  top
-J4        NX_CONTROL_&_UART            PinSocket_1x18_P2.54mm_Vertical                            10.3258    -3.3670    0.0000  top
-J5        NX_CONTROL_&_UART            PinHeader_1x18_P2.54mm_Horizontal                           6.9970    -3.3362   90.0000  top
-J6        USB1                         Molex-PicoLatch-5040500491                                  9.0667    -3.6110   90.0000  top
-J7        15V                          Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal      7.1931    -3.7491   90.0000  top
+J3        NX_CONTROL_&_UART            PinHeader_1x15_P2.54mm_Horizontal                           7.2970    -3.3362   90.0000  top
+J4        USB1                         Molex-PicoLatch-5040500491                                  9.0667    -3.6110   90.0000  top
+J5        15V                          Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal      7.5868    -3.6546   90.0000  top
+J6        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                            10.3258    -3.6670    0.0000  top
+J7        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                            10.7529    -3.6670    0.0000  top
 J8        SWD                          PinHeader_1x05_P2.54mm_Horizontal                           9.6624    -4.2650    0.0000  top
 J9        CAN1                         Molex-70555-0001                                            7.1090    -5.5318  -90.0000  top
 J10       POWER                        Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal      6.5841    -5.6849  180.0000  top
@@ -88,7 +91,7 @@ J11       USB_C_Receptacle_USB2.0_14P  GCT-USB-C-USB4110-GF-A                   
 L1        2.2uH-41mOhm-20%             KOHER-MDA4020-2R2M                                          9.5190    -3.6620   90.0000  top
 L2        2.2uH-19A-5.1mohm-20%        Koher-MDA1050                                               7.5200    -4.0200    0.0000  top
 L3        HZ0805E601R-10               L_0805_2012Metric                                           9.7000    -5.3980  180.0000  top
-LOGO1     SPACE_COOKIES_LOGO           SPACE_COOKIES_LOGO_15mm                                     8.8270    -5.1340    0.0000  top
+LOGO1     SPACE_COOKIES_LOGO           SPACE_COOKIES_LOGO_15mm                                     8.8500    -5.0800    0.0000  top
 LP1       ~                            Bivar-RLP4-200-500                                          7.9009    -5.5838    0.0000  top
 Q1        SI2301CDS-T1-GE3             SOT-23                                                      9.2750    -3.7050   90.0000  top
 Q2        CSD19534Q5A                  TI-SON5x6                                                   8.0926    -3.9300    0.0000  top
