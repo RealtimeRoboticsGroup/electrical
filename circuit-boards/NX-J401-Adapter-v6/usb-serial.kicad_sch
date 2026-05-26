@@ -6,8 +6,9 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2025-11-24")
-		(rev "5")
+		(date "2026-05-25")
+		(rev "6")
+		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
 		(symbol "Device:C_US"
