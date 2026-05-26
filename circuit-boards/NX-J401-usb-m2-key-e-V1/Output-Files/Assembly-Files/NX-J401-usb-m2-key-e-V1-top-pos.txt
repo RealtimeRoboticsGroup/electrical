@@ -1,0 +1,9 @@
+### Footprint positions - created on 2026-05-25T23:09:16 ###
+### Printed by KiCad version 10.0.3-10.0.3~ubuntu26.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                 Package                          PosX       PosY       Rot  Side
+J1        USB1                Molex-PicoLatch-5040500491     9.0974    -5.0217   90.0000  top
+J2        Bus_M.2_Socket_E    M.2_2230-xx-E                  9.2802    -5.0169   90.0000  top
+LOGO1     Space_Cookies_Logo  SPACE_COOKIES_LOGO_7mm         8.4347    -4.7287    0.0000  top
+## End
