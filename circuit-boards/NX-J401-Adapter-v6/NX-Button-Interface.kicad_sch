@@ -1311,6 +1311,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:SYM_Arrow_Large")
+		(at 217.17 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4deaa010-6fe2-4762-a8b4-426c8e350151")
+		(property "Reference" "LOGO2"
+			(at 217.17 148.844 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPACE COOKIES LOGO"
+			(at 222.25 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:SPACE_COOKIES_LOGO_7mm"
+			(at 217.17 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "NX-J401-Adapter-v6"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
+					(reference "LOGO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x15_Socket")
 		(at 127 118.11 0)
 		(mirror y)
@@ -1762,87 +1837,6 @@
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Graphic:SYM_Arrow_Large")
-		(at 127 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d6a7df96-ad3e-4f01-bbcd-ee41ec2f67ea")
-		(property "Reference" "LOGO1"
-			(at 127 162.814 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SPACE COOKIES LOGO"
-			(at 132.08 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:SPACE_COOKIES_LOGO_15mm"
-			(at 127 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "NX-J401-Adapter-v6"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
-					(reference "LOGO1")
-					(unit 1)
-				)
-			)
-			(project "NX-J401-Adapter"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/93b0701a-200b-439a-9431-66cd35259686"
-					(reference "LOGO2")
 					(unit 1)
 				)
 			)
