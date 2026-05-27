@@ -2081,12 +2081,6 @@
 		(uuid "490adb6d-0fb8-4610-8530-780db5e6b47d")
 	)
 	(junction
-		(at 191.77 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4978e144-0002-4b76-a1b6-6e386a5ad88f")
-	)
-	(junction
 		(at 90.17 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2295,6 +2289,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d96c6d4a-4d02-4359-9881-d143684715c2")
+	)
+	(junction
+		(at 191.77 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9ac1b81-0c8c-49cb-9ea9-9a14e0d1a4e1")
 	)
 	(junction
 		(at 151.13 102.87)
@@ -4437,7 +4437,7 @@
 			)
 		)
 		(column_widths 12.7 11.43)
-		(row_heights 2.54 2.54 2.54 2.54 2.54)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54)
 		(uuid "1d183f11-f413-466b-b9e0-3d78ff80a67a")
 		(cells
 			(table_cell "V_{IN(MAX)}"
@@ -4453,7 +4453,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "7b5bf62c-5b84-4af3-b0a2-3629e08b2e51")
 			)
@@ -4470,7 +4469,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "8565fd24-e944-4c4f-be10-230f221ba4c6")
 			)
@@ -4487,7 +4485,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "ce13f966-00ca-4349-b558-b4685f5c40df")
 			)
@@ -4504,7 +4501,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "45809db1-0898-42f6-a5e9-89ce80f5aa55")
 			)
@@ -4521,7 +4517,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "81989f22-724b-4ee5-a395-0bccb7d57592")
 			)
@@ -4538,7 +4533,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "223f077d-70fe-4ff2-922d-5c160a81c08d")
 			)
@@ -4555,7 +4549,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "a6950534-d116-4146-a0b3-880ec4d6c330")
 			)
@@ -4572,7 +4565,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "10ac36fb-baff-4bc6-978a-47374803af2e")
 			)
@@ -4589,7 +4581,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "55f8e398-90cd-4822-aaaf-c60379925c03")
 			)
@@ -4606,9 +4597,40 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "8a27860b-123a-4b2a-abd0-dc2385d6af32")
+			)
+			(table_cell "Efficiency"
+				(exclude_from_sim no)
+				(at 134.62 234.95 0)
+				(size 12.7 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "470c9ec2-d764-4fa5-86f3-a5eef0ce1ec3")
+			)
+			(table_cell "96.7%"
+				(exclude_from_sim no)
+				(at 147.32 234.95 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "9c589228-9800-4317-b90a-c3c3e2d56c4d")
 			)
 		)
 	)
