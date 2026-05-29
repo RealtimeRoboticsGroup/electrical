@@ -10,7 +10,7 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "Connector:Bus_M.2_Socket_E"
+		(symbol "NX-J401-usb-m2-key-e:Bus_M.2_Socket_E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1316,7 +1316,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "NX-J401-usb-m2-key-e:Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1532,7 +1532,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Graphic:SYM_Arrow_Large"
+		(symbol "NX-J401-usb-m2-key-e:SYM_Arrow_Large"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board no)
@@ -2526,7 +2526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Graphic:SYM_Arrow_Large")
+		(lib_id "NX-J401-usb-m2-key-e:SYM_Arrow_Large")
 		(at 71.4685 200.2297 0)
 		(unit 1)
 		(body_style 1)
@@ -2557,7 +2557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "usb-m2-key-e-adapter:SPACE_COOKIES_LOGO_7mm"
+		(property "Footprint" "nx-j401-usb-m2-key-e:SPACE_COOKIES_LOGO_7mm"
 			(at 71.4685 200.2297 0)
 			(hide yes)
 			(show_name no)
@@ -2600,12 +2600,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Bus_M.2_Socket_E")
+		(lib_id "NX-J401-usb-m2-key-e:Bus_M.2_Socket_E")
 		(at 236.22 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2633,7 +2633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PCBEdge:M.2_2230-xx-E"
+		(property "Footprint" "nx-j401-usb-m2-key-e:M.2_2230-xx-E"
 			(at 236.22 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2954,7 +2954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "NX-J401-usb-m2-key-e:Conn_01x04")
 		(at 162.56 129.54 180)
 		(unit 1)
 		(body_style 1)
@@ -2984,7 +2984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "usb-m2-key-e-adapter:Molex-PicoLatch-5040500491"
+		(property "Footprint" "nx-j401-usb-m2-key-e:Molex-PicoLatch-5040500491"
 			(at 162.56 129.54 0)
 			(hide yes)
 			(show_name no)
