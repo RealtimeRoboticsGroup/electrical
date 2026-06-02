@@ -1,5 +1,5 @@
 ** Drc report for NX-J401-Adapter-v6.kicad_pcb **
-** Created on 2026-05-26T08:50:29 **
+** Created on 2026-06-02T08:43:16 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 0 DRC violations **

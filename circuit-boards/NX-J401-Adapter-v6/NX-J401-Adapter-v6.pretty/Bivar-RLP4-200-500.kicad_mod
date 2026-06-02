@@ -4,22 +4,22 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at -11.073 3.84 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d0081cfb-986f-4742-a601-08e5462b2a40")
+		(uuid "066c6d32-3c60-4e83-b9a5-cb0afb91550d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
-	(property "Value" "Bivar-RLP4-200-500"
+	(property "Value" "~"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7eee2151-9ad4-416e-a695-e160bace85cc")
+		(uuid "1d1d9bc4-1169-4ed8-8d64-f2cb9751fe66")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "Components/Bivar-RLP4-XXX-XXX.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bb76bd4b-8b9d-4186-85fc-c23a8d845ba5")
+		(uuid "7f83ee29-21a2-47ff-9af1-0888e8b519cb")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a4ab66b0-ec93-4396-b474-db77e1a66462")
+		(uuid "b5374e54-c1f9-4bb8-a142-8063ca530e5a")
 		(effects
 			(font
 				(size 1 1)
@@ -53,6 +53,60 @@
 			)
 		)
 	)
+	(property "MFG" "Bivar"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d30e0fc-bff0-43eb-8bf6-61866a144154")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "RLP4-200-500"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d598784-91e4-4304-af0d-e05249b6d32e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST" "Digikey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9ea59b2-00f4-4212-9bc3-3856775aa499")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST P/N" "492-1471-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aff04b1a-8c54-42af-ab95-a48ba495d236")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "NX-J401-Adapter-v6.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -63,7 +117,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "8c744205-9f86-4359-ab24-3c63b0510bb4")
+		(uuid "b90a73fd-00e8-40d9-9fe6-ba5aed6f7145")
 	)
 	(fp_line
 		(start -7.65 -3.5)
@@ -73,7 +127,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "f36b509d-0a8e-4802-a8f8-96d9e189815c")
+		(uuid "b8859f5f-2733-4702-8e33-c2bcabb53995")
 	)
 	(fp_line
 		(start -2.55 -3.5)
@@ -83,7 +137,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "ec8f5cb5-67ab-4f2c-a7c3-47cba885e16a")
+		(uuid "d396d123-260f-41d9-a592-c158c9cc4b39")
 	)
 	(fp_line
 		(start 2.55 -3.5)
@@ -93,7 +147,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "8fca926c-0186-45d1-b8f8-8cb2befe0a54")
+		(uuid "2cca70d9-4a23-4b94-b2d4-60ec6b6a216c")
 	)
 	(fp_line
 		(start 7.65 -3.5)
@@ -103,7 +157,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "2c4e0a94-08c1-47d2-b721-0f852b9a17ca")
+		(uuid "eba9d2f5-a221-4540-a360-93199816ab47")
 	)
 	(fp_rect
 		(start -9.15 -1.9)
@@ -114,7 +168,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "fac1c0e5-602f-4e53-9a7e-f3bd3b5617f9")
+		(uuid "c3cf5b42-ed17-4eb5-aa70-31f2ac2d85c5")
 	)
 	(fp_rect
 		(start -9.147307 1.9)
@@ -125,7 +179,7 @@
 		)
 		(fill hatch)
 		(layer "Dwgs.User")
-		(uuid "c193528b-48a7-4823-aa8d-ebb19fd9d518")
+		(uuid "6e0ea987-4ead-41af-9be1-2c88d0198abf")
 	)
 	(fp_rect
 		(start -4.060957 -1.890895)
@@ -136,7 +190,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "a60e43dc-faa7-49ea-8afe-edc1e4659dde")
+		(uuid "23482d18-b4fc-4885-b69a-6aa00996129f")
 	)
 	(fp_rect
 		(start -4.040402 1.9)
@@ -147,7 +201,7 @@
 		)
 		(fill hatch)
 		(layer "Dwgs.User")
-		(uuid "30655a25-f168-4388-a882-355e066d99ee")
+		(uuid "0b4b55ea-2883-4140-be7c-686f7ee81e3b")
 	)
 	(fp_rect
 		(start 1.05 -1.9)
@@ -158,7 +212,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "b497bc43-9287-4b18-ab46-50a8815f8b59")
+		(uuid "61b20712-88d0-4215-85c6-1943fa532fd3")
 	)
 	(fp_rect
 		(start 1.05 1.9)
@@ -169,7 +223,7 @@
 		)
 		(fill hatch)
 		(layer "Dwgs.User")
-		(uuid "0f8a2c3e-b6f1-4061-861e-d21e683db355")
+		(uuid "2ba65504-184b-40f6-94b6-ac1053a4be48")
 	)
 	(fp_rect
 		(start 6.15 -1.9)
@@ -180,7 +234,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "b0ce81c9-db9d-498e-acf0-4921a7a36671")
+		(uuid "212a402b-85e1-436b-94e4-99951ac26870")
 	)
 	(fp_rect
 		(start 6.15 1.9)
@@ -191,17 +245,17 @@
 		)
 		(fill hatch)
 		(layer "Dwgs.User")
-		(uuid "6dd48c07-e615-445c-8c66-991045863f0e")
+		(uuid "40bec96c-5cc3-4e9e-ae3d-3eb48dac9707")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1e3daa96-30e2-429b-9e02-ceaf4881ced6")
+		(uuid "d46dc7d1-f980-4b65-9477-c6aa5554fb31")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
@@ -210,14 +264,14 @@
 		(size 2 2.3)
 		(drill oval 2 2.3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "8bb82d34-c454-4c3c-b32b-1cce6b076a3e")
+		(uuid "b45f3b16-288a-49c5-affa-57e12f4c8b51")
 	)
 	(pad "" np_thru_hole oval
 		(at 11.2 1.3)
 		(size 2 2.3)
 		(drill oval 2 2.3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "a8e596f1-93a5-411f-aaf8-57852080576a")
+		(uuid "b89f741d-89a4-4691-9c21-5a7c62b45d3b")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/Bivar-RLP4-200-500.step"

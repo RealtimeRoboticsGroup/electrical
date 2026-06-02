@@ -1,6 +1,7 @@
-### Footprint positions - created on 2026-05-26T08:50:35 ###
+### Footprint positions - created on 2026-06-02T08:43:23 ###
 ### Printed by KiCad version 10.0.3-10.0.3~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
-# Ref     Val       Package                PosX       PosY       Rot  Side
+# Ref     Val                 Package                      PosX       PosY       Rot  Side
+LOGO2     SPACE_COOKIES_LOGO  SPACE_COOKIES_LOGO_7mm    10.4820    -4.9420   90.0000  bottom
 ## End
