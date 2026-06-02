@@ -6,12 +6,12 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2026-05-25")
+		(date "2026-06-02")
 		(rev "6")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x15_Socket"
+		(symbol "NX-J401-Adapter:Conn_01x15_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -740,7 +740,106 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Graphic:SYM_Arrow_Large"
+		(symbol "NX-J401-Adapter:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NX-J401-Adapter:SYM_Arrow_Large"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board no)
@@ -846,105 +945,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -1224,7 +1224,7 @@
 		(uuid "fa9f6cab-81de-4640-9555-13d037ad3ccc")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "NX-J401-Adapter:MountingHole")
 		(at 217.17 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -1257,7 +1257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+		(property "Footprint" "NX-J401-Adapter:MountingHole_3.7mm"
 			(at 217.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1311,7 +1311,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Graphic:SYM_Arrow_Large")
+		(lib_id "NX-J401-Adapter:SYM_Arrow_Large")
 		(at 217.17 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -1386,7 +1386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x15_Socket")
+		(lib_id "NX-J401-Adapter:Conn_01x15_Socket")
 		(at 127 118.11 0)
 		(mirror y)
 		(unit 1)
@@ -1418,7 +1418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+		(property "Footprint" "NX-J401-Adapter:PinSocket_1x15_P2.54mm_Vertical"
 			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1572,7 +1572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x15_Socket")
+		(lib_id "NX-J401-Adapter:Conn_01x15_Socket")
 		(at 166.37 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -1602,7 +1602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+		(property "Footprint" "NX-J401-Adapter:PinSocket_1x15_P2.54mm_Vertical"
 			(at 166.37 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1756,7 +1756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "NX-J401-Adapter:MountingHole")
 		(at 217.17 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -1789,7 +1789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+		(property "Footprint" "NX-J401-Adapter:MountingHole_3.7mm"
 			(at 217.17 109.22 0)
 			(hide yes)
 			(show_name no)

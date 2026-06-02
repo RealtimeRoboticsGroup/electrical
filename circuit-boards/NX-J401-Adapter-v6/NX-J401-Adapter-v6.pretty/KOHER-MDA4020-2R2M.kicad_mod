@@ -4,22 +4,22 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at -0.0254 3.3528 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5da027cd-9a07-4ffe-a8b6-3678c26c808e")
+		(uuid "ce46e61a-2fa2-4a44-be21-5b327487c4a8")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
-	(property "Value" "KOHER-MDA4020-2R2M"
+	(property "Value" "2.2uH-41mOhm-20%"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "aca99d77-3597-4d24-a009-9cb844856934")
+		(uuid "4745dd26-80f2-4d65-88ed-4a511bee41b5")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "Components/KOHER-Elec-MDA4020-2R2M-C2847469.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "72953d5b-0638-4022-91e5-c70e05825e9c")
+		(uuid "d6f3ad29-1da0-4328-9c61-0c84ed9a7882")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "2.2uH 41mΩ 4A 4A Alloy integrated molding inductor ±20% SMD,4.5x4.1mm Inductors (SMD) ROHS"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bb6758bb-6524-46a7-9cbe-dfaec2e7d2d8")
+		(uuid "b61bde89-eb8a-4625-8348-cd4340d52e9e")
 		(effects
 			(font
 				(size 1 1)
@@ -53,6 +53,48 @@
 			)
 		)
 	)
+	(property "MFG" "KOHER Electronic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5725a11-61dc-443f-9ee4-8c6c8a5cd546")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "MDA4020-2R2M "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd60fa3a-7504-4870-9a83-0e1bcb383490")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB P/N" "C2847469"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2aefa681-bd98-4526-9dea-2816d2376345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+	(sheetname "/CANable2.0/")
+	(sheetfile "canable2.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -63,7 +105,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ca6ad99e-9131-44cf-add8-c3683420a9c4")
+		(uuid "010ea480-2a3e-40a1-9607-c2ac2a6e82d9")
 	)
 	(fp_line
 		(start -1.1 2.2)
@@ -73,7 +115,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "4a90ea61-a9cb-4803-a5bd-330e9ef947a9")
+		(uuid "861e6b92-2d0b-4952-9715-aecc8412c3e7")
 	)
 	(fp_rect
 		(start -2.8 -2.1)
@@ -84,17 +126,17 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4108746d-81cf-4475-969b-1c93efdb6d49")
+		(uuid "39a56d52-44e0-489b-b36f-bac530e4d317")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "62a25db3-e1a6-4bd8-becc-c878898960fa")
+		(uuid "4e080735-0f31-43e8-bf95-001805b0d01c")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
@@ -103,14 +145,14 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "b45f345d-6f10-4c34-bb5c-eb084f7403c4")
+		(uuid "595df157-6329-47b4-bb30-60e8b57a18cc")
 	)
 	(pad "2" smd roundrect
 		(at 2 0 180)
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "bdab000e-df28-48a0-8af4-06749c585a41")
+		(uuid "d907f758-91ac-4994-bc38-5c8c2c1e7cb1")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/IHLP1616BZ.step"

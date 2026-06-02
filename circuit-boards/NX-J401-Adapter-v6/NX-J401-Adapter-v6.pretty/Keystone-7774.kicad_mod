@@ -6,20 +6,20 @@
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "8fd7cd72-9f32-446e-9085-6d9213bce48f")
+		(layer "F.Fab")
+		(uuid "1aba4cbe-0196-4771-acd7-508bc4e36681")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
-	(property "Value" "Keystone-7774"
+	(property "Value" "Terminal"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "91cd9b8a-fb0d-4c4c-aa72-0430fa58262c")
+		(uuid "1dcfcb30-9b38-47de-9ea6-0fefa6200af0")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "Components/Keystone-K75p73.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ef785438-1c1f-4cef-9bba-466fb478724b")
+		(uuid "ce4b6eeb-dadb-427c-b36d-f5ac34922641")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "4 Pin Screw Terminal, Power Tap 4-40 Through Hole, Right Angle"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f2f8c87b-6b20-403d-ad0c-9808133abc84")
+		(uuid "f9fe5732-3858-4057-a4d9-41ba83572dd5")
 		(effects
 			(font
 				(size 1 1)
@@ -53,6 +53,73 @@
 			)
 		)
 	)
+	(property "MFG" "Keystone Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "897db682-5a67-49f1-b343-2f346bae5d30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "7774"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "628c0e1f-271b-42d5-a488-ccc343d1cea3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST" "Digikey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "294e8423-2db2-4917-907f-b09461f92308")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST P/N" "36-7774-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0820745f-a0f2-4737-abfc-bc131c2a67bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB P/N" "XXXXXX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c844c843-85ed-4214-9cfd-5f69741df220")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "NX-J401-Adapter-v6.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
@@ -64,7 +131,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "0724214d-d7ab-457b-b9a5-db7f7832d7a6")
+		(uuid "835db494-08eb-418c-909f-0347ebe46c6b")
 	)
 	(fp_rect
 		(start -4.1 -9.7)
@@ -75,17 +142,17 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "557a8ec3-93f9-42e4-a768-a3aa792d8f72")
+		(uuid "f3d5514f-354d-4088-8999-d3e2e5f26029")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d92e3436-f7cf-4894-8e65-f52d18125944")
+		(uuid "7ac37187-3642-41bf-ab4d-e1c288153800")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
@@ -95,7 +162,7 @@
 		(drill 1.5748)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c0e5386c-cd92-438d-9461-d10369f1f3cf")
+		(uuid "5e01417a-867b-46c6-b063-6fec822697f0")
 	)
 	(pad "1" thru_hole circle
 		(at -2.7178 -3.175)
@@ -103,7 +170,7 @@
 		(drill 1.5748)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "51a00912-792d-47d1-90ae-4b455e656fea")
+		(uuid "64139438-860f-45cf-b37b-591651a2519c")
 	)
 	(pad "1" thru_hole circle
 		(at 2.7178 -8.255)
@@ -111,7 +178,7 @@
 		(drill 1.5748)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0af6de03-5dad-44c9-9f4c-c4c8eb2455e5")
+		(uuid "903a2aee-7df4-4f94-b1eb-a47bb2d7d460")
 	)
 	(pad "1" thru_hole circle
 		(at 2.7178 -3.175)
@@ -119,7 +186,7 @@
 		(drill 1.5748)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "97979059-5333-4a0d-be34-bb9cdf6e5140")
+		(uuid "4c084e75-1353-4ec1-9bf2-fa251fbd0acd")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/keystone-PN7774.STEP"

@@ -6,558 +6,11 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2026-05-25")
+		(date "2026-06-02")
 		(rev "6")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
-		(symbol "Device:C_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_US"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "capacitor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L_Iron"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L_Iron"
-				(at 2.794 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor with iron core"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_Iron_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 2.54) (xy 1.016 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -2.54) (xy 1.524 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Iron_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Graphic:SYM_Arrow_Large"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -839,6 +292,515 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NX-J401-Adapter:CSD19534Q5A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CSD19534Q5A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/csd19534q5a"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 15.1mOhm Ron, 17nC Qg(typ), SON8 5x6mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NexFET Power MOSFET N-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TDSON*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CSD19534Q5A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSD19534Q5A_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NX-J401-Adapter:C_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_US"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "capacitor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1485,9 +1447,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:CSD19534Q5A"
+		(symbol "NX-J401-Adapter:L_Iron"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1495,54 +1460,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "L"
+				(at -1.27 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "CSD19534Q5A"
-				(at 5.08 0 0)
+			(property "Value" "L_Iron"
+				(at 2.794 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/csd19534q5a"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 15.1mOhm Ron, 17nC Qg(typ), SON8 5x6mm"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1553,7 +1491,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "NexFET Power MOSFET N-MOS"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1564,7 +1502,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TDSON*"
+			(property "Description" "Inductor with iron core"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1575,13 +1513,71 @@
 					)
 				)
 			)
-			(symbol "CSD19534Q5A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_Iron_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1590,7 +1586,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy 1.016 2.54) (xy 1.016 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1602,136 +1598,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 1.524 -2.54) (xy 1.524 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1742,11 +1609,11 @@
 					)
 				)
 			)
-			(symbol "CSD19534Q5A_1_1"
+			(symbol "L_Iron_1_1"
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1762,10 +1629,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1780,18 +1646,170 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NX-J401-Adapter:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1799,35 +1817,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5040,7 +5040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 203.2 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -5073,7 +5073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+		(property "Footprint" "NX-J401-Adapter:R_2512_6332Metric"
 			(at 204.216 95.504 90)
 			(hide yes)
 			(show_name no)
@@ -5166,7 +5166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 111.76 212.09 0)
 		(mirror y)
 		(unit 1)
@@ -5197,7 +5197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 110.744 212.344 90)
 			(hide yes)
 			(show_name no)
@@ -5290,7 +5290,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 116.84 199.39 90)
 		(mirror x)
 		(unit 1)
@@ -5323,7 +5323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 116.84 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5493,7 +5493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 173.99 170.18 90)
 		(mirror x)
 		(unit 1)
@@ -5525,7 +5525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 174.244 171.196 90)
 			(hide yes)
 			(show_name no)
@@ -5618,7 +5618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 313.69 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -5649,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 313.69 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5742,7 +5742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 97.79 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -5773,7 +5773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5943,7 +5943,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 135.89 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -5974,7 +5974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 135.89 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6144,7 +6144,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 101.6 199.39 0)
 		(mirror y)
 		(unit 1)
@@ -6176,7 +6176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 101.6 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -6269,7 +6269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 86.36 199.39 0)
 		(mirror y)
 		(unit 1)
@@ -6301,7 +6301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 85.344 199.644 90)
 			(hide yes)
 			(show_name no)
@@ -6394,7 +6394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 63.5 194.31 0)
 		(mirror y)
 		(unit 1)
@@ -6426,7 +6426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 63.5 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -6519,7 +6519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 120.65 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -6550,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 120.65 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6720,7 +6720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 121.92 212.09 0)
 		(mirror x)
 		(unit 1)
@@ -6751,7 +6751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 122.936 211.836 90)
 			(hide yes)
 			(show_name no)
@@ -6844,7 +6844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 275.59 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -6875,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 275.59 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6968,7 +6968,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:CSD19534Q5A")
+		(lib_id "NX-J401-Adapter:CSD19534Q5A")
 		(at 233.68 44.45 0)
 		(mirror y)
 		(unit 1)
@@ -7095,7 +7095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 72.39 157.48 0)
 		(mirror y)
 		(unit 1)
@@ -7127,7 +7127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 71.374 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -7220,7 +7220,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 52.07 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -7251,7 +7251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 52.07 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7454,7 +7454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "NX-J401-Adapter:D_SOD-523"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7536,7 +7536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 49.53 201.93 0)
 		(mirror y)
 		(unit 1)
@@ -7568,7 +7568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 48.514 202.184 90)
 			(hide yes)
 			(show_name no)
@@ -7661,7 +7661,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 83.82 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -7694,7 +7694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 82.804 139.954 90)
 			(hide yes)
 			(show_name no)
@@ -7787,7 +7787,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:CSD19534Q5A")
+		(lib_id "NX-J401-Adapter:CSD19534Q5A")
 		(at 233.68 76.2 0)
 		(mirror y)
 		(unit 1)
@@ -7914,7 +7914,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 90.17 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -7945,7 +7945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 90.17 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8038,7 +8038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 45.72 186.69 0)
 		(mirror y)
 		(unit 1)
@@ -8070,7 +8070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 45.72 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8163,7 +8163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Iron")
+		(lib_id "NX-J401-Adapter:L_Iron")
 		(at 201.93 59.69 90)
 		(unit 1)
 		(body_style 1)
@@ -8308,7 +8308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "NX-J401-Adapter:D_SOD-523"
 			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8390,7 +8390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 267.97 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -8421,7 +8421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 267.97 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8514,7 +8514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 290.83 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -8545,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 290.83 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8638,7 +8638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 298.45 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -8669,7 +8669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 298.45 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8795,7 +8795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "NX-J401-Adapter:D_SOD-523"
 			(at 201.93 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9031,7 +9031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 128.27 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -9062,7 +9062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 128.27 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9155,7 +9155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 173.99 179.07 90)
 		(mirror x)
 		(unit 1)
@@ -9187,7 +9187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 174.244 180.086 90)
 			(hide yes)
 			(show_name no)
@@ -9280,7 +9280,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 201.93 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -9313,7 +9313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 201.93 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9406,7 +9406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 173.99 190.5 90)
 		(mirror x)
 		(unit 1)
@@ -9438,7 +9438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 174.244 191.516 90)
 			(hide yes)
 			(show_name no)
@@ -9531,7 +9531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 111.76 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -9564,7 +9564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 110.744 139.954 90)
 			(hide yes)
 			(show_name no)
@@ -9811,7 +9811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 201.93 163.83 0)
 		(unit 1)
 		(body_style 1)
@@ -9843,7 +9843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 201.93 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9936,7 +9936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 143.51 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -9967,7 +9967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 143.51 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10060,7 +10060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 260.35 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -10091,7 +10091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 260.35 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10184,7 +10184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 306.07 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -10215,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 306.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10308,7 +10308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 72.39 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -10340,7 +10340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 71.374 139.954 90)
 			(hide yes)
 			(show_name no)
@@ -10433,7 +10433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 173.99 158.75 90)
 		(mirror x)
 		(unit 1)
@@ -10465,7 +10465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 174.244 159.766 90)
 			(hide yes)
 			(show_name no)
@@ -10558,7 +10558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 105.41 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -10589,7 +10589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 105.41 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10682,7 +10682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 151.13 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -10713,7 +10713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 151.13 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10806,7 +10806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 76.2 199.39 0)
 		(mirror y)
 		(unit 1)
@@ -10838,7 +10838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 75.184 199.644 90)
 			(hide yes)
 			(show_name no)
@@ -11083,7 +11083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 168.91 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -11116,7 +11116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 168.91 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11363,7 +11363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:CSD19534Q5A")
+		(lib_id "NX-J401-Adapter:CSD19534Q5A")
 		(at 171.45 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -11490,7 +11490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:CSD19534Q5A")
+		(lib_id "NX-J401-Adapter:CSD19534Q5A")
 		(at 171.45 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -11617,7 +11617,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 283.21 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -11648,7 +11648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 283.21 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11741,7 +11741,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 328.93 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -11772,7 +11772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 328.93 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11865,7 +11865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 113.03 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -11896,7 +11896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 113.03 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11989,7 +11989,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 111.76 149.86 0)
 		(mirror y)
 		(unit 1)
@@ -12021,7 +12021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 111.76 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12191,7 +12191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 220.98 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -12224,7 +12224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 220.98 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12317,7 +12317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 33.02 194.31 0)
 		(mirror y)
 		(unit 1)
@@ -12349,7 +12349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
 			(at 33.02 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -12519,7 +12519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 250.19 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -12552,7 +12552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 249.174 141.224 90)
 			(hide yes)
 			(show_name no)
@@ -12645,7 +12645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "NX-J401-Adapter:R_US")
 		(at 250.19 153.67 0)
 		(mirror y)
 		(unit 1)
@@ -12678,7 +12678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
 			(at 249.174 153.924 90)
 			(hide yes)
 			(show_name no)
@@ -12771,7 +12771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "NX-J401-Adapter:C_US")
 		(at 321.31 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -12802,7 +12802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "NX-J401-Adapter:C_1210_3225Metric"
 			(at 321.31 67.31 0)
 			(hide yes)
 			(show_name no)

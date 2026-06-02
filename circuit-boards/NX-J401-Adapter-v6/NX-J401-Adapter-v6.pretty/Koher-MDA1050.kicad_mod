@@ -4,22 +4,22 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 7.366 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c2cb2436-8eb5-4c2c-a9ab-dfc3ca595aa5")
+		(uuid "46122bf4-dd81-45a1-bc6b-723396f13e93")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
-	(property "Value" "Koher-MDA1050"
+	(property "Value" "2.2uH-19A-5.1mohm-20%"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f8b77a96-f8e2-48b7-8037-f9f64a26db02")
+		(uuid "8a423470-cf59-44d4-9521-c33bee117209")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "Components/KOHER-elec-MDA1050-2R2M-C2847549.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "27577dad-7b36-43ff-8b0b-d9b5e0403664")
+		(uuid "1fc97a45-98d8-4d86-ab9d-d3e1484f311d")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "19.5A 2.2uH 20A 5.1mΩ Alloy integrated molding inductor ±20% SMD,11x10mm Inductors (SMD) ROHS"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cee0bdc0-adcd-42ec-b8ec-105069d39ba1")
+		(uuid "474ba3cb-3475-4e8e-a542-f4ade3a35582")
 		(effects
 			(font
 				(size 1 1)
@@ -53,6 +53,48 @@
 			)
 		)
 	)
+	(property "MFG" "Koher Electronic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea54b1db-64a7-4ae1-9e61-bbcea3dbd667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "MDA1050-2R2M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bdc763c-367e-4518-8216-6ce8ac301af4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB P/N" "C2847559"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fd9519c-1d41-445a-a255-e6beb0a92bcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+	(sheetname "/15V 3A Buck-Boost Power Supply/")
+	(sheetfile "buck-boost-power-supply.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -63,7 +105,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c995d4bf-528d-451d-a94c-d72a4862766b")
+		(uuid "7ddc2e8f-1680-4640-ab0d-bf9ab19b03ff")
 	)
 	(fp_line
 		(start -6.35 -2.286)
@@ -73,7 +115,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9bcfd425-c036-4426-960c-6373ab39eb7d")
+		(uuid "3a87c4ca-2f89-4464-b8c7-00e97101b3df")
 	)
 	(fp_line
 		(start -6.35 5.08)
@@ -83,7 +125,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fed7c126-e7ca-49cf-b8e3-2902985fd846")
+		(uuid "c6438e67-fd1b-456c-96c7-c2db1ac81943")
 	)
 	(fp_line
 		(start 6.35 -5.08)
@@ -93,7 +135,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3c1d41e5-3449-4b31-9e95-adf7216682c7")
+		(uuid "1f019a7c-8116-4add-b2a7-041777ec9dfb")
 	)
 	(fp_line
 		(start 6.35 2.286)
@@ -103,7 +145,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "0c7d7fbc-8d25-4091-9d9a-587d2201b260")
+		(uuid "a51dd713-6554-468d-8b86-6d553de35fd6")
 	)
 	(fp_line
 		(start 6.35 5.08)
@@ -113,7 +155,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "0ef1169f-35e4-4e47-9387-e330b5dfe248")
+		(uuid "f7dc0148-3265-43a8-bc7c-3ac0507640e8")
 	)
 	(fp_line
 		(start -6.3 -5.1)
@@ -123,7 +165,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "6f1a1a00-b10e-4947-9e3c-55024f7f17cf")
+		(uuid "788ba61e-c759-4565-b7f0-2de97280f000")
 	)
 	(fp_line
 		(start -6.3 -5.1)
@@ -133,7 +175,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "95cb8797-d7a4-497c-912e-74e02d924ead")
+		(uuid "6dfec99c-86d7-4baa-8885-96767adee4d0")
 	)
 	(fp_line
 		(start -6.3 5.1)
@@ -143,7 +185,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "6872a941-4e8b-42b5-abf3-76f9e4a4a0f0")
+		(uuid "c4cbfb13-04e9-46c6-b913-3cb72468a6af")
 	)
 	(fp_line
 		(start 6.3 -5.1)
@@ -153,17 +195,17 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "3b04efeb-ddc2-455a-a262-8f33729c3f7f")
+		(uuid "fc36b7f0-8119-4097-a352-401fb975ebab")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b9139583-452e-47ec-9238-dda00da564c1")
+		(uuid "50f447cd-5472-4f41-94da-370e629e5145")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
@@ -172,14 +214,14 @@
 		(size 3.55 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "5215e905-ddc6-47df-9841-8ec195cf0c66")
+		(uuid "39497601-5a81-4f7f-92d2-a09e22aa6ec0")
 	)
 	(pad "2" smd roundrect
 		(at 4.475 0)
 		(size 3.55 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "54524eb7-a672-4e77-86bb-4f389bcfbeaa")
+		(uuid "0323219f-7830-4622-ad7b-6b14c15d38cf")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/Inductor-WE-LHMI_1040+(rev1).stp"

@@ -4,22 +4,22 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.254 -3.556 0)
+		(at -1.8741 1.8542 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4fdcb8d1-841e-4187-9b85-689915afb6c2")
+		(uuid "4fecff76-40a0-444b-b023-16094b5724c8")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
-	(property "Value" "70555-0001"
+	(property "Value" "CAN1"
 		(at 0 -0.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "94c05c32-de06-40eb-8a5a-1facc5734715")
+		(uuid "b251ce99-ca09-4f53-a6d5-9e708b4d4e57")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +27,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0829763-1456-4fbb-8af2-887fc16d7e84")
+		(uuid "ee0ae247-914c-46e3-9849-d1bf3b36dad6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,11 +39,11 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2482b0a0-4d8f-4e2e-8fd3-13c7fd2dcf6f")
+		(uuid "5068c2af-e8d0-4d94-96f0-13deb01d693e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,6 +51,74 @@
 			)
 		)
 	)
+	(property "MFG" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8aec063-a4c0-49bd-877a-325c06b88bb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "0705550036"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "531f120f-5e2d-4372-8cec-65f3f3017366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST" "Digikey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88405285-b263-4ddf-9ca5-3101cf58cf62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST P/N" "WM4175-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afbe3216-bfe0-45cd-819b-6ecbbd8e4f8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB P/N" "XXXXXX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6da13aa-438a-47f4-b09f-d55737e662a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "NX-J401-Adapter-v6.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -61,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "186bf5d0-c3b9-4ae9-b002-54ead73e33ae")
+		(uuid "325780d8-f454-43c6-9731-e7d36ab92756")
 	)
 	(fp_line
 		(start -1 4.5)
@@ -71,7 +139,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2e95f854-d877-4f01-b79a-6ff80b65a4ad")
+		(uuid "2617522d-e324-47ea-8e8f-7e3b7e5ce578")
 	)
 	(fp_line
 		(start 7 -4.5)
@@ -81,7 +149,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "25e8e24f-884a-4ba6-bc91-800f4dc7ea87")
+		(uuid "ea38800f-3f0d-4d59-bb8e-af270be83dcf")
 	)
 	(fp_poly
 		(pts
@@ -93,7 +161,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "5cf7ae05-3369-44c6-a065-5e8cbe9f287c")
+		(uuid "108e83d2-9cf5-48d3-9ba4-03a716afd3bb")
 	)
 	(fp_rect
 		(start 13 -4.5)
@@ -104,17 +172,17 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "64ba0a63-4c0e-4ce8-b615-38c8e007b82d")
+		(uuid "4d71866b-db77-4084-bf10-4ce45bf10edd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.23 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f2853a86-882a-4cb1-9ae6-b15d7344d82c")
+		(uuid "29aaeeb7-6a4f-46c7-b972-6bdf35a3c313")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
@@ -123,14 +191,14 @@
 		(size 3.4 3.4)
 		(drill 3.4)
 		(layers "*.Cu" "*.Mask")
-		(uuid "a06ec157-5635-446a-9a3a-b0afc7289f4c")
+		(uuid "1a3ddcef-442c-4443-877d-39d4132afc66")
 	)
 	(pad "" np_thru_hole circle
 		(at 8.64 2.67)
 		(size 3.4 3.4)
 		(drill 3.4)
 		(layers "*.Cu" "*.Mask")
-		(uuid "4b7b5027-efec-4c26-acdb-d4d6514e4efc")
+		(uuid "30cb3d76-36db-4dc1-8925-2eb8e0d1939c")
 	)
 	(pad "1" thru_hole rect
 		(at 0 -1.27)
@@ -138,7 +206,7 @@
 		(drill 1.0668)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ce0c9a9a-a6a1-435f-9525-0e829f27f5c3")
+		(uuid "53a2b6eb-9679-4485-a1c5-79e40c9c4748")
 	)
 	(pad "2" thru_hole circle
 		(at 0 1.27)
@@ -146,7 +214,7 @@
 		(drill 1.0668)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "35629a2f-ac30-4a3f-b811-b084f9d9c343")
+		(uuid "0d24df48-583b-43c7-8330-7412c87cc487")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/Molex-705550001.stp"

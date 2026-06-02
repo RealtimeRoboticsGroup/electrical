@@ -4,22 +4,22 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 5.7404 -2.0763 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "99716192-56d4-4937-b45c-0e5a69d42521")
+		(uuid "12bf8374-3919-45a4-84d5-8ac5f991b5b5")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
-	(property "Value" "Molex-PicoLatch-5040500491"
+	(property "Value" "USB1"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5de1bb49-d0c4-4e39-a5ba-a9299d503d03")
+		(uuid "aabf1744-2d48-41d2-b535-3f362dbd1c8c")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "Components/Molex-5040500491_sd.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9e669f5b-ee51-411c-8a91-4f5f7242e4bb")
+		(uuid "eba3b5af-0733-40b8-b440-0d27b658176d")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "-40℃~+105℃ 1 1.5mm 150V 1x4P 3A 4 4P Black Copper alloy Gold Surface Mount, Right Angle UL94V-0 SMD,P=1.5mm,卧贴 Wire To Board Connector ROHS"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "faac7e2a-c696-4448-b7be-83771443baed")
+		(uuid "13139240-65ef-4b8a-a128-5eada444906d")
 		(effects
 			(font
 				(size 1 1)
@@ -53,6 +53,74 @@
 			)
 		)
 	)
+	(property "MFG" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d76e786-0257-48fe-961e-759caca3636e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "5040500491"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c0031d8-b6d3-4c1f-8202-05ddf9db2193")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST" "Digikey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e72a21b2-24c3-4223-b93a-83cb39a597f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST P/N" "WM10137CT-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c207ad5e-1cab-4e37-b39c-d8a5301c51a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB P/N" "C177235"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ed01477-d660-41af-a8f5-29f8d924db75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "NX-J401-Adapter-v6.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -63,7 +131,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f90bb3fc-8177-4a84-8b2c-6baa14327fb2")
+		(uuid "17cad230-f773-4307-a3a2-9a5ffd7440a2")
 	)
 	(fp_line
 		(start -4.875 0.6)
@@ -73,7 +141,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7ee106d3-eac0-44e6-9d98-d4196f4a5015")
+		(uuid "f2b2ec0b-6f68-4a63-aea9-fe58325e46ea")
 	)
 	(fp_line
 		(start 2.8 0.6)
@@ -83,7 +151,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "37cab9c9-ef84-46b5-b1e4-323650e27fbb")
+		(uuid "821fab69-5f38-4fc7-b9bf-12f31ea79a29")
 	)
 	(fp_line
 		(start 4.875 -3.9)
@@ -93,7 +161,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3f1ac1c4-66b0-4eca-b190-9d22adc97556")
+		(uuid "073384a5-85b7-48d1-8e9d-991bfc562ba0")
 	)
 	(fp_rect
 		(start -4.9 -7.7)
@@ -104,7 +172,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "6911716e-6abb-4a91-85df-bc3aeadcd329")
+		(uuid "23be8960-38d1-459e-8dce-32f9a9a51757")
 	)
 	(fp_rect
 		(start -5.5 -6.2)
@@ -115,17 +183,17 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c7ef1df9-8cdf-4c58-93f7-4352d16db45f")
+		(uuid "371aadb4-376c-4712-a1ac-e432039d150f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "935ce0b2-998d-4987-afcc-916797914c41")
+		(uuid "0f3bd7c8-0462-48b5-891e-853ab9ea54b5")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
@@ -134,42 +202,42 @@
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "92525e09-305a-44c5-921d-8ce5cf80e6b2")
+		(uuid "8fb4d7c8-c376-4825-9715-d7514dcdc0f3")
 	)
 	(pad "2" smd roundrect
 		(at 0.75 0 180)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "c2c8f0a5-dbad-49ba-8ec5-9f66437aa1ad")
+		(uuid "95324f06-fe04-4382-9295-646575edde5e")
 	)
 	(pad "3" smd roundrect
 		(at -0.75 0 180)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "ccecb219-2dee-4a06-8415-be557e63f338")
+		(uuid "f4017685-9fdc-49b2-889b-38c933c67aba")
 	)
 	(pad "4" smd roundrect
 		(at -2.25 0 180)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "3f9fbf92-c287-4317-aeee-2b0fad88608b")
+		(uuid "46e05508-dd61-4d2e-94a0-9d80b8b127aa")
 	)
 	(pad "5" smd roundrect
 		(at -4.805 -5.19 180)
 		(size 1.25 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "04e83ac9-4652-44c1-9eeb-812ddc860668")
+		(uuid "d91df89c-5dab-4c3c-ace0-32e214d10732")
 	)
 	(pad "5" smd roundrect
 		(at 4.805 -5.19 180)
 		(size 1.25 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "366b5826-6a60-41b0-97ed-617a193acd28")
+		(uuid "ae69f748-bf09-42d3-9715-b97a607d0d54")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/Molex-pico-lock-5040500491.stp"

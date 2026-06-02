@@ -4,22 +4,22 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at -4.1842 0.0558 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "cf103cff-dd5f-4d97-a608-40242d89264f")
+		(uuid "b6dd2c17-81d2-46c3-b253-126c2bd075d8")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
-	(property "Value" "TI-SON5x6"
+	(property "Value" "CSD19534Q5A"
 		(at 0 3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "bb4867be-84a9-4798-bf03-d2dd1db510eb")
+		(uuid "65d810a7-5b66-4530-bf74-2b57cf4d565e")
 		(effects
 			(font
 				(size 1 1)
@@ -27,28 +27,70 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "Components/TexasInstruments-csd19534q5a.pdf"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2dd3f6f8-30b8-49d7-85c3-9771688df108")
+		(uuid "87821217-295a-4228-b5a9-52787961e630")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 15.1mOhm Ron, 17nC Qg(typ), SON8 5x6mm"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77c08694-5a08-4f92-9651-092be8132eed")
+		(uuid "e401455c-ad1f-4e3f-8de0-f7c21e8f5478")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "MFG" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab1c838f-e76c-49e0-9eab-aa19823f1205")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "CSD19534Q5A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af0fab2b-d09b-44d8-99a0-f33c549a7d96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB P/N" "C114200"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e645974-0bec-4b95-9d2f-4c092a16fd1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "TDSON*")
+	(sheetname "/")
+	(sheetfile "NX-J401-Adapter-v6.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -59,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b1f23e27-4289-4bfb-ae6f-3b82e2c7d9d1")
+		(uuid "e0dede2e-504d-42a9-8400-02c63652a247")
 	)
 	(fp_line
 		(start -2.5 2.5)
@@ -69,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8cad9fc9-91c8-49b2-a136-003051a5e0a1")
+		(uuid "7b9c6888-76eb-445a-a03c-0770cf72b5b5")
 	)
 	(fp_rect
 		(start 2.25 2.5)
@@ -80,7 +122,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "fe2f2b77-aff0-472d-8ed5-6523d664d156")
+		(uuid "2c95bb76-ac6b-4efc-9679-a50be3fe8656")
 	)
 	(fp_rect
 		(start -2.975 -2.165)
@@ -91,7 +133,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "57253e6d-e59f-4503-a63f-508f1309e0f8")
+		(uuid "6f2dadd2-0b42-4cc6-b61b-2c0ecb895919")
 	)
 	(fp_rect
 		(start -2.975 -0.885)
@@ -102,7 +144,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "3c870583-53f8-4799-8f00-ba9891b15aa2")
+		(uuid "ee5378fc-646a-430a-bb84-da80b6ea977f")
 	)
 	(fp_rect
 		(start -2.975 0.383462)
@@ -113,7 +155,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "499923c0-0be0-486e-a710-2c5e81c8b2bb")
+		(uuid "597aac78-8e17-4cf3-b429-7c7f5463fd1d")
 	)
 	(fp_rect
 		(start -2.975 1.665)
@@ -124,7 +166,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "ec373c40-54bb-4d05-8423-c5cf6eee4215")
+		(uuid "0441efb7-d15f-43c5-9c07-7946a70713e9")
 	)
 	(fp_rect
 		(start -1.86 -1.88)
@@ -135,7 +177,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "cb7ea097-625a-439f-b3ea-7384bc317ced")
+		(uuid "5fee943d-69af-4ac7-b94e-f0c32de6198c")
 	)
 	(fp_rect
 		(start -1.86 0.31)
@@ -146,7 +188,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "a0068e84-be7a-4eb6-b60e-a9470900c846")
+		(uuid "5c1ee9eb-afd9-47fb-8192-70a20acdc7f4")
 	)
 	(fp_rect
 		(start 1.2625 -1.88)
@@ -157,7 +199,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "afe59656-75d0-49c9-a08f-5829d8833d8f")
+		(uuid "9f236145-84d3-4286-aad6-e0f75a3403e4")
 	)
 	(fp_rect
 		(start 1.2625 0.31)
@@ -168,7 +210,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "5505400d-e85a-46d5-a5b7-341b89439186")
+		(uuid "d5f8096f-d0b3-4f9f-a5e9-8f2224b6cca5")
 	)
 	(fp_rect
 		(start -3.25 -2.5)
@@ -179,7 +221,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f788b985-9f79-4465-ab65-e86dc89eb0b1")
+		(uuid "edb86c53-a726-42bc-8c8c-d9dcc1981046")
 	)
 	(fp_line
 		(start -2.5 -2.25)
@@ -189,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "eb024a4a-8244-435f-a679-b45d68e67278")
+		(uuid "fffc557e-97c5-4f14-9326-529dcdd800f7")
 	)
 	(fp_line
 		(start -2.5 2.25)
@@ -199,7 +241,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b8eec407-41ef-445a-8272-9ff0b208872b")
+		(uuid "144b24dd-84e2-4e97-b22d-2f2f6c2b1ba0")
 	)
 	(fp_line
 		(start 1.25 2.25)
@@ -209,7 +251,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6544cc6e-9f01-428c-bda0-8bb92326e3ef")
+		(uuid "0cde2526-6a57-48d4-84c6-19e9995ccdd0")
 	)
 	(fp_line
 		(start 1.25 2.25)
@@ -219,7 +261,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dc63622b-755e-4d33-bcbe-c36184580450")
+		(uuid "eddaa90e-6886-474e-a244-1a5d2353a2f8")
 	)
 	(fp_line
 		(start 2.25 -2.25)
@@ -229,7 +271,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4d17fe8d-7f5f-46f2-870d-848b6b69319e")
+		(uuid "72ac211e-f16a-4cc4-bd13-84bdfbf6db9e")
 	)
 	(fp_line
 		(start 2.25 1.5)
@@ -239,17 +281,17 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "80e25ff6-1abf-431d-b522-f08bb4624c79")
+		(uuid "1ec6feb3-728d-49d9-b586-626f925a471a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c2abc59f-b88b-4956-a293-47c52aa02d37")
+		(uuid "57275dfa-c086-493f-b548-8354c167a2c9")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
 			)
 		)
 	)
@@ -258,28 +300,28 @@
 		(size 0.75 0.66)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
-		(uuid "e1f67b0f-8079-4561-9288-17351e758d7f")
+		(uuid "0e9a3ae9-4778-4ba4-8c91-9ce7478516f3")
 	)
 	(pad "2" smd rect
 		(at 2.75 0.64)
 		(size 0.75 0.66)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
-		(uuid "35c75775-3492-47cc-a4bf-37bce09039bc")
+		(uuid "ce7e1430-e638-4fb9-8341-6f68a496d111")
 	)
 	(pad "3" smd rect
 		(at 2.75 -0.64)
 		(size 0.75 0.66)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
-		(uuid "0ebbed65-e8d6-4b72-850d-9db9f0803a94")
+		(uuid "38c9f10c-019b-4b76-8858-d8a6f1aa87d3")
 	)
 	(pad "4" smd rect
 		(at 2.75 -1.92)
 		(size 0.75 0.66)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
-		(uuid "2f0bcb63-b978-40cd-bd2a-54a5612df20f")
+		(uuid "452cea5b-e018-4f5b-88e1-24bf4f85c7c0")
 	)
 	(pad "5" smd custom
 		(at -0.32 0)
@@ -320,7 +362,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "4ab0114f-768e-4418-b1aa-90740da9a13b")
+		(uuid "88ad700f-1042-4fd1-9a99-17e86ec22e0a")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/TI-TDSON-8-1.step"
