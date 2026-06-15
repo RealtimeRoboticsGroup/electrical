@@ -4717,7 +4717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0863c514-1ac8-4471-93e4-8cf1cdca7f8b")
-		(property "Reference" "H6"
+		(property "Reference" "H8"
 			(at 298.45 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4786,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H6")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -5378,7 +5378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e0d131b-50ea-4782-ab55-76272feb029e")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 298.45 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5447,7 +5447,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5465,7 +5465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f16cab4-d136-4b0a-9c15-20218397f5ec")
-		(property "Reference" "H7"
+		(property "Reference" "H2"
 			(at 328.93 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5534,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H7")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5945,7 +5945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6795871b-702d-44f4-9400-4cad6ef02cc3")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 259.588 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6052,7 +6052,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6541,7 +6541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cb93c55-9c4d-4b98-be91-9e322cbca3f8")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 270.764 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6648,7 +6648,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6911,7 +6911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3b15f1-c5f2-4462-a3ad-d1a849f07198")
-		(property "Reference" "H5"
+		(property "Reference" "H7"
 			(at 298.45 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,7 +6980,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H5")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -6998,7 +6998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b097381b-f334-4407-bfcf-9e9b28f1a4aa")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 347.726 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7126,7 +7126,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7991,7 +7991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1fb7999-d617-46bc-8edf-cc761b59d499")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 85.09 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8114,7 +8114,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8132,7 +8132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e23ce306-e1ff-4d65-bdff-17f767dbbb54")
-		(property "Reference" "H8"
+		(property "Reference" "H5"
 			(at 328.93 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,7 +8201,7 @@
 		(instances
 			(project "NX-J401-Adapter-v6"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H8")
+					(reference "H5")
 					(unit 1)
 				)
 			)
