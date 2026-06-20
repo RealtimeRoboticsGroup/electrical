@@ -1,14 +1,10 @@
 ** Drc report for NX-J401-Adapter-v6.kicad_pcb **
-** Created on 2026-06-14T21:12:41 **
+** Created on 2026-06-20T10:36:58 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 0 DRC violations **
 
-** Found 1 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(7600.00 mils, 5513.92 mils): Track [GND] on F.Cu, length 45.92 mils
-    @(7576.00 mils, 5411.00 mils): Via [GND] on F.Cu - B.Cu
+** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
 
