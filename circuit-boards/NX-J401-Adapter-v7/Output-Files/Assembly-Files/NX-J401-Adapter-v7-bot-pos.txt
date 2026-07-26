@@ -1,10 +1,10 @@
-### Footprint positions - created on 2026-07-26T12:03:42 ###
+### Footprint positions - created on 2026-07-26T16:43:26 ###
 ### Printed by KiCad version 10.0.5
 ## Unit = inches, Angle = deg.
 ## Side : bottom
 # Ref     Val                    Package                                                       PosX       PosY       Rot  Side
-C11       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           7.9500    -3.8000  -90.0000  bottom
-C12       0.1uF-50V-10%-0603     C_0603_1608Metric                                           7.3450    -3.8700  -90.0000  bottom
+C11       0.1uF-50V-10%-0603     C_0603_1608Metric                                           7.3450    -3.8700  -90.0000  bottom
+C12       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           7.9500    -3.9000  -90.0000  bottom
 C13       22uF-10%-16V-0805      C_0805_2012Metric                                           8.7969    -3.9660  -90.0000  bottom
 C14       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           7.6618    -4.0267    0.0000  bottom
 C15       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           7.4618    -4.0267  180.0000  bottom
@@ -55,7 +55,7 @@ D8        BAT54KFILM             D_SOD-523                                      
 D9        PESD1CAN               SOT-23                                                      9.5850    -5.5650  180.0000  bottom
 L2        2.2uH-41mOhm-20%       KOHER-MDA4020-2R2M                                          8.8989    -3.8120    0.0000  bottom
 L3        HZ0805E601R-10         L_0805_2012Metric                                           7.9238    -5.2794    0.0000  bottom
-LOGO2     SPACE_COOKIES_LOGO     SPACE_COOKIES_LOGO_7mm                                     10.4820    -4.9420   90.0000  bottom
+LOGO2     SPACE_COOKIES_LOGO     SPACE_COOKIES_LOGO_7mm                                     10.5350    -4.9450   90.0000  bottom
 Q1        CSD19534Q5A            TI-SON5x6                                                   7.7400    -3.8000  180.0000  bottom
 Q2        SI2301CDS-T1-GE3       SOT-23                                                      9.1759    -3.9626    0.0000  bottom
 Q3        CSD17578Q5A            TI-SON5x6                                                   7.5518    -4.4867    0.0000  bottom

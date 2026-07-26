@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "4e617213-2a56-4215-852e-b45e1cf668b6")
+		(uuid "7900dc71-7b04-4ca4-95cf-d2a1af3a4b2a")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -18,7 +18,7 @@
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "67c41e06-f102-415a-b873-255437252926")
+		(uuid "af3cf11e-44e2-4295-b3e3-f1c3175d7c6d")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ad952cb4-7d14-455d-9665-ba99e755ccdc")
+		(uuid "809c05ce-812c-48cf-80d3-de0ccc0d0f97")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "204ad380-2207-45c1-bbe4-87f2cc5651c5")
+		(uuid "9f41cbae-9b4c-45f4-b451-5aa646cb7501")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "d07888de-364e-45de-a63c-b77ed92e8962")
+		(uuid "b606b6cc-e08f-410e-9ede-1efc69100138")
 	)
 	(fp_poly
 		(pts
@@ -74,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "9018c362-e098-40d6-b2d1-ae8130b4c2ce")
+		(uuid "156f9943-1ab0-4f3b-84e5-9efc3e5ef536")
 	)
 	(fp_poly
 		(pts
@@ -86,7 +86,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "34ca6db4-965c-46ef-a450-12ae3b1bd950")
+		(uuid "2bcfbf7c-c7b8-465c-89f7-19be11bf8772")
 	)
 	(fp_poly
 		(pts
@@ -98,7 +98,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "e5c44bdf-755a-4cdc-b289-97d5b2e39710")
+		(uuid "6fcced2f-d6ef-4ea7-a48e-ebe94383f1d0")
 	)
 	(fp_poly
 		(pts
@@ -135,7 +135,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "0ad52955-b967-499c-9094-7f18f6998265")
+		(uuid "ed117db9-5759-4a78-b2c1-99039caa2647")
 	)
 	(fp_poly
 		(pts
@@ -200,7 +200,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "f1b87308-f33e-4099-978b-10631aec2884")
+		(uuid "0a117031-a700-461e-b0c9-1885d59c77b3")
 	)
 	(fp_poly
 		(pts
@@ -1797,7 +1797,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "60f9a624-4d81-47f5-b4b4-6ea42ce06869")
+		(uuid "ab24663d-c101-4e1e-a437-39ec386d228f")
 	)
 	(embedded_fonts no)
 )

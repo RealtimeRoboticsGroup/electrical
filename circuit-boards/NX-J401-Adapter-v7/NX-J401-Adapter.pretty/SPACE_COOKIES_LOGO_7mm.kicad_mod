@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "9ba9ea2d-cad5-41ac-98ca-6ac3b58421c2")
+		(uuid "6268c7c6-ae1a-46ac-bce9-06d6a28f231d")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -19,7 +19,7 @@
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d1b5e43d-177a-4d98-8b93-ceadd1503da7")
+		(uuid "932cedba-57fa-45e6-84a0-00aaec5bad7d")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fff1d096-9489-4322-985c-67f82fd74cdf")
+		(uuid "038a9aca-5b38-4499-bf75-906d3e18efef")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6a5f81a5-16cd-4225-bb08-85502f1264ee")
+		(uuid "238f90e3-1973-4c96-a493-ba2ec5edc403")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "7ac8c56f-1e98-424b-8e12-c39cd2ad8a01")
+		(uuid "90a135ed-498c-4802-a2af-7d6e17b39476")
 	)
 	(fp_poly
 		(pts
@@ -75,7 +75,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "71132853-8df8-474d-aabc-02f39aad3cde")
+		(uuid "fbb1bd4a-7fe4-45fc-b603-2f730b03593b")
 	)
 	(fp_poly
 		(pts
@@ -87,7 +87,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "17ab9ec2-d6f8-4009-b58b-636a21670af2")
+		(uuid "22ba92d7-019b-4ab8-be3d-d6f20c0a7078")
 	)
 	(fp_poly
 		(pts
@@ -99,7 +99,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "241f140b-af65-4af5-84a9-2462d96e4ac6")
+		(uuid "29698130-9ce9-4984-8319-4693dcff281a")
 	)
 	(fp_poly
 		(pts
@@ -136,7 +136,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ed602e40-76df-4f67-beb8-51ad5bc9affc")
+		(uuid "25e981f5-bc25-4050-99f4-38f8e319534c")
 	)
 	(fp_poly
 		(pts
@@ -203,7 +203,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "69b5c81b-52c1-4d21-b6b3-ab4164daf191")
+		(uuid "183b5b07-a7b3-4009-b592-a5bf7e03bb2d")
 	)
 	(fp_poly
 		(pts
@@ -1818,7 +1818,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "5d4c1c93-dd49-4712-8e26-371d19d766c5")
+		(uuid "364aafd1-78ca-4f58-b5af-d5b47e5efb5a")
 	)
 	(embedded_fonts no)
 )
