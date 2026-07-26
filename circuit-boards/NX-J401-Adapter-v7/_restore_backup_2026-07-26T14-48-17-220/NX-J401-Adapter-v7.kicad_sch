@@ -5582,7 +5582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff7721d-5b2d-4edb-b77f-03a183b81cd3")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 301.498 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +5689,7 @@
 		(instances
 			(project "NX-J401-Adapter-v7"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6572,7 +6572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cb93c55-9c4d-4b98-be91-9e322cbca3f8")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 270.764 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6679,7 +6679,7 @@
 		(instances
 			(project "NX-J401-Adapter-v7"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6816,7 +6816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6db84a3-ba35-451a-8bf9-96827daead3a")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 154.94 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +6924,7 @@
 		(instances
 			(project "NX-J401-Adapter-v7"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8554,7 +8554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1aabdd0-ce7d-4c20-b541-925d62b7c0ae")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 137.16 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8662,7 +8662,7 @@
 		(instances
 			(project "NX-J401-Adapter-v7"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
