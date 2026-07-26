@@ -601,6 +601,9 @@
       "GND_USB": [
         "LQFP"
       ],
+      "Net-(C42-Pad1)": [
+        "LQFP"
+      ],
       "Net-(C46-Pad1)": [
         "LQFP"
       ],
@@ -617,6 +620,12 @@
         "LQFP"
       ],
       "Net-(J14-CC2)": [
+        "LQFP"
+      ],
+      "Net-(U6-USBD+)": [
+        "LQFP"
+      ],
+      "Net-(U6-USBD-)": [
         "LQFP"
       ],
       "Net-(U8-USBD+)": [

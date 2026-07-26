@@ -1235,7 +1235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "364958cc-2516-4abb-8ee6-9d377accd907")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 219.71 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1304,7 +1304,7 @@
 		(instances
 			(project "NX-J401-Adapter-v7"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1767,7 +1767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d084ec4a-c22f-421d-86d1-a6746b47d43c")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 219.71 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,7 +1836,7 @@
 		(instances
 			(project "NX-J401-Adapter-v7"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
