@@ -1,0 +1,231 @@
+(footprint "Molex-70555-0001"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.8741 1.8542 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d160811e-3279-49e0-8cca-b26016e2e126")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "CAN1"
+		(at 0 -0.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58d4fcdc-cba1-4c5a-b3fc-a45ca7b12c20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Components/Molex-70555-0001.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b2aab5d-f6e7-4d06-aa61-21166f4aed23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7101979b-2ba5-43c9-8e6b-8db3ba02971e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e887134-7d1a-4755-a376-304e99904f6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "0705550036"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fd552ad-1d70-408e-a532-dd25f6e3abef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST" "Digikey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32501f42-7a3d-4409-aa90-45dc9786a457")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST P/N" "WM4175-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f9cc685-64b0-4394-a9a9-4de589598747")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB P/N" "XXXXXX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0fc2dec-ce5b-4c0b-9e8f-293916bfc7fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "NX-J401-Adapter-v6.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -4.5)
+		(end -1 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ca429d2-3e61-4ef8-bfdf-77a6780140b1")
+	)
+	(fp_line
+		(start -1 4.5)
+		(end 7 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d99aa4a4-8596-4958-8e04-932d30cd6bca")
+	)
+	(fp_line
+		(start 7 -4.5)
+		(end -1 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95076a19-484a-448d-9040-62ff7ad3c6ad")
+	)
+	(fp_poly
+		(pts
+			(xy -1.016 -1.27) (xy -1.778 -0.508) (xy -1.778 -2.032)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "36951e4a-a6c3-44dc-94e3-f68c212be3c8")
+	)
+	(fp_rect
+		(start 13 -4.5)
+		(end -1 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d1fd8ef1-a5ad-4f5c-acc1-4316869f3f6e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ed49f470-15a2-47ba-b084-ba22ce572017")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 8.64 -2.67)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f9d0c7ab-8192-4120-82a1-0250c8c3d746")
+	)
+	(pad "" np_thru_hole circle
+		(at 8.64 2.67)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2c874b02-e665-45ae-86f6-2933ab9721d0")
+	)
+	(pad "1" thru_hole rect
+		(at 0 -1.27)
+		(size 1.778 1.778)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd6a5ff5-6daa-4723-9825-b77635ce0be9")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.27)
+		(size 1.778 1.778)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24d1c4b5-6164-4a60-a5ec-95176c630803")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dModels/Molex-705550001.stp"
+		(offset
+			(xyz 7.2 0 2.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
