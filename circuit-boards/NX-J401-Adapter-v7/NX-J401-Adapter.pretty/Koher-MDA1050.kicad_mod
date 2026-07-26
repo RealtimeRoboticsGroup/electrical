@@ -7,7 +7,7 @@
 		(at 7.366 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "2e2c711f-f180-4c4d-aded-cd9579d40c2b")
+		(uuid "ff0351d7-c7f6-4dda-a946-ba42759aa3aa")
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f85a3cfd-bf9a-479e-8343-f5de7905a0b3")
+		(uuid "d48d0215-fad9-4c7e-b68c-d1c7f26b68e4")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b19462f8-db7a-4dfa-a818-0ffab3accff5")
+		(uuid "4366f0e9-b929-4848-a406-76fcd52c0559")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "451de1ef-d8db-49cd-b6e1-599c57b01aa7")
+		(uuid "fa96d0f8-e7f5-4033-8598-861f8b5d931c")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dfeee08e-0c2e-4fd9-915a-32996b97994c")
+		(uuid "9cb85380-1073-441b-98a2-47faed830916")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +71,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bce3d22f-17fa-405a-9a44-3c9bccb2753d")
+		(uuid "478c86c1-5106-4294-ac1b-560098712ae1")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +84,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "82d6ccd9-7e2e-46f8-b353-3a8c50d1cd9b")
+		(uuid "ce413038-8ea0-4bc0-859b-ea0455cc1704")
 		(effects
 			(font
 				(size 1 1)
@@ -105,7 +105,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "572ee649-2d92-447e-b85c-293ca07215c6")
+		(uuid "67a60328-f2cf-49c9-aa1e-92468e076900")
 	)
 	(fp_line
 		(start -6.35 -2.286)
@@ -115,7 +115,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "0ae757cd-0b66-461d-8cbf-803c9eb947c7")
+		(uuid "aff1ec1c-13c3-4eb9-b92d-795f074e52bd")
 	)
 	(fp_line
 		(start -6.35 5.08)
@@ -125,7 +125,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "56653c27-8a1d-48c4-90fb-fcde9be1b560")
+		(uuid "8c022c27-f69f-480b-8453-372d9497b75e")
 	)
 	(fp_line
 		(start 6.35 -5.08)
@@ -135,7 +135,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a5534d5b-9990-4425-b304-71b95aac7008")
+		(uuid "4f93aa2b-b686-4923-b83a-5fb28449fd57")
 	)
 	(fp_line
 		(start 6.35 2.286)
@@ -145,7 +145,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f5334834-6238-4867-aa48-bdb341f9fea3")
+		(uuid "d6c79a0d-07fc-43d9-a19e-e6d689562cbc")
 	)
 	(fp_line
 		(start 6.35 5.08)
@@ -155,7 +155,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9f80e5b6-85c0-4f6a-b0ea-51ba33b2cdc5")
+		(uuid "f396053a-7c93-4728-aca4-0e1ca184ad79")
 	)
 	(fp_line
 		(start -6.3 -5.1)
@@ -165,7 +165,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "062a5ddd-9806-4a10-b5bc-6bcdf347dd05")
+		(uuid "a74f2664-5f9e-4e02-b37b-5f10aa039a10")
 	)
 	(fp_line
 		(start -6.3 -5.1)
@@ -175,7 +175,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "a53c5136-00dd-4b33-8677-9d2d52f084fb")
+		(uuid "64f19051-442b-47e4-91e0-97abc52d8161")
 	)
 	(fp_line
 		(start -6.3 5.1)
@@ -185,7 +185,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "6c4f9dff-4a7b-4a81-b91a-0479c24e0f63")
+		(uuid "8cd28d2e-1698-44ea-b877-d65296ad218f")
 	)
 	(fp_line
 		(start 6.3 -5.1)
@@ -195,13 +195,13 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "d5a0b454-ca6a-44ad-addd-d9303177b1c7")
+		(uuid "586c0e94-fb59-4074-8134-c8128a2d7a14")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "694640ad-c417-4e98-b4e3-46c95350a3c0")
+		(uuid "270b9020-284d-49cd-ad80-47bfc9868be1")
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -214,14 +214,14 @@
 		(size 3.55 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "0698a772-f3e9-468c-9c80-0adba07fa3ed")
+		(uuid "fef1e1ca-23a7-425b-8e8e-b1f291111296")
 	)
 	(pad "2" smd roundrect
 		(at 4.475 0)
 		(size 3.55 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "7fe23a77-87ee-497f-af2f-b5a31d932f24")
+		(uuid "f55d738f-0225-477b-a4a1-d1a856d9a06a")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/Inductor-WE-LHMI_1040+(rev1).stp"

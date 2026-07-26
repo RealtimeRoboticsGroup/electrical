@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "035c7686-d072-40ea-a65c-764be2a9db88")
+		(uuid "9ba9ea2d-cad5-41ac-98ca-6ac3b58421c2")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -19,7 +19,7 @@
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1de686c5-8ced-4bcc-8292-6dcc7ed70bdb")
+		(uuid "d1b5e43d-177a-4d98-8b93-ceadd1503da7")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "297c4fa4-36aa-4581-8a63-ef5fd4f0c22f")
+		(uuid "fff1d096-9489-4322-985c-67f82fd74cdf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3d3a041c-8a15-46c9-a280-9acd8917edd5")
+		(uuid "6a5f81a5-16cd-4225-bb08-85502f1264ee")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "6f958338-b17c-41f1-aa3f-1ff2199a6584")
+		(uuid "7ac8c56f-1e98-424b-8e12-c39cd2ad8a01")
 	)
 	(fp_poly
 		(pts
@@ -75,7 +75,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "3637b0bc-08c1-4bc4-b385-75cbd3eb6534")
+		(uuid "71132853-8df8-474d-aabc-02f39aad3cde")
 	)
 	(fp_poly
 		(pts
@@ -87,7 +87,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "8598249b-6753-43fb-8d71-4b32691a07fe")
+		(uuid "17ab9ec2-d6f8-4009-b58b-636a21670af2")
 	)
 	(fp_poly
 		(pts
@@ -99,7 +99,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "1da46569-4cef-45a0-80cc-ea58e47071aa")
+		(uuid "241f140b-af65-4af5-84a9-2462d96e4ac6")
 	)
 	(fp_poly
 		(pts
@@ -136,7 +136,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "da81aa10-c991-462b-96f8-c0acddd1ef3b")
+		(uuid "ed602e40-76df-4f67-beb8-51ad5bc9affc")
 	)
 	(fp_poly
 		(pts
@@ -203,7 +203,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "e8b78cbf-1d6f-4531-9058-c8efe6378d16")
+		(uuid "69b5c81b-52c1-4d21-b6b3-ab4164daf191")
 	)
 	(fp_poly
 		(pts
@@ -1818,7 +1818,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ec487417-b6c0-4b26-931b-2a2d6dce2cb8")
+		(uuid "5d4c1c93-dd49-4712-8e26-371d19d766c5")
 	)
 	(embedded_fonts no)
 )

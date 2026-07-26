@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f7ac5626-a900-4537-a0bd-03409317e64a")
+		(uuid "0f464b84-ffbd-4139-b55b-42aed2dbd41c")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Bivar-SLP3-150-100-F"
+	(property "Value" "~"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b28466de-9b2a-4a3d-810b-654c1fb8c1a9")
+		(uuid "6aa9c9d2-bc33-4201-821f-4f84f04f67e3")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "Components/Bivar-SLP3-150-XXX-X.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d9cd6aaf-ae0e-45a6-8c0b-44da03596c95")
+		(uuid "f1f0002c-4693-45cb-a99c-05eedaed57fd")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ae9a2211-475d-4297-9248-39bd865cfde5")
+		(uuid "d65cc764-85b4-4568-bbba-ac4220166986")
 		(effects
 			(font
 				(size 1 1)
@@ -53,6 +53,60 @@
 			)
 		)
 	)
+	(property "MFG" "Bivar"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f034b78-cfcf-4c94-a7f2-9fca3a1a601a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG P/N" "Bivar-SLP3-150-100-F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6972d15f-c940-4905-93ff-656c854ea316")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST" "Digikey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa11ecc6-2a8c-4523-8365-f943513328d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIST P/N" "492-1471-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10da3b53-0123-448c-9bf0-eff2e98c2344")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "NX-J401-Adapter-v7.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -63,7 +117,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "fc1d5284-f62a-47d6-941e-82071c434ceb")
+		(uuid "23f5bbd1-99cf-472c-8f76-669e11fdb220")
 	)
 	(fp_line
 		(start -1.27 0)
@@ -73,7 +127,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "4171bfe4-2b8c-4901-b1fa-56f82af12953")
+		(uuid "5dfcba58-1647-4b39-b08d-49024b6287ec")
 	)
 	(fp_line
 		(start 0 1.27)
@@ -83,7 +137,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "913dae53-042f-48cf-bd42-e4bb00bfd4b3")
+		(uuid "bfe572ef-2fcb-45b8-8e13-bd9b9da6831e")
 	)
 	(fp_rect
 		(start -2.286 -3.7084)
@@ -94,7 +148,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "7f6c1608-9316-42e5-8e66-8ccd9925d2f2")
+		(uuid "5de30ed7-8474-4f56-b1b9-7f3af225a549")
 	)
 	(fp_rect
 		(start -2.25 -1.8)
@@ -105,7 +159,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "dca84bc9-63fc-4f79-8368-020a65cd7222")
+		(uuid "8ad43448-707d-4991-8116-2fd602693360")
 	)
 	(fp_rect
 		(start -1.524 2.6416)
@@ -116,13 +170,13 @@
 		)
 		(fill hatch)
 		(layer "Dwgs.User")
-		(uuid "b37bf65d-c5d7-4f6b-b967-8cd4eb8be351")
+		(uuid "2e1b4bf0-af90-4b8a-a9aa-344dc34d6c1d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "89850308-ec80-4210-893b-bde61a9f7d7c")
+		(uuid "b29eb5fe-3118-4551-9f2e-763c8d5d6d3f")
 		(effects
 			(font
 				(size 1 1)
@@ -135,14 +189,14 @@
 		(size 1.3208 1.3208)
 		(drill 1.3208)
 		(layers "*.Cu" "*.Mask")
-		(uuid "360a7239-8d43-4833-838b-014d31025c64")
+		(uuid "0c084654-0ae8-453e-9fcd-4923d4c2d1de")
 	)
 	(pad "" np_thru_hole circle
 		(at 1.27 -2.6924)
 		(size 1.3208 1.3208)
 		(drill 1.3208)
 		(layers "*.Cu" "*.Mask")
-		(uuid "d23b3ca2-544a-4ea5-8fed-6a6634718932")
+		(uuid "dfdad050-29db-4195-b008-ed803187f154")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/Bivar-SLP3-150-100-F.stp"

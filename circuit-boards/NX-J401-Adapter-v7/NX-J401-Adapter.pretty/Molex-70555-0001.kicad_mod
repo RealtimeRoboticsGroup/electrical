@@ -7,7 +7,7 @@
 		(at -1.8741 1.8542 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d160811e-3279-49e0-8cca-b26016e2e126")
+		(uuid "803b9b05-7047-47bd-bb69-df2b817816b2")
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -19,7 +19,7 @@
 		(at 0 -0.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "58d4fcdc-cba1-4c5a-b3fc-a45ca7b12c20")
+		(uuid "691c7dfd-b7c7-4ef5-94a3-bba9826476d5")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b2aab5d-f6e7-4d06-aa61-21166f4aed23")
+		(uuid "85a10d96-2df4-4cb1-9911-9f410d6a6e75")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7101979b-2ba5-43c9-8e6b-8db3ba02971e")
+		(uuid "3de933c3-bd60-48d3-beb8-884b2a41e77b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0e887134-7d1a-4755-a376-304e99904f6f")
+		(uuid "b04d149e-04f7-4cd0-bd66-1ed34260869b")
 		(effects
 			(font
 				(size 1 1)
@@ -69,7 +69,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fd552ad-1d70-408e-a532-dd25f6e3abef")
+		(uuid "982cbcb2-907f-4330-91f4-31aeea2f79aa")
 		(effects
 			(font
 				(size 1 1)
@@ -82,7 +82,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "32501f42-7a3d-4409-aa90-45dc9786a457")
+		(uuid "f12f379a-1fe0-466e-8961-4141e5d9bebb")
 		(effects
 			(font
 				(size 1 1)
@@ -95,7 +95,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f9cc685-64b0-4394-a9a9-4de589598747")
+		(uuid "d26c5ad2-7b04-4850-a20f-51e27110483f")
 		(effects
 			(font
 				(size 1 1)
@@ -108,7 +108,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c0fc2dec-ce5b-4c0b-9e8f-293916bfc7fb")
+		(uuid "b9b21b8a-b541-48d5-8eae-d75365432c61")
 		(effects
 			(font
 				(size 1 1)
@@ -118,7 +118,7 @@
 	)
 	(property ki_fp_filters "Connector*:*_1x??_*")
 	(sheetname "/")
-	(sheetfile "NX-J401-Adapter-v6.kicad_sch")
+	(sheetfile "NX-J401-Adapter-v7.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4ca429d2-3e61-4ef8-bfdf-77a6780140b1")
+		(uuid "d39b8f21-d456-48f8-adcc-75e9d500a5c7")
 	)
 	(fp_line
 		(start -1 4.5)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d99aa4a4-8596-4958-8e04-932d30cd6bca")
+		(uuid "6497953f-53e6-4560-b5a2-ee8de4e17250")
 	)
 	(fp_line
 		(start 7 -4.5)
@@ -149,7 +149,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "95076a19-484a-448d-9040-62ff7ad3c6ad")
+		(uuid "a7505e05-acc5-4cae-9b88-f697b80ec61c")
 	)
 	(fp_poly
 		(pts
@@ -161,7 +161,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "36951e4a-a6c3-44dc-94e3-f68c212be3c8")
+		(uuid "2fedbb72-6f61-457c-9d97-382374be60bf")
 	)
 	(fp_rect
 		(start 13 -4.5)
@@ -172,13 +172,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d1fd8ef1-a5ad-4f5c-acc1-4316869f3f6e")
+		(uuid "9406cf01-f382-4237-92f1-80a8571a8779")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.23 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ed49f470-15a2-47ba-b084-ba22ce572017")
+		(uuid "bba27337-9f02-4b3a-941d-a6cd44418db7")
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -191,14 +191,14 @@
 		(size 3.4 3.4)
 		(drill 3.4)
 		(layers "*.Cu" "*.Mask")
-		(uuid "f9d0c7ab-8192-4120-82a1-0250c8c3d746")
+		(uuid "c2e95b6b-0529-48eb-b4c6-3b6215d11aba")
 	)
 	(pad "" np_thru_hole circle
 		(at 8.64 2.67)
 		(size 3.4 3.4)
 		(drill 3.4)
 		(layers "*.Cu" "*.Mask")
-		(uuid "2c874b02-e665-45ae-86f6-2933ab9721d0")
+		(uuid "c116f05e-00df-431a-bcc5-0a63bb1100df")
 	)
 	(pad "1" thru_hole rect
 		(at 0 -1.27)
@@ -206,7 +206,7 @@
 		(drill 1.0668)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "dd6a5ff5-6daa-4723-9825-b77635ce0be9")
+		(uuid "b2cfb83d-93e2-4587-9708-17f38d48c7a7")
 	)
 	(pad "2" thru_hole circle
 		(at 0 1.27)
@@ -214,7 +214,7 @@
 		(drill 1.0668)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "24d1c4b5-6164-4a60-a5ec-95176c630803")
+		(uuid "b05a0387-2ccb-47f1-942c-66f7c6c365e7")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dModels/Molex-705550001.stp"

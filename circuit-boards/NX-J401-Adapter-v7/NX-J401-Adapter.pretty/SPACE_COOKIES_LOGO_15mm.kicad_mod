@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "556a76ec-ba6b-4ccf-9a40-645f5451255a")
+		(uuid "4e617213-2a56-4215-852e-b45e1cf668b6")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -18,7 +18,7 @@
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f291ad7e-c64b-4fbf-bd9e-10eb42bc09ef")
+		(uuid "67c41e06-f102-415a-b873-255437252926")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "08834749-64ad-476d-b7d9-74a1b401935e")
+		(uuid "ad952cb4-7d14-455d-9665-ba99e755ccdc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5108e2ee-148c-4b51-b6af-77265b0793d3")
+		(uuid "204ad380-2207-45c1-bbe4-87f2cc5651c5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49,7 +49,7 @@
 		)
 	)
 	(sheetname "/")
-	(sheetfile "NX-J401-Adapter-v6.kicad_sch")
+	(sheetfile "NX-J401-Adapter-v7.kicad_sch")
 	(attr board_only exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
@@ -62,7 +62,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "1295cf21-7059-4cde-bdde-55c6dd138bd1")
+		(uuid "d07888de-364e-45de-a63c-b77ed92e8962")
 	)
 	(fp_poly
 		(pts
@@ -74,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "afbc83fa-c465-42f1-9576-ef2d637316ee")
+		(uuid "9018c362-e098-40d6-b2d1-ae8130b4c2ce")
 	)
 	(fp_poly
 		(pts
@@ -86,7 +86,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "3b41051f-c111-499e-a6fb-bdccec9af452")
+		(uuid "34ca6db4-965c-46ef-a450-12ae3b1bd950")
 	)
 	(fp_poly
 		(pts
@@ -98,7 +98,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "44c9bdba-1d91-499e-b2a1-52d0cd726f9a")
+		(uuid "e5c44bdf-755a-4cdc-b289-97d5b2e39710")
 	)
 	(fp_poly
 		(pts
@@ -135,7 +135,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "7f4dbd54-e436-4884-b2c6-91dca631de3f")
+		(uuid "0ad52955-b967-499c-9094-7f18f6998265")
 	)
 	(fp_poly
 		(pts
@@ -200,7 +200,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "653923ee-6f21-448b-8f91-df9bac294fc2")
+		(uuid "f1b87308-f33e-4099-978b-10631aec2884")
 	)
 	(fp_poly
 		(pts
@@ -1797,7 +1797,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ec3e085a-c5e6-4583-8ed7-0e0d793e059a")
+		(uuid "60f9a624-4d81-47f5-b4b4-6ea42ce06869")
 	)
 	(embedded_fonts no)
 )
