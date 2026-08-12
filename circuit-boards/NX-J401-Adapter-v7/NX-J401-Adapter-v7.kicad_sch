@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2026-06-02")
-		(rev "6")
+		(date "2026-08-01")
+		(rev "7")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
@@ -4782,7 +4782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Light Pipe"
 			(at 175.26 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,6 +4859,17 @@
 			)
 		)
 		(property "DIST P/N" "492-1471-ND"
+			(at 175.26 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
 			(at 175.26 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -5162,7 +5173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Light Pipe"
 			(at 175.26 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,6 +5250,17 @@
 			)
 		)
 		(property "DIST P/N" "492-1471-ND"
+			(at 175.26 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
 			(at 175.26 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -6708,7 +6730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Light Pipe"
 			(at 175.26 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6785,6 +6807,17 @@
 			)
 		)
 		(property "DIST P/N" "492-1471-ND"
+			(at 175.26 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
 			(at 175.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -6906,6 +6939,17 @@
 		)
 		(property "MFG P/N" "TL1105VF100Q"
 			(at 151.13 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
+			(at 151.13 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7772,7 +7816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Light Pipe"
 			(at 175.26 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7849,6 +7893,17 @@
 			)
 		)
 		(property "DIST P/N" "492-1471-ND"
+			(at 175.26 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
 			(at 175.26 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -8644,6 +8699,17 @@
 		)
 		(property "MFG P/N" "TL1105VF100Q"
 			(at 133.35 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "XXXXXX"
+			(at 133.35 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

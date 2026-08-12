@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-07-26T16:43:26 ###
-### Printed by KiCad version 10.0.5
+### Footprint positions - created on 2026-08-11T22:00:02 ###
+### Printed by KiCad version 10.0.5-10.0.5~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
 # Ref     Val                    Package                                                       PosX       PosY       Rot  Side
@@ -93,7 +93,7 @@ R25       5.1k-1%-0603           R_0603_1608Metric                              
 U1        LM74700QDBVRQ1         SOT-23-6                                                    7.4600    -3.8700    0.0000  bottom
 U2        TPS613222ADBV          SOT-23-5                                                    8.9259    -3.9660  180.0000  bottom
 U3        STM32G431CBTx          LQFP-48_7x7mm_P0.5mm                                        9.2150    -4.4600    0.0000  bottom
-U4        ~                      HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.5mm_ThermalVias     6.9118    -4.7816    0.0000  bottom
+U4        LM5176PWPR             HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.5mm_ThermalVias     6.9118    -4.7816    0.0000  bottom
 U5        ISO6721BDR             SOIC-8_3.9x4.9mm_P1.27mm                                    8.2280    -5.0430   90.0000  bottom
 U6        FT232RNL               SSOP-28_5.3x10.2mm_P0.65mm                                  8.2278    -5.4304  180.0000  bottom
 U7        LM74700QDBVRQ1         SOT-23-6                                                    6.8720    -5.4517    0.0000  bottom
