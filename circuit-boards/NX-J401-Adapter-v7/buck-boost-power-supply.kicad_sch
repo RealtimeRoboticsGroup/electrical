@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2026-06-02")
-		(rev "6")
+		(date "2026-08-01")
+		(rev "7")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
@@ -4869,8 +4869,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "LM5176PWPR"
 			(at 144.78 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12596,7 +12597,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-075K9L"
+		(property "MFG P/N" "AC0603FR-07357KL"
 			(at 250.19 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -12607,7 +12608,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C137697"
+		(property "JLCPCB P/N" "C227834"
 			(at 250.19 140.97 90)
 			(hide yes)
 			(show_name no)
