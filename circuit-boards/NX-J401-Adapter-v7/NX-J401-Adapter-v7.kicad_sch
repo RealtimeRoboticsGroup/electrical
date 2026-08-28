@@ -5052,7 +5052,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" " GRM32ER71H106KA12L"
+		(property "MFG P/N" "GRM32ER71H106KA12L"
 			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5843,7 +5843,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" " GRM32ER71H106KA12L"
+		(property "MFG P/N" "GRM32ER71H106KA12L"
 			(at 299.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6237,7 +6237,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" " GRM32ER71H106KA12L"
+		(property "MFG P/N" "GRM32ER71H106KA12L"
 			(at 257.81 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8062,7 +8062,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" " SMDJ24CA"
+		(property "MFG P/N" "SMDJ24CA"
 			(at 100.33 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9010,7 +9010,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" " GRM32ER71H106KA12L"
+		(property "MFG P/N" "GRM32ER71H106KA12L"
 			(at 118.11 63.5 0)
 			(hide yes)
 			(show_name no)

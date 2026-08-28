@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-08-14T20:03:28 ###
-### Printed by KiCad version 10.0.5-10.0.5~ubuntu24.04.1
+### Footprint positions - created on 2026-08-28T15:44:18 ###
+### Printed by KiCad version 10.0.5
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                          Package                                                      PosX       PosY       Rot  Side
@@ -29,8 +29,8 @@ H8        MountingHole                 MountingHole_2.5mm                       
 H9        MountingHole                 MountingHole_2.5mm                                         7.0979    -3.9736    0.0000  top
 H10       1.152mm_ToolingHole          ToolingHole_1.152mm                                        6.3317    -2.6855    0.0000  top
 H11       1.152mm_ToolingHole          ToolingHole_1.152mm                                        6.3317    -6.2924    0.0000  top
-H12       1.152mm_ToolingHole          ToolingHole_1.152mm                                        9.8887    -2.6855    0.0000  top
-H13       1.152mm_ToolingHole          ToolingHole_1.152mm                                        9.7887    -6.2924    0.0000  top
+H12       1.152mm_ToolingHole          ToolingHole_1.152mm                                       10.5974    -2.6855    0.0000  top
+H13       1.152mm_ToolingHole          ToolingHole_1.152mm                                       10.4974    -6.2924    0.0000  top
 J1        Terminal                     Keystone-7774                                              7.0150    -2.8922  180.0000  top
 J2        Terminal                     Keystone-7774                                              8.9790    -2.8922  180.0000  top
 J3        NX_CONTROL_&_UART            PinHeader_1x15_P2.54mm_Horizontal                          7.2970    -3.3362   90.0000  top
