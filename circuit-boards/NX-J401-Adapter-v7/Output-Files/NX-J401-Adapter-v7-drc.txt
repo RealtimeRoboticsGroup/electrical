@@ -1,5 +1,5 @@
 ** Drc report for NX-J401-Adapter-v7.kicad_pcb **
-** Created on 2026-08-28T15:44:14 **
+** Created on 2026-09-01T19:20:03 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 4 DRC violations **
@@ -9,16 +9,16 @@
     @(7716.22 mils, 5843.66 mils): NPTH pad of J11
 [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 10.00 mils; actual 9.37 mils)
     Rule: board setup constraints hole; error
-    @(7924.49 mils, 5801.34 mils): Pad B4A9 [Net-(C42-Pad1)] of J11 on F.Cu
-    @(7943.78 mils, 5843.66 mils): NPTH pad of J11
+    @(7735.51 mils, 5801.34 mils): Pad A4B9 [Net-(C42-Pad1)] of J11 on F.Cu
+    @(7716.22 mils, 5843.66 mils): NPTH pad of J11
 [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 10.00 mils; actual 7.22 mils)
     Rule: board setup constraints hole; error
     @(7955.98 mils, 5801.34 mils): Pad B1A12 [GND_USB] of J11 on F.Cu
     @(7943.78 mils, 5843.66 mils): NPTH pad of J11
 [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 10.00 mils; actual 9.37 mils)
     Rule: board setup constraints hole; error
-    @(7735.51 mils, 5801.34 mils): Pad A4B9 [Net-(C42-Pad1)] of J11 on F.Cu
-    @(7716.22 mils, 5843.66 mils): NPTH pad of J11
+    @(7924.49 mils, 5801.34 mils): Pad B4A9 [Net-(C42-Pad1)] of J11 on F.Cu
+    @(7943.78 mils, 5843.66 mils): NPTH pad of J11
 
 ** Found 0 unconnected pads **
 
