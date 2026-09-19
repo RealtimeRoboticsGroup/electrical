@@ -3,3 +3,5 @@ common --enable_bzlmod=true
 common --incompatible_strict_action_env
 
 build --platforms=@pico-sdk//bazel/platform:rp2350
+build --@pico-sdk//bazel/config:PICO_STDIO_USB
+build --no@pico-sdk//bazel/config:PICO_STDIO_UART
