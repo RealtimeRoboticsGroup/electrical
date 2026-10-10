@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-10-10T14:11:35 ###
+### Footprint positions - created on 2026-10-10T15:13:00 ###
 ### Printed by KiCad version 10.0.7-10.0.7~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -13,8 +13,8 @@ C7        10uF-50V-10%-X7R-1210        C_1210_3225Metric                        
 C8        10uF-50V-10%-X7R-1210        C_1210_3225Metric                                          7.6618    -5.3167    0.0000  top
 C9        10uF-50V-10%-X7R-1210        C_1210_3225Metric                                          7.4618    -5.4567  180.0000  top
 C10       10uF-50V-10%-X7R-1210        C_1210_3225Metric                                          7.6618    -5.4567    0.0000  top
-C58       47uF_50V                     Panasonic-EEE-FT1H470AV                                    7.1650    -5.5250   90.0000  top
-C59       47uF_50V                     Panasonic-EEE-FT1H470AV                                    7.1650    -5.2494   90.0000  top
+C58       47uF_50V                     Panasonic-EEE-FT1H470AV                                    7.1650    -5.6037   90.0000  top
+C59       47uF_50V                     Panasonic-EEE-FT1H470AV                                    7.1650    -5.3281   90.0000  top
 D1        24V                          D_SMC_Littelfuse_DO-214AB                                  6.6210    -5.4720  -90.0000  top
 D2        PWR                          LED_1206_3216Metric                                        7.0520    -5.9266    0.0000  top
 D3        PC                           LED_1206_3216Metric                                        7.2520    -5.9266    0.0000  top
