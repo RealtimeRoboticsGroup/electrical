@@ -1,0 +1,140 @@
+(footprint "Bivar-LP-230"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c2c6d5a6-8f44-4824-a489-0ae579043ec4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Bivar-LP-230"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "590e50ef-1486-40f9-87d8-0502a810d244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21ca5ec4-0e21-4fde-8e07-22c527529618")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9f19944-8238-4bfc-9a38-f6a2d306cb61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.2 -7.2644)
+		(end -1.5 2.1082)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill reverse_hatch)
+		(layer "Dwgs.User")
+		(uuid "081eca26-f31c-432e-803f-ee7b9d429546")
+	)
+	(fp_rect
+		(start -1.5 -9.3218)
+		(end 1.516 4.6482)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill reverse_hatch)
+		(layer "Dwgs.User")
+		(uuid "5ab5d396-d5f4-41d3-83c8-610a9c43ae0d")
+	)
+	(fp_rect
+		(start -1.016 -8.7884)
+		(end 1.016 -7.2644)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "61e458b5-a842-453b-a698-09a28520e7be")
+	)
+	(fp_rect
+		(start -1.016 -0.762)
+		(end 1.016 0.762)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "4acea87f-385c-4712-9608-c668468680b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98f7f67d-7b63-41a6-a675-a5350ee66961")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.3368 -5.8928)
+		(size 1.5748 1.5748)
+		(drill 1.5748)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d6a1f065-8773-4791-a816-904e5c42a61a")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.3368 -3.3528)
+		(size 1.5748 1.5748)
+		(drill 1.5748)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2cb523ec-2e01-490e-a2ec-eba9a765df03")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dModels/Bivar-LP-230.IGS"
+		(offset
+			(xyz -2.3368 5.842 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
