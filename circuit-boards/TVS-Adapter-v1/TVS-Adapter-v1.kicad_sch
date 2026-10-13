@@ -3389,6 +3389,18 @@
 		(uuid "1f192884-13f2-4d58-a084-337c39b19f22")
 	)
 	(junction
+		(at 151.13 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1a8887-3197-4104-8dda-412706c0671e")
+	)
+	(junction
+		(at 133.35 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3d556d-7ca9-4183-8f27-0c834891bb4c")
+	)
+	(junction
 		(at 166.37 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4058,6 +4070,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 190.5) (xy 180.34 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b2c574-7dfa-4dd7-b99a-b69242738109")
+	)
+	(wire
+		(pts
 			(xy 99.06 195.58) (xy 93.98 195.58)
 		)
 		(stroke
@@ -4225,6 +4247,16 @@
 			(type default)
 		)
 		(uuid "b00d3409-3e98-40ff-bb2a-8624117ec847")
+	)
+	(wire
+		(pts
+			(xy 151.13 187.96) (xy 180.34 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43d483c-4cad-487e-a8fd-3217e9a86559")
 	)
 	(wire
 		(pts
@@ -9937,7 +9969,7 @@
 	)
 	(sheet
 		(at 180.34 175.26)
-		(size 68.58 16.51)
+		(size 68.58 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10005,6 +10037,26 @@
 		(pin "TXD" output
 			(at 180.34 185.42 180)
 			(uuid "a0e83e50-88a9-401a-bacc-6c958a341def")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FORCE_RECOVERY}" output
+			(at 180.34 190.5 180)
+			(uuid "252fd4f1-7518-47bf-8719-345236373a8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" output
+			(at 180.34 187.96 180)
+			(uuid "5dd2fe8d-6146-4d8d-815a-0dfddbf9bbed")
 			(effects
 				(font
 					(size 1.27 1.27)
