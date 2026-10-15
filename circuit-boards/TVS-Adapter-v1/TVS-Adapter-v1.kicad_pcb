@@ -8,7 +8,7 @@
 	)
 	(paper "B")
 	(title_block
-		(title "TVS ADAPTER")
+		(title "THE VISION SYSTEM ADAPTER")
 		(date "2026-10-14")
 		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
@@ -39296,6 +39296,212 @@
 			)
 		)
 	)
+	(footprint "NX-J401-Adapter:R_0603_1608Metric"
+		(layer "B.Cu")
+		(uuid "c05cc127-6d62-4b55-ab82-d83fa8a4ce0d")
+		(at 215.138 138.049 90)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R32"
+			(at -2.6924 -0.0508 90)
+			(layer "B.SilkS")
+			(uuid "f9c5de9d-df01-48f0-8adb-9363c5253712")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "5.1k-1%-0603"
+			(at 0 -1.43 90)
+			(layer "B.Fab")
+			(uuid "dc2b506f-c487-423e-a403-67cee1d46a74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3ab1d124-6ccb-4d3c-b014-8c7bbc3bf3f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8b490770-a7eb-4832-967e-728f877b5beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "63cb3705-283a-41f0-910b-ed182dd320f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "867f8434-7076-4219-8782-58c7086e2e9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5015ba2e-cf22-4f4b-9c66-70834a6e09dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB P/N" "C105580"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4983a5fc-19f8-46d5-bfc7-aa0e4a1f46d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/7f338915-7b6e-40c1-9733-742b14680646/b13b1a23-2e38-4173-8723-09c48721e0fd")
+		(sheetname "/USB Serial/")
+		(sheetfile "usb-serial.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f80fcac4-47ce-46de-9ab5-d4829c9cd12f")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "6dce44fb-a1e5-462b-847f-b170896a55f5")
+		)
+		(fp_rect
+			(start -1.48 0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "182ee739-6ff9-48a9-b5ef-312193591918")
+		)
+		(fp_rect
+			(start -0.8 0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "2a4cb671-542e-4ffa-9e57-fa51e3759283")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(uuid "4a8ac4da-ca9a-4167-8eea-89dab62b73c2")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0 270)
+			(size 0.8 0.95)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U10-INA)")
+			(pintype "passive")
+			(uuid "fb35ed7c-c97a-4b58-9f36-dfee30491dcd")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0 270)
+			(size 0.8 0.95)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "3V3_USB")
+			(pintype "passive")
+			(uuid "727369b5-cb2b-4c09-9af6-14638a41a583")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "NX-J401-Adapter:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "c07d5236-ebc6-4788-a930-9ea828638722")
@@ -40944,6 +41150,212 @@
 			(net "/VIN_PS")
 			(pintype "passive")
 			(uuid "2417b543-95a6-4bff-b0fa-9bffc52c31d6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "NX-J401-Adapter:R_0603_1608Metric"
+		(layer "B.Cu")
+		(uuid "cec9d7b3-3231-46f4-9a99-0647ccf391c9")
+		(at 216.662 138.049 90)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R33"
+			(at -2.6924 -0.0508 90)
+			(layer "B.SilkS")
+			(uuid "9be4c4d1-71b4-4e63-9fb7-789b6de4a23f")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "5.1k-1%-0603"
+			(at 0 -1.43 90)
+			(layer "B.Fab")
+			(uuid "1e71192e-c550-4320-8044-4cd8cfd56919")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c569442f-8920-4f1a-b738-8134fde8c0c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "af61353e-d525-43b7-8866-60db9b790c18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d62262e7-1da4-4009-bc19-820d234ab188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "556431fc-14ec-4859-85d5-65bd3edc5880")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e98055f-0945-40a5-b664-31514f394cd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB P/N" "C105580"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e8101ec-7542-4132-8b36-7162c089f9d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/7f338915-7b6e-40c1-9733-742b14680646/fe023338-65f7-42d2-9b46-e311415732bc")
+		(sheetname "/USB Serial/")
+		(sheetfile "usb-serial.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f6094c91-fbca-4eee-ad68-037f1c20182c")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3ec88022-2d3b-4f56-9af3-c8b2e83599d1")
+		)
+		(fp_rect
+			(start -1.48 0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "ce2585fa-9da4-4f3e-9f8e-3680150506cd")
+		)
+		(fp_rect
+			(start -0.8 0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "038031ae-94a7-47d6-96d3-f398c90f88d2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(uuid "f751e966-1edc-43f3-a9ed-f98027b39f20")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0 270)
+			(size 0.8 0.95)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U10-INB)")
+			(pintype "passive")
+			(uuid "2bf352ec-a0b6-4681-a81a-79c24e35b3d4")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0 270)
+			(size 0.8 0.95)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "3V3_USB")
+			(pintype "passive")
+			(uuid "7620eef7-7cdb-408f-a07d-9aeb522b4b5c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
@@ -229590,6 +230002,14 @@
 		(uuid "0b3321ac-3fa2-48b1-826c-ce2df36e1bb2")
 	)
 	(segment
+		(start 215.138 135.7252)
+		(end 215.0742 135.6614)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "3V3_USB")
+		(uuid "141f94e8-3ff1-46a7-8dfc-7a31d881fdef")
+	)
+	(segment
 		(start 211.1976 135.658)
 		(end 212.486 135.658)
 		(width 0.381)
@@ -229628,6 +230048,14 @@
 		(layer "B.Cu")
 		(net "3V3_USB")
 		(uuid "50421e84-fefa-458d-a612-6b51c306b523")
+	)
+	(segment
+		(start 215.138 137.224)
+		(end 215.138 135.7252)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "3V3_USB")
+		(uuid "6789e351-de3a-4afd-a97d-01a9cb684f27")
 	)
 	(segment
 		(start 215.773 131.458)
@@ -229676,6 +230104,14 @@
 		(layer "B.Cu")
 		(net "3V3_USB")
 		(uuid "b7c1d194-831d-4fb8-90ac-425fb7d663aa")
+	)
+	(segment
+		(start 216.662 137.224)
+		(end 215.138 137.224)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "3V3_USB")
+		(uuid "cb9f5d9b-2c21-47c8-8fc8-9d55a0779e1a")
 	)
 	(segment
 		(start 206.121 130.634)
@@ -229772,6 +230208,14 @@
 		(uuid "032c16d7-0201-4417-9106-38fb1815f926")
 	)
 	(segment
+		(start 213.711 141.508)
+		(end 212.486 141.508)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "Net-(U10-INA)")
+		(uuid "29f319a3-3d8c-4d80-959c-01f69e3eefcf")
+	)
+	(segment
 		(start 210.0626 141.508)
 		(end 212.486 141.508)
 		(width 0.381)
@@ -229786,6 +230230,22 @@
 		(layer "B.Cu")
 		(net "Net-(U10-INA)")
 		(uuid "3d68f137-5df1-4a0e-be62-1346080c86b2")
+	)
+	(segment
+		(start 215.138 140.081)
+		(end 213.711 141.508)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "Net-(U10-INA)")
+		(uuid "6c5a62f8-e581-499d-b2b8-99ba6c1d1024")
+	)
+	(segment
+		(start 215.138 138.874)
+		(end 215.138 140.081)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "Net-(U10-INA)")
+		(uuid "9c331f6e-a7e6-433b-afa1-635347ceeeca")
 	)
 	(segment
 		(start 209.3976 140.843)
@@ -229858,6 +230318,14 @@
 		(uuid "299cad97-fd78-4c85-b7ef-de03aca7241b")
 	)
 	(segment
+		(start 214.077 142.158)
+		(end 212.486 142.158)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "Net-(U10-INB)")
+		(uuid "85529d46-c590-43d5-a168-b7e07c3b0105")
+	)
+	(segment
 		(start 209.3918 142.158)
 		(end 212.486 142.158)
 		(width 0.381)
@@ -229872,6 +230340,22 @@
 		(layer "B.Cu")
 		(net "Net-(U10-INB)")
 		(uuid "b42f0bff-d55a-4bb9-a720-471adf599f7d")
+	)
+	(segment
+		(start 216.662 138.874)
+		(end 216.662 139.573)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "Net-(U10-INB)")
+		(uuid "e901c59b-f488-4aa9-8b43-88583f8f0e37")
+	)
+	(segment
+		(start 216.662 139.573)
+		(end 214.077 142.158)
+		(width 0.381)
+		(layer "B.Cu")
+		(net "Net-(U10-INB)")
+		(uuid "f884a7af-9d10-4439-bfcd-99d3b6d57bf1")
 	)
 	(segment
 		(start 209.1182 141.8844)
