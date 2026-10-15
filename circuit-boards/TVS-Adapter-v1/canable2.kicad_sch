@@ -5,9 +5,9 @@
 	(uuid "7741060c-b28b-4b0a-8f4e-3138b4114527")
 	(paper "B")
 	(title_block
-		(title "The Vision System Adapter")
-		(date "2026-10-10")
-		(rev "7")
+		(title "TVS Adapter")
+		(date "2026-10-14")
+		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
