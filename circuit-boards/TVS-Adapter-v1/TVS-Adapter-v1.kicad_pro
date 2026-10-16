@@ -275,7 +275,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "7"
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -605,7 +605,7 @@
       "GND_USB": [
         "LQFP"
       ],
-      "Net-(C42-Pad1)": [
+      "Net-(C44-Pad1)": [
         "LQFP"
       ],
       "Net-(J11-CC1)": [
@@ -905,7 +905,7 @@
         "uuid": "3c9fa76f-2b37-4666-8575-58caa65def04"
       }
     ],
-    "used_designators": "#PWR33,C57-59,D10,H5-13,J5,J12-13,LOGO1-2,LP1-4,R26-28,SW3-4",
+    "used_designators": "#PWR33,#PWR35-54,C57-65,D10,H5-13,J5,J12-13,LOGO1-2,LP1-4,Q10-16,R23,R26-33,SW3-4,U9-13",
     "variants": []
   },
   "sheets": [
