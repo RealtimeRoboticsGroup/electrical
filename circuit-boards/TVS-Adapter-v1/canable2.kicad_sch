@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-14")
+		(date "2026-10-17")
 		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
@@ -7936,7 +7936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "705fe19f-e3b2-462e-8398-9d05c797702c")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 237.236 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +8044,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8920,7 +8920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98f1ba3f-fe89-4573-9909-934ab02ca168")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 160.528 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9028,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9317,7 +9317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac9f2cd3-cd7b-4513-9181-621fae6d5061")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 205.486 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9425,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)

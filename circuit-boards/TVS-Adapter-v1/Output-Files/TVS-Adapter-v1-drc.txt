@@ -1,5 +1,5 @@
 ** Drc report for TVS-Adapter-v1.kicad_pcb **
-** Created on 2026-10-15T20:16:07 **
+** Created on 2026-10-17T15:34:55 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 4 DRC violations **

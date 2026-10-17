@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-14")
+		(date "2026-10-17")
 		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
@@ -1713,6 +1713,563 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NX-J401-Adapter:SS8050"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SS8050"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
+				(at 5.08 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
+				(at 34.036 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SS8050 NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SS8050_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS8050_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NX-J401-Adapter:Si2319CDS"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Si2319CDS"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/66709/si2319cd.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Si2319CDS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Si2319CDS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NX-J401-Adapter:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -2392,321 +2949,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSS123"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSS123"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BSS123_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSS123_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3VA"
 			(power global)
 			(pin_numbers
@@ -2997,12 +3239,6 @@
 		(uuid "1fde6bcd-504f-4099-adb7-2c533f2fadad")
 	)
 	(junction
-		(at 326.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21753d2e-5650-4782-b766-acbb74f858b2")
-	)
-	(junction
 		(at 104.14 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3039,6 +3275,12 @@
 		(uuid "5363ca48-fbc4-4ced-bea0-7f13f950d41a")
 	)
 	(junction
+		(at 320.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "683faea9-56c6-49fa-9443-6d05579a9c29")
+	)
+	(junction
 		(at 185.42 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3057,22 +3299,16 @@
 		(uuid "789af3ed-d37c-4796-a356-30f0e182cfbf")
 	)
 	(junction
-		(at 334.01 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c20cbe2-db48-482a-9a65-914ecf8fe011")
-	)
-	(junction
 		(at 52.07 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cf27343-2f1c-450e-8aad-348602c72221")
 	)
 	(junction
-		(at 334.01 93.98)
+		(at 321.31 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab229a96-7ad6-4713-b685-75343d79769d")
+		(uuid "93c0d5b9-8ee8-4919-8540-da18b2f018dc")
 	)
 	(junction
 		(at 180.34 191.77)
@@ -3091,12 +3327,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1bda7e7-f724-4e4b-8ca8-2d22009e658a")
-	)
-	(junction
-		(at 326.39 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf907bd5-2244-4d35-8324-9a90a9359c31")
 	)
 	(junction
 		(at 114.3 168.91)
@@ -3192,26 +3422,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 93.98) (xy 326.39 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "002ea0b9-811b-49c1-9b0d-74fa957d039f")
-	)
-	(wire
-		(pts
-			(xy 326.39 105.41) (xy 326.39 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00dd5e44-26a0-4a19-a932-dc8e773805bd")
-	)
-	(wire
-		(pts
 			(xy 80.01 163.83) (xy 80.01 165.1)
 		)
 		(stroke
@@ -3239,16 +3449,6 @@
 			(type default)
 		)
 		(uuid "03dd1d56-8498-47cb-b1c5-6eea3c5da7c7")
-	)
-	(wire
-		(pts
-			(xy 354.33 128.27) (xy 363.22 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "067135bf-b270-4d7d-a826-8475907298ae")
 	)
 	(wire
 		(pts
@@ -3342,6 +3542,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 99.06) (xy 354.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d7c4cf-0472-4ed5-b688-1360d95483ef")
+	)
+	(wire
+		(pts
 			(xy 220.98 124.46) (xy 220.98 127)
 		)
 		(stroke
@@ -3359,26 +3569,6 @@
 			(type default)
 		)
 		(uuid "1b77f309-0527-4624-b66e-da3131812af3")
-	)
-	(wire
-		(pts
-			(xy 325.12 129.54) (xy 325.12 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c5462cf-2eb1-4bf2-84d3-464ac74b3dda")
-	)
-	(wire
-		(pts
-			(xy 354.33 110.49) (xy 354.33 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd35f44-30c8-4d71-bb7a-68ac61375f62")
 	)
 	(wire
 		(pts
@@ -3452,6 +3642,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 139.7) (xy 355.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c28ea26-46fe-4455-8692-fb4e28c6d30d")
+	)
+	(wire
+		(pts
 			(xy 104.14 163.83) (xy 129.54 163.83)
 		)
 		(stroke
@@ -3472,16 +3672,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 93.98) (xy 334.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e94692e-b462-4152-81e2-3a1e10ad7b4a")
-	)
-	(wire
-		(pts
 			(xy 62.23 186.69) (xy 62.23 184.15)
 		)
 		(stroke
@@ -3499,6 +3689,16 @@
 			(type default)
 		)
 		(uuid "30a80e7d-9740-4541-8474-5455a442ae80")
+	)
+	(wire
+		(pts
+			(xy 309.88 125.73) (xy 309.88 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315f3822-f09f-4661-9eed-8c4ae7e69e62")
 	)
 	(wire
 		(pts
@@ -3532,26 +3732,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 93.98) (xy 279.4 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3445df8c-480b-4004-97a2-c323baa12e99")
-	)
-	(wire
-		(pts
-			(xy 346.71 135.89) (xy 342.9 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359e01bc-da57-469c-a62f-26ca8a700135")
-	)
-	(wire
-		(pts
 			(xy 203.2 149.86) (xy 260.35 149.86)
 		)
 		(stroke
@@ -3582,16 +3762,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 109.22) (xy 326.39 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb44195-a5a0-42bd-8767-7d384e4318e3")
-	)
-	(wire
-		(pts
 			(xy 81.28 152.4) (xy 76.2 152.4)
 		)
 		(stroke
@@ -3609,6 +3779,26 @@
 			(type default)
 		)
 		(uuid "3fa5d307-e91c-485e-9cfc-e8538256247e")
+	)
+	(wire
+		(pts
+			(xy 341.63 132.08) (xy 347.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408e2580-1a30-4559-aa16-e84fa921a909")
+	)
+	(wire
+		(pts
+			(xy 332.74 104.14) (xy 320.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41970369-1da4-41f5-abe2-eaa6208b170a")
 	)
 	(wire
 		(pts
@@ -3642,6 +3832,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 132.08) (xy 334.01 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee77af2-c79d-454f-8a66-0650efbe3a20")
+	)
+	(wire
+		(pts
 			(xy 114.3 168.91) (xy 132.08 168.91)
 		)
 		(stroke
@@ -3652,13 +3852,23 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 142.24) (xy 280.67 142.24)
+			(xy 320.04 104.14) (xy 320.04 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "537023e5-ca18-4245-931b-450802ebfaad")
+		(uuid "530b4113-81f5-4b1a-8b50-1b1202e1a92e")
+	)
+	(wire
+		(pts
+			(xy 346.71 104.14) (xy 340.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5408c59d-5c16-4a0f-8552-1916d736e421")
 	)
 	(wire
 		(pts
@@ -3692,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 107.95) (xy 377.19 107.95)
+			(xy 369.57 96.52) (xy 375.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3752,16 +3962,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 115.57) (xy 306.07 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630787ed-e08f-4ef0-b993-262b35ea2655")
-	)
-	(wire
-		(pts
 			(xy 203.2 175.26) (xy 215.9 175.26)
 		)
 		(stroke
@@ -3772,23 +3972,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 107.95) (xy 363.22 107.95)
+			(xy 354.33 96.52) (xy 361.95 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68c163fb-0a72-4932-a774-909ea42591f2")
-	)
-	(wire
-		(pts
-			(xy 334.01 105.41) (xy 334.01 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ed5278-488b-45b6-b2ed-8fef326765a9")
+		(uuid "6b898043-5b36-4ee7-a51b-b3cd8bea3a3c")
 	)
 	(wire
 		(pts
@@ -3802,16 +3992,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 130.81) (xy 354.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9e243a-4e9a-48bd-8b3d-e048141dafc0")
-	)
-	(wire
-		(pts
 			(xy 185.42 189.23) (xy 185.42 191.77)
 		)
 		(stroke
@@ -3822,7 +4002,17 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 93.98) (xy 279.4 120.65)
+			(xy 321.31 132.08) (xy 321.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72be19ca-9b56-4846-b42b-060f81f4f896")
+	)
+	(wire
+		(pts
+			(xy 279.4 85.09) (xy 279.4 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3869,6 +4059,16 @@
 			(type default)
 		)
 		(uuid "8167412b-b63b-4133-b7b0-59bb5d90193d")
+	)
+	(wire
+		(pts
+			(xy 306.07 97.79) (xy 306.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869dcd39-0edd-40db-923c-b91b6f40d2f1")
 	)
 	(wire
 		(pts
@@ -3932,6 +4132,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 142.24) (xy 280.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9628637f-470c-437c-829a-46e317ea2535")
+	)
+	(wire
+		(pts
 			(xy 265.43 118.11) (xy 265.43 120.65)
 		)
 		(stroke
@@ -3962,16 +4172,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 135.89) (xy 309.88 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83bd3df-8342-4803-b9c0-70b80eeaba72")
-	)
-	(wire
-		(pts
 			(xy 96.52 151.13) (xy 104.14 151.13)
 		)
 		(stroke
@@ -3982,13 +4182,13 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 115.57) (xy 306.07 142.24)
+			(xy 354.33 111.76) (xy 354.33 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9808975-c742-48d8-ab0a-a0fa49700bd4")
+		(uuid "aa27d7b5-2fff-471e-bff9-8f29fffe1541")
 	)
 	(wire
 		(pts
@@ -4072,23 +4272,13 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 135.89) (xy 317.5 135.89)
+			(xy 313.69 125.73) (xy 309.88 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8405789-5fef-4ec5-b106-2f1981791727")
-	)
-	(wire
-		(pts
-			(xy 334.01 93.98) (xy 334.01 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc57adc4-8ae1-4360-9f39-b42227083cd4")
+		(uuid "bae651fa-9249-4e3e-976b-c9ae4f6d9100")
 	)
 	(wire
 		(pts
@@ -4172,16 +4362,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 115.57) (xy 344.17 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce7c35df-8c99-44d6-8937-aa442d6cb849")
-	)
-	(wire
-		(pts
 			(xy 203.2 177.8) (xy 220.98 177.8)
 		)
 		(stroke
@@ -4202,16 +4382,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 129.54) (xy 334.01 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1dd7c2b-2c8e-4d8c-b567-83568fe093c7")
-	)
-	(wire
-		(pts
 			(xy 129.54 149.86) (xy 162.56 149.86)
 		)
 		(stroke
@@ -4222,16 +4392,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 115.57) (xy 344.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5cad9bb-7cef-43fa-808b-ecd70c4b75ed")
-	)
-	(wire
-		(pts
 			(xy 81.28 151.13) (xy 81.28 152.4)
 		)
 		(stroke
@@ -4239,16 +4399,6 @@
 			(type default)
 		)
 		(uuid "d79b71f5-53cb-4a77-88f2-c6d6f4d05d73")
-	)
-	(wire
-		(pts
-			(xy 342.9 135.89) (xy 342.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8480a7c-7492-48b4-91ed-7808e8d36950")
 	)
 	(wire
 		(pts
@@ -4372,7 +4522,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 93.98) (xy 377.19 93.98)
+			(xy 279.4 85.09) (xy 377.19 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4422,23 +4572,43 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 129.54) (xy 325.12 129.54)
+			(xy 355.6 124.46) (xy 361.95 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f73faf03-391a-4eab-8d4f-cd18799bb2ec")
+		(uuid "f8a82fd3-2ac0-4f93-9062-204042fb311c")
 	)
 	(wire
 		(pts
-			(xy 370.84 128.27) (xy 377.19 128.27)
+			(xy 369.57 124.46) (xy 375.92 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f948984c-4068-4553-9a6d-5418439a7bf5")
+	)
+	(wire
+		(pts
+			(xy 306.07 97.79) (xy 312.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb398e9f-8ecf-4824-a9c1-8ca5dced1b8c")
+	)
+	(wire
+		(pts
+			(xy 355.6 127) (xy 355.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc693af1-7649-44b9-8a67-41d06833c85f")
 	)
 	(wire
 		(pts
@@ -4461,7 +4631,17 @@
 		(uuid "00352745-63c7-40dc-bdfd-96174a33f4d7")
 	)
 	(label "3V3"
-		(at 279.4 93.98 0)
+		(at 321.31 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3582304d-4af3-4569-b28e-2fc2c08d0f6a")
+	)
+	(label "3V3"
+		(at 279.4 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4470,9 +4650,19 @@
 		)
 		(uuid "c435ba18-9bce-40f3-8732-d2bfc051ee9c")
 	)
+	(label "3V3"
+		(at 320.04 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5144c8b-cbdd-4ee8-971e-ba3dc4112d03")
+	)
 	(hierarchical_label "3V3"
 		(shape passive)
-		(at 377.19 93.98 0)
+		(at 377.19 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4483,7 +4673,7 @@
 	)
 	(hierarchical_label "~{RESET}"
 		(shape output)
-		(at 377.19 128.27 0)
+		(at 375.92 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4505,7 +4695,7 @@
 	)
 	(hierarchical_label "~{FORCE_RECOVERY}"
 		(shape output)
-		(at 377.19 107.95 0)
+		(at 375.92 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4581,7 +4771,7 @@
 	)
 	(symbol
 		(lib_id "NX-J401-Adapter:R_US")
-		(at 367.03 128.27 90)
+		(at 337.82 132.08 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4589,21 +4779,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(uuid "0aadd617-ecd0-4589-972e-78b41cecc345")
-		(property "Reference" "R2"
-			(at 364.49 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R-1%-0603"
-			(at 367.03 131.064 90)
+		(dnp no)
+		(uuid "04dc9331-1bae-4b9f-9b3e-5fb6422deb41")
+		(property "Reference" "R8"
+			(at 337.82 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4612,8 +4791,18 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 367.284 129.286 90)
+		(property "Value" "2K-1%-0603"
+			(at 337.82 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
+			(at 337.566 131.064 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4624,7 +4813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 128.27 0)
+			(at 337.82 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,8 +4823,8 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10Ω 75V Thick Film Resistor ±1% ±200ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 367.03 128.27 0)
+		(property "Description" "-55℃~+155℃ 100mW 2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 337.82 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4646,7 +4835,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 367.03 128.27 90)
+			(at 337.82 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4656,8 +4845,8 @@
 				)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-070RL"
-			(at 367.03 128.27 90)
+		(property "MFG P/N" "RC0603FR-072KL"
+			(at 337.82 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4667,8 +4856,8 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C100044"
-			(at 367.03 128.27 90)
+		(property "JLCPCB P/N" "C105576"
+			(at 337.82 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,7 +4868,132 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 367.03 128.27 0)
+			(at 337.82 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26783b12-e5f9-4163-a61b-d9eedd58e48c")
+		)
+		(pin "2"
+			(uuid "b22b62c6-6eee-4c98-b4eb-960eda2fe24c")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:R_US")
+		(at 365.76 124.46 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "0aadd617-ecd0-4589-972e-78b41cecc345")
+		(property "Reference" "R2"
+			(at 363.22 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R-1%-0603"
+			(at 365.76 127.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 366.014 125.476 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 10Ω 75V Thick Film Resistor ±1% ±200ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 365.76 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 365.76 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-070RL"
+			(at 365.76 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C100044"
+			(at 365.76 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 365.76 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4705,9 +5019,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 325.12 140.97 0)
-		(mirror y)
+		(lib_id "NX-J401-Adapter:SS8050")
+		(at 353.06 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4715,9 +5028,57 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1631fb8a-2d8a-42f3-bdc7-5dad64f2391d")
-		(property "Reference" "#PWR043"
-			(at 325.12 147.32 0)
+		(fields_autoplaced yes)
+		(uuid "0af574d2-d103-48cc-88d0-df36d556bb57")
+		(property "Reference" "Q3"
+			(at 358.14 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8050"
+			(at 358.14 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:SOT-23"
+			(at 358.14 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/SS8050-C2150.pdf"
+			(at 358.14 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
+			(at 387.096 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,18 +5088,8 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
-			(at 325.12 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 140.97 0)
+		(property "Sim.Device" "NPN"
+			(at 353.06 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,8 +5099,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 325.12 140.97 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 353.06 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,8 +5110,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 325.12 140.97 0)
+		(property "MFG" "Jiangsu Changjing Electronics Technology Co., Ltd."
+			(at 353.06 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,14 +5120,53 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MFG P/N" "SS8050(RANGE:200-350)"
+			(at 353.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C2150"
+			(at 353.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 353.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "27baafcc-a56a-41a7-aa07-4de883f62d2c")
+		)
+		(pin "2"
+			(uuid "784869f7-cf9c-4b2f-8d1b-ec33504cabba")
 		)
 		(pin "1"
-			(uuid "a5890e43-133a-4605-a444-6d92a2c8159f")
+			(uuid "1dcd3496-7812-4d3f-827b-19344d533cec")
 		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR043")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4794,7 +5184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b04bbfe-0aa7-4556-8520-9c62149255ec")
-		(property "Reference" "R33"
+		(property "Reference" "R35"
 			(at 89.408 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4901,7 +5291,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R33")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -4918,7 +5308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e37d086-7e6f-4860-97ea-c3929ae9b351")
-		(property "Reference" "C48"
+		(property "Reference" "C45"
 			(at 157.48 125.9839 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5026,7 +5416,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C48")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -5450,7 +5840,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "ISO6741DWR"
+		(property "JLCPCB P/N" "C5216432"
 			(at 270.51 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5513,126 +5903,6 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 323.85 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28c68137-22e9-4306-b103-bad82cc57f67")
-		(property "Reference" "Q6"
-			(at 322.58 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 322.58 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 328.93 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
-			(at 328.93 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "N-Channel 50 V 220mA (Ta) 350mW (Ta) Surface Mount SOT-23-3"
-			(at 323.85 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "onsemi"
-			(at 323.85 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "BSS138"
-			(at 323.85 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C52895"
-			(at 323.85 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "188e2553-9d18-4966-86d6-ee465ed421fc")
-		)
-		(pin "1"
-			(uuid "e9d57db5-0019-4928-800e-c747c23bd9f1")
-		)
-		(pin "3"
-			(uuid "28a62ba5-a6dd-4022-8073-74fc1bb50cf8")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -5835,6 +6105,138 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:Si2319CDS")
+		(at 317.5 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3dd505ff-2d05-41c1-8a22-ed83f947e93c")
+		(property "Reference" "Q7"
+			(at 321.31 94.996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2301CDS-T1-GE3"
+			(at 322.326 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:SOT-23"
+			(at 322.58 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/Vishay-SI2301-C10487.pdf"
+			(at 322.58 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 P-Channel 1.6W 10nC@4.5V 142mΩ@2.5V 1V 20V 3.1A 405pF 55pF 75pF P-Channel SOT-23 MOSFETs ROHS"
+			(at 317.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Vishay-Siliconix"
+			(at 317.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "SI2301CDS-T1-GE3 "
+			(at 317.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C10487"
+			(at 317.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 317.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a4c9912-a437-4162-97e4-fd3d497ab407")
+		)
+		(pin "3"
+			(uuid "276146d1-3f57-407f-ad0f-94f2e94684d8")
+		)
+		(pin "2"
+			(uuid "05efc30b-436a-4035-9424-ccbf519b1404")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -6078,8 +6480,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 351.79 115.57 0)
+		(lib_id "NX-J401-Adapter:R_US")
+		(at 320.04 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6087,9 +6489,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5ce61158-c958-4cc7-908d-74d49114fec5")
-		(property "Reference" "Q3"
-			(at 350.52 111.76 0)
+		(uuid "5e36c149-30a9-4f06-88e9-131b5aae0051")
+		(property "Reference" "R14"
+			(at 321.818 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6099,8 +6501,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BSS138"
-			(at 350.52 118.11 0)
+		(property "Value" "13K-1%-0603"
+			(at 321.818 109.982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6110,128 +6512,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 356.87 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
-			(at 356.87 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "N-Channel 50 V 220mA (Ta) 350mW (Ta) Surface Mount SOT-23-3"
-			(at 351.79 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "onsemi"
-			(at 351.79 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "BSS138"
-			(at 351.79 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C52895"
-			(at 351.79 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9fdd2915-a26c-4640-9f08-060d591111c7")
-		)
-		(pin "1"
-			(uuid "81675d11-da67-42c5-890d-cd70a21b5575")
-		)
-		(pin "3"
-			(uuid "69b32ece-1ee1-45ce-b02d-3f38d284e946")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-J401-Adapter:R_US")
-		(at 367.03 107.95 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "5f97b603-eace-43af-a71b-e3c385100f65")
-		(property "Reference" "R1"
-			(at 364.49 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R-1%-0603"
-			(at 367.03 110.744 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 367.284 108.966 90)
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
+			(at 319.024 107.696 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6242,7 +6524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 107.95 0)
+			(at 320.04 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6252,8 +6534,8 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10Ω 75V Thick Film Resistor ±1% ±200ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 367.03 107.95 0)
+		(property "Description" "-55℃~+155℃ 100mW 13kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 320.04 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6264,7 +6546,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 367.03 107.95 90)
+			(at 320.04 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6274,8 +6556,8 @@
 				)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-070RL"
-			(at 367.03 107.95 90)
+		(property "MFG P/N" "RC0603FR-0713KL"
+			(at 320.04 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6285,8 +6567,8 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C100044"
-			(at 367.03 107.95 90)
+		(property "JLCPCB P/N" "C137796"
+			(at 320.04 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,7 +6579,256 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 367.03 107.95 0)
+			(at 320.04 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9dcf2398-b065-4d5d-9529-2bcc8bfbd882")
+		)
+		(pin "2"
+			(uuid "3d2df105-1343-42f7-acbc-f0c894322c03")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:R_US")
+		(at 336.55 104.14 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ed77735-1d0b-43df-a8f2-d1093d63e5ba")
+		(property "Reference" "R15"
+			(at 336.55 101.854 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K-1%-0603"
+			(at 336.55 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
+			(at 336.296 103.124 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 336.55 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 336.55 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-072KL"
+			(at 336.55 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C105576"
+			(at 336.55 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 336.55 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d47ce9e5-9021-42a3-bb24-8d301f517db0")
+		)
+		(pin "2"
+			(uuid "fa7a326a-e267-4115-88ca-e4014d629dce")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:R_US")
+		(at 365.76 96.52 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "5f97b603-eace-43af-a71b-e3c385100f65")
+		(property "Reference" "R1"
+			(at 366.776 93.472 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R-1%-0603"
+			(at 365.76 99.314 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 366.014 97.536 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 10Ω 75V Thick Film Resistor ±1% ±200ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 365.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 365.76 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-070RL"
+			(at 365.76 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C100044"
+			(at 365.76 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 365.76 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6853,84 +7384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 354.33 120.65 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7469893a-cde4-48a1-81a2-afd88a75125a")
-		(property "Reference" "#PWR046"
-			(at 354.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 354.33 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 354.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 354.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3773f17c-0426-42b8-9013-39e7531c424e")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NX-J401-Adapter:C_US")
 		(at 154.94 189.23 0)
 		(mirror y)
@@ -7051,126 +7504,6 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 351.79 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "856814fe-9b09-4b56-8900-85da791aab41")
-		(property "Reference" "Q4"
-			(at 350.52 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 350.52 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 356.87 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
-			(at 356.87 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "N-Channel 50 V 220mA (Ta) 350mW (Ta) Surface Mount SOT-23-3"
-			(at 351.79 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "onsemi"
-			(at 351.79 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "BSS138"
-			(at 351.79 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C52895"
-			(at 351.79 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3921f94b-322a-4a33-a0c9-7d0a8e9f7eb9")
-		)
-		(pin "1"
-			(uuid "4b8c371c-4b61-4dbf-b902-20f0c0c9009c")
-		)
-		(pin "3"
-			(uuid "56ff16af-96d0-4ca3-8282-55dc710884c4")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7313,7 +7646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "890e864c-a509-4dc4-a86a-b9e3f106895b")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 89.408 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7420,7 +7753,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7943,131 +8276,6 @@
 	)
 	(symbol
 		(lib_id "NX-J401-Adapter:R_US")
-		(at 334.01 101.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a37b175d-74f5-481f-9147-06b2603e3172")
-		(property "Reference" "R13"
-			(at 335.28 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5.1k-1%-0603"
-			(at 335.28 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
-			(at 332.994 101.346 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 334.01 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 334.01 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "RC0603FR-075K1L"
-			(at 334.01 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C105580"
-			(at 334.01 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 334.01 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "783ebe85-e8f5-424c-babc-a6e468e6be5e")
-		)
-		(pin "2"
-			(uuid "ee0ddc47-786e-42f5-820a-197307eb7e34")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-J401-Adapter:R_US")
 		(at 215.9 130.81 0)
 		(mirror x)
 		(unit 1)
@@ -8078,7 +8286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b13b1a23-2e38-4173-8723-09c48721e0fd")
-		(property "Reference" "R31"
+		(property "Reference" "R33"
 			(at 214.63 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8186,7 +8394,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R31")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8194,7 +8402,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 354.33 140.97 0)
+		(at 320.04 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8203,9 +8411,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b2c156eb-8574-4d66-9546-511be0da1b69")
-		(property "Reference" "#PWR044"
-			(at 354.33 147.32 0)
+		(uuid "bac5557b-456d-4ea9-a475-cb95c12aff20")
+		(property "Reference" "#PWR049"
+			(at 320.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8424,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 354.33 144.78 0)
+			(at 320.04 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8226,7 +8434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 354.33 140.97 0)
+			(at 320.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 140.97 0)
+			(at 320.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8248,7 +8456,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 354.33 140.97 0)
+			(at 320.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8259,21 +8467,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "d92373d2-bac1-4880-84ec-90b040ceb545")
+			(uuid "c3dfa995-c394-447c-8bf0-1a064717684e")
 		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR044")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 326.39 120.65 0)
-		(mirror y)
+		(lib_id "NX-J401-Adapter:SS8050")
+		(at 351.79 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8281,9 +8488,57 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bcfde9b7-7e6e-40aa-8aeb-ddc17b6d1fb7")
-		(property "Reference" "#PWR045"
-			(at 326.39 127 0)
+		(fields_autoplaced yes)
+		(uuid "bf46cdcc-9698-4f51-9e54-d47774164a96")
+		(property "Reference" "Q6"
+			(at 356.87 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8050"
+			(at 356.87 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:SOT-23"
+			(at 356.87 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/SS8050-C2150.pdf"
+			(at 356.87 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
+			(at 385.826 106.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8293,18 +8548,8 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
-			(at 326.39 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 120.65 0)
+		(property "Sim.Device" "NPN"
+			(at 351.79 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8314,8 +8559,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 326.39 120.65 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 351.79 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8325,8 +8570,173 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 326.39 120.65 0)
+		(property "MFG" "Jiangsu Changjing Electronics Technology Co., Ltd."
+			(at 351.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "SS8050(RANGE:200-350)"
+			(at 351.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C2150"
+			(at 351.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 351.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b31a685f-731e-499e-88da-453ad4b4959f")
+		)
+		(pin "2"
+			(uuid "d53dbf12-2a05-407d-afd9-52a46b27e131")
+		)
+		(pin "1"
+			(uuid "ce85074c-c586-43fb-8a5d-d282bbdf784b")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:Si2319CDS")
+		(at 318.77 125.73 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2105851-d955-43e8-baae-aa129d91b500")
+		(property "Reference" "Q4"
+			(at 322.58 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2301CDS-T1-GE3"
+			(at 323.596 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:SOT-23"
+			(at 323.85 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/Vishay-SI2301-C10487.pdf"
+			(at 323.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 P-Channel 1.6W 10nC@4.5V 142mΩ@2.5V 1V 20V 3.1A 405pF 55pF 75pF P-Channel SOT-23 MOSFETs ROHS"
+			(at 318.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Vishay-Siliconix"
+			(at 318.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "SI2301CDS-T1-GE3 "
+			(at 318.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C10487"
+			(at 318.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 318.77 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8337,12 +8747,143 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1daa314-cea1-400e-8c9a-4e0a86009d90")
+			(uuid "68ee2489-364d-4c69-b082-093f8c69e445")
+		)
+		(pin "3"
+			(uuid "f3627a2d-29c1-4722-a5c2-af4a0f6ac738")
+		)
+		(pin "2"
+			(uuid "8cc34c7f-732c-4a4f-997f-9636331128d1")
 		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR045")
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:R_US")
+		(at 321.31 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c865c063-a975-4923-8d89-818e7f2d8ee7")
+		(property "Reference" "R7"
+			(at 323.088 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13K-1%-0603"
+			(at 323.088 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
+			(at 320.294 135.636 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 13kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 321.31 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 321.31 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-0713KL"
+			(at 321.31 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C137796"
+			(at 321.31 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 321.31 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7286cc3f-4d87-435e-886f-a0f694572f68")
+		)
+		(pin "2"
+			(uuid "0955e753-00d7-4035-8418-f132b2521d99")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8421,132 +8962,6 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-J401-Adapter:R_US")
-		(at 326.39 101.6 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d6b8e8c5-f53c-4f09-9422-4e5df2661bd0")
-		(property "Reference" "R12"
-			(at 325.12 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5.1k-1%-0603"
-			(at 325.12 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
-			(at 327.406 101.346 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 326.39 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 326.39 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "RC0603FR-075K1L"
-			(at 326.39 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C105580"
-			(at 326.39 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 326.39 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e779d96b-ee53-4034-9e0b-a347ac1ee5d2")
-		)
-		(pin "2"
-			(uuid "ef85b48a-9a6c-4df2-80f9-120f9d55fed0")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8864,126 +9279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 322.58 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f14a77b1-48f4-4b2e-9317-bd3b417f649a")
-		(property "Reference" "Q7"
-			(at 321.31 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 321.31 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 327.66 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
-			(at 327.66 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "N-Channel 50 V 220mA (Ta) 350mW (Ta) Surface Mount SOT-23-3"
-			(at 322.58 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "onsemi"
-			(at 322.58 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "BSS138"
-			(at 322.58 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C52895"
-			(at 322.58 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "80e940cf-5ff9-49e3-9ee7-ef11d7766d08")
-		)
-		(pin "1"
-			(uuid "fa7cf466-8289-48bc-bb89-9a5daaf53a5e")
-		)
-		(pin "3"
-			(uuid "a53ce864-534e-4f65-a827-4ca9326a085d")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 142.24 134.62 0)
 		(unit 1)
@@ -9055,6 +9350,84 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 354.33 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f433a8a5-4b48-4dd9-8fb1-7f567d031e23")
+		(property "Reference" "#PWR045"
+			(at 354.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 354.33 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 354.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a26592c2-3e94-4b0a-a450-2cd3117b254c")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9353,6 +9726,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 321.31 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc6cb358-0ca8-4f67-81ee-6fcc1e7926c7")
+		(property "Reference" "#PWR046"
+			(at 321.31 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 321.31 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3a1654d-a6b7-4480-83b8-50a483a235e3")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 114.3 200.66 0)
 		(unit 1)
 		(body_style 1)
@@ -9518,6 +9969,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 355.6 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdba81ef-e994-4637-acfd-766719c16b11")
+		(property "Reference" "#PWR044"
+			(at 355.6 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 355.6 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "547c18aa-46f3-4020-9b37-fa667e416928")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NX-J401-Adapter:R_US")
 		(at 220.98 130.81 0)
 		(mirror x)
@@ -9529,7 +10058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe023338-65f7-42d2-9b46-e311415732bc")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 222.758 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9637,7 +10166,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
