@@ -65,7 +65,7 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.381,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -905,7 +905,7 @@
         "uuid": "3c9fa76f-2b37-4666-8575-58caa65def04"
       }
     ],
-    "used_designators": "#PWR33,#PWR35-54,C57-65,D10,H5-13,J5,J12-13,LOGO1-2,LP1-4,Q10-19,R23,R26-37,SW3-4,U9-13",
+    "used_designators": "#PWR33,C57-59,D10-11,H5-13,J5,J12-13,LOGO1-2,LP1-4,R26-28,R36-37,SW3-4",
     "variants": []
   },
   "sheets": [
