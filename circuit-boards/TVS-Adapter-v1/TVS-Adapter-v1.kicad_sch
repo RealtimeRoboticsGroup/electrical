@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-10")
-		(rev "7")
+		(date "2026-10-19")
+		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
@@ -3389,6 +3389,18 @@
 		(uuid "1f192884-13f2-4d58-a084-337c39b19f22")
 	)
 	(junction
+		(at 151.13 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1a8887-3197-4104-8dda-412706c0671e")
+	)
+	(junction
+		(at 133.35 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3d556d-7ca9-4183-8f27-0c834891bb4c")
+	)
+	(junction
 		(at 166.37 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4058,6 +4070,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 190.5) (xy 180.34 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b2c574-7dfa-4dd7-b99a-b69242738109")
+	)
+	(wire
+		(pts
 			(xy 99.06 195.58) (xy 93.98 195.58)
 		)
 		(stroke
@@ -4225,6 +4247,16 @@
 			(type default)
 		)
 		(uuid "b00d3409-3e98-40ff-bb2a-8624117ec847")
+	)
+	(wire
+		(pts
+			(xy 151.13 187.96) (xy 180.34 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43d483c-4cad-487e-a8fd-3217e9a86559")
 	)
 	(wire
 		(pts
@@ -4933,7 +4965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0863c514-1ac8-4471-93e4-8cf1cdca7f8b")
-		(property "Reference" "H6"
+		(property "Reference" "H11"
 			(at 298.45 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5002,7 +5034,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H6")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -5149,7 +5181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ceb538-0acc-4257-8214-d39d4a4fa24f")
-		(property "Reference" "H12"
+		(property "Reference" "H2"
 			(at 350.52 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5218,7 +5250,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H12")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5235,7 +5267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d6d69ce-3de3-47dd-bf88-16b6efc6bb88")
-		(property "Reference" "C45"
+		(property "Reference" "C48"
 			(at 152.908 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5342,7 +5374,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C45")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d5dcd6-3289-4227-a6d4-18a5bf678cc4")
-		(property "Reference" "H10"
+		(property "Reference" "H1"
 			(at 350.52 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5429,7 +5461,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H10")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5939,7 +5971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e0d131b-50ea-4782-ab55-76272feb029e")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 298.45 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6008,7 +6040,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff7721d-5b2d-4edb-b77f-03a183b81cd3")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 301.498 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6132,7 +6164,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6295,7 +6327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58c6d06b-680c-451a-8b4e-924e0ff82e83")
-		(property "Reference" "Q9"
+		(property "Reference" "Q13"
 			(at 133.35 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6402,7 +6434,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "Q9")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -6891,7 +6923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cb93c55-9c4d-4b98-be91-9e322cbca3f8")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 270.764 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6998,7 +7030,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7016,7 +7048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b4a2260-3673-44f4-bf70-5c72b0e104e6")
-		(property "Reference" "R27"
+		(property "Reference" "R30"
 			(at 165.1 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7123,7 +7155,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "R27")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7141,7 +7173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fb0221e-63eb-4ecb-9f01-6d1aaf9363da")
-		(property "Reference" "H8"
+		(property "Reference" "H7"
 			(at 298.45 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,7 +7242,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H8")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -7494,7 +7526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3b15f1-c5f2-4462-a3ad-d1a849f07198")
-		(property "Reference" "H5"
+		(property "Reference" "H10"
 			(at 298.45 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,7 +7595,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H5")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -7581,7 +7613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad65ac46-08b5-4a13-9583-d0b61e54ad86")
-		(property "Reference" "H7"
+		(property "Reference" "H5"
 			(at 298.45 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7650,7 +7682,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7901,7 +7933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c01e9fed-f385-4012-b31c-fc009894b61f")
-		(property "Reference" "C52"
+		(property "Reference" "C55"
 			(at 122.174 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8008,7 +8040,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C52")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -8026,7 +8058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a86ac7-6129-4801-8503-93efebb8b277")
-		(property "Reference" "H11"
+		(property "Reference" "H12"
 			(at 350.52 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8095,7 +8127,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H11")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -8357,7 +8389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cba75052-33a3-41c5-87ee-4ee5e0091dd2")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 298.45 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +8458,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8887,7 +8919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7948e5e-031b-4159-b9d4-1cf07e935623")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 171.45 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +9026,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9012,7 +9044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de169099-8e91-4807-a93e-ed2f5007c7a1")
-		(property "Reference" "H9"
+		(property "Reference" "H8"
 			(at 298.45 208.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9081,7 +9113,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H9")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -9316,7 +9348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4909287-c56a-4a9d-8e2d-2121dcb9590d")
-		(property "Reference" "C54"
+		(property "Reference" "C57"
 			(at 109.728 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9423,7 +9455,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C54")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -9937,7 +9969,7 @@
 	)
 	(sheet
 		(at 180.34 175.26)
-		(size 68.58 16.51)
+		(size 68.58 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10005,6 +10037,26 @@
 		(pin "TXD" output
 			(at 180.34 185.42 180)
 			(uuid "a0e83e50-88a9-401a-bacc-6c958a341def")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FORCE_RECOVERY}" output
+			(at 180.34 190.5 180)
+			(uuid "252fd4f1-7518-47bf-8719-345236373a8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" output
+			(at 180.34 187.96 180)
+			(uuid "5dd2fe8d-6146-4d8d-815a-0dfddbf9bbed")
 			(effects
 				(font
 					(size 1.27 1.27)

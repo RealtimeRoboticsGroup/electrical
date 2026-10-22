@@ -65,7 +65,7 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.381,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -275,7 +272,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "7"
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -567,7 +564,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
+    "net_colors": null,
     "netclass_assignments": {
       "/CANable2.0/3V3": [
         "LQFP"
@@ -605,7 +602,7 @@
       "GND_USB": [
         "LQFP"
       ],
-      "Net-(C42-Pad1)": [
+      "Net-(C44-Pad1)": [
         "LQFP"
       ],
       "Net-(J11-CC1)": [
@@ -905,7 +902,7 @@
         "uuid": "3c9fa76f-2b37-4666-8575-58caa65def04"
       }
     ],
-    "used_designators": "#PWR33,C57-59,D10,H5-13,J5,J12-13,LOGO1-2,LP1-4,R26-28,SW3-4",
+    "used_designators": "#PWR33,C57-59,D10-11,H5-13,LOGO1-2,J5,J12-13,LP1-4,R26-28,R36-37,SW3-4",
     "variants": []
   },
   "sheets": [

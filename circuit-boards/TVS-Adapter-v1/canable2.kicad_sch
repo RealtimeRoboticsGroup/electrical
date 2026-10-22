@@ -6,273 +6,11 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-10")
-		(rev "7")
+		(date "2026-10-19")
+		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
-		(symbol "Diode:BAV99"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D10"
-				(at 1.2701 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BAV199LT1G"
-				(at -1.2699 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "Components/onsemi-BAV199LT1-D.PDF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-65℃~+150℃ 1 Pair Series Connection 1.25V@150mA 215mA 2A 5uA@70V 70V SOT-23 Diodes - General Purpose ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFG P/N" "BAV199LT1G"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB P/N" "C145516"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFG" "onsemi"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BAV99_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAV99_1_1"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Graphic:SYM_Arrow_Large"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -379,6 +117,193 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NX-J401-Adapter:B260A-13-F"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D1"
+				(at -0.3175 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B260A-13-F"
+				(at -0.3175 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-65℃~+150℃ 1 Independent 2A 500uA@60V 50A 60V 700mV@2A SMA Schottky Diodes ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG" "Diodes Inc"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG P/N" "B260A-13-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB P/N" "C109094"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "B260A-13-F_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B260A-13-F_1_1"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4229,6 +4154,18 @@
 		(uuid "4be33363-a6ae-417d-b098-6aaadc1fc33f")
 	)
 	(junction
+		(at 213.36 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51e479b4-6351-4918-8782-6e330ad8aa76")
+	)
+	(junction
+		(at 207.01 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f5c30d5-0a38-410d-b252-66cc6a247633")
+	)
+	(junction
 		(at 246.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4257,18 +4194,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "748ca243-3d0d-4239-b368-9a9db9d7c374")
-	)
-	(junction
-		(at 215.9 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e0b97c4-c484-43ce-8d13-192a32f7cbbc")
-	)
-	(junction
-		(at 210.82 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bb1cf1a-2e8c-4ea9-b04e-cbc6e784874c")
 	)
 	(junction
 		(at 76.2 68.58)
@@ -4301,12 +4226,6 @@
 		(uuid "9e9e0e5f-42ec-480f-86b1-51e9c6a5bee8")
 	)
 	(junction
-		(at 210.82 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a070b665-3ddd-427d-af23-e1c9d72ea459")
-	)
-	(junction
 		(at 160.02 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4337,12 +4256,6 @@
 		(uuid "a9ce3904-ca09-439d-b284-8195a420c382")
 	)
 	(junction
-		(at 207.01 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab7a22e3-7e37-492b-ae67-74f056e40230")
-	)
-	(junction
 		(at 134.62 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4359,6 +4272,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba2ebf35-dc68-45b9-b542-0bd70d56fcb3")
+	)
+	(junction
+		(at 213.36 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c683cb2c-2ce1-4f94-86f6-98fd38a20f11")
 	)
 	(junction
 		(at 158.75 185.42)
@@ -4588,16 +4507,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 53.34) (xy 207.01 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc19609-175f-4662-b589-01dc05463b6c")
-	)
-	(wire
-		(pts
 			(xy 311.15 173.99) (xy 312.42 173.99)
 		)
 		(stroke
@@ -4728,6 +4637,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 33.02) (xy 238.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da589d8-1896-4e4c-8ba6-79b969733f46")
+	)
+	(wire
+		(pts
 			(xy 134.62 90.17) (xy 137.16 90.17)
 		)
 		(stroke
@@ -4785,6 +4704,16 @@
 			(type default)
 		)
 		(uuid "2737e91a-2ecf-41b7-b80c-51879625bc77")
+	)
+	(wire
+		(pts
+			(xy 207.01 33.02) (xy 213.36 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d0a221-7b2d-4a59-b4cb-ddfdb0bfe622")
 	)
 	(wire
 		(pts
@@ -4888,6 +4817,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 33.02) (xy 213.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372f76bb-eefa-46fc-8dcc-6006beab8961")
+	)
+	(wire
+		(pts
+			(xy 213.36 46.99) (xy 213.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c721bf-db1f-40ea-b902-f3dc5e0cddc8")
+	)
+	(wire
+		(pts
 			(xy 95.25 40.64) (xy 95.25 49.53)
 		)
 		(stroke
@@ -4895,16 +4844,6 @@
 			(type default)
 		)
 		(uuid "3a46ede7-e85e-4ae8-9378-02bc15d6d658")
-	)
-	(wire
-		(pts
-			(xy 207.01 33.02) (xy 210.82 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf9eef9-1eb4-431d-acf5-37387ef1cd11")
 	)
 	(wire
 		(pts
@@ -4948,6 +4887,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 53.34) (xy 213.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1b8f44-1636-48e2-9a13-974c04da8345")
+	)
+	(wire
+		(pts
 			(xy 246.38 44.45) (xy 246.38 48.26)
 		)
 		(stroke
@@ -4955,16 +4904,6 @@
 			(type default)
 		)
 		(uuid "4ab00f85-a615-458c-b2aa-e7be247f3c33")
-	)
-	(wire
-		(pts
-			(xy 210.82 33.02) (xy 238.76 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c773ee7-f170-4633-b8cf-2f08ca94ff49")
 	)
 	(wire
 		(pts
@@ -5158,6 +5097,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 53.34) (xy 238.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75aa2172-cc79-4119-8e7b-9d94f666060f")
+	)
+	(wire
+		(pts
 			(xy 114.3 200.66) (xy 154.94 200.66)
 		)
 		(stroke
@@ -5288,16 +5237,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 36.83) (xy 210.82 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e96968-a14b-4242-ac29-7e4a024c4b66")
-	)
-	(wire
-		(pts
 			(xy 212.09 207.01) (xy 231.14 207.01)
 		)
 		(stroke
@@ -5305,6 +5244,16 @@
 			(type default)
 		)
 		(uuid "894fbdb8-1443-4e56-82bf-8ba76cb81511")
+	)
+	(wire
+		(pts
+			(xy 207.01 53.34) (xy 207.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a80926a-2ddb-4a9b-a4cd-992e1b7ed53e")
 	)
 	(wire
 		(pts
@@ -5328,6 +5277,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 46.99) (xy 207.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900e4f24-5603-4af1-9e76-24b0fe1af2bb")
+	)
+	(wire
+		(pts
 			(xy 283.21 143.51) (xy 283.21 147.32)
 		)
 		(stroke
@@ -5338,16 +5297,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 33.02) (xy 210.82 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962e0e2c-b93e-4753-9b17-27ce1ba2def0")
-	)
-	(wire
-		(pts
 			(xy 124.46 200.66) (xy 124.46 210.82)
 		)
 		(stroke
@@ -5355,16 +5304,6 @@
 			(type default)
 		)
 		(uuid "97b9127d-050b-4f32-b7c9-a4795e3ee1a5")
-	)
-	(wire
-		(pts
-			(xy 215.9 52.07) (xy 215.9 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a61c82-8149-4131-8142-b6d817d02792")
 	)
 	(wire
 		(pts
@@ -5548,16 +5487,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 36.83) (xy 215.9 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c62965f6-af92-4c9d-ab6f-a6636accfc3f")
-	)
-	(wire
-		(pts
 			(xy 260.35 135.89) (xy 270.51 135.89)
 		)
 		(stroke
@@ -5678,26 +5607,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 53.34) (xy 238.76 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da082def-1f66-4b76-9cd1-4443fd2330cc")
-	)
-	(wire
-		(pts
-			(xy 207.01 46.99) (xy 207.01 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da2ff347-e6fb-4e4d-b122-9062413e483f")
-	)
-	(wire
-		(pts
 			(xy 285.75 147.32) (xy 283.21 147.32)
 		)
 		(stroke
@@ -5725,16 +5634,6 @@
 			(type default)
 		)
 		(uuid "dd5976c8-2452-44d1-af18-a41e54717897")
-	)
-	(wire
-		(pts
-			(xy 207.01 53.34) (xy 215.9 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01ff0a8-304e-4039-b55a-06238745b5d9")
 	)
 	(wire
 		(pts
@@ -6408,7 +6307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01268a3f-7afc-4e06-8bff-42bd646a944c")
-		(property "Reference" "Q7"
+		(property "Reference" "Q10"
 			(at 246.38 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6520,7 +6419,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "Q7")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -6666,7 +6565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47e7523c-cb64-4942-832e-dc38ef547c30")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 96.266 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,7 +6672,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6791,7 +6690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49de3762-3540-41cd-b21c-56324236c7b1")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 228.6 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6897,7 +6796,121 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R1")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:B260A-13-F")
+		(at 213.36 43.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4dee98f1-bfc4-4a40-8701-f64bfb88d43c")
+		(property "Reference" "D7"
+			(at 215.9 41.5924 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54KFILM"
+			(at 215.9 44.1324 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:D_SOD-523"
+			(at 213.36 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "Components/STmicro-BAT54KFILM.pdf"
+			(at 213.36 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-65℃~+150℃ 1 Independent 2A 500uA@60V 50A 60V 700mV@2A SMA Schottky Diodes ROHS"
+			(at 213.36 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "STmicro"
+			(at 213.36 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "STMicroelectronics"
+			(at 213.36 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C283259"
+			(at 213.36 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ebd213d-8c91-4761-9370-c47c64e3ede7")
+		)
+		(pin "1"
+			(uuid "14822e15-2f2c-4701-a521-9f4fd0d8766a")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7137,7 +7150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c0e2d22-88af-4bad-b18e-4b9dcf83e2fb")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 128.27 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7243,7 +7256,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7261,7 +7274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cd8f920-f0c8-4cec-a9ae-1c0f03c65979")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 168.148 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,7 +7382,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7387,7 +7400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e0f4c1b-3e01-4a7d-b698-b2c6c9ca7d07")
-		(property "Reference" "C32"
+		(property "Reference" "C34"
 			(at 158.75 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7493,7 +7506,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C32")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -7511,7 +7524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd95a79-f204-4316-a95b-5ab4077b0bb8")
-		(property "Reference" "Q5"
+		(property "Reference" "Q9"
 			(at 248.92 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7647,7 +7660,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "Q5")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -7665,7 +7678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62d022b3-6965-470a-bf54-61aa3c97310f")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 118.11 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7771,7 +7784,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7936,7 +7949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "705fe19f-e3b2-462e-8398-9d05c797702c")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at 237.236 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +8057,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R12")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8249,7 +8262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "778895a4-235f-4e56-af8d-cd4e741bd170")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 149.606 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8356,7 +8369,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8374,7 +8387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8780d385-6e38-4257-8483-1c69a8de169b")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 318.77 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,7 +8520,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -8524,7 +8537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "904839a0-10b4-47a0-b722-7e5eba7e2c9d")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 161.036 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,7 +8644,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8920,7 +8933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98f1ba3f-fe89-4573-9909-934ab02ca168")
-		(property "Reference" "R11"
+		(property "Reference" "R17"
 			(at 160.528 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9041,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R11")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9191,7 +9204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2d05adb-13fb-4b0f-b7d6-ea40232a09b8")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 167.132 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9299,7 +9312,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9317,7 +9330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac9f2cd3-cd7b-4513-9181-621fae6d5061")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 205.486 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9438,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9443,7 +9456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0a58053-7f9a-4060-b1fd-43732eb223ee")
-		(property "Reference" "C30"
+		(property "Reference" "C32"
 			(at 203.2 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,7 +9564,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C30")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -9569,7 +9582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1534d98-6357-474e-a983-5a1ef5692a48")
-		(property "Reference" "C21"
+		(property "Reference" "C23"
 			(at 138.43 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9675,7 +9688,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -9693,7 +9706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6f943bf-9e31-4aca-b04b-67b3af0b0bb3")
-		(property "Reference" "C34"
+		(property "Reference" "C36"
 			(at 148.59 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9799,7 +9812,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C34")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -9817,7 +9830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9aab6a7-dc83-4d38-87ae-9033d5506f38")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 214.63 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9923,7 +9936,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9941,7 +9954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbb4fcd3-7e25-4bff-b7f7-9df4e3b5a628")
-		(property "Reference" "C48"
+		(property "Reference" "C50"
 			(at 256.54 141.2239 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10049,7 +10062,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C48")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -10205,124 +10218,6 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAV99")
-		(at 215.9 44.45 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0b3ca8f-dae5-4263-b021-c7835d513fd2")
-		(property "Reference" "D10"
-			(at 218.44 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAV199LT1G"
-			(at 218.44 45.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 203.2 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/onsemi-BAV199LT1-D.PDF"
-			(at 215.9 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-65℃~+150℃ 1 Pair Series Connection 1.25V@150mA 215mA 2A 5uA@70V 70V SOT-23 Diodes - General Purpose ROHS"
-			(at 215.9 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "onsemi"
-			(at 215.9 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "BAV199LT1G"
-			(at 215.9 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C145516"
-			(at 215.9 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7701812-aeb2-459b-a121-72697fb2a6e4")
-		)
-		(pin "2"
-			(uuid "52f5e8a6-1f61-4a61-8562-0fe102137a3a")
-		)
-		(pin "3"
-			(uuid "5b4cca61-599d-4272-af06-7924c556ce20")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -10496,7 +10391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd326922-133c-4ad9-96d9-9ae2345a587e")
-		(property "Reference" "C53"
+		(property "Reference" "C56"
 			(at 269.24 115.8239 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10604,7 +10499,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C53")
+					(reference "C56")
 					(unit 1)
 				)
 			)
