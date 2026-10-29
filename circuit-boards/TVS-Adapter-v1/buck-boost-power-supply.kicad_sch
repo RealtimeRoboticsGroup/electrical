@@ -4720,7 +4720,7 @@
 				(type solid)
 			)
 		)
-		(column_widths 12.7 11.43)
+		(column_widths 12.7 21.59)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54)
 		(uuid "1d183f11-f413-466b-b9e0-3d78ff80a67a")
 		(cells
@@ -4743,7 +4743,7 @@
 			(table_cell "24V"
 				(exclude_from_sim no)
 				(at 147.32 222.25 0)
-				(size 11.43 2.54)
+				(size 21.59 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4772,10 +4772,10 @@
 				)
 				(uuid "ce13f966-00ca-4349-b558-b4685f5c40df")
 			)
-			(table_cell "5V"
+			(table_cell "6V / 5V Transient"
 				(exclude_from_sim no)
 				(at 147.32 224.79 0)
-				(size 11.43 2.54)
+				(size 21.59 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4807,7 +4807,7 @@
 			(table_cell "15V"
 				(exclude_from_sim no)
 				(at 147.32 227.33 0)
-				(size 11.43 2.54)
+				(size 21.59 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4839,7 +4839,7 @@
 			(table_cell "3A"
 				(exclude_from_sim no)
 				(at 147.32 229.87 0)
-				(size 11.43 2.54)
+				(size 21.59 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4871,7 +4871,7 @@
 			(table_cell "589 kHz"
 				(exclude_from_sim no)
 				(at 147.32 232.41 0)
-				(size 11.43 2.54)
+				(size 21.59 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4903,7 +4903,7 @@
 			(table_cell "96.7%"
 				(exclude_from_sim no)
 				(at 147.32 234.95 0)
-				(size 11.43 2.54)
+				(size 21.59 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -11248,7 +11248,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "205K-1%-0603"
+		(property "Value" "93.1k-1%-0603"
 			(at 73.152 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11302,7 +11302,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "0603WAF2053T5E"
+		(property "MFG P/N" "AC0603FR-0793K1L"
 			(at 76.2 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -11313,7 +11313,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C22949"
+		(property "JLCPCB P/N" "C228101"
 			(at 76.2 199.39 90)
 			(hide yes)
 			(show_name no)

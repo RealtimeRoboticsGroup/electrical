@@ -996,52 +996,52 @@
 		(uuid "c1203806-3ffb-47c9-8afa-d34e2e5f9e98")
 	)
 	(no_connect
-		(at 161.29 102.87)
-		(uuid "04ebf4b9-0868-41ae-9f27-537d103e5b7f")
-	)
-	(no_connect
-		(at 132.08 135.89)
-		(uuid "0fb32ff8-b09f-498b-8d42-3d01e4c98111")
-	)
-	(no_connect
-		(at 132.08 118.11)
-		(uuid "17a41eee-eece-48a2-9d7e-68c82d122c4c")
-	)
-	(no_connect
-		(at 132.08 133.35)
-		(uuid "30be7188-8487-431b-94ef-9414c03d1fbc")
-	)
-	(no_connect
-		(at 161.29 105.41)
-		(uuid "32fdf47c-5dcc-40ee-b4d5-3b179ecf603c")
-	)
-	(no_connect
-		(at 132.08 120.65)
-		(uuid "5eb82ead-0639-440a-9d1d-b350f75d7b32")
-	)
-	(no_connect
-		(at 161.29 133.35)
-		(uuid "628d02ba-363a-4c33-8c18-a42d43fcb064")
-	)
-	(no_connect
-		(at 161.29 118.11)
-		(uuid "656e671e-131f-4194-8e28-6e01e27e624a")
-	)
-	(no_connect
-		(at 132.08 102.87)
-		(uuid "724fc465-9482-4179-8cd5-058f11a7e95f")
-	)
-	(no_connect
-		(at 161.29 120.65)
-		(uuid "c616aecc-3917-4647-b5a3-3b092a405a4c")
+		(at 132.08 105.41)
+		(uuid "2364f9ed-2f1e-4220-9468-f07b68607149")
 	)
 	(no_connect
 		(at 161.29 135.89)
-		(uuid "ebd3a84f-f9ea-49b2-b68b-6d02616424e7")
+		(uuid "300ffb4e-8af1-41da-81a1-121d3f825df4")
 	)
 	(no_connect
-		(at 132.08 105.41)
-		(uuid "fd2014ec-cd98-4cec-8ac2-48157e54eef8")
+		(at 132.08 102.87)
+		(uuid "5a2517fc-b9d3-4704-9c33-6ab41c8aa9f7")
+	)
+	(no_connect
+		(at 132.08 120.65)
+		(uuid "78b43127-0b3b-41b4-8c65-06e249bdf71f")
+	)
+	(no_connect
+		(at 161.29 133.35)
+		(uuid "7f031fc3-1168-4ad8-a10c-255feb7cd036")
+	)
+	(no_connect
+		(at 132.08 133.35)
+		(uuid "84435594-a587-42e1-bf4d-08e216a5b910")
+	)
+	(no_connect
+		(at 161.29 120.65)
+		(uuid "988af891-3634-4848-88ce-0f2b37079719")
+	)
+	(no_connect
+		(at 132.08 118.11)
+		(uuid "a457f4e3-2cfd-4a7b-b413-ff1907d34510")
+	)
+	(no_connect
+		(at 161.29 105.41)
+		(uuid "bd681b34-385d-4286-b938-1915cf43954e")
+	)
+	(no_connect
+		(at 132.08 135.89)
+		(uuid "c34951e7-c294-4e6f-9cd9-2b6f4ad40a65")
+	)
+	(no_connect
+		(at 161.29 118.11)
+		(uuid "f50db749-d840-4878-8cd2-70353c6dfa79")
+	)
+	(no_connect
+		(at 161.29 102.87)
+		(uuid "fb6a0fee-57f7-489e-965e-f782dc3f9816")
 	)
 	(wire
 		(pts
@@ -1051,7 +1051,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "213ecb9d-2e6e-4eb6-96dd-14045a311632")
+		(uuid "01be0879-3265-4a01-9658-58b8a5e4e518")
 	)
 	(wire
 		(pts
@@ -1061,27 +1061,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "36430535-8cd7-4ac4-8a42-c300ee77b93a")
-	)
-	(wire
-		(pts
-			(xy 132.08 123.19) (xy 161.29 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e11ed14-0aa9-44fb-8a54-cdff07958683")
-	)
-	(wire
-		(pts
-			(xy 132.08 130.81) (xy 161.29 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd6c99d-56cf-45e8-8fa0-ca37f6a012a3")
+		(uuid "1bad30e2-9823-44f4-8d0d-789485e1d215")
 	)
 	(wire
 		(pts
@@ -1091,7 +1071,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6f652f98-8dce-473e-a6da-4c25e20a3d53")
+		(uuid "3d9d5d06-889d-4c79-9e10-86f3c41f5d8b")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fe8f41-7c88-4e2e-85c3-1bc0b8659a05")
 	)
 	(wire
 		(pts
@@ -1101,17 +1091,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "701cfb2b-5f21-475c-a978-910937bff25a")
+		(uuid "6cf153e5-af9a-4fff-95d7-f830a0512ef9")
 	)
 	(wire
 		(pts
-			(xy 132.08 125.73) (xy 161.29 125.73)
+			(xy 132.08 130.81) (xy 161.29 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dc6ff63-df93-4c67-a803-8b00251fb4fe")
+		(uuid "87679341-71d3-4f7b-88a6-2b0b16c2f3e3")
 	)
 	(wire
 		(pts
@@ -1121,7 +1111,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c4601d6c-542f-48cd-9437-b7b4194b349c")
+		(uuid "88b97da9-255f-4048-be84-4623b3a5511a")
+	)
+	(wire
+		(pts
+			(xy 132.08 125.73) (xy 161.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4643797-2cc0-43db-abc7-112fbab90955")
 	)
 	(wire
 		(pts
@@ -1131,7 +1131,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fc3b7768-b6b6-4a60-9ef2-ad7648711950")
+		(uuid "f38ab0b9-5e55-4253-93b2-8ea2105954b8")
 	)
 	(label "GND_BTN"
 		(at 135.89 123.19 0)
@@ -1387,8 +1387,7 @@
 	)
 	(symbol
 		(lib_id "NX-J401-Adapter:Conn_01x15_Socket")
-		(at 127 118.11 0)
-		(mirror y)
+		(at 127 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1396,10 +1395,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99f72e29-a049-4893-a6ef-9a8692f5d4ce")
 		(property "Reference" "J5"
-			(at 127.635 95.25 0)
+			(at 128.27 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1409,7 +1407,7 @@
 			)
 		)
 		(property "Value" "NX CONTROL & UART"
-			(at 127.635 97.79 0)
+			(at 127 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1574,6 +1572,7 @@
 	(symbol
 		(lib_id "NX-J401-Adapter:Conn_01x15_Socket")
 		(at 166.37 118.11 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1583,7 +1582,7 @@
 		(dnp no)
 		(uuid "a218bb44-d32f-4eb3-8408-459a73b3c281")
 		(property "Reference" "J6"
-			(at 165.735 95.25 0)
+			(at 166.37 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1593,7 +1592,7 @@
 			)
 		)
 		(property "Value" "NX CONTROL & UART"
-			(at 165.735 97.79 0)
+			(at 166.37 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -11,6 +11,280 @@
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Graphic:SYM_Arrow_Large"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -455,251 +729,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NX-J401-Adapter:Conn_01x05"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4036,17 +4065,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "3V3_CAN delays bringing CAN RX (BOOT0)\nhigh until NPN turns on. ~10sec."
-		(exclude_from_sim no)
-		(at 285.75 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2cc56854-52d5-4316-a0db-a59d3b2baf53")
-	)
 	(text "Reverse Polarity Protection"
 		(exclude_from_sim no)
 		(at 76.454 30.988 0)
@@ -4056,6 +4074,27 @@
 			)
 		)
 		(uuid "a9dfaf7c-28d4-450c-a842-fa58beed2858")
+	)
+	(text_box "NOTES:\n- CANABLE circuit interfaces with the M.2 Key-E adapter plugged into the J401.  Input power must be no greater than 3.6V\n- 3V3_CAN delays bringing CAN RX (BOOT0)\nhigh until NPN turns on. ~10sec."
+		(exclude_from_sim no)
+		(at 306.07 27.94 0)
+		(size 52.07 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0.1019607843)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c7135133-a81a-41a3-a5ee-536760a02cfb")
 	)
 	(junction
 		(at 114.3 232.41)
@@ -4226,6 +4265,12 @@
 		(uuid "9e9e0e5f-42ec-480f-86b1-51e9c6a5bee8")
 	)
 	(junction
+		(at 154.94 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e5c976-f374-4bbe-a2b0-213d5a7bf496")
+	)
+	(junction
 		(at 160.02 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4308,6 +4353,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed6ce8fe-384f-423f-8ea7-874440d06e71")
+	)
+	(junction
+		(at 154.94 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa00602f-45d2-4fd1-824d-dc10c8d5591c")
 	)
 	(no_connect
 		(at 152.4 166.37)
@@ -4507,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 173.99) (xy 312.42 173.99)
+			(xy 311.15 171.45) (xy 312.42 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4624,6 +4675,16 @@
 			(type default)
 		)
 		(uuid "17f504df-cd63-4217-b864-a20ca7ff7454")
+	)
+	(wire
+		(pts
+			(xy 154.94 200.66) (xy 165.1 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1851014d-7b9e-4d2b-858b-c564fd97c845")
 	)
 	(wire
 		(pts
@@ -4927,6 +4988,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 200.66) (xy 165.1 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500b2a99-785f-4452-aea2-01422db862a4")
+	)
+	(wire
+		(pts
 			(xy 95.25 68.58) (xy 130.81 68.58)
 		)
 		(stroke
@@ -5094,6 +5165,16 @@
 			(type default)
 		)
 		(uuid "73bbc83c-9666-4a5f-ad0f-6226af9bf8bf")
+	)
+	(wire
+		(pts
+			(xy 165.1 218.44) (xy 165.1 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c33ef7-c5eb-4b18-a845-426562e61a02")
 	)
 	(wire
 		(pts
@@ -5297,6 +5378,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 173.99) (xy 312.42 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f3ff35-82e7-4e74-b7b1-4afc8b465493")
+	)
+	(wire
+		(pts
 			(xy 124.46 200.66) (xy 124.46 210.82)
 		)
 		(stroke
@@ -5354,6 +5445,16 @@
 			(type default)
 		)
 		(uuid "a051dd6a-5c05-4383-acca-362e68a83541")
+	)
+	(wire
+		(pts
+			(xy 165.1 232.41) (xy 154.94 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bdc76d-8d94-410d-8271-97a4b636cdf4")
 	)
 	(wire
 		(pts
@@ -6056,7 +6157,7 @@
 		(uuid "96009555-6e7c-4a2a-bf7b-33cbdbfb2c77")
 	)
 	(label "GND_CAN"
-		(at 311.15 173.99 180)
+		(at 311.15 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6144,6 +6245,16 @@
 			(justify left bottom)
 		)
 		(uuid "d36b051d-a862-4d25-aaa2-9c8d621f2b45")
+	)
+	(label "NRST"
+		(at 311.15 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e42754fa-fab0-45d3-83f9-042ce8aa2827")
 	)
 	(label "SWDIO"
 		(at 104.14 138.43 180)
@@ -8376,6 +8487,129 @@
 		)
 	)
 	(symbol
+		(lib_id "NX-J401-Adapter:C_US")
+		(at 165.1 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c9555c3-2c38-46cd-b2fa-ae6e9cf0f6e3")
+		(property "Reference" "C65"
+			(at 168.91 214.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22uF-10%-16V-0805"
+			(at 161.544 214.884 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:C_0805_2012Metric"
+			(at 165.1 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 22uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 165.1 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Samsung Electro-Mechanics"
+			(at 165.1 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "CL21A226KOQNNNE"
+			(at 165.1 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C296720"
+			(at 165.1 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 165.1 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1780d6a-b4c9-4cc2-b26f-718e279008da")
+		)
+		(pin "2"
+			(uuid "8266bb54-faa8-423b-b32b-aed2d55969e2")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NX-J401-Adapter:PESD1CAN")
 		(at 318.77 142.24 270)
 		(unit 1)
@@ -10224,8 +10458,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NX-J401-Adapter:Conn_01x05")
-		(at 317.5 179.07 0)
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 317.5 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10233,9 +10467,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ef2252dc-e682-44ec-8183-f7abb74dd951")
-		(property "Reference" "J8"
-			(at 320.04 177.7999 0)
+		(uuid "e41aafdc-dcf7-48e5-a4b9-516a888189fe")
+		(property "Reference" "J12"
+			(at 320.04 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10246,7 +10480,7 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 320.04 180.3399 0)
+			(at 320.04 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10256,8 +10490,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NX-J401-Adapter:PinHeader_1x05_P2.54mm_Horizontal"
-			(at 317.5 179.07 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
+			(at 317.5 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10268,7 +10502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 179.07 0)
+			(at 317.5 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,8 +10512,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 317.5 179.07 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 317.5 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10290,29 +10524,27 @@
 			)
 		)
 		(property "MFG" "Adam Tech"
-			(at 320.294 186.182 0)
+			(at 327.66 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "MFG P/N" "PH1RB-05-UA"
-			(at 320.294 183.896 0)
+		(property "MFG P/N" "PH1RB-06-UA"
+			(at 327.66 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 317.5 179.07 0)
+			(at 317.5 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10322,8 +10554,8 @@
 				)
 			)
 		)
-		(property "DIST P/N" "2057-PH1RB-05-UA-ND"
-			(at 317.5 179.07 0)
+		(property "DIST P/N" "2057-PH1RB-06-UA-ND"
+			(at 317.5 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,7 +10566,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
-			(at 317.5 179.07 0)
+			(at 317.5 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10344,36 +10576,28 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 317.5 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a651455-7a4e-4622-8ea0-c2b85c915a8c")
+		(pin "6"
+			(uuid "242506ff-2eb3-464c-9506-2393ea562214")
 		)
 		(pin "1"
-			(uuid "0ee1223f-ed58-4a50-bf1d-b7078b4a51ed")
+			(uuid "e821f4b6-d153-4ab2-b30c-aa86edfb52d2")
 		)
 		(pin "4"
-			(uuid "394aec03-7d18-4d32-98a2-ff8427fad8ff")
+			(uuid "009e7892-aa4b-4c23-8dba-180a46c9c9a9")
 		)
 		(pin "5"
-			(uuid "5e9a4c5f-6100-4355-b5dc-54e499608a5c")
+			(uuid "32141f9e-bc3d-4f3e-b268-1139df3e2b20")
 		)
 		(pin "3"
-			(uuid "2140a5aa-bd9e-4c92-acf9-f8de4174e762")
+			(uuid "ec8cc322-d573-4c9b-892b-0873725667b0")
+		)
+		(pin "2"
+			(uuid "9a4d8561-ff14-480c-95c3-cc6276431c17")
 		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "J8")
+					(reference "J12")
 					(unit 1)
 				)
 			)
