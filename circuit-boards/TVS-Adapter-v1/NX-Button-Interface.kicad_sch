@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-19")
+		(date "2026-10-31")
 		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
@@ -1301,6 +1301,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 217.17 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 217.17 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/f8ff9f31-2365-4daa-ba47-54bf7f47daed"
@@ -1366,6 +1388,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 217.17 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 217.17 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 217.17 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -1505,6 +1549,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1700,6 +1766,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "15"
 			(uuid "7972a8d8-f88c-4bb1-aa4b-46ff52978883")
 		)
@@ -1822,6 +1910,28 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 217.17 109.22 0)
 			(hide yes)
 			(show_name no)

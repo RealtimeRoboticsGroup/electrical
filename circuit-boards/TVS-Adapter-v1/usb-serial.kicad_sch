@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-19")
+		(date "2026-10-31")
 		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
@@ -1902,249 +1902,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NX-J401-Adapter:SS8050"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SS8050"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-				(at 5.08 -4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-				(at 34.036 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=B 2=E 3=C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SS8050 NPN Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SS8050_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS8050_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NX-J401-Adapter:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -3018,6 +2775,321 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3VA"
 			(power global)
 			(pin_numbers
@@ -3306,7 +3378,7 @@
 		(uuid "06664e7e-3cce-4288-a3ce-11c5ab0a523a")
 	)
 	(junction
-		(at 368.3 186.69)
+		(at 361.95 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ec9d2fb-167b-4f08-a744-82c0b6636354")
@@ -3354,6 +3426,12 @@
 		(uuid "44edb030-fd9d-4d2b-8e94-4954cf32987c")
 	)
 	(junction
+		(at 384.81 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f4d999e-924e-407c-b125-344f74a605e3")
+	)
+	(junction
 		(at 142.24 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3384,7 +3462,7 @@
 		(uuid "789af3ed-d37c-4796-a356-30f0e182cfbf")
 	)
 	(junction
-		(at 334.01 179.07)
+		(at 334.01 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89ba3389-e0e3-428c-9b7d-bbd518a347c8")
@@ -3420,6 +3498,12 @@
 		(uuid "b1bda7e7-f724-4e4b-8ca8-2d22009e658a")
 	)
 	(junction
+		(at 320.04 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0b6c2cf-45b3-40b0-9059-d60cdf0e447f")
+	)
+	(junction
 		(at 114.3 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3448,6 +3532,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce25e8f-3e8a-4e4d-98cf-3b4d8886f3df")
+	)
+	(junction
+		(at 320.04 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8be0cb-c702-4a94-b148-af576c7e4642")
 	)
 	(junction
 		(at 306.07 29.21)
@@ -3549,6 +3639,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 127) (xy 320.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0480dbcb-cd8a-4a64-9d80-53efc45e0ad1")
+	)
+	(wire
+		(pts
 			(xy 162.56 176.53) (xy 158.75 176.53)
 		)
 		(stroke
@@ -3559,17 +3659,17 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 62.23) (xy 292.1 62.23)
+			(xy 334.01 83.82) (xy 320.04 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b5a6bd1-f674-461f-9698-92d45ec46e72")
+		(uuid "0b506c29-fbe7-4212-b856-6aa8b883be17")
 	)
 	(wire
 		(pts
-			(xy 279.4 222.25) (xy 375.92 222.25)
+			(xy 279.4 215.9) (xy 391.16 215.9)
 		)
 		(stroke
 			(width 0)
@@ -3586,6 +3686,26 @@
 			(type default)
 		)
 		(uuid "0f3357f4-4e04-458b-9be3-abcc9a7ebedc")
+	)
+	(wire
+		(pts
+			(xy 292.1 91.44) (xy 292.1 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b5f846-0a63-4c1b-9952-cb32aa60221b")
+	)
+	(wire
+		(pts
+			(xy 297.18 134.62) (xy 297.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f355f2-b708-4960-a71f-c770ac553063")
 	)
 	(wire
 		(pts
@@ -3689,13 +3809,13 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 62.23) (xy 292.1 142.24)
+			(xy 337.82 91.44) (xy 334.01 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1efe1ec2-8310-489e-9359-484de0066294")
+		(uuid "1e2f4f1a-66c0-4bde-8480-f6de95863aaa")
 	)
 	(wire
 		(pts
@@ -3739,13 +3859,13 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 110.49) (xy 336.55 110.49)
+			(xy 384.81 177.8) (xy 384.81 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2414fd0c-6c32-42eb-8575-4e628a156ba1")
+		(uuid "249d0bbe-e572-4319-8fd8-f30ef62a544e")
 	)
 	(wire
 		(pts
@@ -3829,16 +3949,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 127) (xy 332.74 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3102b20c-41f8-4faf-a673-8fe891c85574")
-	)
-	(wire
-		(pts
 			(xy 113.03 116.84) (xy 129.54 116.84)
 		)
 		(stroke
@@ -3899,16 +4009,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 83.82) (xy 332.74 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae2bca4-4681-4896-b24b-22b7e8ffce8c")
-	)
-	(wire
-		(pts
 			(xy 81.28 152.4) (xy 76.2 152.4)
 		)
 		(stroke
@@ -3939,23 +4039,33 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 187.96) (xy 321.31 187.96)
+			(xy 320.04 127) (xy 320.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffad3c7-1fde-47d0-8eb8-fe796f4b734a")
+	)
+	(wire
+		(pts
+			(xy 384.81 177.8) (xy 391.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4270fc31-4181-4a42-8066-511f66659d2d")
+	)
+	(wire
+		(pts
+			(xy 328.93 179.07) (xy 321.31 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "459299ad-77c5-433b-8d5d-93c367805df1")
-	)
-	(wire
-		(pts
-			(xy 344.17 116.84) (xy 344.17 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4663dde7-22e6-4365-9ac9-19947dacaafc")
 	)
 	(wire
 		(pts
@@ -3979,33 +4089,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 105.41) (xy 349.25 116.84)
+			(xy 334.01 134.62) (xy 334.01 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "493b74ad-bd02-4136-9981-c89c8ddd717a")
-	)
-	(wire
-		(pts
-			(xy 365.76 186.69) (xy 368.3 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b8fe1ac-2774-46a7-a886-113aa718f9a6")
-	)
-	(wire
-		(pts
-			(xy 361.95 127) (xy 377.19 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c0ab485-a8f6-4314-aada-f63ec28148e5")
+		(uuid "4c2d4c57-80d2-4915-82e6-b6e717121c7a")
 	)
 	(wire
 		(pts
@@ -4026,16 +4116,6 @@
 			(type default)
 		)
 		(uuid "5068938f-1295-489f-9899-8b92c8002507")
-	)
-	(wire
-		(pts
-			(xy 344.17 73.66) (xy 344.17 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54517744-d6cf-4f78-8582-94e5f0bc3d51")
 	)
 	(wire
 		(pts
@@ -4139,6 +4219,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 127) (xy 320.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6408bac1-4b50-4175-b49f-b534f4a567ba")
+	)
+	(wire
+		(pts
 			(xy 203.2 175.26) (xy 215.9 175.26)
 		)
 		(stroke
@@ -4149,17 +4239,17 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 127) (xy 332.74 137.16)
+			(xy 297.18 134.62) (xy 312.42 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69376d90-3712-43e6-a44d-ef01c790b198")
+		(uuid "6ad7e4ce-7561-4773-80cb-f3c435add3e1")
 	)
 	(wire
 		(pts
-			(xy 355.6 186.69) (xy 358.14 186.69)
+			(xy 355.6 177.8) (xy 361.95 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4169,7 +4259,17 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 186.69) (xy 375.92 186.69)
+			(xy 334.01 91.44) (xy 334.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c48d51c-8620-4391-a2c4-f3d0fe9965af")
+	)
+	(wire
+		(pts
+			(xy 361.95 177.8) (xy 384.81 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4189,6 +4289,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 73.66) (xy 320.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705b08e5-c3a2-48b8-baf0-4476a96cef26")
+	)
+	(wire
+		(pts
 			(xy 185.42 189.23) (xy 185.42 191.77)
 		)
 		(stroke
@@ -4199,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 177.8) (xy 334.01 194.31)
+			(xy 334.01 168.91) (xy 334.01 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4219,23 +4329,23 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 163.83) (xy 334.01 163.83)
+			(xy 345.44 83.82) (xy 375.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c372ac-e17d-49c6-a02c-3bf5adeaa20b")
+	)
+	(wire
+		(pts
+			(xy 330.2 154.94) (xy 334.01 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76d5abab-97dc-42f1-ba03-f17c9683cf47")
-	)
-	(wire
-		(pts
-			(xy 344.17 67.31) (xy 336.55 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b39c11-41ee-426b-a788-c535dae8f994")
 	)
 	(wire
 		(pts
@@ -4269,6 +4379,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 83.82) (xy 345.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8131a027-12de-4cf2-a0f8-da9c32424c58")
+	)
+	(wire
+		(pts
 			(xy 104.14 151.13) (xy 110.49 151.13)
 		)
 		(stroke
@@ -4279,7 +4399,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 144.78) (xy 265.43 144.78)
+			(xy 297.18 144.78) (xy 265.43 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4359,6 +4479,26 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 127) (xy 377.19 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9762db00-d207-4b9a-9f71-ad7a303470d5")
+	)
+	(wire
+		(pts
+			(xy 320.04 83.82) (xy 320.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a20103c-6920-4731-81b4-949c2409b687")
+	)
+	(wire
+		(pts
 			(xy 250.19 118.11) (xy 250.19 120.65)
 		)
 		(stroke
@@ -4389,7 +4529,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 179.07) (xy 347.98 181.61)
+			(xy 347.98 170.18) (xy 347.98 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4399,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 147.32) (xy 285.75 204.47)
+			(xy 285.75 147.32) (xy 285.75 195.58)
 		)
 		(stroke
 			(width 0)
@@ -4419,7 +4559,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 163.83) (xy 334.01 170.18)
+			(xy 334.01 154.94) (xy 334.01 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4439,16 +4579,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 83.82) (xy 375.92 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa28b69-1754-4d13-9409-984b46f23d06")
-	)
-	(wire
-		(pts
 			(xy 158.75 138.43) (xy 158.75 176.53)
 		)
 		(stroke
@@ -4456,16 +4586,6 @@
 			(type default)
 		)
 		(uuid "aad69424-7563-4eb6-a537-eee98572d0c2")
-	)
-	(wire
-		(pts
-			(xy 334.01 83.82) (xy 332.74 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab8ee05d-1ab6-4e68-bc5a-1eaa24b9f836")
 	)
 	(wire
 		(pts
@@ -4539,6 +4659,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 83.82) (xy 320.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b760063d-96c3-466d-b354-eb85687ba9c2")
+	)
+	(wire
+		(pts
 			(xy 114.3 193.04) (xy 114.3 200.66)
 		)
 		(stroke
@@ -4556,6 +4686,26 @@
 			(type default)
 		)
 		(uuid "b8398bbf-45ed-4430-a920-9adc7178fa01")
+	)
+	(wire
+		(pts
+			(xy 320.04 114.3) (xy 322.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b6bdeb-1f6f-48ff-b255-59c9c18ed22a")
+	)
+	(wire
+		(pts
+			(xy 337.82 134.62) (xy 334.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d477c5-0e49-48ee-95ea-dc89585adf7b")
 	)
 	(wire
 		(pts
@@ -4579,7 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 179.07) (xy 347.98 179.07)
+			(xy 334.01 170.18) (xy 347.98 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4609,7 +4759,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 187.96) (xy 368.3 186.69)
+			(xy 361.95 179.07) (xy 361.95 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4659,6 +4809,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 71.12) (xy 322.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb207ea-c30d-4dff-b564-fa26a6d0c271")
+	)
+	(wire
+		(pts
 			(xy 143.51 176.53) (xy 154.94 176.53)
 		)
 		(stroke
@@ -4676,6 +4836,26 @@
 			(type default)
 		)
 		(uuid "cf4c4740-0dee-4157-aca8-138672e2ce26")
+	)
+	(wire
+		(pts
+			(xy 292.1 91.44) (xy 312.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6b34d3-a47d-4f0a-8209-bf1069a1c6cd")
+	)
+	(wire
+		(pts
+			(xy 345.44 127) (xy 345.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e23d98-9f18-4cd6-bd80-39d59bab0d87")
 	)
 	(wire
 		(pts
@@ -4749,16 +4929,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 105.41) (xy 298.45 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d95e82e6-ddc7-4ae0-8100-aa4b39a27de6")
-	)
-	(wire
-		(pts
 			(xy 80.01 163.83) (xy 104.14 163.83)
 		)
 		(stroke
@@ -4786,6 +4956,16 @@
 			(type default)
 		)
 		(uuid "e2bde956-1c8d-4b87-93a5-79dc6927e749")
+	)
+	(wire
+		(pts
+			(xy 320.04 116.84) (xy 320.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31ff016-6543-4eb0-937b-630bf0eaf9d8")
 	)
 	(wire
 		(pts
@@ -4829,23 +5009,13 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 204.47) (xy 318.77 204.47)
+			(xy 285.75 195.58) (xy 318.77 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8b4f952-f6e1-4f26-b238-8956811e6e74")
-	)
-	(wire
-		(pts
-			(xy 349.25 73.66) (xy 349.25 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93ff391-0a2a-4754-a8fa-51a049d96f23")
 	)
 	(wire
 		(pts
@@ -4889,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 222.25) (xy 279.4 149.86)
+			(xy 279.4 215.9) (xy 279.4 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4919,7 +5089,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 194.31) (xy 328.93 187.96)
+			(xy 328.93 185.42) (xy 328.93 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4959,17 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 105.41) (xy 298.45 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb56caa5-ca08-45fd-8a16-2fa4eba2a725")
-	)
-	(wire
-		(pts
-			(xy 346.71 204.47) (xy 375.92 204.47)
+			(xy 346.71 195.58) (xy 391.16 195.58)
 		)
 		(stroke
 			(width 0)
@@ -4998,7 +5158,17 @@
 		(uuid "00352745-63c7-40dc-bdfd-96174a33f4d7")
 	)
 	(label "3V3"
-		(at 323.85 187.96 0)
+		(at 322.58 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11ff334d-5e55-4378-8ef6-fdee55437623")
+	)
+	(label "3V3"
+		(at 323.85 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5008,17 +5178,7 @@
 		(uuid "8cf982a1-6645-4e8b-b758-a5dedecdc671")
 	)
 	(label "3V3"
-		(at 339.09 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b7d054a-bd64-45ce-b520-b495ea540646")
-	)
-	(label "3V3"
-		(at 330.2 163.83 180)
+		(at 330.2 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5026,16 +5186,6 @@
 			(justify right bottom)
 		)
 		(uuid "a7c28ce9-1b8f-4eb1-8275-86fb5034158d")
-	)
-	(label "3V3"
-		(at 339.09 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdb60ce1-d55e-4c97-8b4a-a64dd3495255")
 	)
 	(label "3V3"
 		(at 369.57 29.21 0)
@@ -5046,6 +5196,16 @@
 			(justify left bottom)
 		)
 		(uuid "c435ba18-9bce-40f3-8732-d2bfc051ee9c")
+	)
+	(label "3V3"
+		(at 322.58 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e87ac9-13d1-459b-a63d-5f0f6bedaca4")
 	)
 	(label "3V3"
 		(at 271.78 120.65 0)
@@ -5059,7 +5219,7 @@
 	)
 	(hierarchical_label "3V3 J401"
 		(shape input)
-		(at 375.92 186.69 0)
+		(at 391.16 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5081,7 +5241,7 @@
 	)
 	(hierarchical_label "TXD"
 		(shape output)
-		(at 375.92 204.47 0)
+		(at 391.16 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5103,7 +5263,7 @@
 	)
 	(hierarchical_label "RXD"
 		(shape input)
-		(at 375.92 222.25 0)
+		(at 391.16 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5179,7 +5339,7 @@
 	)
 	(symbol
 		(lib_id "NX-J401-Adapter:C_US")
-		(at 321.31 191.77 0)
+		(at 321.31 182.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5189,8 +5349,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "005801a9-2aa3-4d4a-b628-3f82b2486f42")
-		(property "Reference" "C64"
-			(at 317.5 190.7539 0)
+		(property "Reference" "C30"
+			(at 317.5 181.8639 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5201,7 +5361,7 @@
 			)
 		)
 		(property "Value" "0.1uF-50V-10%-0603"
-			(at 317.5 193.2939 0)
+			(at 317.5 184.4039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5212,7 +5372,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
-			(at 321.31 191.77 0)
+			(at 321.31 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5223,7 +5383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 191.77 0)
+			(at 321.31 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5234,7 +5394,7 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
-			(at 321.31 191.77 0)
+			(at 321.31 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5245,7 +5405,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 321.31 191.77 0)
+			(at 321.31 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5256,7 +5416,7 @@
 			)
 		)
 		(property "MFG P/N" "CC0603KRX7R9BB104"
-			(at 321.31 191.77 0)
+			(at 321.31 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5267,7 +5427,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C14663"
-			(at 321.31 191.77 0)
+			(at 321.31 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5278,7 +5438,29 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 321.31 191.77 0)
+			(at 321.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 321.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 321.31 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5297,7 +5479,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C64")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -5315,7 +5497,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "0aadd617-ecd0-4589-972e-78b41cecc345")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 378.46 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5413,6 +5595,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 381 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 381 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef59f254-bd40-47f1-801f-f9228b90c3ea")
 		)
@@ -5422,92 +5626,15 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 332.74 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d01376d-f71d-4a8c-a29c-a28b53a5c2b5")
-		(property "Reference" "#PWR046"
-			(at 332.74 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 332.74 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 332.74 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55d8ee6a-0971-445a-b214-d6c0d6e2df4e")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-J401-Adapter:C_US")
-		(at 336.55 114.3 0)
+		(lib_id "Transistor_FET:BSS138")
+		(at 350.52 177.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5516,9 +5643,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0e0b26d3-fe05-4377-bd90-c6f3e0681ebb")
-		(property "Reference" "C63"
-			(at 332.74 113.2839 0)
+		(uuid "0ca89cbb-9550-4b9b-8cce-05cf92db532a")
+		(property "Reference" "Q5"
+			(at 344.17 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5528,8 +5655,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF-50V-10%-0603"
-			(at 332.74 115.8239 0)
+		(property "Value" "BSS138"
+			(at 344.17 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5539,8 +5666,33 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
-			(at 336.55 114.3 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 345.44 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
+			(at 345.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 350.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,8 +5702,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 336.55 114.3 0)
+		(property "MFG" "onsemi"
+			(at 350.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5561,8 +5713,8 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
-			(at 336.55 114.3 0)
+		(property "MFG P/N" "BSS138"
+			(at 350.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5572,8 +5724,8 @@
 				)
 			)
 		)
-		(property "MFG" "YAGEO"
-			(at 336.55 114.3 0)
+		(property "JLCPCB P/N" "C52895"
+			(at 350.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,8 +5735,8 @@
 				)
 			)
 		)
-		(property "MFG P/N" "CC0603KRX7R9BB104"
-			(at 336.55 114.3 0)
+		(property "Sim.Device" ""
+			(at 350.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5594,19 +5746,8 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C14663"
-			(at 336.55 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 336.55 114.3 0)
+		(property "Sim.Pins" ""
+			(at 350.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,15 +5758,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0c76a53-eee8-41b6-a1ea-aae3df777ac2")
+			(uuid "d77e5559-61ea-4279-b756-6cfcbac24e54")
+		)
+		(pin "3"
+			(uuid "d378f005-4747-4903-810f-1de7a6a206db")
 		)
 		(pin "2"
-			(uuid "6fbff26f-7a7f-49ea-9526-70ef983786bd")
+			(uuid "5da015b0-7fff-40b0-87db-5c6b59a4a2a8")
 		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C63")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5643,7 +5787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b04bbfe-0aa7-4556-8520-9c62149255ec")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 89.408 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5741,6 +5885,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 92.71 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 92.71 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15b8570d-56b9-4b63-830d-946ad334f8e0")
 		)
@@ -5750,84 +5916,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 336.55 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e27c144-f732-4e15-9754-900a8fd1dfcc")
-		(property "Reference" "#PWR049"
-			(at 336.55 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 336.55 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 336.55 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74d4add7-15db-4ea1-8e6f-e69e4842007a")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR049")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5844,7 +5933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e37d086-7e6f-4860-97ea-c3929ae9b351")
-		(property "Reference" "C45"
+		(property "Reference" "C52"
 			(at 157.48 125.9839 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5943,6 +6032,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 153.67 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 153.67 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "617df10f-7646-47a6-bd07-2b9fd75166b1")
 		)
@@ -5952,7 +6063,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C45")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -6155,6 +6266,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 59.69 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.69 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B6"
 			(uuid "b1eae4fc-5321-4795-845c-ab0756a594ae")
 		)
@@ -6198,127 +6331,6 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xGxx:SN74LVC1G125DBV")
-		(at 349.25 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1f55b424-34f4-47e6-b5a3-ef1697f104fa")
-		(property "Reference" "U11"
-			(at 354.33 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC1G125DBVR"
-			(at 361.95 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 349.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/TexasInstruments-sn74lvc1g125.pdf"
-			(at 349.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
-			(at 349.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Texas Instruments"
-			(at 349.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "SN74LVC1G125DBVR"
-			(at 349.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C23654"
-			(at 349.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d8eedeb-cdde-4a02-a267-e3731be9ec23")
-		)
-		(pin "2"
-			(uuid "a23d3f0a-8cd5-4a23-94f3-f6cdfb86dc7f")
-		)
-		(pin "3"
-			(uuid "5380e3c2-d24c-40b7-bf3e-46dbf7863e37")
-		)
-		(pin "5"
-			(uuid "04b15277-9f2a-4318-9df1-5d0a96b4fab2")
-		)
-		(pin "4"
-			(uuid "f1fda50d-3c9e-4b0c-ae28-db2889a2f226")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6408,8 +6420,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 332.74 93.98 0)
+		(lib_id "NX-J401-Adapter:R_US")
+		(at 320.04 77.47 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6417,30 +6430,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "26753ac6-4822-43b0-8317-97bf46ed4594")
-		(property "Reference" "#PWR044"
-			(at 332.74 100.33 0)
-			(hide yes)
+		(uuid "23a7bfb9-fd49-4258-86ac-93ae30af5ec9")
+		(property "Reference" "R14"
+			(at 321.818 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND1"
-			(at 332.74 97.79 0)
+		(property "Value" "5.1k-1%-0603"
+			(at 321.818 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 332.74 93.98 0)
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
+			(at 321.056 77.216 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,7 +6465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 93.98 0)
+			(at 320.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6461,8 +6475,74 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 332.74 93.98 0)
+		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 320.04 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 320.04 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-075K1L"
+			(at 320.04 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C105580"
+			(at 320.04 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 320.04 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 320.04 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 320.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,12 +6553,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7805494-afb5-44db-9eaf-645fe2b74301")
+			(uuid "3ef2edb9-fd94-469f-8e89-bc1417f7ca60")
+		)
+		(pin "2"
+			(uuid "72737ac9-f5b6-4a22-aba8-be2a7f3af838")
 		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR044")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28772b5b-08aa-4eab-b65b-361cc2acc5c3")
-		(property "Reference" "U5"
+		(property "Reference" "U8"
 			(at 264.16 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,6 +6679,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "15d3b6b2-5639-4474-bd83-bf8bdcdd9d1e")
 		)
@@ -6647,15 +6752,15 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "U5")
+					(reference "U8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 336.55 74.93 0)
+		(lib_id "Transistor_FET:BSS138")
+		(at 342.9 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6663,9 +6768,56 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2be6a047-d3dd-4592-9541-ef64fa4aa3a0")
-		(property "Reference" "#PWR043"
-			(at 336.55 81.28 0)
+		(uuid "29a67ceb-02ce-42db-aef4-549823f66fc3")
+		(property "Reference" "Q3"
+			(at 349.25 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 349.25 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 347.98 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
+			(at 347.98 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 342.9 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,18 +6827,8 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
-			(at 336.55 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 74.93 0)
+		(property "MFG" "onsemi"
+			(at 342.9 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6696,8 +6838,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 336.55 74.93 0)
+		(property "MFG P/N" "BSS138"
+			(at 342.9 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6707,8 +6849,30 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 336.55 74.93 0)
+		(property "JLCPCB P/N" "C52895"
+			(at 342.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 342.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 342.9 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6719,12 +6883,95 @@
 			)
 		)
 		(pin "1"
-			(uuid "069571de-da66-4daa-8af5-03e9fe20fc13")
+			(uuid "b67e1d29-bd46-4786-a046-086c31175347")
+		)
+		(pin "3"
+			(uuid "c345004d-43c1-4f66-b7aa-5aa00c2b0cce")
+		)
+		(pin "2"
+			(uuid "d610efe6-1d58-43eb-b1f3-407f0161caa7")
 		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR043")
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 384.81 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a26a01a-8743-44ff-9965-c709e620c8fb")
+		(property "Reference" "#PWR060"
+			(at 384.81 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 384.81 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "442c564d-4320-4f0b-8954-f22740a14a19")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6742,7 +6989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d0abf3c-b8b7-41dc-bebc-d548dac8d4a5")
-		(property "Reference" "C44"
+		(property "Reference" "C50"
 			(at 93.218 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,6 +7087,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 91.44 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 91.44 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9de0ee72-779d-450e-a6c3-f0475390d462")
 		)
@@ -6849,7 +7118,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C44")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -6934,7 +7203,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 328.93 214.63 0)
+		(at 328.93 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6944,7 +7213,7 @@
 		(dnp no)
 		(uuid "34fec8f6-12f8-4881-830d-0aeff198afea")
 		(property "Reference" "#PWR053"
-			(at 328.93 220.98 0)
+			(at 328.93 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,7 +7224,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 328.93 218.44 0)
+			(at 328.93 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6965,7 +7234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 214.63 0)
+			(at 328.93 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6976,7 +7245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 214.63 0)
+			(at 328.93 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6987,7 +7256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 328.93 214.63 0)
+			(at 328.93 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,127 +7273,6 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xGxx:SN74LVC1G125DBV")
-		(at 349.25 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "384aa2f7-0a87-47df-9ec9-cd1140ec07c9")
-		(property "Reference" "U10"
-			(at 354.33 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC1G125DBVR"
-			(at 361.95 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 349.25 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "Components/TexasInstruments-sn74lvc1g125.pdf"
-			(at 349.25 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
-			(at 349.25 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Texas Instruments"
-			(at 349.25 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "SN74LVC1G125DBVR"
-			(at 349.25 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C23654"
-			(at 349.25 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad02e274-5ad5-4890-8ec7-8b28fdc78bd9")
-		)
-		(pin "2"
-			(uuid "5fa04b98-8710-4e06-bc53-3639298fa19f")
-		)
-		(pin "3"
-			(uuid "9b21156b-1029-47df-a9d5-76ea803ea0bb")
-		)
-		(pin "5"
-			(uuid "62ebb404-8d2c-4b83-8364-bd8876f36068")
-		)
-		(pin "4"
-			(uuid "d632c8b8-86f6-411f-8456-ad6ad660818b")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -7291,9 +7439,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NX-J401-Adapter:R_US")
-		(at 368.3 191.77 0)
-		(mirror x)
+		(lib_id "NX-J401-Adapter:C_US")
+		(at 384.81 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7301,9 +7448,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4e10380f-6ebf-460d-aea4-ac1ab84a85f8")
-		(property "Reference" "R37"
-			(at 370.078 190.754 0)
+		(uuid "49e58dab-2429-4358-b757-83d5f1edb8a0")
+		(property "Reference" "C21"
+			(at 388.62 181.8639 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7313,8 +7460,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k-1%-0603"
-			(at 370.078 192.786 0)
+		(property "Value" "0.1uF-50V-10%-0603"
+			(at 388.62 184.4039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7324,8 +7471,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
-			(at 369.316 191.516 90)
+		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
+			(at 384.81 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,7 +7483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 191.77 0)
+			(at 384.81 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,8 +7493,8 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 368.3 191.77 0)
+		(property "Description" "capacitor, US symbol"
+			(at 384.81 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7505,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 368.3 191.77 90)
+			(at 384.81 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7368,8 +7515,8 @@
 				)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-075K1L"
-			(at 368.3 191.77 90)
+		(property "MFG P/N" "CC0603KRX7R9BB104"
+			(at 384.81 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7379,8 +7526,8 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C105580"
-			(at 368.3 191.77 90)
+		(property "JLCPCB P/N" "C14663"
+			(at 384.81 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7391,7 +7538,177 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 368.3 191.77 0)
+			(at 384.81 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 384.81 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 384.81 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6979f313-aeb2-4648-93e6-573b9474af48")
+		)
+		(pin "2"
+			(uuid "70c71dad-7d36-42fe-9b00-bd944e7046b6")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:R_US")
+		(at 361.95 182.88 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e10380f-6ebf-460d-aea4-ac1ab84a85f8")
+		(property "Reference" "R4"
+			(at 363.728 181.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k-1%-0603"
+			(at 363.728 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
+			(at 362.966 182.626 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 361.95 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 361.95 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-075K1L"
+			(at 361.95 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C105580"
+			(at 361.95 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 361.95 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 361.95 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 361.95 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7727,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R37")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7418,7 +7735,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 321.31 195.58 0)
+		(at 321.31 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7428,7 +7745,7 @@
 		(dnp no)
 		(uuid "4f43fc2e-661c-4d55-bd8b-22646d2678d6")
 		(property "Reference" "#PWR052"
-			(at 321.31 201.93 0)
+			(at 321.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7439,7 +7756,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 321.31 199.39 0)
+			(at 321.31 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7449,7 +7766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 195.58 0)
+			(at 321.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7460,7 +7777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 195.58 0)
+			(at 321.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7471,7 +7788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 321.31 195.58 0)
+			(at 321.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7571,6 +7888,290 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 342.9 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "509c783c-e274-4ef9-9f73-01fa942265b3")
+		(property "Reference" "Q6"
+			(at 349.25 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 349.25 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 347.98 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
+			(at 347.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 342.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "onsemi"
+			(at 342.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "BSS138"
+			(at 342.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C52895"
+			(at 342.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 342.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 342.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "966e37d6-7441-4486-9c0a-74abe0b92706")
+		)
+		(pin "3"
+			(uuid "795dd60f-8215-44d4-92a3-92140334dd8c")
+		)
+		(pin "2"
+			(uuid "69caabb1-4dff-4eac-9986-dcdb88a9b20e")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 317.5 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "533100cc-1461-463d-bad5-c718781dff8d")
+		(property "Reference" "Q8"
+			(at 323.85 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 323.85 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 322.58 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
+			(at 322.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 317.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "onsemi"
+			(at 317.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "BSS138"
+			(at 317.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C52895"
+			(at 317.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 317.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 317.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "badf74cf-63e4-410e-a704-f4c6fd99a68b")
+		)
+		(pin "3"
+			(uuid "306b595a-8200-457c-868b-92719f182451")
+		)
+		(pin "2"
+			(uuid "42c037ff-5051-4344-a1a8-81fbce4d3433")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NX-J401-Adapter:R_US")
 		(at 379.73 83.82 90)
 		(mirror x)
@@ -7582,7 +8183,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "5f97b603-eace-43af-a71b-e3c385100f65")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 380.746 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7680,6 +8281,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 379.73 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 379.73 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0fc3a71e-898b-4785-9bb3-07c299e480e2")
 		)
@@ -7689,7 +8312,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7707,7 +8330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60cf1d12-6ec1-4a8a-9fc9-d70baba77722")
-		(property "Reference" "C59"
+		(property "Reference" "C66"
 			(at 115.316 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,6 +8428,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 114.3 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa9a667a-7f35-4acc-87f0-9eac0a7baebc")
 		)
@@ -7814,7 +8459,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C59")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -7832,7 +8477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "647abe07-4d61-4023-8e3c-88cf2d1fbd3a")
-		(property "Reference" "C43"
+		(property "Reference" "C49"
 			(at 238.76 123.4439 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7931,6 +8576,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 242.57 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 242.57 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e564655-28c9-4192-ac4f-3e5aea2b7f32")
 		)
@@ -7940,7 +8607,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C43")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -7958,7 +8625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "651476a6-0e5a-41d8-8e97-c84f2b14daed")
-		(property "Reference" "C61"
+		(property "Reference" "C14"
 			(at 302.26 34.5439 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8057,6 +8724,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 306.07 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 306.07 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "341592e5-47a8-43d3-a469-16548726d4d1")
 		)
@@ -8066,7 +8755,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C61")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8151,8 +8840,150 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 317.5 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a456b88-6c30-4a9f-b7be-9e2678a16885")
+		(property "Reference" "Q4"
+			(at 323.85 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 323.85 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 322.58 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "Components/onsemi-BSS138-D.PDF"
+			(at 322.58 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 317.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "onsemi"
+			(at 317.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "BSS138"
+			(at 317.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C52895"
+			(at 317.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 317.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 317.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a1ffb08-60bc-4265-bcb8-d8e3e1a4309d")
+		)
+		(pin "3"
+			(uuid "09df812e-2b22-463b-a154-08be3611469e")
+		)
+		(pin "2"
+			(uuid "27153d88-4619-4360-81a8-382912c3791d")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NX-J401-Adapter:R_US")
-		(at 334.01 173.99 0)
+		(at 334.01 165.1 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8162,8 +8993,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b001271-8b41-470d-b823-19381c94145e")
-		(property "Reference" "R36"
-			(at 335.788 172.974 0)
+		(property "Reference" "R13"
+			(at 335.788 164.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8174,7 +9005,7 @@
 			)
 		)
 		(property "Value" "5.1k-1%-0603"
-			(at 335.788 175.006 0)
+			(at 335.788 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8185,7 +9016,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
-			(at 335.026 173.736 90)
+			(at 335.026 164.846 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8196,7 +9027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 173.99 0)
+			(at 334.01 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,7 +9038,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 334.01 173.99 0)
+			(at 334.01 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8218,7 +9049,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 334.01 173.99 90)
+			(at 334.01 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,7 +9060,7 @@
 			)
 		)
 		(property "MFG P/N" "RC0603FR-075K1L"
-			(at 334.01 173.99 90)
+			(at 334.01 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8240,7 +9071,7 @@
 			)
 		)
 		(property "JLCPCB P/N" "C105580"
-			(at 334.01 173.99 90)
+			(at 334.01 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8251,7 +9082,29 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 334.01 173.99 0)
+			(at 334.01 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 334.01 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 334.01 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8270,7 +9123,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R36")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8364,7 +9217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fca370f-ff72-4c93-a27b-6bac9708ed95")
-		(property "Reference" "C49"
+		(property "Reference" "C56"
 			(at 130.556 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8462,6 +9315,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 129.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 129.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e502de7-4b5d-4981-83f0-4e7a89a11c56")
 		)
@@ -8471,133 +9346,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-J401-Adapter:C_US")
-		(at 336.55 71.12 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "733da92a-c0a6-43f3-9ba4-d363b44f20ff")
-		(property "Reference" "C62"
-			(at 332.74 70.1039 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF-50V-10%-0603"
-			(at 332.74 72.6439 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:C_0603_1608Metric"
-			(at 336.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
-			(at 336.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 336.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "CC0603KRX7R9BB104"
-			(at 336.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C14663"
-			(at 336.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 336.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c817a5d-71f0-43e9-9237-7722f4a244f0")
-		)
-		(pin "2"
-			(uuid "12e7105b-3782-4cac-86b1-e374ca514519")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C62")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -8615,7 +9364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e952c74-7dcd-4b96-bf9b-a27057010d58")
-		(property "Reference" "C54"
+		(property "Reference" "C61"
 			(at 151.13 188.2139 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8714,6 +9463,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 154.94 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b38961b1-85bf-47de-b3a5-9117aca3ce90")
 		)
@@ -8723,84 +9494,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 344.17 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f62eb3d-3ff1-476e-b64d-9bba7dc4e37d")
-		(property "Reference" "#PWR045"
-			(at 344.17 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 344.17 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 344.17 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 344.17 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 344.17 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04444ef9-31cc-49aa-803f-d57cd830a929")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR045")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -8818,7 +9512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "881f3bae-89c0-4d0b-9d49-fa69600e8aeb")
-		(property "Reference" "C58"
+		(property "Reference" "C65"
 			(at 105.156 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8916,6 +9610,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 104.14 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 104.14 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a823967-2a4e-4ad5-9162-863e9eba8e65")
 		)
@@ -8925,7 +9641,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C58")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -8943,7 +9659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "890e864c-a509-4dc4-a86a-b9e3f106895b")
-		(property "Reference" "R34"
+		(property "Reference" "R36"
 			(at 89.408 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9041,6 +9757,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 92.71 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 92.71 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a99fff1-e29f-4ddc-a881-8cef2dd6dddb")
 		)
@@ -9050,7 +9788,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -9068,7 +9806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b03e55e-0734-4998-b247-3a5b3685d4d8")
-		(property "Reference" "C51"
+		(property "Reference" "C58"
 			(at 143.51 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9167,6 +9905,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 142.24 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1fba10e3-2fdb-456b-a1c0-e9fea133711f")
 		)
@@ -9176,7 +9936,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C51")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -9266,6 +10026,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 320.04 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ae2e8d5-4779-4de2-bdeb-44908e499a2f")
+		(property "Reference" "#PWR058"
+			(at 320.04 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 320.04 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4b7706f-149b-42f4-8bd5-60f0fc0674b1")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NX-J401-Adapter:FT232RNL")
 		(at 182.88 163.83 0)
 		(unit 1)
@@ -9277,7 +10114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fee1772-45b4-4eab-93de-d04984f38330")
-		(property "Reference" "U6"
+		(property "Reference" "U10"
 			(at 187.5633 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9398,6 +10235,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 182.88 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 182.88 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "16"
 			(uuid "e15c62e2-67a5-474f-b446-85de8127ead2")
 		)
@@ -9482,7 +10341,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "U6")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -9583,7 +10442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae169d8e-07d2-4729-9982-94029b57fe53")
-		(property "Reference" "U9"
+		(property "Reference" "U1"
 			(at 323.85 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9670,6 +10529,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 323.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 323.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "8e4a6a89-cf96-4919-814d-07daee991aec")
 		)
@@ -9688,7 +10569,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "U9")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9706,7 +10587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b13b1a23-2e38-4173-8723-09c48721e0fd")
-		(property "Reference" "R33"
+		(property "Reference" "R35"
 			(at 214.63 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9805,6 +10686,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 215.9 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 215.9 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e13eced3-1b50-40fd-a9e6-1b33a547f678")
 		)
@@ -9814,7 +10717,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R33")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -9822,84 +10725,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 344.17 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1f5cbf2-79b0-4177-9c4a-ba47a230692f")
-		(property "Reference" "#PWR050"
-			(at 344.17 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 344.17 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 344.17 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 344.17 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 344.17 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdb6858a-182e-4ee3-ae77-33ac06b00f8d")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 368.3 195.58 0)
+		(at 361.95 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9909,7 +10735,7 @@
 		(dnp no)
 		(uuid "b2208dc4-d7c1-431b-b408-7630d3a62eaa")
 		(property "Reference" "#PWR055"
-			(at 368.3 201.93 0)
+			(at 361.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,7 +10746,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 368.3 199.39 0)
+			(at 361.95 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9930,7 +10756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 195.58 0)
+			(at 361.95 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9941,7 +10767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 195.58 0)
+			(at 361.95 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9952,7 +10778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 368.3 195.58 0)
+			(at 361.95 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10064,7 +10890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8b58f76-37bf-4062-982b-9389a11389f9")
-		(property "Reference" "C60"
+		(property "Reference" "C13"
 			(at 340.36 34.5439 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,6 +10989,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 336.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 336.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e1c44c3-9624-48be-b77e-647368321ea7")
 		)
@@ -10172,7 +11020,84 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C60")
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf4b8eae-0248-41b7-8402-4e7ef52d8d60")
+		(property "Reference" "#PWR057"
+			(at 345.44 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 345.44 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d926d8b4-367a-433a-9496-98b90d84f0c9")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10335,162 +11260,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NX-J401-Adapter:SS8050")
-		(at 350.52 186.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c4c97e07-f8ca-4152-a309-4bb74af1a983")
-		(property "Reference" "Q14"
-			(at 345.44 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS8050"
-			(at 345.44 187.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:SOT-23"
-			(at 345.44 194.056 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "Components/SS8050-C2150.pdf"
-			(at 345.44 191.516 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 316.484 188.976 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 350.52 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 350.52 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Jiangsu Changjing Electronics Technology Co., Ltd."
-			(at 350.52 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "SS8050(RANGE:200-350)"
-			(at 350.52 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C2150"
-			(at 350.52 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 350.52 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "7910f7db-146e-4dc4-a94f-22a3f578e71c")
-		)
-		(pin "2"
-			(uuid "8d9d6301-6600-4aae-95a6-432bca6929d2")
-		)
-		(pin "1"
-			(uuid "1c08d81a-6dfd-4812-a9c7-0b046cac952d")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 347.98 191.77 0)
+		(at 347.98 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10500,7 +11271,7 @@
 		(dnp no)
 		(uuid "cc3b5e08-6ce3-47a3-b1dd-f95cfe13a448")
 		(property "Reference" "#PWR054"
-			(at 347.98 198.12 0)
+			(at 347.98 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10511,7 +11282,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 347.98 195.58 0)
+			(at 347.98 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10521,7 +11292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 191.77 0)
+			(at 347.98 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10532,7 +11303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 191.77 0)
+			(at 347.98 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10543,7 +11314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.98 191.77 0)
+			(at 347.98 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,6 +11544,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 109.22 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 109.22 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9569eee7-48ab-4aea-bea2-1d0bf782ea94")
 		)
@@ -10789,6 +11582,83 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/0fdfc19c-5516-450c-b6f2-10dc3e7a4edc"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 320.04 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc1c4e3e-1eab-4741-afaa-486d75243490")
+		(property "Reference" "#PWR056"
+			(at 320.04 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 320.04 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44dd2db5-0c86-4d5d-81ab-365cc05c0225")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11033,7 +11903,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:SN74LVC1G125DBV")
-		(at 334.01 204.47 0)
+		(at 334.01 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11042,8 +11912,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f369bf4d-506e-475b-b126-b01b47c16be8")
-		(property "Reference" "U12"
-			(at 339.09 208.28 0)
+		(property "Reference" "U4"
+			(at 339.09 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11053,7 +11923,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G125DBVR"
-			(at 346.71 200.66 0)
+			(at 346.71 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11063,7 +11933,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 334.01 204.47 0)
+			(at 334.01 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11074,7 +11944,7 @@
 			)
 		)
 		(property "Datasheet" "Components/TexasInstruments-sn74lvc1g125.pdf"
-			(at 334.01 204.47 0)
+			(at 334.01 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11955,7 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
-			(at 334.01 204.47 0)
+			(at 334.01 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11096,7 +11966,7 @@
 			)
 		)
 		(property "MFG" "Texas Instruments"
-			(at 334.01 204.47 0)
+			(at 334.01 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11107,7 +11977,7 @@
 			)
 		)
 		(property "MFG P/N" "SN74LVC1G125DBVR"
-			(at 334.01 204.47 0)
+			(at 334.01 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11118,7 +11988,29 @@
 			)
 		)
 		(property "JLCPCB P/N" "C23654"
-			(at 334.01 204.47 0)
+			(at 334.01 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 334.01 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 334.01 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11146,7 +12038,232 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "U12")
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f48f4cb4-759e-47ec-9068-d776a2558ab5")
+		(property "Reference" "#PWR059"
+			(at 345.44 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 345.44 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "903c938f-4566-48ab-8e4c-feb3a73c1c20")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-J401-Adapter:R_US")
+		(at 320.04 120.65 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4a64241-5078-4d74-85b8-d927dc3a8acf")
+		(property "Reference" "R3"
+			(at 321.818 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k-1%-0603"
+			(at 321.818 121.666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
+			(at 321.056 120.396 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 320.04 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 320.04 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG P/N" "RC0603FR-075K1L"
+			(at 320.04 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB P/N" "C105580"
+			(at 320.04 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 320.04 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 320.04 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 320.04 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a9af0a2-2701-4462-9fe2-de7b6acd74db")
+		)
+		(pin "2"
+			(uuid "d9d4116e-a94a-44c2-aedf-aa94de730a2c")
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11163,7 +12280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5cd474b-f9ec-4501-b73e-cf09043d4747")
-		(property "Reference" "C38"
+		(property "Reference" "C43"
 			(at 267.97 123.4439 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11262,6 +12379,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 264.16 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 264.16 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c247afb-e79c-4865-a85e-2ae48c640a2c")
 		)
@@ -11271,7 +12410,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "C38")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -11621,7 +12760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe023338-65f7-42d2-9b46-e311415732bc")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 222.758 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11720,6 +12859,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 220.98 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 220.98 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "835c2271-0564-4c43-92f3-7f22e098fdb3")
 		)
@@ -11729,131 +12890,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-J401-Adapter:R_US")
-		(at 361.95 186.69 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe75d9d1-10af-45db-99c7-1325c06e145b")
-		(property "Reference" "R38"
-			(at 361.95 189.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k-1%-0603"
-			(at 361.95 182.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:R_0603_1608Metric"
-			(at 361.696 185.674 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 361.95 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 361.95 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG P/N" "RC0603FR-075K1L"
-			(at 361.95 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB P/N" "C105580"
-			(at 361.95 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 361.95 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5620fd1-5f70-4c10-b1c3-697bca254217")
-		)
-		(pin "2"
-			(uuid "ed67a0ac-a189-4713-9dbd-e7237ed2189b")
-		)
-		(instances
-			(project "TVS-Adapter-v1"
-				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/7f338915-7b6e-40c1-9733-742b14680646"
-					(reference "R38")
+					(reference "R34")
 					(unit 1)
 				)
 			)

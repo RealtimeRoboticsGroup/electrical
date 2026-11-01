@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-19")
+		(date "2026-10-31")
 		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
@@ -4860,7 +4860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05079c1e-309d-4951-887f-a93561535922")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 157.48 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,6 +4958,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 158.75 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 158.75 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c6c4877-5ad8-4fc2-be4e-b4bce8b759db")
 		)
@@ -4967,7 +4989,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -5041,6 +5063,28 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 295.91 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 295.91 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 295.91 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -5180,6 +5224,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 175.26 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 175.26 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -5267,6 +5333,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -5287,7 +5375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d6d69ce-3de3-47dd-bf88-16b6efc6bb88")
-		(property "Reference" "C48"
+		(property "Reference" "C55"
 			(at 152.908 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5385,6 +5473,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4e182bd-cf9a-4395-9031-1fc9a1ac6fe1")
 		)
@@ -5394,7 +5504,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C48")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -5478,6 +5588,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -5498,7 +5630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bce40ef-60a3-4383-af73-a037c71012a6")
-		(property "Reference" "U7"
+		(property "Reference" "U11"
 			(at 138.684 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,6 +5729,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aec26559-1e25-4e6c-9aec-b8badb6d3882")
 		)
@@ -5618,7 +5772,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "U7")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5734,6 +5888,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
+			(at 175.26 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 175.26 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -5964,6 +6140,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 162.56 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 162.56 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df553c34-fbee-4dde-a989-50cc8407eadd")
 		)
@@ -6057,6 +6255,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -6077,7 +6297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff7721d-5b2d-4edb-b77f-03a183b81cd3")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 301.498 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6175,6 +6395,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 299.72 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 299.72 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e323d6a1-e15b-45a4-aff7-7936d1499e6f")
 		)
@@ -6184,7 +6426,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6320,6 +6562,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a648815-07fa-4665-b8ed-dc8489be726e")
 		)
@@ -6347,7 +6611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58c6d06b-680c-451a-8b4e-924e0ff82e83")
-		(property "Reference" "Q13"
+		(property "Reference" "Q14"
 			(at 133.35 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6436,6 +6700,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 133.35 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "2e80e1ac-27ac-48fe-9c4d-c71f9fe24bb3")
 		)
@@ -6454,7 +6740,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "Q13")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -6560,6 +6846,28 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 257.81 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 257.81 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 257.81 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6704,6 +7012,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5cf41a2-d6ef-41cb-8693-e5a8adaba353")
 		)
@@ -6785,6 +7115,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 74.93 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -6805,7 +7157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80f57bbb-e4c0-4979-b599-7fa94edffafb")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 287.274 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6904,6 +7256,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 281.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 281.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8112addf-559a-4338-bb11-528c05e2e21e")
 		)
@@ -6925,7 +7299,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6943,7 +7317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cb93c55-9c4d-4b98-be91-9e322cbca3f8")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 270.764 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7041,6 +7415,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 269.24 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9bf8098b-c2a6-4b31-ad50-38daa815c3da")
 		)
@@ -7050,7 +7446,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7068,7 +7464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b4a2260-3673-44f4-bf70-5c72b0e104e6")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 165.1 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7166,6 +7562,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 166.37 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d53814dd-dd1c-44f3-ab65-7d09a3510128")
 		)
@@ -7175,7 +7593,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7249,6 +7667,28 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 295.91 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 295.91 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 295.91 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -7378,6 +7818,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
+			(at 175.26 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 175.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7519,6 +7981,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a365332-dc10-4ccc-bf37-53497ae41b36")
 		)
@@ -7612,6 +8096,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -7689,6 +8195,28 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 295.91 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 295.91 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 295.91 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -7839,6 +8367,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01af96cf-db58-44b0-b404-f723b8161b1c")
 		)
@@ -7932,6 +8482,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -7953,7 +8525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c01e9fed-f385-4012-b31c-fc009894b61f")
-		(property "Reference" "C55"
+		(property "Reference" "C62"
 			(at 122.174 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8051,6 +8623,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 120.65 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 120.65 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "962a7928-2326-4b71-8be9-695c0194ee17")
 		)
@@ -8060,7 +8654,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C55")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -8134,6 +8728,28 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 347.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 347.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 347.98 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8275,6 +8891,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 393.7 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 393.7 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -8382,6 +9020,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 93.98 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "106df678-d384-47f2-8abd-283a3720ef54")
 		)
@@ -8465,6 +9125,28 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 295.91 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 295.91 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 295.91 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8605,6 +9287,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 393.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 393.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -8724,6 +9428,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
+			(at 175.26 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 175.26 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -8864,6 +9590,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 39.37 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9038,6 +9786,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 172.72 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 172.72 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb8ce9ad-9f1d-4a94-877a-8fd439cdaaae")
 		)
@@ -9121,6 +9891,28 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 295.91 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 295.91 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 295.91 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -9337,6 +10129,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "1d0a7e6e-21c2-4624-ab5a-e5a1ea558bf4")
 		)
@@ -9369,7 +10183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4909287-c56a-4a9d-8e2d-2121dcb9590d")
-		(property "Reference" "C57"
+		(property "Reference" "C64"
 			(at 109.728 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9467,6 +10281,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2b93e57-24fb-495e-8aef-93ea97f2c170")
 		)
@@ -9476,7 +10312,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C57")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -9605,6 +10441,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "C5123493"
+			(at 114.3 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 114.3 201.93 90)
 			(hide yes)
 			(show_name no)
@@ -9752,6 +10610,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 133.35 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79f5cf63-b200-440c-9e5c-7d5992e5d0e3")
 		)
@@ -9859,6 +10739,28 @@
 		)
 		(property "JLCPCB P/N" "C114200"
 			(at 281.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 281.94 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 281.94 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

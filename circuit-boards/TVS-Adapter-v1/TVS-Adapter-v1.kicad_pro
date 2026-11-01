@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -564,7 +567,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
       "/CANable2.0/3V3": [
         "LQFP"
@@ -573,9 +576,6 @@
         "LQFP"
       ],
       "/CANable2.0/CAN_TX": [
-        "LQFP"
-      ],
-      "/CANable2.0/GND_CAN": [
         "LQFP"
       ],
       "/CANable2.0/NRST": [
@@ -599,10 +599,13 @@
       "/CANable2.0/WORD_LED": [
         "LQFP"
       ],
+      "GND_CAN": [
+        "LQFP"
+      ],
       "GND_USB": [
         "LQFP"
       ],
-      "Net-(C44-Pad1)": [
+      "Net-(C50-Pad1)": [
         "LQFP"
       ],
       "Net-(J11-CC1)": [
@@ -611,10 +614,10 @@
       "Net-(J11-CC2)": [
         "LQFP"
       ],
-      "Net-(U6-USBD+)": [
+      "Net-(U10-USBD+)": [
         "LQFP"
       ],
-      "Net-(U6-USBD-)": [
+      "Net-(U10-USBD-)": [
         "LQFP"
       ],
       "unconnected-(J11-PadA8)": [
@@ -623,91 +626,91 @@
       "unconnected-(J11-PadB8)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA1-Pad9)": [
+      "unconnected-(U5-PA1-Pad9)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA10-Pad32)": [
+      "unconnected-(U5-PA10-Pad32)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA2-Pad10)": [
+      "unconnected-(U5-PA2-Pad10)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA3-Pad11)": [
+      "unconnected-(U5-PA3-Pad11)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA4-Pad12)": [
+      "unconnected-(U5-PA4-Pad12)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA5-Pad13)": [
+      "unconnected-(U5-PA5-Pad13)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA6-Pad14)": [
+      "unconnected-(U5-PA6-Pad14)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA7-Pad15)": [
+      "unconnected-(U5-PA7-Pad15)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA8-Pad30)": [
+      "unconnected-(U5-PA8-Pad30)": [
         "LQFP"
       ],
-      "unconnected-(U3-PA9-Pad31)": [
+      "unconnected-(U5-PA9-Pad31)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB0-Pad16)": [
+      "unconnected-(U5-PB0-Pad16)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB1-Pad17)": [
+      "unconnected-(U5-PB1-Pad17)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB10-Pad22)": [
+      "unconnected-(U5-PB10-Pad22)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB11-Pad25)": [
+      "unconnected-(U5-PB11-Pad25)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB12-Pad26)": [
+      "unconnected-(U5-PB12-Pad26)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB13-Pad27)": [
+      "unconnected-(U5-PB13-Pad27)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB14-Pad28)": [
+      "unconnected-(U5-PB14-Pad28)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB15-Pad29)": [
+      "unconnected-(U5-PB15-Pad29)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB2-Pad18)": [
+      "unconnected-(U5-PB2-Pad18)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB3-Pad40)": [
+      "unconnected-(U5-PB3-Pad40)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB4-Pad41)": [
+      "unconnected-(U5-PB4-Pad41)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB5-Pad42)": [
+      "unconnected-(U5-PB5-Pad42)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB6-Pad43)": [
+      "unconnected-(U5-PB6-Pad43)": [
         "LQFP"
       ],
-      "unconnected-(U3-PB7-Pad44)": [
+      "unconnected-(U5-PB7-Pad44)": [
         "LQFP"
       ],
-      "unconnected-(U3-PC13-Pad2)": [
+      "unconnected-(U5-PC13-Pad2)": [
         "LQFP"
       ],
-      "unconnected-(U3-PC14-Pad3)": [
+      "unconnected-(U5-PC14-Pad3)": [
         "LQFP"
       ],
-      "unconnected-(U3-PC15-Pad4)": [
+      "unconnected-(U5-PC15-Pad4)": [
         "LQFP"
       ],
-      "unconnected-(U3-PF0-Pad5)": [
+      "unconnected-(U5-PF0-Pad5)": [
         "LQFP"
       ],
-      "unconnected-(U3-PF1-Pad6)": [
+      "unconnected-(U5-PF1-Pad6)": [
         "LQFP"
       ]
     },
@@ -902,7 +905,7 @@
         "uuid": "3c9fa76f-2b37-4666-8575-58caa65def04"
       }
     ],
-    "used_designators": "Q3-4,Q14,U9-12,#PWR33,#PWR39-41,#PWR43-46,#PWR49-55,C57-65,D10-11,H5-13,LOGO1-2,J5,J12-13,LP1-4,R26-28,R36-38,SW3-4",
+    "used_designators": "#PWR1,#PWR26-31,#PWR33,#PWR39-41,#PWR43-46,#PWR49-60,C37,C57-69,D10-11,H5-13,J5,J12-13,LOGO1-2,LP1-4,Q3-4,Q11-16,R13,R26-28,R35-38,SW3-4,U9-14",
     "variants": []
   },
   "sheets": [
