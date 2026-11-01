@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.02,
-          "height": 2.02,
-          "width": 1.5
+          "drill": 2.5,
+          "height": 2.794,
+          "width": 2.794
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -578,10 +578,13 @@
       "/CANable2.0/CAN_TX": [
         "LQFP"
       ],
-      "/CANable2.0/NRST": [
+      "/CANable2.0/LED1": [
         "LQFP"
       ],
-      "/CANable2.0/STAT_LED": [
+      "/CANable2.0/LED2": [
+        "LQFP"
+      ],
+      "/CANable2.0/NRST": [
         "LQFP"
       ],
       "/CANable2.0/SWCLK": [
@@ -594,9 +597,6 @@
         "LQFP"
       ],
       "/CANable2.0/USB_DP": [
-        "LQFP"
-      ],
-      "/CANable2.0/WORD_LED": [
         "LQFP"
       ],
       "GND_CAN": [
@@ -905,7 +905,7 @@
         "uuid": "3c9fa76f-2b37-4666-8575-58caa65def04"
       }
     ],
-    "used_designators": "#PWR1,#PWR26-31,#PWR33,#PWR39-41,#PWR43-46,#PWR49-60,C37,C57-69,D10-11,H5-13,J5,J12-13,LOGO1-2,LP1-4,Q3-4,Q11-16,R13,R26-28,R35-38,SW3-4,U9-14",
+    "used_designators": "#PWR1,#PWR26-31,#PWR33,#PWR39-41,#PWR43-46,#PWR49-60,C37,C57-69,D10-11,FID1-6,H5-13,J5,J12-13,LOGO1-2,LP1-4,Q3-4,Q11-16,R13,R26-28,R35-38,SW3-4,U9-14",
     "variants": []
   },
   "sheets": [

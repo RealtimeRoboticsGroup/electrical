@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-10-31T20:14:49 ###
+### Footprint positions - created on 2026-11-01T08:35:50 ###
 ### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -18,8 +18,11 @@ C12       47uF_50V                     Panasonic-EEE-FT1H470AV                  
 D1        24V                          D_SMC_Littelfuse_DO-214AB                                  6.6210    -5.4720  -90.0000  top
 D2        PWR                          LED_1206_3216Metric                                        7.0520    -5.9266    0.0000  top
 D3        PC                           LED_1206_3216Metric                                        7.2520    -5.9266    0.0000  top
-D4        STAT                         LED_1206_3216Metric                                        9.2520    -5.9266    0.0000  top
-D5        WORD                         LED_1206_3216Metric                                        9.4520    -5.9266    0.0000  top
+D4        RX                           LED_1206_3216Metric                                        9.2520    -5.9266    0.0000  top
+D5        TX                           LED_1206_3216Metric                                        9.4520    -5.9266    0.0000  top
+FID2      Fiducial                     Fiducial_1mm_Mask3mm                                       9.5600    -5.7100    0.0000  top
+FID4      Fiducial                     Fiducial_1mm_Mask3mm                                       9.6550    -3.1000    0.0000  top
+FID6      Fiducial                     Fiducial_1mm_Mask3mm                                       6.3000    -3.3250    0.0000  top
 H1        1.152mm_ToolingHole          ToolingHole_1.152mm                                        6.3317    -2.6855    0.0000  top
 H2        1.152mm_ToolingHole          ToolingHole_1.152mm                                       10.5974    -2.6855    0.0000  top
 H3        MountingHole                 MountingHole_2.5mm                                         6.2985    -3.0902    0.0000  top

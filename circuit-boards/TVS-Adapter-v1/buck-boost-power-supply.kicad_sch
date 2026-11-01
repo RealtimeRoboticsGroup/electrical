@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-31")
+		(date "2026-11-01")
 		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
@@ -8314,7 +8314,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "STMicroelectronics"
+		(property "MFG P/N" "BAT54KFILM"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9322,7 +9322,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "STMicroelectronics"
+		(property "MFG P/N" "BAT54KFILM"
 			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9897,7 +9897,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "STMicroelectronics"
+		(property "MFG P/N" "BAT54KFILM"
 			(at 201.93 156.21 0)
 			(hide yes)
 			(show_name no)

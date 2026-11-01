@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-31")
+		(date "2026-11-01")
 		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
@@ -6542,6 +6542,16 @@
 		)
 		(uuid "3b1b6096-4f5d-4d77-b06d-f66eb0a989e1")
 	)
+	(label "LED1"
+		(at 373.38 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44aa8059-2ab6-409f-8fc1-be8ea59aa369")
+	)
 	(label "3V3"
 		(at 222.25 29.21 180)
 		(effects
@@ -6692,17 +6702,7 @@
 		)
 		(uuid "a29218a0-93a0-43db-ad05-4eff098782d7")
 	)
-	(label "WORD_LED"
-		(at 373.38 187.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b75e4794-58d0-4d48-9e6f-9d05a8a22a68")
-	)
-	(label "WORD_LED"
+	(label "LED2"
 		(at 104.14 105.41 180)
 		(effects
 			(font
@@ -6711,6 +6711,16 @@
 			(justify right bottom)
 		)
 		(uuid "bd1070e2-f094-46eb-b3d5-d2d917c4f67f")
+	)
+	(label "LED2"
+		(at 373.38 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bef8c4ff-9fb2-4ee9-96e0-1acd5556e3a3")
 	)
 	(label "3V3"
 		(at 233.68 97.79 180)
@@ -6721,16 +6731,6 @@
 			(justify right bottom)
 		)
 		(uuid "c4cc98d3-1d06-460b-b05b-d7bfcdfb230f")
-	)
-	(label "STAT_LED"
-		(at 373.38 191.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7d18028-78c9-4f0f-a817-c675ee269a37")
 	)
 	(label "BOOT0"
 		(at 252.73 231.14 180)
@@ -6792,7 +6792,7 @@
 		)
 		(uuid "f1aed1cf-6bad-4bb7-8a42-e14e6005a379")
 	)
-	(label "STAT_LED"
+	(label "LED1"
 		(at 104.14 143.51 180)
 		(effects
 			(font
@@ -8661,7 +8661,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STAT"
+		(property "Value" "RX"
 			(at 394.97 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9563,7 +9563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WORD"
+		(property "Value" "TX"
 			(at 381 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
