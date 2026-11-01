@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "The Vision System Adapter")
-		(date "2026-10-10")
-		(rev "7")
+		(date "2026-11-01")
+		(rev "1")
 		(company "SPACE COOKIES FRC TEAM 1868")
 	)
 	(lib_symbols
@@ -231,6 +231,102 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -3389,6 +3485,18 @@
 		(uuid "1f192884-13f2-4d58-a084-337c39b19f22")
 	)
 	(junction
+		(at 151.13 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1a8887-3197-4104-8dda-412706c0671e")
+	)
+	(junction
+		(at 133.35 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3d556d-7ca9-4183-8f27-0c834891bb4c")
+	)
+	(junction
 		(at 166.37 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3485,12 +3593,6 @@
 		(uuid "aff0b057-4a92-47f1-a23c-b44c56e15bb1")
 	)
 	(junction
-		(at 63.5 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b912d530-fa70-4445-ae1d-7e25ca3ddeea")
-	)
-	(junction
 		(at 162.56 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3507,6 +3609,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc72cee2-7ff5-4fe9-a97c-0dfe6fd86cc3")
+	)
+	(junction
+		(at 63.5 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf4458e6-eb95-4fb9-a1d6-9149240a02be")
 	)
 	(junction
 		(at 107.95 45.72)
@@ -3534,27 +3642,27 @@
 	)
 	(no_connect
 		(at 44.45 208.28)
-		(uuid "56497918-f359-46a1-af1b-02fbec8cc93b")
-	)
-	(no_connect
-		(at 44.45 180.34)
-		(uuid "68208227-c8aa-4124-b7a6-a335d46ecc8b")
-	)
-	(no_connect
-		(at 44.45 195.58)
-		(uuid "76d6b177-a7eb-46ea-bf05-188933b14de9")
-	)
-	(no_connect
-		(at 44.45 177.8)
-		(uuid "7d8c57a6-ce26-4005-90d5-868dabe510a4")
+		(uuid "47aa1a9e-f2f9-4895-951e-73b3a72aef82")
 	)
 	(no_connect
 		(at 44.45 193.04)
-		(uuid "9e6b2526-4c5a-4ed8-94c8-b63268514e68")
+		(uuid "5273a9c2-bf73-40fa-9a21-ad2893cdd49a")
+	)
+	(no_connect
+		(at 44.45 180.34)
+		(uuid "5bab23d6-988f-4f4a-a743-33ed12d06f0a")
 	)
 	(no_connect
 		(at 44.45 210.82)
-		(uuid "a208b898-2bff-4372-aecb-d076d17c802c")
+		(uuid "5c009443-effd-4d62-a3d0-347f84cb0c57")
+	)
+	(no_connect
+		(at 44.45 195.58)
+		(uuid "977221f7-02fb-4bbe-87f7-c4627dc24a5f")
+	)
+	(no_connect
+		(at 44.45 177.8)
+		(uuid "f34e96fa-c814-4bc2-81ac-caa7f92b24b0")
 	)
 	(wire
 		(pts
@@ -3628,13 +3736,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 187.96) (xy 44.45 187.96)
+			(xy 44.45 187.96) (xy 48.26 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "175fff23-7749-48cc-9127-0f2c32a67750")
+		(uuid "163edb83-d47a-40e8-9659-042f23b6de07")
 	)
 	(wire
 		(pts
@@ -3675,6 +3783,16 @@
 			(type default)
 		)
 		(uuid "1cfb7de7-420f-407a-a9fa-846fcd18c8fe")
+	)
+	(wire
+		(pts
+			(xy 44.45 182.88) (xy 48.26 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23034dba-a888-4829-a913-3d52d5504d80")
 	)
 	(wire
 		(pts
@@ -3808,16 +3926,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 175.26) (xy 44.45 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4352085a-0fee-4c54-9795-86a505fd44cf")
-	)
-	(wire
-		(pts
 			(xy 269.24 45.72) (xy 269.24 53.34)
 		)
 		(stroke
@@ -3868,16 +3976,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 185.42) (xy 44.45 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5095ddd0-aaf9-4d47-bc57-c3d3e17ae332")
-	)
-	(wire
-		(pts
 			(xy 138.43 45.72) (xy 140.97 45.72)
 		)
 		(stroke
@@ -3915,6 +4013,16 @@
 			(type default)
 		)
 		(uuid "668a8f57-9556-4ff6-91da-4b28a744b669")
+	)
+	(wire
+		(pts
+			(xy 44.45 190.5) (xy 48.26 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a81fea-7f69-4dd3-9cf3-1af3a0e36c7e")
 	)
 	(wire
 		(pts
@@ -4008,6 +4116,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 198.12) (xy 63.5 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81998e04-2a91-4c7d-84a0-a1ca26f8097c")
+	)
+	(wire
+		(pts
+			(xy 44.45 200.66) (xy 48.26 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819d8471-0000-4414-9497-4f7a6f083888")
+	)
+	(wire
+		(pts
 			(xy 158.75 45.72) (xy 166.37 45.72)
 		)
 		(stroke
@@ -4018,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 205.74) (xy 48.26 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87269505-95bd-4d42-8f06-8394718cbaa7")
+	)
+	(wire
+		(pts
 			(xy 250.19 81.28) (xy 257.81 81.28)
 		)
 		(stroke
@@ -4025,16 +4163,6 @@
 			(type default)
 		)
 		(uuid "88ec138a-4e74-42f0-9573-bcfd5f869cd8")
-	)
-	(wire
-		(pts
-			(xy 44.45 198.12) (xy 63.5 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f87f494-7004-47ac-8787-8ca82361bcdc")
 	)
 	(wire
 		(pts
@@ -4058,6 +4186,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 190.5) (xy 180.34 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b2c574-7dfa-4dd7-b99a-b69242738109")
+	)
+	(wire
+		(pts
 			(xy 99.06 195.58) (xy 93.98 195.58)
 		)
 		(stroke
@@ -4078,6 +4216,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 198.12) (xy 63.5 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1c8b81-541c-41cb-8157-97fe40ea749a")
+	)
+	(wire
+		(pts
 			(xy 82.55 45.72) (xy 93.98 45.72)
 		)
 		(stroke
@@ -4095,16 +4243,6 @@
 			(type default)
 		)
 		(uuid "a403e779-0a6e-402a-84af-25465144d148")
-	)
-	(wire
-		(pts
-			(xy 63.5 198.12) (xy 63.5 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a472dee3-bd1d-4bfd-b12e-6fb3e0fbb730")
 	)
 	(wire
 		(pts
@@ -4158,26 +4296,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 203.2) (xy 63.5 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8fae289-70d6-4072-bfde-66129d6275be")
-	)
-	(wire
-		(pts
-			(xy 48.26 205.74) (xy 44.45 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9456758-e2eb-4d6f-988a-85ce240feff3")
-	)
-	(wire
-		(pts
 			(xy 151.13 67.31) (xy 151.13 81.28)
 		)
 		(stroke
@@ -4218,13 +4336,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 200.66) (xy 44.45 200.66)
+			(xy 44.45 185.42) (xy 48.26 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b00d3409-3e98-40ff-bb2a-8624117ec847")
+		(uuid "af2d430c-6cd7-43b4-acfb-d7f7c7c6794b")
+	)
+	(wire
+		(pts
+			(xy 151.13 187.96) (xy 180.34 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43d483c-4cad-487e-a8fd-3217e9a86559")
 	)
 	(wire
 		(pts
@@ -4305,6 +4433,16 @@
 			(type default)
 		)
 		(uuid "bdd2873c-fe77-4c56-867d-d530508ac94b")
+	)
+	(wire
+		(pts
+			(xy 44.45 175.26) (xy 48.26 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b3d754-3fd6-4785-bddd-0d7976b224b4")
 	)
 	(wire
 		(pts
@@ -4438,16 +4576,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 182.88) (xy 44.45 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e74b2a2d-7c02-4f50-8cdd-87c3b894b2e1")
-	)
-	(wire
-		(pts
 			(xy 114.3 45.72) (xy 120.65 45.72)
 		)
 		(stroke
@@ -4458,16 +4586,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 203.2) (xy 63.5 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8fd57f8-60ce-4c95-9759-52cfca785049")
-	)
-	(wire
-		(pts
 			(xy 158.75 45.72) (xy 158.75 52.07)
 		)
 		(stroke
@@ -4475,6 +4593,26 @@
 			(type default)
 		)
 		(uuid "eb523477-e913-4684-86ef-426f36441738")
+	)
+	(wire
+		(pts
+			(xy 44.45 203.2) (xy 63.5 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfae8ce-8f74-4f14-89f3-6934090fbed3")
+	)
+	(wire
+		(pts
+			(xy 93.98 177.8) (xy 180.34 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed53d229-2604-4630-b8fa-0497b69ef422")
 	)
 	(wire
 		(pts
@@ -4505,6 +4643,16 @@
 			(type default)
 		)
 		(uuid "f2e51579-5a94-4d6e-aeab-d40ef6352e80")
+	)
+	(wire
+		(pts
+			(xy 63.5 203.2) (xy 63.5 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38364ba-a0a5-474c-b63c-f8343e30a460")
 	)
 	(wire
 		(pts
@@ -4568,16 +4716,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 190.5) (xy 44.45 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf8d8a8-5f4a-4679-9b6c-656386b4f3db")
-	)
-	(wire
-		(pts
 			(xy 120.65 60.96) (xy 120.65 68.58)
 		)
 		(stroke
@@ -4595,6 +4733,16 @@
 			(justify right bottom)
 		)
 		(uuid "077075c8-514b-439a-a7f9-ac364cb1eb41")
+	)
+	(label "VDD_5V_SYS"
+		(at 48.26 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20db873c-4740-46c4-8cd1-1eb91ed59ad5")
 	)
 	(label "V_OUT_RTN"
 		(at 342.9 71.12 180)
@@ -4615,16 +4763,6 @@
 			(justify right bottom)
 		)
 		(uuid "22f8f196-fed1-4ca9-8261-a6ff31ac5d7a")
-	)
-	(label "NX_PC_LED+"
-		(at 93.98 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "388915c6-6e82-4b9c-b9a4-dc8c2e0fdacd")
 	)
 	(label "~{REC}"
 		(at 48.26 205.74 0)
@@ -4656,6 +4794,16 @@
 		)
 		(uuid "65527a22-18f1-4a1d-b839-3904d7f62289")
 	)
+	(label "VDD_5V_SYS"
+		(at 93.98 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ba00897-c974-4fff-ae8d-d5dd4b413f12")
+	)
 	(label "~{SYS_RESET}"
 		(at 48.26 200.66 0)
 		(effects
@@ -4675,16 +4823,6 @@
 			(justify right bottom)
 		)
 		(uuid "79f58c0a-66d7-4452-aea4-c489feaa333c")
-	)
-	(label "NX_PC_LED+"
-		(at 48.26 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f0a8144-3127-422f-84ab-c1593974e9bd")
 	)
 	(label "NX_PC_LED-"
 		(at 93.98 195.58 180)
@@ -4766,6 +4904,16 @@
 		)
 		(uuid "b4d5ba45-fcf4-410d-b604-c322084e28d7")
 	)
+	(label "VDD_5V_SYS"
+		(at 93.98 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8774898-bbf0-4468-a640-26adade37e40")
+	)
 	(label "3V3_BTN"
 		(at 48.26 175.26 0)
 		(effects
@@ -4808,7 +4956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05079c1e-309d-4951-887f-a93561535922")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 157.48 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,6 +5054,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 158.75 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 158.75 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c6c4877-5ad8-4fc2-be4e-b4bce8b759db")
 		)
@@ -4915,7 +5085,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4933,7 +5103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0863c514-1ac8-4471-93e4-8cf1cdca7f8b")
-		(property "Reference" "H6"
+		(property "Reference" "H11"
 			(at 298.45 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4999,10 +5169,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H6")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -5128,6 +5320,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 175.26 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 175.26 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -5149,7 +5363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ceb538-0acc-4257-8214-d39d4a4fa24f")
-		(property "Reference" "H12"
+		(property "Reference" "H2"
 			(at 350.52 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5215,10 +5429,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H12")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5235,7 +5471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d6d69ce-3de3-47dd-bf88-16b6efc6bb88")
-		(property "Reference" "C45"
+		(property "Reference" "C55"
 			(at 152.908 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5333,6 +5569,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4e182bd-cf9a-4395-9031-1fc9a1ac6fe1")
 		)
@@ -5342,7 +5600,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C45")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d5dcd6-3289-4227-a6d4-18a5bf678cc4")
-		(property "Reference" "H10"
+		(property "Reference" "H1"
 			(at 350.52 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5426,10 +5684,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H10")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5446,7 +5726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bce40ef-60a3-4383-af73-a037c71012a6")
-		(property "Reference" "U7"
+		(property "Reference" "U11"
 			(at 138.684 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,6 +5825,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aec26559-1e25-4e6c-9aec-b8badb6d3882")
 		)
@@ -5566,7 +5868,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "U7")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5692,10 +5994,260 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 175.26 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 175.26 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
 					(reference "LP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 364.49 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "351b10c6-3b72-4fe4-8ce5-ee493ed7dad2")
+		(property "Reference" "FID6"
+			(at 367.03 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 367.03 215.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 364.49 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 364.49 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 364.49 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "403f5967-ebd7-46c7-b256-1af584b9a677")
+		(property "Reference" "FID5"
+			(at 367.03 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 367.03 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 364.49 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 364.49 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "FID5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 347.98 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4163d499-276f-4f33-a684-1f12229b0974")
+		(property "Reference" "FID2"
+			(at 350.52 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 350.52 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 347.98 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 347.98 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -5912,6 +6464,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 162.56 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 162.56 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df553c34-fbee-4dde-a989-50cc8407eadd")
 		)
@@ -5939,7 +6513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e0d131b-50ea-4782-ab55-76272feb029e")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 298.45 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6005,10 +6579,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff7721d-5b2d-4edb-b77f-03a183b81cd3")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 301.498 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6123,6 +6719,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 299.72 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 299.72 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e323d6a1-e15b-45a4-aff7-7936d1499e6f")
 		)
@@ -6132,7 +6750,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6268,6 +6886,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a648815-07fa-4665-b8ed-dc8489be726e")
 		)
@@ -6295,7 +6935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58c6d06b-680c-451a-8b4e-924e0ff82e83")
-		(property "Reference" "Q9"
+		(property "Reference" "Q14"
 			(at 133.35 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6384,6 +7024,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 133.35 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "2e80e1ac-27ac-48fe-9c4d-c71f9fe24bb3")
 		)
@@ -6402,7 +7064,83 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "Q9")
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 347.98 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cf3b6ed-48ac-4565-a59f-53c70d34b26c")
+		(property "Reference" "FID1"
+			(at 350.52 203.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 350.52 205.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 347.98 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 347.98 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -6508,6 +7246,28 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 257.81 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 257.81 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 257.81 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6652,6 +7412,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5cf41a2-d6ef-41cb-8693-e5a8adaba353")
 		)
@@ -6662,6 +7444,82 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 347.98 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d82f218-90b9-4d60-a2de-fa938498f9b8")
+		(property "Reference" "FID3"
+			(at 350.52 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 350.52 215.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 347.98 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 347.98 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -6733,6 +7591,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 74.93 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -6753,7 +7633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80f57bbb-e4c0-4979-b599-7fa94edffafb")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 287.274 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,6 +7732,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 281.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 281.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8112addf-559a-4338-bb11-528c05e2e21e")
 		)
@@ -6873,7 +7775,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6891,7 +7793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cb93c55-9c4d-4b98-be91-9e322cbca3f8")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 270.764 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6989,6 +7891,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 269.24 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9bf8098b-c2a6-4b31-ad50-38daa815c3da")
 		)
@@ -6998,7 +7922,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7016,7 +7940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b4a2260-3673-44f4-bf70-5c72b0e104e6")
-		(property "Reference" "R27"
+		(property "Reference" "R31"
 			(at 165.1 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7114,6 +8038,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 166.37 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d53814dd-dd1c-44f3-ab65-7d09a3510128")
 		)
@@ -7123,7 +8069,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "R27")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7141,7 +8087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fb0221e-63eb-4ecb-9f01-6d1aaf9363da")
-		(property "Reference" "H8"
+		(property "Reference" "H7"
 			(at 298.45 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,10 +8153,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H8")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -7326,6 +8294,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
+			(at 175.26 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 175.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7467,6 +8457,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a365332-dc10-4ccc-bf37-53497ae41b36")
 		)
@@ -7477,6 +8489,82 @@
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 364.49 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abc6be97-932b-4695-9797-231f85fc15cb")
+		(property "Reference" "FID4"
+			(at 367.03 203.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 367.03 205.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 364.49 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 364.49 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TVS-Adapter-v1"
+				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -7494,7 +8582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3b15f1-c5f2-4462-a3ad-d1a849f07198")
-		(property "Reference" "H5"
+		(property "Reference" "H10"
 			(at 298.45 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7560,10 +8648,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H5")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -7581,7 +8691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad65ac46-08b5-4a13-9583-d0b61e54ad86")
-		(property "Reference" "H7"
+		(property "Reference" "H5"
 			(at 298.45 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7647,10 +8757,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7787,6 +8919,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01af96cf-db58-44b0-b404-f723b8161b1c")
 		)
@@ -7880,6 +9034,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -7901,7 +9077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c01e9fed-f385-4012-b31c-fc009894b61f")
-		(property "Reference" "C52"
+		(property "Reference" "C62"
 			(at 122.174 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7999,6 +9175,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 120.65 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 120.65 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "962a7928-2326-4b71-8be9-695c0194ee17")
 		)
@@ -8008,7 +9206,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C52")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -8026,7 +9224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a86ac7-6129-4801-8503-93efebb8b277")
-		(property "Reference" "H11"
+		(property "Reference" "H12"
 			(at 350.52 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,10 +9290,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 347.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H11")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -8223,6 +9443,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 393.7 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 393.7 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -8330,6 +9572,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 93.98 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "106df678-d384-47f2-8abd-283a3720ef54")
 		)
@@ -8357,7 +9621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cba75052-33a3-41c5-87ee-4ee5e0091dd2")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 298.45 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8423,10 +9687,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8543,6 +9829,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
+			(at 393.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 393.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 393.7 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8682,6 +9990,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 175.26 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 175.26 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -8694,6 +10024,7 @@
 	(symbol
 		(lib_id "NX-J401-Adapter:Conn_01x15_Pin")
 		(at 39.37 193.04 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8703,7 +10034,7 @@
 		(dnp no)
 		(uuid "d62bd688-1957-4101-8f79-7940b4351d3c")
 		(property "Reference" "J3"
-			(at 40.005 170.18 0)
+			(at 40.005 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8713,7 +10044,7 @@
 			)
 		)
 		(property "Value" "NX CONTROL & UART"
-			(at 40.005 172.72 0)
+			(at 40.005 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8777,26 +10108,26 @@
 				)
 			)
 		)
-		(property "MFG" "Molex"
-			(at 37.846 213.106 0)
+		(property "MFG" "Adam Tech"
+			(at 38.1 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "MFG P/N" "PH1RB-15-UA"
-			(at 37.846 215.392 0)
+			(at 38.1 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
@@ -8811,6 +10142,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "XXXXXX"
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 39.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 39.37 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -8887,7 +10240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7948e5e-031b-4159-b9d4-1cf07e935623")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 171.45 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8985,6 +10338,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 172.72 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 172.72 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb8ce9ad-9f1d-4a94-877a-8fd439cdaaae")
 		)
@@ -8994,7 +10369,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9012,7 +10387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de169099-8e91-4807-a93e-ed2f5007c7a1")
-		(property "Reference" "H9"
+		(property "Reference" "H8"
 			(at 298.45 208.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9078,10 +10453,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 295.91 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 295.91 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "H9")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -9284,6 +10681,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "1d0a7e6e-21c2-4624-ab5a-e5a1ea558bf4")
 		)
@@ -9316,7 +10735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4909287-c56a-4a9d-8e2d-2121dcb9590d")
-		(property "Reference" "C54"
+		(property "Reference" "C64"
 			(at 109.728 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,6 +10833,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2b93e57-24fb-495e-8aef-93ea97f2c170")
 		)
@@ -9423,7 +10864,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "C54")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -9552,6 +10993,28 @@
 			)
 		)
 		(property "JLCPCB P/N" "C5123493"
+			(at 114.3 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 114.3 201.93 90)
 			(hide yes)
 			(show_name no)
@@ -9699,6 +11162,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 133.35 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79f5cf63-b200-440c-9e5c-7d5992e5d0e3")
 		)
@@ -9806,6 +11291,28 @@
 		)
 		(property "JLCPCB P/N" "C114200"
 			(at 281.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 281.94 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 281.94 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9936,8 +11443,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 175.26)
-		(size 68.58 16.51)
+		(at 180.34 172.72)
+		(size 68.58 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9951,7 +11458,7 @@
 		)
 		(uuid "7f338915-7b6e-40c1-9733-742b14680646")
 		(property "Sheetname" "USB Serial"
-			(at 215.138 183.388 0)
+			(at 215.138 180.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9961,7 +11468,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-serial.kicad_sch"
-			(at 180.34 174.752 0)
+			(at 180.34 172.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9972,7 +11479,7 @@
 			)
 		)
 		(property "Page" "${#}/${##}"
-			(at 248.412 176.022 0)
+			(at 248.412 173.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9980,16 +11487,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
-			)
-		)
-		(pin "3V3" passive
-			(at 180.34 180.34 180)
-			(uuid "84da7bbe-6f14-4066-85ca-94fafaacf4d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "RXD" input
@@ -10005,6 +11502,46 @@
 		(pin "TXD" output
 			(at 180.34 185.42 180)
 			(uuid "a0e83e50-88a9-401a-bacc-6c958a341def")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FORCE_RECOVERY}" output
+			(at 180.34 190.5 180)
+			(uuid "252fd4f1-7518-47bf-8719-345236373a8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" output
+			(at 180.34 187.96 180)
+			(uuid "5dd2fe8d-6146-4d8d-815a-0dfddbf9bbed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3 J401" input
+			(at 180.34 180.34 180)
+			(uuid "bb07141c-7899-4a79-a923-9e28b4b99216")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V J401" input
+			(at 180.34 177.8 180)
+			(uuid "1f89b0a1-e7fd-46c9-8d10-c88b0c879626")
 			(effects
 				(font
 					(size 1.27 1.27)
