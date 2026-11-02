@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-11-01T08:35:50 ###
-### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
+### Footprint positions - created on 2026-11-01T20:42:19 ###
+### Printed by KiCad version 10.0.8
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                          Package                                                      PosX       PosY       Rot  Side
@@ -41,7 +41,7 @@ J2        Terminal                     Keystone-7774                            
 J3        NX_CONTROL_&_UART            PinHeader_1x15_P2.54mm_Horizontal                          7.2970    -3.3362   90.0000  top
 J4        15V                          Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal     7.5142    -3.6546   90.0000  top
 J5        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                           10.3245    -3.6670    0.0000  top
-J6        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                           10.7024    -3.6670    0.0000  top
+J6        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                           10.7024    -3.3670    0.0000  top
 J7        USB1                         Molex-PicoLatch-5040500491                                 9.3917    -3.8548  -90.0000  top
 J8        SWD                          PinHeader_1x06_P2.54mm_Horizontal                          9.6650    -4.4130    0.0000  top
 J9        CAN1                         Molex-70555-0001                                           9.8090    -5.5987  -90.0000  top

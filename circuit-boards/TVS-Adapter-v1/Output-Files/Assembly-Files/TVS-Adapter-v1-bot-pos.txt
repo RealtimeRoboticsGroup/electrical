@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-11-01T08:35:51 ###
-### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
+### Footprint positions - created on 2026-11-01T20:42:19 ###
+### Printed by KiCad version 10.0.8
 ## Unit = inches, Angle = deg.
 ## Side : bottom
 # Ref     Val                    Package                                                       PosX       PosY       Rot  Side
@@ -66,7 +66,7 @@ FID3      Fiducial               Fiducial_1mm_Mask3mm                           
 FID5      Fiducial               Fiducial_1mm_Mask3mm                                        6.3000    -3.3250  180.0000  bottom
 L2        2.2uH-41mOhm-20%       KOHER-MDA4020-2R2M                                          8.8989    -3.8120    0.0000  bottom
 L3        HZ0805E601R-10         L_0805_2012Metric                                           7.9238    -5.2794    0.0000  bottom
-LOGO2     SPACE_COOKIES_LOGO     SPACE_COOKIES_LOGO_7mm                                     10.6900    -5.3030   90.0000  bottom
+LOGO2     SPACE_COOKIES_LOGO     SPACE_COOKIES_LOGO_7mm                                     10.7000    -4.9800   90.0000  bottom
 Q1        CSD19534Q5A            TI-SON5x6                                                   7.7400    -3.8000  180.0000  bottom
 Q2        SI2301CDS-T1-GE3       SOT-23                                                      9.1759    -3.9626    0.0000  bottom
 Q3        BSS138                 SOT-23                                                      8.4150    -4.1050  180.0000  bottom
