@@ -6037,7 +6037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "351b10c6-3b72-4fe4-8ce5-ee493ed7dad2")
-		(property "Reference" "FID6"
+		(property "Reference" "FID2"
 			(at 367.03 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,10 +6092,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 364.49 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "FID6")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -6168,6 +6179,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 364.49 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
@@ -6189,7 +6211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4163d499-276f-4f33-a684-1f12229b0974")
-		(property "Reference" "FID2"
+		(property "Reference" "FID3"
 			(at 350.52 208.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6244,10 +6266,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 347.98 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "FID2")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -7082,7 +7115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cf3b6ed-48ac-4565-a59f-53c70d34b26c")
-		(property "Reference" "FID1"
+		(property "Reference" "FID6"
 			(at 350.52 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7137,10 +7170,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 347.98 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "FID1")
+					(reference "FID6")
 					(unit 1)
 				)
 			)
@@ -7461,7 +7505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d82f218-90b9-4d60-a2de-fa938498f9b8")
-		(property "Reference" "FID3"
+		(property "Reference" "FID4"
 			(at 350.52 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7516,10 +7560,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 347.98 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "FID3")
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -8506,7 +8561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abc6be97-932b-4695-9797-231f85fc15cb")
-		(property "Reference" "FID4"
+		(property "Reference" "FID1"
 			(at 367.03 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8561,10 +8616,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 364.49 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "FID4")
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -8800,7 +8866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b097381b-f334-4407-bfcf-9e9b28f1a4aa")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 347.726 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8950,7 +9016,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)

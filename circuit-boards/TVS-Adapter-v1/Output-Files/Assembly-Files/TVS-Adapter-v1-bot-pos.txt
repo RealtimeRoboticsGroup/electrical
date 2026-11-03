@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-11-01T21:57:13 ###
+### Footprint positions - created on 2026-11-03T08:59:58 ###
 ### Printed by KiCad version 10.0.8
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -40,32 +40,33 @@ C46       0.1uF-50V-10%-0603     C_0603_1608Metric                              
 C47       0.1uF-50V-10%-0603     C_0603_1608Metric                                           6.6218    -4.9967  180.0000  bottom
 C48       0.1uF-50V-10%-0603     C_0603_1608Metric                                           7.1928    -5.0677    0.0000  bottom
 C49       0.1uF-50V-10%-0603     C_0603_1608Metric                                           8.4950    -5.1450   90.0000  bottom
-C50       15nF-10%-50V-0603      C_0603_1608Metric                                           7.9238    -5.2094    0.0000  bottom
+C50       15nF-10%-50V-0603      C_0603_1608Metric                                           7.9238    -5.1794    0.0000  bottom
 C51       0.1uF-50V-10%-0603     C_0603_1608Metric                                           8.9300    -5.2200    0.0000  bottom
 C52       0.1uF-50V-10%-0603     C_0603_1608Metric                                           8.4700    -5.3100   90.0000  bottom
 C53       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           7.6618    -5.3167    0.0000  bottom
 C54       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           7.4618    -5.3167  180.0000  bottom
 C55       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           6.8720    -5.3167  180.0000  bottom
-C56       22uF-10%-16V-0805      C_0805_2012Metric                                           7.9238    -5.3594  180.0000  bottom
-C57       0.1uF-50V-10%-0603     C_0603_1608Metric                                           9.4060    -5.4220  180.0000  bottom
-C58       0.1uF-50V-10%-0603     C_0603_1608Metric                                           7.9238    -5.4294  180.0000  bottom
+C56       22uF-10%-16V-0805      C_0805_2012Metric                                           7.9238    -5.3294  180.0000  bottom
+C57       0.1uF-50V-10%-0603     C_0603_1608Metric                                           7.9238    -5.3994  180.0000  bottom
+C58       0.1uF-50V-10%-0603     C_0603_1608Metric                                           9.4060    -5.4220  180.0000  bottom
 C59       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           7.6618    -5.4567    0.0000  bottom
 C60       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           7.4618    -5.4567  180.0000  bottom
-C61       0.1uF-50V-10%-0603     C_0603_1608Metric                                           7.9238    -5.5494  180.0000  bottom
+C61       0.1uF-50V-10%-0603     C_0603_1608Metric                                           7.9238    -5.5194  180.0000  bottom
 C62       0.1uF-50V-10%-0603     C_0603_1608Metric                                           6.8720    -5.5567  180.0000  bottom
 C63       0.1uF-50V-10%-0603     C_0603_1608Metric                                           9.1180    -5.5643  -90.0000  bottom
 C64       10uF-50V-10%-X7R-1210  C_1210_3225Metric                                           6.8720    -5.6567  180.0000  bottom
-C65       47pF-50V-10%-0603      C_0603_1608Metric                                           7.8600    -5.8000  -90.0000  bottom
-C66       47pF-50V-10%-0603      C_0603_1608Metric                                           7.8000    -5.8000  -90.0000  bottom
+C65       0.1uF-50V-10%-0603     C_0603_1608Metric                                           7.9238    -5.7194  180.0000  bottom
+C66       47pF-50V-10%-0603      C_0603_1608Metric                                           7.8890    -5.9140  -90.0000  bottom
+C67       47pF-50V-10%-0603      C_0603_1608Metric                                           7.8290    -5.9140  -90.0000  bottom
 D6        BAT54KFILM             D_SOD-523                                                   7.1918    -4.7067    0.0000  bottom
 D7        BAT54KFILM             D_SOD-523                                                   7.1928    -5.0077    0.0000  bottom
 D8        BAT54KFILM             D_SOD-523                                                   6.6218    -5.1167    0.0000  bottom
 D9        PESD1CAN               SOT-23                                                      9.5850    -5.5650  180.0000  bottom
-FID1      Fiducial               Fiducial_1mm_Mask3mm                                        9.5600    -5.7100  180.0000  bottom
-FID3      Fiducial               Fiducial_1mm_Mask3mm                                        9.6550    -3.1000  180.0000  bottom
+FID4      Fiducial               Fiducial_1mm_Mask3mm                                        9.6550    -3.1000  180.0000  bottom
 FID5      Fiducial               Fiducial_1mm_Mask3mm                                        6.3000    -3.3250  180.0000  bottom
+FID6      Fiducial               Fiducial_1mm_Mask3mm                                        9.5600    -5.7100  180.0000  bottom
 L2        2.2uH-41mOhm-20%       KOHER-MDA4020-2R2M                                          8.8989    -3.8120    0.0000  bottom
-L3        HZ0805E601R-10         L_0805_2012Metric                                           7.9238    -5.2794    0.0000  bottom
+L3        HZ0805E601R-10         L_0805_2012Metric                                           7.9238    -5.2494    0.0000  bottom
 LOGO2     SPACE_COOKIES_LOGO     SPACE_COOKIES_LOGO_7mm                                     10.7000    -4.9800   90.0000  bottom
 Q1        CSD19534Q5A            TI-SON5x6                                                   7.7400    -3.8000  180.0000  bottom
 Q2        SI2301CDS-T1-GE3       SOT-23                                                      9.1759    -3.9626    0.0000  bottom
@@ -116,8 +117,8 @@ R32       0R-1%-0603             R_0603_1608Metric                              
 R33       93.1k-1%-0603          R_0603_1608Metric                                           9.1350    -5.2200  180.0000  bottom
 R34       5.1k-1%-0603           R_0603_1608Metric                                           8.5300    -5.4350   90.0000  bottom
 R35       5.1k-1%-0603           R_0603_1608Metric                                           8.4700    -5.4350   90.0000  bottom
-R36       5.1k-1%-0603           R_0603_1608Metric                                           7.9238    -5.4894    0.0000  bottom
-R37       5.1k-1%-0603           R_0603_1608Metric                                           7.9238    -5.6094    0.0000  bottom
+R36       5.1k-1%-0603           R_0603_1608Metric                                           7.9238    -5.4594    0.0000  bottom
+R37       5.1k-1%-0603           R_0603_1608Metric                                           7.7690    -5.9140  -90.0000  bottom
 U1        TLV70233DBVR           SOT-23-5                                                    8.4550    -3.6700    0.0000  bottom
 U2        LM74700QDBVRQ1         SOT-23-6                                                    7.4600    -3.8700    0.0000  bottom
 U3        TPS613222ADBV          SOT-23-5                                                    8.9259    -3.9660  180.0000  bottom
@@ -130,4 +131,5 @@ U9        TPS3808G30DBVR         SOT-23-6                                       
 U10       FT232RNL               SSOP-28_5.3x10.2mm_P0.65mm                                  8.2278    -5.4304  180.0000  bottom
 U11       LM74700QDBVRQ1         SOT-23-6                                                    6.8720    -5.4517    0.0000  bottom
 U12       TJA1051T/3/1J          SO-8_3.9x4.9mm_P1.27mm                                      9.3050    -5.5650    0.0000  bottom
+U13       USBLC6-2SC6            SOT-23-6                                                    7.9250    -5.6200    0.0000  bottom
 ## End
