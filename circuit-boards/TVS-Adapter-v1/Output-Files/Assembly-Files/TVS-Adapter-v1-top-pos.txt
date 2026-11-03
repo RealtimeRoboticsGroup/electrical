@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-11-01T20:42:19 ###
-### Printed by KiCad version 10.0.8
+### Footprint positions - created on 2026-11-03T09:45:38 ###
+### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                          Package                                                      PosX       PosY       Rot  Side
@@ -20,9 +20,9 @@ D2        PWR                          LED_1206_3216Metric                      
 D3        PC                           LED_1206_3216Metric                                        7.2520    -5.9266    0.0000  top
 D4        RX                           LED_1206_3216Metric                                        9.2520    -5.9266    0.0000  top
 D5        TX                           LED_1206_3216Metric                                        9.4520    -5.9266    0.0000  top
-FID2      Fiducial                     Fiducial_1mm_Mask3mm                                       9.5600    -5.7100    0.0000  top
-FID4      Fiducial                     Fiducial_1mm_Mask3mm                                       9.6550    -3.1000    0.0000  top
-FID6      Fiducial                     Fiducial_1mm_Mask3mm                                       6.3000    -3.3250    0.0000  top
+FID1      Fiducial                     Fiducial_1mm_Mask3mm                                       9.6550    -3.1000    0.0000  top
+FID2      Fiducial                     Fiducial_1mm_Mask3mm                                       6.3000    -3.3250    0.0000  top
+FID3      Fiducial                     Fiducial_1mm_Mask3mm                                       9.5600    -5.7100    0.0000  top
 H1        1.152mm_ToolingHole          ToolingHole_1.152mm                                        6.3317    -2.6855    0.0000  top
 H2        1.152mm_ToolingHole          ToolingHole_1.152mm                                       10.5974    -2.6855    0.0000  top
 H3        MountingHole                 MountingHole_2.5mm                                         6.2985    -3.0902    0.0000  top
@@ -39,9 +39,9 @@ H13       1.152mm_ToolingHole          ToolingHole_1.152mm                      
 J1        Terminal                     Keystone-7774                                              7.0150    -2.8922  180.0000  top
 J2        Terminal                     Keystone-7774                                              8.9790    -2.8922  180.0000  top
 J3        NX_CONTROL_&_UART            PinHeader_1x15_P2.54mm_Horizontal                          7.2970    -3.3362   90.0000  top
-J4        15V                          Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal     7.5142    -3.6546   90.0000  top
-J5        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                           10.3245    -3.6670    0.0000  top
-J6        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                           10.7024    -3.3670    0.0000  top
+J4        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                           10.7024    -3.3670    0.0000  top
+J5        15V                          Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal     7.5142    -3.6546   90.0000  top
+J6        NX_CONTROL_&_UART            PinSocket_1x15_P2.54mm_Vertical                           10.3245    -3.6670    0.0000  top
 J7        USB1                         Molex-PicoLatch-5040500491                                 9.3917    -3.8548  -90.0000  top
 J8        SWD                          PinHeader_1x06_P2.54mm_Horizontal                          9.6650    -4.4130    0.0000  top
 J9        CAN1                         Molex-70555-0001                                           9.8090    -5.5987  -90.0000  top

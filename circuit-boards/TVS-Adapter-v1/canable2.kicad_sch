@@ -8537,6 +8537,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 251.46 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "26aea44f-1829-46cb-8f30-cc74ef53f160")
 		)
@@ -9829,6 +9840,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 261.62 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "33c89422-0541-4bf8-843f-0ccc5f972cd7")
 		)
@@ -10117,6 +10139,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 288.29 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 288.29 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12771,7 +12804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbb4fcd3-7e25-4bff-b7f7-9df4e3b5a628")
-		(property "Reference" "C57"
+		(property "Reference" "C58"
 			(at 219.71 185.6739 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12901,7 +12934,7 @@
 		(instances
 			(project "TVS-Adapter-v1"
 				(path "/3c9fa76f-2b37-4666-8575-58caa65def04/958ef65b-dc3d-4755-b7b0-3d4dc8feed9f"
-					(reference "C57")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -13215,6 +13248,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 259.08 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 259.08 226.06 0)
 			(hide yes)
 			(show_name no)

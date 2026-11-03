@@ -39,7 +39,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
+          "drill": 2.794,
           "height": 2.794,
           "width": 2.794
         },
@@ -599,25 +599,25 @@
       "/CANable2.0/USB_DP": [
         "LQFP"
       ],
+      "/USB Serial/5V_USB": [
+        "LQFP"
+      ],
       "GND_CAN": [
         "LQFP"
       ],
       "GND_USB": [
         "LQFP"
       ],
-      "Net-(C50-Pad1)": [
+      "Net-(C66-Pad1)": [
+        "LQFP"
+      ],
+      "Net-(C67-Pad1)": [
         "LQFP"
       ],
       "Net-(J11-CC1)": [
         "LQFP"
       ],
       "Net-(J11-CC2)": [
-        "LQFP"
-      ],
-      "Net-(U10-USBD+)": [
-        "LQFP"
-      ],
-      "Net-(U10-USBD-)": [
         "LQFP"
       ],
       "unconnected-(J11-PadA8)": [
