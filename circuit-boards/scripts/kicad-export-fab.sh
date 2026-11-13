@@ -1,6 +1,8 @@
 #!/bin/bash
 set -x
 
+#KICADEXE="kicad"
+
 num_layers=4
 component_layer=FRONTandBACK
 generate_ipc2581=0
@@ -49,13 +51,13 @@ function export_gerber () {
     layer=$1
     overlay_layer=$2
     layer_fname=$(echo $layer| tr "." _ )
-    kicad-cli pcb export gerber --output "${GERBER_DIR}/${fname}-${layer_fname}.gbr" --layers ${layer} ${pcb}
+    $KICADEXE kicad-cli pcb export gerber --output "${GERBER_DIR}/${fname}-${layer_fname}.gbr" --layers ${layer} ${pcb}
 }
 
 function export_gerbers () {
     layers=$1
     layer_fname=$(echo $layer| tr "." _ )
-    kicad-cli pcb export gerbers --output "${GERBER_DIR}" --layers ${layers} ${pcb}
+    $KICADEXE kicad-cli pcb export gerbers --output "${GERBER_DIR}" --layers ${layers} ${pcb}
 }
 
 function update_bom_item_number () {
@@ -88,14 +90,14 @@ mkdir -p ${FAB_DIR}
 mkdir -p ${GERBER_DIR}
 
 #check PCB DRC
-kicad-cli pcb drc --schematic-parity --units mils --severity-all --output ${ZIP_DIR}/${fname}-drc.txt --exit-code-violations ${pcb}
+$KICADEXE kicad-cli pcb drc --schematic-parity --units mils --severity-all --output ${ZIP_DIR}/${fname}-drc.txt --exit-code-violations ${pcb}
 
 #generate Interactive BOM
 
 python3 $kicad_local_plugins/$ibom_exe --show-dialog $pcb
 
 #generate schematic pdf
-kicad-cli sch export pdf --output "${SCH_DIR}/${fname}-sch.pdf" ${sch}
+$KICADEXE kicad-cli sch export pdf --output "${SCH_DIR}/${fname}-sch.pdf" ${sch}
 
 #generate PCB gerbers
 #for layer in ${gerber_layers//,/ }
@@ -122,29 +124,29 @@ export_gerbers ${gerber_layers}
 rm -f ${GERBER_DIR}/*.gbrjob
 
 #generate PCB NC drill file
-kicad-cli pcb export drill --output ${GERBER_DIR}/ ${pcb}
+$KICADEXE kicad-cli pcb export drill --output ${GERBER_DIR}/ ${pcb}
 
 #generate PCB Fab Drawing
-kicad-cli pcb export pdf --drill-shape-opt 0 --output ${GERBER_DIR}/${fname}-fab.pdf --layers ${pcb_fab_layers} --include-border-title --black-and-white ${pcb} 
+$KICADEXE kicad-cli pcb export pdf --drill-shape-opt 0 --output ${GERBER_DIR}/${fname}-fab.pdf --layers ${pcb_fab_layers} --include-border-title --black-and-white ${pcb} 
 
 #generate BOM from schematic
-kicad-cli sch export bom --sort-field "Reference" --sort-asc --group-by "MFG P/N" --fields "\${Item},\${QUANTITY},Reference,Value,MFG,MFG P/N,DIST,DIST P/N" --ref-range-delimiter "-" --exclude-dnp --output ${FAB_DIR}/${fname}-bom.csv $fname.kicad_sch 
+$KICADEXE kicad-cli sch export bom --sort-field "Reference" --sort-asc --group-by "MFG P/N" --fields "\${Item},\${QUANTITY},Reference,Value,MFG,MFG P/N,DIST,DIST P/N,JLCPCB P/N" --ref-range-delimiter "-" --exclude-dnp --output ${FAB_DIR}/${fname}-bom.csv $fname.kicad_sch 
 update_bom_item_number ${FAB_DIR}/${fname}-bom.csv 
 
 #generate Assembly Drawing
-kicad-cli pcb export pdf --drill-shape-opt 0 --output ${FAB_DIR}/${fname}-assy.pdf --layers ${pcb_assembly_layers} --include-border-title --black-and-white ${pcb} 
+$KICADEXE kicad-cli pcb export pdf --drill-shape-opt 0 --output ${FAB_DIR}/${fname}-assy.pdf --layers ${pcb_assembly_layers} --include-border-title --black-and-white ${pcb} 
 
 #generate PnP file
 case $component_layer in
     FRONTandBACK)
-        kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-top-pos.txt --side front ${pcb} 
-        kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-bot-pos.txt --side back ${pcb} 
+        $KICADEXE kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-top-pos.txt --side front ${pcb} 
+        $KICADEXE kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-bot-pos.txt --side back ${pcb} 
         ;;
     FRONT)
-        kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-top-pos.txt --side front ${pcb} 
+        $KICADEXE kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-top-pos.txt --side front ${pcb} 
         ;;
     BACK)
-        kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-bot-pos.txt --side back ${pcb} 
+        $KICADEXE kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-bot-pos.txt --side back ${pcb} 
         ;;
     *)
         ;;
@@ -152,11 +154,11 @@ esac
 
 #generate IPC2581 file
 if [ ${generate_ipc2581} == 1 ]; then
-    kicad-cli pcb export ipc2581 --output ${FAB_DIR}/${fname}-ipc2581.zip --compress --bom-col-mfg-pn "MFG P/N" --bom-col-mfg "MFG" --bom-col-dist-pn "DIST P/N" --bom-col-dist "DIST" ${pcb}
+    $KICADEXE kicad-cli pcb export ipc2581 --output ${FAB_DIR}/${fname}-ipc2581.zip --compress --bom-col-mfg-pn "MFG P/N" --bom-col-mfg "MFG" --bom-col-dist-pn "DIST P/N" --bom-col-dist "DIST" ${pcb}
 fi
 
 #generate step file
-kicad-cli pcb export step --output ${SCH_DIR}/${fname}.step --subst-models ${pcb}
+$KICADEXE kicad-cli pcb export step --output ${SCH_DIR}/${fname}.step --subst-models ${pcb}
 pushd ${SCH_DIR}
 zip ${fname}-step.zip ${fname}.step
 rm ${fname}.step
