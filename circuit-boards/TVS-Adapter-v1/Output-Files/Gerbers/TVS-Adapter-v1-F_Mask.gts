@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,10.0.8*%
-%TF.CreationDate,2026-11-12T21:08:11-08:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.8-10.0.8~ubuntu26.04.1*%
+%TF.CreationDate,2026-11-19T20:47:08-08:00*%
 %TF.ProjectId,TVS-Adapter-v1,5456532d-4164-4617-9074-65722d76312e,1*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.8) date 2026-11-12 21:08:11*
+G04 Created by KiCad (PCBNEW 10.0.8-10.0.8~ubuntu26.04.1) date 2026-11-19 20:47:08*
 %MOMM*%
 %LPD*%
 G01*
