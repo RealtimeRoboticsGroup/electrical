@@ -4309,6 +4309,17 @@
 		)
 		(uuid "2a15259d-77b7-4cd2-b728-90114cad3d10")
 	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 381.254 169.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c176260-da1c-4b6e-ab82-8b46ade16cdc")
+	)
 	(text "CAN BOOT0 POWER DELAY\n0.5 seconds"
 		(exclude_from_sim no)
 		(at 248.92 87.122 0)
@@ -4348,6 +4359,17 @@
 			)
 		)
 		(uuid "a9dfaf7c-28d4-450c-a842-fa58beed2858")
+	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 394.97 169.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc6d600f-a662-4dc3-93b9-97c645bd138d")
 	)
 	(text "CAN TRANSCEIVER"
 		(exclude_from_sim no)
@@ -8661,8 +8683,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RX"
-			(at 394.97 168.91 90)
+		(property "Value" "LED-YEL-1206"
+			(at 397.256 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9563,15 +9585,15 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TX"
-			(at 381 168.91 90)
+		(property "Value" "LED-YEL-1206"
+			(at 375.666 167.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:LED_1206_3216Metric"

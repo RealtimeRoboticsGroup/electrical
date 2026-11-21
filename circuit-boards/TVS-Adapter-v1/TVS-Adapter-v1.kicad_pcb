@@ -6663,7 +6663,7 @@
 				)
 			)
 		)
-		(property "Value" "PC"
+		(property "Value" "LED-GRN-1206"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "63f9a7b9-73a1-449e-9586-08811e5a84ea")
@@ -6734,7 +6734,7 @@
 				)
 			)
 		)
-		(property "MFG" "BrtLed(Bright LED Elec)"
+		(property "MFG" "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6747,7 +6747,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "BL-HGK33-TRB "
+		(property "MFG P/N" "HL-PC-3216U51GC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6760,7 +6760,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C5123493"
+		(property "JLCPCB P/N" "C499467"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7106,6 +7106,18 @@
 				)
 			)
 		)
+		(property "Value" "USB1"
+			(at 0 3.405 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f881f985-9265-430b-be9b-f7d980056443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Datasheet" "Components/Molex-5040500491_sd.pdf"
 			(at 0 0 270)
 			(unlocked yes)
@@ -7223,22 +7235,16 @@
 				)
 			)
 		)
-		(property "Value" "USB1"
-			(at 0 3.405 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "f881f985-9265-430b-be9b-f7d980056443")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e1fb7999-d617-46bc-8edf-cc761b59d499")
 		(sheetname "/")
 		(sheetfile "TVS-Adapter-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14978,7 +14984,7 @@
 				)
 			)
 		)
-		(property "Value" "RX"
+		(property "Value" "LED-YEL-1206"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "207abf2d-b75e-4a45-9595-c614cb7b523b")
@@ -15278,7 +15284,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "LED-GRN-1206"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "edd99006-fe66-4ba5-bee7-81d9b0cda0c5")
@@ -15349,7 +15355,7 @@
 				)
 			)
 		)
-		(property "MFG" "BrtLed(Bright LED Elec)"
+		(property "MFG" "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15362,7 +15368,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "BL-HGK33-TRB "
+		(property "MFG P/N" "HL-PC-3216U51GC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15375,7 +15381,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C5123493"
+		(property "JLCPCB P/N" "C499467"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16938,7 +16944,7 @@
 				)
 			)
 		)
-		(property "Value" "TX"
+		(property "Value" "LED-YEL-1206"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "b6b4804f-1051-4b9b-8aaa-061ff62d8715")

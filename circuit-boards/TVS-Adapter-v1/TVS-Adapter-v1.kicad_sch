@@ -3333,6 +3333,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PWR"
+		(exclude_from_sim no)
+		(at 157.734 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0988d964-6f8e-49a9-a8f2-dcc4a019cdd3")
+	)
 	(text "GND"
 		(exclude_from_sim no)
 		(at 48.26 208.28 0)
@@ -3385,6 +3395,16 @@
 			(justify left bottom)
 		)
 		(uuid "dfc9307c-22b4-4afa-83e1-b6b17aca0123")
+	)
+	(text "PC"
+		(exclude_from_sim no)
+		(at 110.236 202.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef947ebb-b33b-49ad-b02a-75de5452f1fc")
 	)
 	(text "AC OK"
 		(exclude_from_sim no)
@@ -6354,15 +6374,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PWR"
-			(at 165.1 73.66 90)
+		(property "Value" "LED-GRN-1206"
+			(at 162.56 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:LED_1206_3216Metric"
@@ -6420,7 +6439,7 @@
 				)
 			)
 		)
-		(property "MFG" "BrtLed(Bright LED Elec)"
+		(property "MFG" "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))"
 			(at 162.56 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6431,7 +6450,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "BL-HGK33-TRB "
+		(property "MFG P/N" "HL-PC-3216U51GC"
 			(at 162.56 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6453,7 +6472,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C5123493"
+		(property "JLCPCB P/N" "C499467"
 			(at 162.56 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -10893,15 +10912,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PC"
-			(at 116.84 203.2 90)
+		(property "Value" "LED-GRN-1206"
+			(at 114.3 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:LED_1206_3216Metric"
@@ -10959,7 +10977,7 @@
 				)
 			)
 		)
-		(property "MFG" "BrtLed(Bright LED Elec)"
+		(property "MFG" "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))"
 			(at 114.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10970,7 +10988,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "BL-HGK33-TRB "
+		(property "MFG P/N" "HL-PC-3216U51GC"
 			(at 114.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10992,7 +11010,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "C5123493"
+		(property "JLCPCB P/N" "C499467"
 			(at 114.3 201.93 90)
 			(hide yes)
 			(show_name no)
