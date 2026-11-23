@@ -1,8 +1,16 @@
-### Footprint positions - created on 2026-11-21T19:34:30 ###
+### Footprint positions - created on 2026-11-21T20:16:04 ###
 ### Printed by KiCad version 10.0.8-10.0.8~ubuntu26.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                 Package                          PosX       PosY       Rot  Side
+FID1      Fiducial            Fiducial_1mm_Mask2mm           6.8826    -3.9569    0.0000  top
+FID2      Fiducial            Fiducial_1mm_Mask2mm           9.2408    -3.9569    0.0000  top
+FID3      Fiducial            Fiducial_1mm_Mask2mm           9.2408    -6.0770    0.0000  top
+FID4      Fiducial            Fiducial_1mm_Mask2mm           7.2763    -6.0770    0.0000  top
+H1        Tooling_Hole        ToolingHole_1.152mm            6.6857    -3.7600    0.0000  top
+H2        Tooling_Hole        ToolingHole_1.152mm            9.2408    -3.7600    0.0000  top
+H3        Tooling_Hole        ToolingHole_1.152mm            7.0794    -6.2738    0.0000  top
+H4        Tooling_Hole        ToolingHole_1.152mm            9.2408    -6.2738    0.0000  top
 J1        USB1                Molex-PicoLatch-5040500491     9.0027    -5.0217   90.0000  top
 J2        Bus_M.2_Socket_E    M.2_2230-xx-E                  9.2802    -5.0169   90.0000  top
 LOGO1     Space_Cookies_Logo  SPACE_COOKIES_LOGO_7mm         8.4347    -4.7287    0.0000  top
